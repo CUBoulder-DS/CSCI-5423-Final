@@ -1,6 +1,6 @@
 project:
   type: manuscript
-  output-dir: website
+  output-dir: generated
 
 manuscript:
   article: paper.qmd
@@ -26,7 +26,7 @@ format:
     geometry:
       - margin=0.5in
     # equal-margins: false
-    latex-output-dir: "../" # Make PDF NOT be in website folder
+    # latex-output-dir: "../" # Make PDF NOT be in generated folder
     latex-clean: true # delete latex files after rendering
     fig-pos: H # Make figures render at the location in the doc they were specified!!!
     documentclass: scrreprt # The document format

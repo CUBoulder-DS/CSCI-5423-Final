@@ -1,2 +1,3 @@
-Quarto/_freeze
 Quarto/site_libs
+Quarto/generated/*
+!Quarto/generated/paper.pdf
