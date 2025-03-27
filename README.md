@@ -2,3 +2,6 @@
 The final project for CSCI 5423: Biologically inspired multi-agent systems
 
 Website link: TODO
+
+## Directory Structure
+
