@@ -1,0 +1,48 @@
+project:
+  type: manuscript
+  output-dir: website
+
+manuscript:
+  article: paper.qmd
+  code-links:
+    - repo: https://github.com/CUBoulder-DS/CSCI-5423-Final
+      text: Source Github Repository
+
+format:
+  html:
+    theme: minty
+    toc: true
+    toc-expand: 4
+    plotly-connected: true
+    search: true
+    smooth-scroll: true
+    citations-hover: true
+    # comments: # Enable live user commenting
+    #   hypothesis: true
+  pdf:
+    link-citations: true
+    toc: true
+    keep-tex: false
+    geometry:
+      - margin=0.5in
+    # equal-margins: false
+    latex-output-dir: "../" # Make PDF NOT be in website folder
+    latex-clean: true # delete latex files after rendering
+    fig-pos: H # Make figures render at the location in the doc they were specified!!!
+    documentclass: scrreprt # The document format
+  # docx: default
+
+quarto-required: ">= 1.4.0"
+
+# bibliography: bibliography.bib
+# Force all references in .bib file to appear in References
+nocite: |
+  @*
+
+execute:
+  freeze: false
+
+## PDF creation settings
+latex-clean: true # delete latex files after rendering
+latex-auto-mk: true
+latex-auto-install: true
