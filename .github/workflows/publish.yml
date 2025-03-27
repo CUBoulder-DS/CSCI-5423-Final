@@ -16,11 +16,15 @@ jobs:
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Installing TinyTeX will query the github API
+        with:
+          tinytex: true
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
-          path: Quarto
+          path: Quarto # The folder path that has Quarto
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
