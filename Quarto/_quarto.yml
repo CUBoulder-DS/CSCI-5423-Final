@@ -5,8 +5,9 @@ project:
 manuscript:
   article: paper.qmd
   code-links:
-    - repo: https://github.com/CUBoulder-DS/CSCI-5423-Final
-      text: Source Github Repository
+    - text: Source Github Repository
+      href: https://github.com/CUBoulder-DS/CSCI-5423-Final
+      icon: github
 
 format:
   html:
@@ -17,6 +18,7 @@ format:
     search: true
     smooth-scroll: true
     citations-hover: true
+    image: Images/logo.png
     # comments: # Enable live user commenting
     #   hypothesis: true
   pdf:
@@ -34,7 +36,11 @@ format:
 
 quarto-required: ">= 1.4.0"
 
-# bibliography: bibliography.bib
+brand:
+  logo:
+    medium: Images/logo.png
+
+# bibliography: references.bib
 # Force all references in .bib file to appear in References
 nocite: |
   @*
