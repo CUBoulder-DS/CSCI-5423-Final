@@ -37,6 +37,10 @@ citation:
 
 Lorem ipsum
 
+Test update
+
+<!-- This shouldnt be seen, its a comment -->
+
 ## Example Subsection
 
 Moar lorem ipsum

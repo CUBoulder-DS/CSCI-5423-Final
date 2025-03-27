@@ -40,7 +40,7 @@ nocite: |
   @*
 
 execute:
-  freeze: false
+  freeze: auto
 
 ## PDF creation settings
 latex-clean: true # delete latex files after rendering
