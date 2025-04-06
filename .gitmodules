@@ -1,3 +1,7 @@
 [submodule "Code/werewolf_arena"]
 	path = Code/werewolf_arena
 	url = https://github.com/google/werewolf_arena.git
+
+[submodule "Data/Werewolf-Among-Us"]
+	path = Data/Werewolf-Among-Us
+	url = https://huggingface.co/datasets/bolinlai/Werewolf-Among-Us
