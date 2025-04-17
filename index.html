@@ -6,12 +6,12 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Steve Purves">
-<meta name="author" content="Rowan Cockett">
+<meta name="author" content="First Author">
+<meta name="author" content="Second Author">
 <meta name="dcterms.date" content="2025-04-17">
-<meta name="keywords" content="La Palma, Earthquakes">
+<meta name="keywords" content="social deduction games, persuasion modeling, Werewolf Among Us dataset, large language models, multimodal analysis">
 
-<title>La Palma Earthquakes</title>
+<title>Modeling Persuasion Behaviors in Social Deduction Games</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -40,18 +40,18 @@ ul.task-list li input[type="checkbox"] {
 <style>html{ scroll-behavior: smooth; }</style>
 
 
-<meta name="citation_title" content="La Palma Earthquakes">
-<meta name="citation_abstract" content="In September 2021, a significant jump in seismic activity on the island of La Palma (Canary Islands, Spain) signaled the start of a volcanic crisis that still continues at the time of writing. Earthquake data is continually collected and published by the Instituto Geográphico Nacional (IGN). ...
+<meta name="citation_title" content="Modeling Persuasion Behaviors in Social Deduction Games">
+<meta name="citation_abstract" content="This final project for CSCI‑5423 explores the modeling of persuasion behaviors in the text-based social deduction game Werewolf. We leverage the multimodal “Werewolf Among Us” dataset (Lai, 2022) and evaluate several large language models on their ability to persuade, deceive, and cooperate within game dialogues. Through a combination of feature engineering, sequence modeling, and reinforcement learning agents, we compare performance against baseline classifiers and analyze key linguistic strategies.
 ">
-<meta name="citation_keywords" content="La Palma,Earthquakes">
-<meta name="citation_author" content="Steve Purves">
-<meta name="citation_author" content="Rowan Cockett">
+<meta name="citation_keywords" content="social deduction games,persuasion modeling,Werewolf Among Us dataset,large language models,multimodal analysis">
+<meta name="citation_author" content="First Author">
+<meta name="citation_author" content="Second Author">
 <meta name="citation_publication_date" content="2025-04-17">
 <meta name="citation_cover_date" content="2025-04-17">
 <meta name="citation_year" content="2025">
 <meta name="citation_online_date" content="2025-04-17">
 <meta name="citation_language" content="en">
-<meta name="citation_journal_title" content="Earth and Space Science">
+<meta name="citation_journal_title" content="CSCI‑5423 Final Report">
 </head>
 
 <body>
@@ -59,7 +59,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">La Palma Earthquakes</h1>
+      <h1 class="title">Modeling Persuasion Behaviors in Social Deduction Games</h1>
           </div>
 
     
@@ -70,19 +70,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="quarto-title-meta-heading">Affiliation</div>
           
                 <div class="quarto-title-meta-contents">
-            <p class="author">Steve Purves <a href="mailto:steve@curvenote.com" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-0760-5497" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+            <p class="author">First Author <a href="mailto:first.author@university.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0000-0000-0000" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
           </div>
                 <div class="quarto-title-meta-contents">
                     <p class="affiliation">
-                        Curvenote
+                        Department of Computer Science, University Name
                       </p>
                   </div>
                       <div class="quarto-title-meta-contents">
-            <p class="author">Rowan Cockett <a href="https://orcid.org/0000-0002-7859-8394" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+            <p class="author">Second Author <a href="mailto:second.author@university.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0000-0000-0000" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
           </div>
                 <div class="quarto-title-meta-contents">
                     <p class="affiliation">
-                        Curvenote
+                        Department of Computer Science, University Name
                       </p>
                   </div>
                     </div>
@@ -107,14 +107,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
       <div class="abstract">
         <div class="block-title">Abstract</div>
-        <p>In September 2021, a significant jump in seismic activity on the island of La Palma (Canary Islands, Spain) signaled the start of a volcanic crisis that still continues at the time of writing. Earthquake data is continually collected and published by the Instituto Geográphico Nacional (IGN). …</p>
+        <p>This final project for CSCI‑5423 explores the modeling of persuasion behaviors in the text-based social deduction game Werewolf. We leverage the multimodal “Werewolf Among Us” dataset (Lai, 2022) and evaluate several large language models on their ability to persuade, deceive, and cooperate within game dialogues. Through a combination of feature engineering, sequence modeling, and reinforcement learning agents, we compare performance against baseline classifiers and analyze key linguistic strategies.</p>
       </div>
     </div>
 
     <div>
       <div class="keywords">
         <div class="block-title">Keywords</div>
-        <p>La Palma, Earthquakes</p>
+        <p>social deduction games, persuasion modeling, Werewolf Among Us dataset, large language models, multimodal analysis</p>
       </div>
     </div>
 
@@ -126,11 +126,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#example-site-and-pdf" id="toc-example-site-and-pdf" class="nav-link active" data-scroll-target="#example-site-and-pdf">Example site and pdf</a>
-  <ul class="collapse">
-  <li><a href="#example-subsection" id="toc-example-subsection" class="nav-link" data-scroll-target="#example-subsection">Example Subsection</a></li>
-  </ul></li>
-  <li><a href="#another-section" id="toc-another-section" class="nav-link" data-scroll-target="#another-section">Another Section</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#related-work" id="toc-related-work" class="nav-link" data-scroll-target="#related-work">Related Work</a></li>
+  <li><a href="#data-and-preprocessing" id="toc-data-and-preprocessing" class="nav-link" data-scroll-target="#data-and-preprocessing">Data and Preprocessing</a></li>
+  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a></li>
+  <li><a href="#experiments-and-evaluation" id="toc-experiments-and-evaluation" class="nav-link" data-scroll-target="#experiments-and-evaluation">Experiments and Evaluation</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">Discussion</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 </nav>
 </div>
@@ -143,34 +147,83 @@ ul.task-list li input[type="checkbox"] {
   
 
 
-<section id="example-site-and-pdf" class="level1">
-<h1>Example site and pdf</h1>
-<p>Lorem ipsum</p>
-<p>Test update</p>
-<!-- This shouldnt be seen, its a comment -->
-<section id="example-subsection" class="level2">
-<h2 class="anchored" data-anchor-id="example-subsection">Example Subsection</h2>
-<p>Moar lorem ipsum</p>
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>Introduce the motivation for studying persuasion in social deduction games. Describe the Werewolf game mechanics and why it offers a rich testbed for multimodal persuasion analysis.</p>
 </section>
+<section id="related-work" class="level1">
+<h1>Related Work</h1>
+<p>Review prior datasets and frameworks:</p>
+<ul>
+<li>Werewolf Among Us: dataset and original paper (Lai, 2022)</li>
+<li>PersuasionGames repository and baseline models</li>
+<li>AmongAgents and evaluation of LLMs in interactive text-based games (Chi, 2024)</li>
+<li>RL approaches to strategic play in Werewolf (Xu et al., 2023)</li>
+<li>Werewolf Arena framework by Google for LLM evaluation</li>
+</ul>
 </section>
-<section id="another-section" class="level1">
-<h1>Another Section</h1>
+<section id="data-and-preprocessing" class="level1">
+<h1>Data and Preprocessing</h1>
+<p>Detail how we load and preprocess the HuggingFace Werewolf-Among-Us dataset. Include data splits, feature extraction, and any augmentation steps.</p>
+</section>
+<section id="methods" class="level1">
+<h1>Methods</h1>
+<p>Describe the modeling approaches:</p>
+<ul>
+<li>Baseline classifiers (e.g., logistic regression, SVM)</li>
+<li>Sequence models (e.g., LSTM, Transformer)</li>
+<li>RL-based agent setup and reward definitions</li>
+</ul>
+</section>
+<section id="experiments-and-evaluation" class="level1">
+<h1>Experiments and Evaluation</h1>
+<p>Outline experimental setups:</p>
+<ul>
+<li>Persuasion classification tasks</li>
+<li>Game simulation with LLM agents</li>
+<li>Metrics for persuasion success, deception detection, and cooperative play</li>
+</ul>
+</section>
+<section id="results" class="level1">
+<h1>Results</h1>
+<p>Present quantitative results in tables and figures. Analyze which models and features best capture persuasion strategies.</p>
+</section>
+<section id="discussion" class="level1">
+<h1>Discussion</h1>
+<p>Interpret findings, discuss limitations, and propose future work.</p>
+</section>
+<section id="conclusion" class="level1">
+<h1>Conclusion</h1>
+<p>Summarize contributions and insights from the project.</p>
+</section>
+<section id="references" class="level1">
+<h1>References</h1>
+<p>Lai, B. (2022). Werewolf Among Us: A Multimodal Dataset for Modeling Persuasion Behaviors in Social Deduction Games. arXiv:2212.08279.</p>
+<p>Chi, Y. (2024). AmongAgents: Evaluating Large Language Models in the Interactive Text-Based Social Deduction Game. arXiv:2407.16521v2.</p>
+<p>Xu, Z., et al.&nbsp;(2023). Language Agents with Reinforcement Learning for Strategic Play in the Werewolf Game. arXiv:2310.18940v3.</p>
+<p>Blanchard, T., et al.&nbsp;(2024). Werewolf Arena: A Case Study in LLM Evaluation via Social Deduction. arXiv:2407.13943.</p>
+<hr>
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{purves2025,
-  author = {Purves, Steve and Cockett, Rowan},
-  title = {La {Palma} {Earthquakes}},
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{author2025,
+  author = {Author, First and Author, Second},
+  title = {Modeling {Persuasion} {Behaviors} in {Social} {Deduction}
+    {Games}},
   date = {2025-04-17},
   langid = {en},
-  abstract = {In September 2021, a significant jump in seismic activity
-    on the island of La Palma (Canary Islands, Spain) signaled the start
-    of a volcanic crisis that still continues at the time of writing.
-    Earthquake data is continually collected and published by the
-    Instituto Geográphico Nacional (IGN). ...}
+  abstract = {This final project for CSCI‑5423 explores the modeling of
+    persuasion behaviors in the text-based social deduction game
+    Werewolf. We leverage the multimodal “Werewolf Among Us” dataset
+    (Lai, 2022) and evaluate several large language models on their
+    ability to persuade, deceive, and cooperate within game dialogues.
+    Through a combination of feature engineering, sequence modeling, and
+    reinforcement learning agents, we compare performance against
+    baseline classifiers and analyze key linguistic strategies.}
 }
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-purves2025" class="csl-entry quarto-appendix-citeas" role="listitem">
-Purves, Steve, and Rowan Cockett. 2025. <span>“La Palma
-Earthquakes.”</span> Earth and Space Science. April 17, 2025.
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-author2025" class="csl-entry quarto-appendix-citeas" role="listitem">
+Author, First, and Second Author. 2025. <span>“Modeling Persuasion
+Behaviors in Social Deduction Games.”</span> CSCI‑5423 Final Report.
+April 17, 2025.
 </div></div></section></div></main>
 <!-- /main column -->
 <script id="quarto-html-after-body" type="application/javascript">

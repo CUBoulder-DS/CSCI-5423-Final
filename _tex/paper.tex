@@ -143,9 +143,10 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same} % disable monospaced font for URLs
 \hypersetup{
-  pdftitle={La Palma Earthquakes},
-  pdfauthor={Steve Purves; Rowan Cockett},
-  pdfkeywords={La Palma, Earthquakes},
+  pdftitle={Modeling Persuasion Behaviors in Social Deduction Games},
+  pdfauthor={First Author; Second Author},
+  pdfkeywords={social deduction games, persuasion modeling, Werewolf
+Among Us dataset, large language models, multimodal analysis},
   colorlinks=true,
   linkcolor={blue},
   filecolor={Maroon},
@@ -154,18 +155,21 @@
   pdfcreator={LaTeX via pandoc}}
 
 
-\title{La Palma Earthquakes}
-\author{Steve Purves \and Rowan Cockett}
+\title{Modeling Persuasion Behaviors in Social Deduction Games}
+\author{First Author \and Second Author}
 \date{2025-04-17}
 
 \begin{document}
 \maketitle
 \begin{abstract}
-In September 2021, a significant jump in seismic activity on the island
-of La Palma (Canary Islands, Spain) signaled the start of a volcanic
-crisis that still continues at the time of writing. Earthquake data is
-continually collected and published by the Instituto Geográphico
-Nacional (IGN). \ldots{}
+This final project for CSCI‑5423 explores the modeling of persuasion
+behaviors in the text-based social deduction game Werewolf. We leverage
+the multimodal ``Werewolf Among Us'' dataset (Lai, 2022) and evaluate
+several large language models on their ability to persuade, deceive, and
+cooperate within game dialogues. Through a combination of feature
+engineering, sequence modeling, and reinforcement learning agents, we
+compare performance against baseline classifiers and analyze key
+linguistic strategies.
 \end{abstract}
 
 \renewcommand*\contentsname{Table of contents}
@@ -175,17 +179,94 @@ Nacional (IGN). \ldots{}
 \tableofcontents
 }
 
-\chapter{Example site and pdf}\label{example-site-and-pdf}
+\chapter{Introduction}\label{introduction}
 
-Lorem ipsum
+Introduce the motivation for studying persuasion in social deduction
+games. Describe the Werewolf game mechanics and why it offers a rich
+testbed for multimodal persuasion analysis.
 
-Test update
+\chapter{Related Work}\label{related-work}
 
-\section{Example Subsection}\label{example-subsection}
+Review prior datasets and frameworks:
 
-Moar lorem ipsum
+\begin{itemize}
+\tightlist
+\item
+  Werewolf Among Us: dataset and original paper (Lai, 2022)
+\item
+  PersuasionGames repository and baseline models
+\item
+  AmongAgents and evaluation of LLMs in interactive text-based games
+  (Chi, 2024)
+\item
+  RL approaches to strategic play in Werewolf (Xu et al., 2023)
+\item
+  Werewolf Arena framework by Google for LLM evaluation
+\end{itemize}
 
-\chapter{Another Section}\label{another-section}
+\chapter{Data and Preprocessing}\label{data-and-preprocessing}
+
+Detail how we load and preprocess the HuggingFace Werewolf-Among-Us
+dataset. Include data splits, feature extraction, and any augmentation
+steps.
+
+\chapter{Methods}\label{methods}
+
+Describe the modeling approaches:
+
+\begin{itemize}
+\tightlist
+\item
+  Baseline classifiers (e.g., logistic regression, SVM)
+\item
+  Sequence models (e.g., LSTM, Transformer)
+\item
+  RL-based agent setup and reward definitions
+\end{itemize}
+
+\chapter{Experiments and Evaluation}\label{experiments-and-evaluation}
+
+Outline experimental setups:
+
+\begin{itemize}
+\tightlist
+\item
+  Persuasion classification tasks
+\item
+  Game simulation with LLM agents
+\item
+  Metrics for persuasion success, deception detection, and cooperative
+  play
+\end{itemize}
+
+\chapter{Results}\label{results}
+
+Present quantitative results in tables and figures. Analyze which models
+and features best capture persuasion strategies.
+
+\chapter{Discussion}\label{discussion}
+
+Interpret findings, discuss limitations, and propose future work.
+
+\chapter{Conclusion}\label{conclusion}
+
+Summarize contributions and insights from the project.
+
+\chapter{References}\label{references}
+
+Lai, B. (2022). Werewolf Among Us: A Multimodal Dataset for Modeling
+Persuasion Behaviors in Social Deduction Games. arXiv:2212.08279.
+
+Chi, Y. (2024). AmongAgents: Evaluating Large Language Models in the
+Interactive Text-Based Social Deduction Game. arXiv:2407.16521v2.
+
+Xu, Z., et al.~(2023). Language Agents with Reinforcement Learning for
+Strategic Play in the Werewolf Game. arXiv:2310.18940v3.
+
+Blanchard, T., et al.~(2024). Werewolf Arena: A Case Study in LLM
+Evaluation via Social Deduction. arXiv:2407.13943.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 
 
