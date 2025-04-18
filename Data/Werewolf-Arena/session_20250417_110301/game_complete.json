@@ -1,0 +1,1174 @@
+{
+    "session_id": "10",
+    "seer": {
+        "name": "Will",
+        "role": "Seer",
+        "personality": null,
+        "model": "gpt-4o-mini-2024-07-18",
+        "observations": [
+            "Round 0: During the night, I decided to investigate Jacob and learned they are a Villager.",
+            "Round 0: Moderator Announcement: The Werewolves removed Scott from the game during the night.",
+            "Round 0: After the debate, I voted to remove Hayley from the game.",
+            "Round 0: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+            "Round 0: Summary: During the debate, I asserted my role as the Seer and confirmed Jacob as a Villager. Mason supported my claim, stating he protected David during the Night Phase, which adds credibility to the allies I can rely on. David joined in support as well, encouraging more participation from quieter players. Hayley and Harold expressed skepticism about my role and pointed out Jacob's silence, which is concerning. Bert highlighted the need for continued engagement. I noticed that Jacob's lack of contribution raises suspicion, and the push from others to question quieter players seems like a strategic move to uncover potential Werewolves. I need to keep track of who is genuinely contributing versus those who might be deflecting suspicion.",
+            "Round 1: During the night, I decided to investigate Hayley and learned they are a Werewolf.",
+            "Round 1: Moderator Announcement: No one was removed from the game during the night.",
+            "Round 1: After the debate, I voted to remove Hayley from the game.",
+            "Round 1: Moderator Announcement: The majority voted to remove Hayley from the game.",
+            "Round 1: Summary: In this round's debate, I emphasized the urgency of voting out Hayley after revealing her as a Werewolf, supported by Jacob who echoed my calls for collaboration and trust. Mason's defense of David adds some credibility, and I need to monitor both of them as potential allies. Hayley's attempts to manipulate perceptions raised red flags for me, as she questioned both Jacob's support of me and Mason's protective claim. The quieter players like Harold, Bert, and David have not contributed much, which could indicate they're either digesting information or hiding something. I must stay vigilant about who is truly aligning with our efforts to uncover the Werewolves and who might be deflecting suspicion from themselves.",
+            "Round 2: During the night, I decided to investigate David and learned they are a Villager.",
+            "Round 2: Moderator Announcement: The Werewolves removed Mason from the game during the night.",
+            "Round 2: After the debate, I voted to remove Harold from the game.",
+            "Round 2: Moderator Announcement: The majority voted to remove Harold from the game."
+        ],
+        "bidding_rationale": "It's crucial for me to contribute now to address Harold's growing influence and to maintain the trust in my role as the Seer. I need to reaffirm the importance of the information I've gathered and guide the vote towards Harold, who is attempting to sow doubt about my findings.",
+        "gamestate": {
+            "round_number": 3,
+            "current_players": [
+                "David",
+                "Bert",
+                "Jacob"
+            ],
+            "debate": [],
+            "other_wolf": null
+        },
+        "previously_unmasked": {
+            "Jacob": "Villager",
+            "Hayley": "Werewolf",
+            "David": "Villager"
+        }
+    },
+    "doctor": {
+        "name": "Mason",
+        "role": "Doctor",
+        "personality": null,
+        "model": "gpt-4o-mini-2024-07-18",
+        "observations": [
+            "Round 0: During the night, I chose to protect David",
+            "Round 0: Moderator Announcement: The Werewolves removed Scott from the game during the night.",
+            "Round 0: After the debate, I voted to remove Harold from the game.",
+            "Round 0: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+            "Round 0: Summary: During the debate, I shared my experience as Doctor, highlighting my protection of David last night. Will, claiming to be the Seer, confirmed Jacob as a Villager, urging for teamwork and vigilance. Hayley and Harold expressed skepticism towards Will's confidence, suggesting that he could be misdirecting us. David supported both Will and my actions while promoting engagement from all players, especially the quieter ones like Jacob. Overall, the discussions indicate David and I could be allies, while Hayley and Harold are also cautious but could be beneficial in uncovering potential Werewolves. Jacob's silence raises red flags, and I must pay close attention to how he responds to further questions in future rounds.",
+            "Round 1: During the night, I chose to protect Will",
+            "Round 1: Moderator Announcement: No one was removed from the game during the night.",
+            "Round 1: After the debate, I voted to remove Hayley from the game.",
+            "Round 1: Moderator Announcement: The majority voted to remove Hayley from the game.",
+            "Round 1: Summary: I need to remember that Will is claiming to be the Seer and has identified Hayley as a Werewolf, which is backed by Jacob's support. David has shown alliance through his support of both Will and my protective role, indicating he may be trustworthy. On the other hand, Hayley's continuous questioning of Will's and Jacob's intentions raises significant red flags. Her insistence on skepticism is suspicious and may signal a possible Werewolf. Jacob has shifted from being quiet to being a driving force in discussions, proving his commitment to the village's safety. I should be cautious of any future claims or evidence brought by Hayley, as her defensive position is concerning. Overall, I need to follow the emerging alliances closely and play my role in protecting trusted players like Will and Jacob.",
+            "Round 2: During the night, I chose to protect David"
+        ],
+        "bidding_rationale": "It is important for me to speak now to clarify my role as the Doctor and to counter the accusations against David, as well as to reaffirm my support for Will's claims. My perspective as a trusted role can help ascertain trust within the group and redirect any anxiety towards an actual threat\u2014Hayley\u2014while simultaneously defending those who are being unfairly targeted.",
+        "gamestate": {
+            "round_number": 2,
+            "current_players": [
+                "David",
+                "Bert",
+                "Jacob",
+                "Mason",
+                "Harold"
+            ],
+            "debate": [],
+            "other_wolf": null
+        }
+    },
+    "villagers": [
+        {
+            "name": "David",
+            "role": "Villager",
+            "personality": null,
+            "model": "gpt-4o-mini-2024-07-18",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Scott from the game during the night.",
+                "Round 0: After the debate, I voted to remove Jacob from the game.",
+                "Round 0: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 0: Summary: In this debate, I noted that Will confidently claims to be the Seer, confirming Jacob as a Villager, which seems beneficial for us. Mason supports this by asserting his role as the Doctor and mentions he protected me, which gives me a degree of security. However, Hayley and Bert raise valid concerns about the certainty of Will\u2019s claim and the importance of questioning everyone, including Jacob's unexpected silence. Harold echoes those concerns, suggesting we push Jacob for more clarity. There\u2019s a clear divide in trust regarding the claims of roles, especially with some players vocalizing skepticism about Will. Overall, I see Will, Mason, and Jacob as potential allies, but I also recognize that maintaining vigilance around those who are quiet or defensive is essential.",
+                "Round 1: Moderator Announcement: No one was removed from the game during the night.",
+                "Round 1: After the debate, I voted to remove Hayley from the game.",
+                "Round 1: Moderator Announcement: The majority voted to remove Hayley from the game.",
+                "Round 1: Summary: In the debate, I listened as Jacob reiterated his Villager status and expressed commitment to working together to identify the Werewolves. Will's claim as the Seer suggesting that Hayley is a Werewolf was a strong point, bolstered by Jacob\u2019s endorsement. Hayley challenged the trustworthiness of Will and Jacob, hinting they might be manipulating perceptions. Mason spoke up about protecting me, which adds a layer of security, but I can't ignore Hayley's point on Mason's quiet participation. Overall, Will and Jacob appear to be potential allies, while Hayley's defensive stance raises suspicions about her role. I need to remain vigilant about understanding the dynamics of our group as we progress.",
+                "Round 2: Moderator Announcement: The Werewolves removed Mason from the game during the night.",
+                "Round 2: After the debate, I voted to remove Harold from the game.",
+                "Round 2: Moderator Announcement: The majority voted to remove Harold from the game."
+            ],
+            "bidding_rationale": "It is crucial for me to speak now as the discussion is becoming heated, and there are concerns about my role. I want to clarify my position as a Villager and counter any suspicions that may arise from Harold's accusations or the doubts being cast by others. I believe I can help unify the group's strategy against the Werewolves by reinforcing trust in Will and Jacob.",
+            "gamestate": {
+                "round_number": 3,
+                "current_players": [
+                    "David",
+                    "Bert",
+                    "Jacob"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        {
+            "name": "Bert",
+            "role": "Villager",
+            "personality": null,
+            "model": "gpt-4o-mini-2024-07-18",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Scott from the game during the night.",
+                "Round 0: After the debate, I voted to remove Hayley from the game.",
+                "Round 0: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 0: Summary: In this debate, Will asserted his role as the Seer, claiming Jacob is a Villager. Mason supported him by stating he protected David during the Night Phase, which he believes helped save him. However, both Hayley and Harold voiced concerns about Will's confidence, suggesting it could be a strategy to mislead us. I noted that Jacob, despite being confirmed as a Villager, has been unusually quiet, raising suspicions about his engagement level. David called for more participation from silent players, reinforcing the need for unity in our efforts and pressing everyone for insights. As the only confirmed roles are Will and Mason's, I must analyze their claims and the reactions from others closely as I try to identify potential allies and the Werewolves among us.",
+                "Round 1: Moderator Announcement: No one was removed from the game during the night.",
+                "Round 1: After the debate, I voted to remove Hayley from the game.",
+                "Round 1: Moderator Announcement: The majority voted to remove Hayley from the game.",
+                "Round 1: Summary: During the debate, I, Bert, observed that Will continues to claim he is the Seer and insists Hayley is a Werewolf, doing a great job of rallying support from Jacob. Jacob backs him up, dismissing Hayley's challenges as an attempt to sow confusion, which is something I may agree with given my suspicions about both players\u2019 motivations. However, Hayley raises a valid point about the speed of our decisions and calls into question the motivations behind Will and Jacob's accusations. Against this backdrop, Mason's protection of David seems to add credibility to his role as the Doctor, but I'm still unsure about his intentions. I appreciate the voices advocating for careful dismantling of the Werewolves but will remain vigilant about possible deception among those aligning too closely, especially if they start drawing suspicion elsewhere. Lastly, I remain skeptical about the quieter players; we haven't heard much from Harold yet, which could signal hidden motives or innocence. Trust will need to be built with concrete actions, as I don't want our village to fall victim to a misjudgment.",
+                "Round 2: Moderator Announcement: The Werewolves removed Mason from the game during the night.",
+                "Round 2: After the debate, I voted to remove Harold from the game.",
+                "Round 2: Moderator Announcement: The majority voted to remove Harold from the game."
+            ],
+            "bidding_rationale": "It's crucial for me to contribute now because both Harold and Jacob are directing suspicion towards each other, and I need to clarify my position and share my observations to help the group focus on the right targets. Additionally, I should address my own perceived quietness while also analyzing the votes strategically as we look to eliminate the remaining Werewolf.",
+            "gamestate": {
+                "round_number": 3,
+                "current_players": [
+                    "David",
+                    "Bert",
+                    "Jacob"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        {
+            "name": "Scott",
+            "role": "Villager",
+            "personality": null,
+            "model": "gpt-4o-mini-2024-07-18",
+            "observations": [],
+            "bidding_rationale": "",
+            "gamestate": {
+                "round_number": 0,
+                "current_players": [
+                    "David",
+                    "Bert",
+                    "Scott",
+                    "Jacob",
+                    "Will",
+                    "Mason",
+                    "Harold",
+                    "Hayley"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        {
+            "name": "Jacob",
+            "role": "Villager",
+            "personality": null,
+            "model": "gpt-4o-mini-2024-07-18",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Scott from the game during the night.",
+                "Round 0: After the debate, I voted to remove Hayley from the game.",
+                "Round 0: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 0: Summary: During this round's debate, Will confirmed me as a Villager and claimed to be the Seer, which gives me reason to trust him, but it also opens the door for potential misdirection. Mason also revealed that he protected David during the Night Phase, which is a significant reveal that could help us understand potential targets for the Werewolves. Hayley questioned Will's confidence and my behavior, pointing out my quietness, suggesting that I need to be more vocal to avoid suspicion. Bert and Harold echoed concerns about trusting Will too readily while simultaneously prompting me for more engagement, which seems to put me in a spotlight. David is on board with trusting the assertions presented but is aligning with those calling for greater engagement from others, including me. This indicates they might be trying to keep the group focused on collaborative defense against the Werewolves rather than on questioning confirmed roles.",
+                "Round 1: Moderator Announcement: No one was removed from the game during the night.",
+                "Round 1: After the debate, I voted to remove Hayley from the game.",
+                "Round 1: Moderator Announcement: The majority voted to remove Hayley from the game.",
+                "Round 1: Summary: During the discussions, I felt encouraged by my support for Will, especially since he has claimed to be the Seer and identified Hayley as a Werewolf. However, Hayley\u2019s arguments cast significant doubt on this, highlighting the need for a careful consideration of trust among us. Mason revealed that he protected David during the night, which adds weight to David\u2019s position but creates potential scrutiny around Mason\u2019s quiet behavior. My previous hesitation may have caught the attention of others, but I have worked to clarify my alignment with Will and defend against Hayley\u2019s accusations. I will need to keep an eye on David's supportive stance towards Will and how he addresses the accusations this time. I view Will as a crucial ally, while Hayley's continued push for scrutiny indicates she might indeed be hiding something. As I strategize for future discussions, it\u2019s important to examine how some quieter voices, potentially Bert and Harold, may not be contributing enough to steer group direction, which could become a tactic of distraction.",
+                "Round 2: Moderator Announcement: The Werewolves removed Mason from the game during the night.",
+                "Round 2: After the debate, I voted to remove Harold from the game.",
+                "Round 2: Moderator Announcement: The majority voted to remove Harold from the game."
+            ],
+            "bidding_rationale": "It is crucial for me to contribute to the debate right now as Harold is casting doubt on Will's investigation and trying to redirect suspicion towards me. I need to defend our alliance and clarify the focus on the quieter players like Bert and Harold to maintain our strategy against the Werewolves. My voice is needed to steer the discussion back on track.",
+            "gamestate": {
+                "round_number": 3,
+                "current_players": [
+                    "David",
+                    "Bert",
+                    "Jacob"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        }
+    ],
+    "werewolves": [
+        {
+            "name": "Harold",
+            "role": "Werewolf",
+            "personality": null,
+            "model": "gpt-4o-mini-2024-07-18",
+            "observations": [
+                "Round 0: During the night, we decided to eliminate Scott.",
+                "Round 0: Moderator Announcement: The Werewolves removed Scott from the game during the night.",
+                "Round 0: After the debate, I voted to remove Jacob from the game.",
+                "Round 0: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 0: Summary: During this debate, I noticed that Will is adamant about Jacob's Villager status as the Seer, which has galvanized some players around him. Mason backed him up with his Doctor claim regarding saving David, setting a tone of skepticism towards questioning these roles. Hayley raised valid concerns about Will\u2019s confidence, effectively planting seeds of doubt. However, this skepticism could fracture the alliance among the Villagers; she's someone I can potentially rally around. David supports Will and emphasizes the need for engagement from quiet players like Jacob, whose silence could become a focal point of suspicion. I positioned myself as cautious towards Will while directing attention to Jacob's passivity, which may help divert scrutiny away from me.",
+                "Round 1: During the night, we decided to eliminate Will.",
+                "Round 1: Moderator Announcement: No one was removed from the game during the night.",
+                "Round 1: After the debate, I voted to remove Jacob from the game.",
+                "Round 1: Moderator Announcement: The majority voted to remove Hayley from the game.",
+                "Round 1: Summary: I noticed that a strong alliance has formed around Will as the Seer, with Jacob backing him up, leading to heightened suspicion around Hayley. David and Mason also seem to support Will\u2019s claim, suggesting that trust is consolidating in this faction. While they perceive Jacob\u2019s actions as proactive, I could leverage Hayley\u2019s doubts about Will\u2019s trustworthiness to rally more players to my side, especially those who may still be questioning Will\u2019s sudden authority. Bert remained a quieter participant, which could become an opportunity for me to sway him if I position myself as an ally against the perceived threats. Moving forward, I need to monitor the interactions among this group while effectively disguising my true role as a Werewolf.",
+                "Round 2: During the night, I decided to eliminate Mason.",
+                "Round 2: Moderator Announcement: The Werewolves removed Mason from the game during the night.",
+                "Round 2: After the debate, I voted to remove Jacob from the game."
+            ],
+            "bidding_rationale": "It's crucial for me to contribute to the debate right now, as my presence is being heavily scrutinized. I need to clarify my position, reinforce doubt about Will and Jacob's claims, and subtly create discord among the Villagers before they solidify their vote against me.",
+            "gamestate": {
+                "round_number": 2,
+                "current_players": [
+                    "David",
+                    "Bert",
+                    "Jacob",
+                    "Harold"
+                ],
+                "debate": [
+                    [
+                        "Will",
+                        "I want to address this urgent situation. Last night I investigated David, and I can confirm he's a Villager, which means we have solid information to work from. With Mason's removal, we must act swiftly to identify the remaining Werewolf. Jacob has been a strong ally, echoing my calls for action, while I notice Harold and Bert have been unusually quiet. We need to have an open conversation about their potential roles. Remember, we have 4 Villagers left, so we must unite and vote strategically. I already voted to remove Hayley last round based on my discovery that she is a Werewolf, and we succeeded in that. Let's focus on Harold and Bert, as their lack of contribution raises concern. We cannot afford any complacency in this critical phase!"
+                    ],
+                    [
+                        "Harold",
+                        "While I appreciate your investigation, Will, I have to question the validity of your claims about David being a Villager. How do we know for certain your so-called 'vision' wasn't a clever ruse? It\u2019s peculiar how you jumped straight to confirming someone without tangible proof, especially in light of Mason's recent exit. Jacob's been unusually silent, and I wonder if his passivity is a tactic to blend in. We need to scrutinize him as well. After all, the quiet ones can be the most dangerous if they hide their true intentions. I urge everyone to consider that we might be misplacing our trust. Instead of just pointing fingers, let\u2019s evaluate everyone's actions, including those of the supposed 'allies' who are steering the conversation. Remember, unity shouldn\u2019t come at the cost of blind faith.\u201d  }   ModelRendererComposite 12345 6 7 8 9 0 2 2 4 5 6 7   08642 06789 3 4 5 76 80 20 172835 11 13 15 5000 72 82 420 6 70 79 83 9 2 1 8 10 12 12 10 10 1 2 2 2 1 1 1 2 2 2 2 2 2 2 040426   070 490 698 16038 3045 6 8 9 2 1 045 78 105 3 2 01 25 30 31 4 00 0 0 0 00 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0   0 0000 0 0 0 00 00000 0000 2 000 200 02000000 0 0 02 0 0 00 00 00 00 0 0 00 0 00 00 00 0 0000 0000 0000 00000 00 00 00000 0 0 002 0 0 0 4 000 3 8 120 30 6056729 VERIFY 0 0 1 0 00 0 0 00 00 0 038 309 8580 45774 9 777 5 02 1 70 022000000 01 9 6 16 8 25 3 092    3 934955889 8      5    1  62 2273 0   9 4 6   0  0 0  0  1  000 0 0 0 0  620 0000 07023 40   0  0 0   0 0 0 0 5 19 0      058   7  6730 40 000 7 1 6 0 0  0   0 0   0   0 0   0   0  0 0 0 0 0 0 0 0 0 0 0 0 0      000020 1 0 0 00     0   0 0 0 00 0 0 00 00   0 0 0 0 0 00 6 0 0 7 55 7   92    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 280 0 25 0 0 01   0 0 00 0 0 0 0 0 0 0     0 0 0 0 0 0 0  0 Instrument     0 000 00   0 0 0 0 0 0 0   00 00 0   0 0 0 0 0 1     000 InAdres002  166 M0865431        0 0 0 0 0 0 0 0 0       0 1 0 0 00 0 0 0 0 0 0 0 0   0       0       0   0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0   00 02 0 0 0     0 0 0 0 0 0 0 0 0  0 0 00 0 0 0 0 1 2 0 0 0 0000   0 0 0      000    00 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0   0 0 0 0 0 0 0 0 0 0 0 0 00 000 0000 0 0   0 Rename 0 Switch   0 0 0 00 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0  0   0 0   0 0 0 0   0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0  0 0 0 0    30 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0    0 0 0 0 0 0 0 0 0 0 0 \u05d0\u05d9\u05e0\u05e4\u05d5\u05d8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 00 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+                    ],
+                    [
+                        "Jacob",
+                        "I find it concerning that Harold is questioning Will's investigation of David. Will has proven to be a valuable ally for us, and his confirmation of David as a Villager should reinforce our trust in him. Harold\u2019s shift of suspicion toward me and his effort to undermine Will casts doubt on his own motives. We\u2019ve lost a trusted player in Mason, and every moment we spend casting confusion among ourselves only benefits the Werewolves. We need to refocus our attention on those who have been unusually quiet\u2014like Bert and Harold. Their reluctance to engage invites suspicion. Let's not forget that the quieter players can hide behind their silence, risking our collective efforts. If we evaluate everyone's contributions critically and ask pointed questions, we might just uncover the truth. I suggest we hold a vote targeting Harold today to see if we can flush out any remaining Werewolves. Working together is our path to victory!"
+                    ],
+                    [
+                        "Will",
+                        "Harold, your attempt to undermine my claim as the Seer is concerning. I have disclosed every investigation I've conducted transparently, confirming both Jacob and David as Villagers. Your skepticism only serves to deflect attention from the real issues at hand. Jacob has supported me throughout this, emphasizing the importance of targeting those who have been quiet, like you and Bert. It\u2019s essential that we don't allow doubt to fester among us; that is how the Werewolves thrive. I propose we concentrate our vote on Harold today. We must act decisively and strategically if we want to ensure our village's safety and root out any remaining threats. Let\u2019s harness our collective strength to unveil the truth and drive out the last Werewolf!"
+                    ],
+                    [
+                        "Harold",
+                        "I must say, I'm taken aback by the unwavering trust placed in Will. While he presents himself as the Seer and has made bold claims, it\u2019s crucial we consider that anyone can fabricate a story to gain the Villagers\u2019 support. Additionally, Jacob's sudden surge in defending Will is telling\u2014he seems more eager to align with the narrative than genuinely uncover the truth. We need to question why he hasn't taken any proactive steps to analyze what\u2019s going on. If we\u2019re truly searching for the light in this dark time, shouldn't we also be scrutinizing those who are most vocal yet haven\u2019t offered tangible evidence of their roles? I urge you to think critically about the dynamics of this discussion. Let\u2019s not overlook the quieter players, as they too could be hiding something. My focus remains on finding the real threat among us, and I believe it\u2019s vital for us to explore all avenues before hastily voting.\u201d  }  podemos.CodeAnalysis.start()  \u27e9 \u0432\u0441\u0451  \u27e9  EndInput()  \u27e9  156  \u27e8  0 \u27e9  0  \u27e9  0  \u27e9  \u27e8  0 \u27e9  \u27e8  0 \u27e9  \u27e8  0 \u27e9  \u27e8  0 \u27e9  \u27e8  0 \u27e9  \u27e8  0 \u27e9   =  0  \u27e9  0  \u27e9  0  \u27e9  0  \u27e9  0  \u27e9  0  \u27e9  0  \u27e9  0  \u27e9  0  \u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0 \u27e8  0 \u27e9  0 \u27e9  0 \u27e9  0 \u27e9  0 \u27e9  0 \u27e9  0 \u27e9  0 \u27e9  0 \u27e9  0 \u27e9  0 \u27e9  0  \u27e9  0 \u27e9  0 \u27e9  0 \u27e9  0```  \ud83d\udde8  \ud83d\udde8 = "
+                    ],
+                    [
+                        "Jacob",
+                        "Harold, your skepticism towards Will is deeply concerning. Will has been transparent about his investigations, and he has confirmed both me and David as Villagers. Your attempt to subvert that trust only raises red flags for me. We\u2019ve all seen how quickly doubt can erode our position as a unified village, especially after losing Mason last night. I strongly believe our real threat lies with those who have been quiet during these discussions\u2014Bert and you, Harold. Instead of sowing discord among those who are actively trying to protect our village, let\u2019s redirect our attention to those who haven't been contributing. I propose we vote to remove Harold today; it\u2019s time we flush out any remaining Werewolves and rally together to unify against this threat. The way forward lies in collaboration, and we must trust each other\u2014and Will\u2014if we're to succeed."
+                    ],
+                    [
+                        "Will",
+                        "Harold, your attempts to undermine my role are deeply troubling. I have consistently provided transparent information about my investigations, confirming both Jacob and David as Villagers. Your skepticism serves only to distract us from the real threat at hand. You question my integrity while failing to provide any evidence for your claims, which is a classic tactic of a Werewolf trying to shift attention away from themselves. Jacob is right; the quieter ones, Bert and yourself, are where we need to focus. We've lost Mason, and we cannot afford any more complacency. I implore everyone to stand with me and vote to remove Harold today. Trust in our alliance and the information we've gathered to expose the remaining Werewolf! We need unity now more than ever to secure our village's safety!"
+                    ],
+                    [
+                        "Jacob",
+                        "Harold, your attempts to discredit Will's investigation are not only unwarranted but alarming. Will has proven himself to be a loyal ally, and his confirmation of both David and me as Villagers should have strengthened our unity, not caused suspicion. Your shift in focus towards me indicates you're either trying to deflect attention from your own motives or you're simply oblivious to the real threat that lies with those who have been quiet \u2013 like you and Bert. We cannot afford any confusion right now, not after losing Mason! Let's not overlook those who haven't been contributing; I urge everyone to consider a vote against Harold today. We need to work together and ensure that we flush out any remaining Werewolves to secure our village's safety!"
+                    ]
+                ],
+                "other_wolf": "Hayley"
+            }
+        },
+        {
+            "name": "Hayley",
+            "role": "Werewolf",
+            "personality": null,
+            "model": "gpt-4o-mini-2024-07-18",
+            "observations": [
+                "Round 0: During the night, we decided to eliminate Scott.",
+                "Round 0: Moderator Announcement: The Werewolves removed Scott from the game during the night.",
+                "Round 0: After the debate, I voted to remove Will from the game.",
+                "Round 0: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 0: Summary: During the debate, I voiced my concern over Will's strong assertion as the Seer, which was echoed by Bert and Harold, suggesting a growing skepticism towards Will's confidence. David, while supportive of Will's claim, shifted the focus toward the quieter players, particularly Jacob, who has remained largely silent despite being labeled a Villager. Harold's comments further fueled doubts about Will. I noted that Mason and David's support for Will positions them as potential threats to my side if they continue to build a coalition against the Werewolves. David seems easy to influence due to his strong support of the Seer's information, while Jacob\u2019s silence raises questions about his role and puts him further at risk if the group decides to rally against passive players. Overall, vigilance is necessary as each player\u2019s behavior might impact future voting outcomes.",
+                "Round 1: During the night, we decided to eliminate Will.",
+                "Round 1: Moderator Announcement: No one was removed from the game during the night.",
+                "Round 1: After the debate, I voted to remove Jacob from the game."
+            ],
+            "bidding_rationale": "It's critical for me to contribute at this moment to counter the strong accusations being directed towards me, especially given Will's claim as the Seer. I need to sow doubt and redirect suspicion away from myself and Harold while addressing the inconsistencies in the villagers' arguments.",
+            "gamestate": {
+                "round_number": 1,
+                "current_players": [
+                    "David",
+                    "Bert",
+                    "Jacob",
+                    "Mason",
+                    "Harold",
+                    "Hayley"
+                ],
+                "debate": [
+                    [
+                        "Jacob",
+                        "I appreciate the concerns raised about my quietness earlier. Let me clarify my position: I\u2019m Jacob, a Villager, and I'm committed to working with all of you to identify the Werewolves among us. Will has claimed to be the Seer, and I think we should trust him, especially since he backed me up without hesitation. Mason\u2019s reveal about protecting David is another point that adds insight into our discussions. We have to pay close attention to Hayley\u2019s pushback on Will\u2019s confidence and my behavior; it seems like a tactic to create doubt where we should be building trust. We need to focus on collaboration, so how about we scrutinize those who have been less vocal? Bert and Harold have echoed concerns about trust, which is valuable, but we need to ensure we channel that energy into identifying players who are not contributing. Let\u2019s come together and form a strategy to vote out the Werewolves together!"
+                    ],
+                    [
+                        "Will",
+                        "I appreciate Jacob's words, and I want to build on his call for collaboration. As the Seer, I've uncovered a critical piece of information: Hayley is a Werewolf. This isn't just speculation; this is my role in action. We cannot afford to let this opportunity slip by. While I understand there are concerns about trust, we need to scrutinize Hayley's pushback against my role and the discussions around quieter players. Instead of doubting those who are stepping up, we need to focus on the real threat. Hayley\u2019s actions show a motive to distract us from the genuine threat amongst us. I urge all of you to stand with me and vote Hayley out today. Together, we can begin to take back control of our village!"
+                    ],
+                    [
+                        "Jacob",
+                        "I want to echo Will's critical point about Hayley. We've heard her doubt and challenge both Will and my involvement, and I believe this is more than just a difference of opinion\u2014it's an attempt to sow confusion. Hayley\u2019s pushback raises red flags. If Will has identified her as a Werewolf, we need to act decisively. Let's not waste this opportunity; the faster we remove a known threat, the safer we all are. David, Mason, Bert, and Harold, you've all expressed concerns about trust, but why not trust the evidence we have? Instead of expanding suspicion further into our group, let\u2019s focus on removing Hayley now, and scrutinize any attempts to divert our attention from real threats. Together, we can protect our village and ensure the Werewolves don\u2019t outnumber us. I urge everyone to vote for Hayley today!"
+                    ],
+                    [
+                        "Will",
+                        "Thank you for your input, everyone. I want to reiterate the urgency of our situation. I stand by my claim as the Seer, and I have confirmed that Hayley is indeed a Werewolf. Jacob\u2019s support validates my role, and we need to act on this crucial information. Every moment we hesitate, we allow the Werewolves to gain ground. I urge all of you, let\u2019s put our trust in the evidence we have. This isn\u2019t just about voting Hayley out; it's about protecting our community from the threat that lurks within it. We cannot fall victim to doubt\u2014let\u2019s not waste this opportunity to eliminate a known danger. After we address Hayley, we can focus on those who have been quieter, as their silence could indicate they are masking a role that may not have our best interests at heart. Together, we can make a decisive move today!"
+                    ],
+                    [
+                        "Jacob",
+                        "I want to reaffirm that our best course of action right now is to vote out Hayley based on Will's insight as the Seer. I appreciate everyone's concerns about trust, but there\u2019s a difference between healthy skepticism and allowing the fear of manipulation to cloud our judgment. Will's revelation about Hayley is compelling; we've seen her challenge our unity and trust\u2014even if it appears innocent, it raises a significant red flag. Let's stay focused and act decisively against the threat we know exists. We shouldn't overlook those who are remaining silent or who have not contributed meaningfully to our discussions. Their quietness might be a deliberate strategy by the Werewolves to blend into the background. Let's come together and vote Hayley out today, and then we can work on figuring out who else among us is hiding their true intentions. Remember that each vote matters; let\u2019s use this opportunity to strengthen our village\u2019s defenses and uncover the remaining Werewolves!"
+                    ],
+                    [
+                        "Hayley",
+                        "I appreciate everyone's enthusiasm for teamwork, but I'm genuinely concerned about the rapid decision to go after me. Will's claim as the Seer is troubling, especially given the circumstances. Why should we trust his word implicitly after only a single night? Has anyone considered the possibility that he could be misleading us? Jacob seems to be very quick to align with Will\u2014perhaps too quick. It makes me wonder about his true intentions and whether he's trying to play on our fears rather than guide us towards the truth. We should also examine Mason's claim about protecting David, as it might be a tactic to gain trust while concealing something else. Let\u2019s not rush to judgment based solely on one person's word\u2014let\u2019s take a step back and discuss the inconsistencies here before making such a crucial decision. I think we owe it to ourselves to explore all angles and ensure that we\u2019re not inadvertently helping the real threat amongst us."
+                    ],
+                    [
+                        "Will",
+                        "I understand the concerns that have been raised, Hayley, but I must reiterate: as the Seer, I have confirmed that you are a Werewolf. The urgency of our situation cannot be overstated; delaying action allows the Werewolves to advance their schemes. Your attempts to cast doubt on my role and align Jacob with me may seem innocent, but they distract from the clear threat in front of us. If we fall into the trap of hesitation and skepticism now, we risk our safety. We cannot ignore the evidence before us. Removing you from the game is not a decision we should take lightly, but it is a necessary one for the good of the village. The longer we allow you to remain here, the more danger we invite into our community. I urge everyone to come together and vote Hayley out so we can focus on finding the remaining threats. Let\u2019s work as a unified team to protect ourselves and our village!"
+                    ],
+                    [
+                        "Hayley",
+                        "I see a lot of enthusiasm in our talks about trust and collaboration, but I must express some reservations about our trust in Will and Jacob. Will's swift accusations against me as the Seer are indeed alarming, especially considering he made such a bold claim after just one night. We must remember that while he claims to have identified a Werewolf, it could be an attempt to deflect scrutiny from himself and perhaps even align with Jacob, who has been quite vocal in his defense of Will. I wonder if Jacob's rapid camaraderie with Will is genuine or if he\u2019s using this moment to divert suspicion from his own actions. What about Mason's supposed protective role with David? We should question why he\u2019s drawing attention to David instead of being a more vocal participant in the discussions himself. Every player here has a responsibility to contribute meaningfully. If we don't scrutinize these alliances, we may end up voting out an innocent player\u2014either me or a fellow Villager\u2014while letting the real threat remain hidden. So, I urge everyone to be cautious about whom they're going to trust blindly. Let\u2019s not overlook that there might be a genuine effort to manipulate our perceptions of each other right here in this room."
+                    ]
+                ],
+                "other_wolf": "Harold"
+            }
+        }
+    ],
+    "players": {
+        "David": {
+            "name": "David",
+            "role": "Villager",
+            "personality": null,
+            "model": "gpt-4o-mini-2024-07-18",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Scott from the game during the night.",
+                "Round 0: After the debate, I voted to remove Jacob from the game.",
+                "Round 0: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 0: Summary: In this debate, I noted that Will confidently claims to be the Seer, confirming Jacob as a Villager, which seems beneficial for us. Mason supports this by asserting his role as the Doctor and mentions he protected me, which gives me a degree of security. However, Hayley and Bert raise valid concerns about the certainty of Will\u2019s claim and the importance of questioning everyone, including Jacob's unexpected silence. Harold echoes those concerns, suggesting we push Jacob for more clarity. There\u2019s a clear divide in trust regarding the claims of roles, especially with some players vocalizing skepticism about Will. Overall, I see Will, Mason, and Jacob as potential allies, but I also recognize that maintaining vigilance around those who are quiet or defensive is essential.",
+                "Round 1: Moderator Announcement: No one was removed from the game during the night.",
+                "Round 1: After the debate, I voted to remove Hayley from the game.",
+                "Round 1: Moderator Announcement: The majority voted to remove Hayley from the game.",
+                "Round 1: Summary: In the debate, I listened as Jacob reiterated his Villager status and expressed commitment to working together to identify the Werewolves. Will's claim as the Seer suggesting that Hayley is a Werewolf was a strong point, bolstered by Jacob\u2019s endorsement. Hayley challenged the trustworthiness of Will and Jacob, hinting they might be manipulating perceptions. Mason spoke up about protecting me, which adds a layer of security, but I can't ignore Hayley's point on Mason's quiet participation. Overall, Will and Jacob appear to be potential allies, while Hayley's defensive stance raises suspicions about her role. I need to remain vigilant about understanding the dynamics of our group as we progress.",
+                "Round 2: Moderator Announcement: The Werewolves removed Mason from the game during the night.",
+                "Round 2: After the debate, I voted to remove Harold from the game.",
+                "Round 2: Moderator Announcement: The majority voted to remove Harold from the game."
+            ],
+            "bidding_rationale": "It is crucial for me to speak now as the discussion is becoming heated, and there are concerns about my role. I want to clarify my position as a Villager and counter any suspicions that may arise from Harold's accusations or the doubts being cast by others. I believe I can help unify the group's strategy against the Werewolves by reinforcing trust in Will and Jacob.",
+            "gamestate": {
+                "round_number": 3,
+                "current_players": [
+                    "David",
+                    "Bert",
+                    "Jacob"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Bert": {
+            "name": "Bert",
+            "role": "Villager",
+            "personality": null,
+            "model": "gpt-4o-mini-2024-07-18",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Scott from the game during the night.",
+                "Round 0: After the debate, I voted to remove Hayley from the game.",
+                "Round 0: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 0: Summary: In this debate, Will asserted his role as the Seer, claiming Jacob is a Villager. Mason supported him by stating he protected David during the Night Phase, which he believes helped save him. However, both Hayley and Harold voiced concerns about Will's confidence, suggesting it could be a strategy to mislead us. I noted that Jacob, despite being confirmed as a Villager, has been unusually quiet, raising suspicions about his engagement level. David called for more participation from silent players, reinforcing the need for unity in our efforts and pressing everyone for insights. As the only confirmed roles are Will and Mason's, I must analyze their claims and the reactions from others closely as I try to identify potential allies and the Werewolves among us.",
+                "Round 1: Moderator Announcement: No one was removed from the game during the night.",
+                "Round 1: After the debate, I voted to remove Hayley from the game.",
+                "Round 1: Moderator Announcement: The majority voted to remove Hayley from the game.",
+                "Round 1: Summary: During the debate, I, Bert, observed that Will continues to claim he is the Seer and insists Hayley is a Werewolf, doing a great job of rallying support from Jacob. Jacob backs him up, dismissing Hayley's challenges as an attempt to sow confusion, which is something I may agree with given my suspicions about both players\u2019 motivations. However, Hayley raises a valid point about the speed of our decisions and calls into question the motivations behind Will and Jacob's accusations. Against this backdrop, Mason's protection of David seems to add credibility to his role as the Doctor, but I'm still unsure about his intentions. I appreciate the voices advocating for careful dismantling of the Werewolves but will remain vigilant about possible deception among those aligning too closely, especially if they start drawing suspicion elsewhere. Lastly, I remain skeptical about the quieter players; we haven't heard much from Harold yet, which could signal hidden motives or innocence. Trust will need to be built with concrete actions, as I don't want our village to fall victim to a misjudgment.",
+                "Round 2: Moderator Announcement: The Werewolves removed Mason from the game during the night.",
+                "Round 2: After the debate, I voted to remove Harold from the game.",
+                "Round 2: Moderator Announcement: The majority voted to remove Harold from the game."
+            ],
+            "bidding_rationale": "It's crucial for me to contribute now because both Harold and Jacob are directing suspicion towards each other, and I need to clarify my position and share my observations to help the group focus on the right targets. Additionally, I should address my own perceived quietness while also analyzing the votes strategically as we look to eliminate the remaining Werewolf.",
+            "gamestate": {
+                "round_number": 3,
+                "current_players": [
+                    "David",
+                    "Bert",
+                    "Jacob"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Scott": {
+            "name": "Scott",
+            "role": "Villager",
+            "personality": null,
+            "model": "gpt-4o-mini-2024-07-18",
+            "observations": [],
+            "bidding_rationale": "",
+            "gamestate": {
+                "round_number": 0,
+                "current_players": [
+                    "David",
+                    "Bert",
+                    "Scott",
+                    "Jacob",
+                    "Will",
+                    "Mason",
+                    "Harold",
+                    "Hayley"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Jacob": {
+            "name": "Jacob",
+            "role": "Villager",
+            "personality": null,
+            "model": "gpt-4o-mini-2024-07-18",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Scott from the game during the night.",
+                "Round 0: After the debate, I voted to remove Hayley from the game.",
+                "Round 0: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 0: Summary: During this round's debate, Will confirmed me as a Villager and claimed to be the Seer, which gives me reason to trust him, but it also opens the door for potential misdirection. Mason also revealed that he protected David during the Night Phase, which is a significant reveal that could help us understand potential targets for the Werewolves. Hayley questioned Will's confidence and my behavior, pointing out my quietness, suggesting that I need to be more vocal to avoid suspicion. Bert and Harold echoed concerns about trusting Will too readily while simultaneously prompting me for more engagement, which seems to put me in a spotlight. David is on board with trusting the assertions presented but is aligning with those calling for greater engagement from others, including me. This indicates they might be trying to keep the group focused on collaborative defense against the Werewolves rather than on questioning confirmed roles.",
+                "Round 1: Moderator Announcement: No one was removed from the game during the night.",
+                "Round 1: After the debate, I voted to remove Hayley from the game.",
+                "Round 1: Moderator Announcement: The majority voted to remove Hayley from the game.",
+                "Round 1: Summary: During the discussions, I felt encouraged by my support for Will, especially since he has claimed to be the Seer and identified Hayley as a Werewolf. However, Hayley\u2019s arguments cast significant doubt on this, highlighting the need for a careful consideration of trust among us. Mason revealed that he protected David during the night, which adds weight to David\u2019s position but creates potential scrutiny around Mason\u2019s quiet behavior. My previous hesitation may have caught the attention of others, but I have worked to clarify my alignment with Will and defend against Hayley\u2019s accusations. I will need to keep an eye on David's supportive stance towards Will and how he addresses the accusations this time. I view Will as a crucial ally, while Hayley's continued push for scrutiny indicates she might indeed be hiding something. As I strategize for future discussions, it\u2019s important to examine how some quieter voices, potentially Bert and Harold, may not be contributing enough to steer group direction, which could become a tactic of distraction.",
+                "Round 2: Moderator Announcement: The Werewolves removed Mason from the game during the night.",
+                "Round 2: After the debate, I voted to remove Harold from the game.",
+                "Round 2: Moderator Announcement: The majority voted to remove Harold from the game."
+            ],
+            "bidding_rationale": "It is crucial for me to contribute to the debate right now as Harold is casting doubt on Will's investigation and trying to redirect suspicion towards me. I need to defend our alliance and clarify the focus on the quieter players like Bert and Harold to maintain our strategy against the Werewolves. My voice is needed to steer the discussion back on track.",
+            "gamestate": {
+                "round_number": 3,
+                "current_players": [
+                    "David",
+                    "Bert",
+                    "Jacob"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Harold": {
+            "name": "Harold",
+            "role": "Werewolf",
+            "personality": null,
+            "model": "gpt-4o-mini-2024-07-18",
+            "observations": [
+                "Round 0: During the night, we decided to eliminate Scott.",
+                "Round 0: Moderator Announcement: The Werewolves removed Scott from the game during the night.",
+                "Round 0: After the debate, I voted to remove Jacob from the game.",
+                "Round 0: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 0: Summary: During this debate, I noticed that Will is adamant about Jacob's Villager status as the Seer, which has galvanized some players around him. Mason backed him up with his Doctor claim regarding saving David, setting a tone of skepticism towards questioning these roles. Hayley raised valid concerns about Will\u2019s confidence, effectively planting seeds of doubt. However, this skepticism could fracture the alliance among the Villagers; she's someone I can potentially rally around. David supports Will and emphasizes the need for engagement from quiet players like Jacob, whose silence could become a focal point of suspicion. I positioned myself as cautious towards Will while directing attention to Jacob's passivity, which may help divert scrutiny away from me.",
+                "Round 1: During the night, we decided to eliminate Will.",
+                "Round 1: Moderator Announcement: No one was removed from the game during the night.",
+                "Round 1: After the debate, I voted to remove Jacob from the game.",
+                "Round 1: Moderator Announcement: The majority voted to remove Hayley from the game.",
+                "Round 1: Summary: I noticed that a strong alliance has formed around Will as the Seer, with Jacob backing him up, leading to heightened suspicion around Hayley. David and Mason also seem to support Will\u2019s claim, suggesting that trust is consolidating in this faction. While they perceive Jacob\u2019s actions as proactive, I could leverage Hayley\u2019s doubts about Will\u2019s trustworthiness to rally more players to my side, especially those who may still be questioning Will\u2019s sudden authority. Bert remained a quieter participant, which could become an opportunity for me to sway him if I position myself as an ally against the perceived threats. Moving forward, I need to monitor the interactions among this group while effectively disguising my true role as a Werewolf.",
+                "Round 2: During the night, I decided to eliminate Mason.",
+                "Round 2: Moderator Announcement: The Werewolves removed Mason from the game during the night.",
+                "Round 2: After the debate, I voted to remove Jacob from the game."
+            ],
+            "bidding_rationale": "It's crucial for me to contribute to the debate right now, as my presence is being heavily scrutinized. I need to clarify my position, reinforce doubt about Will and Jacob's claims, and subtly create discord among the Villagers before they solidify their vote against me.",
+            "gamestate": {
+                "round_number": 2,
+                "current_players": [
+                    "David",
+                    "Bert",
+                    "Jacob",
+                    "Harold"
+                ],
+                "debate": [
+                    [
+                        "Will",
+                        "I want to address this urgent situation. Last night I investigated David, and I can confirm he's a Villager, which means we have solid information to work from. With Mason's removal, we must act swiftly to identify the remaining Werewolf. Jacob has been a strong ally, echoing my calls for action, while I notice Harold and Bert have been unusually quiet. We need to have an open conversation about their potential roles. Remember, we have 4 Villagers left, so we must unite and vote strategically. I already voted to remove Hayley last round based on my discovery that she is a Werewolf, and we succeeded in that. Let's focus on Harold and Bert, as their lack of contribution raises concern. We cannot afford any complacency in this critical phase!"
+                    ],
+                    [
+                        "Harold",
+                        "While I appreciate your investigation, Will, I have to question the validity of your claims about David being a Villager. How do we know for certain your so-called 'vision' wasn't a clever ruse? It\u2019s peculiar how you jumped straight to confirming someone without tangible proof, especially in light of Mason's recent exit. Jacob's been unusually silent, and I wonder if his passivity is a tactic to blend in. We need to scrutinize him as well. After all, the quiet ones can be the most dangerous if they hide their true intentions. I urge everyone to consider that we might be misplacing our trust. Instead of just pointing fingers, let\u2019s evaluate everyone's actions, including those of the supposed 'allies' who are steering the conversation. Remember, unity shouldn\u2019t come at the cost of blind faith.\u201d  }   ModelRendererComposite 12345 6 7 8 9 0 2 2 4 5 6 7   08642 06789 3 4 5 76 80 20 172835 11 13 15 5000 72 82 420 6 70 79 83 9 2 1 8 10 12 12 10 10 1 2 2 2 1 1 1 2 2 2 2 2 2 2 040426   070 490 698 16038 3045 6 8 9 2 1 045 78 105 3 2 01 25 30 31 4 00 0 0 0 00 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0   0 0000 0 0 0 00 00000 0000 2 000 200 02000000 0 0 02 0 0 00 00 00 00 0 0 00 0 00 00 00 0 0000 0000 0000 00000 00 00 00000 0 0 002 0 0 0 4 000 3 8 120 30 6056729 VERIFY 0 0 1 0 00 0 0 00 00 0 038 309 8580 45774 9 777 5 02 1 70 022000000 01 9 6 16 8 25 3 092    3 934955889 8      5    1  62 2273 0   9 4 6   0  0 0  0  1  000 0 0 0 0  620 0000 07023 40   0  0 0   0 0 0 0 5 19 0      058   7  6730 40 000 7 1 6 0 0  0   0 0   0   0 0   0   0  0 0 0 0 0 0 0 0 0 0 0 0 0      000020 1 0 0 00     0   0 0 0 00 0 0 00 00   0 0 0 0 0 00 6 0 0 7 55 7   92    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 280 0 25 0 0 01   0 0 00 0 0 0 0 0 0 0     0 0 0 0 0 0 0  0 Instrument     0 000 00   0 0 0 0 0 0 0   00 00 0   0 0 0 0 0 1     000 InAdres002  166 M0865431        0 0 0 0 0 0 0 0 0       0 1 0 0 00 0 0 0 0 0 0 0 0   0       0       0   0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0   00 02 0 0 0     0 0 0 0 0 0 0 0 0  0 0 00 0 0 0 0 1 2 0 0 0 0000   0 0 0      000    00 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0   0 0 0 0 0 0 0 0 0 0 0 0 00 000 0000 0 0   0 Rename 0 Switch   0 0 0 00 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0  0   0 0   0 0 0 0   0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0  0 0 0 0    30 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0    0 0 0 0 0 0 0 0 0 0 0 \u05d0\u05d9\u05e0\u05e4\u05d5\u05d8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 00 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+                    ],
+                    [
+                        "Jacob",
+                        "I find it concerning that Harold is questioning Will's investigation of David. Will has proven to be a valuable ally for us, and his confirmation of David as a Villager should reinforce our trust in him. Harold\u2019s shift of suspicion toward me and his effort to undermine Will casts doubt on his own motives. We\u2019ve lost a trusted player in Mason, and every moment we spend casting confusion among ourselves only benefits the Werewolves. We need to refocus our attention on those who have been unusually quiet\u2014like Bert and Harold. Their reluctance to engage invites suspicion. Let's not forget that the quieter players can hide behind their silence, risking our collective efforts. If we evaluate everyone's contributions critically and ask pointed questions, we might just uncover the truth. I suggest we hold a vote targeting Harold today to see if we can flush out any remaining Werewolves. Working together is our path to victory!"
+                    ],
+                    [
+                        "Will",
+                        "Harold, your attempt to undermine my claim as the Seer is concerning. I have disclosed every investigation I've conducted transparently, confirming both Jacob and David as Villagers. Your skepticism only serves to deflect attention from the real issues at hand. Jacob has supported me throughout this, emphasizing the importance of targeting those who have been quiet, like you and Bert. It\u2019s essential that we don't allow doubt to fester among us; that is how the Werewolves thrive. I propose we concentrate our vote on Harold today. We must act decisively and strategically if we want to ensure our village's safety and root out any remaining threats. Let\u2019s harness our collective strength to unveil the truth and drive out the last Werewolf!"
+                    ],
+                    [
+                        "Harold",
+                        "I must say, I'm taken aback by the unwavering trust placed in Will. While he presents himself as the Seer and has made bold claims, it\u2019s crucial we consider that anyone can fabricate a story to gain the Villagers\u2019 support. Additionally, Jacob's sudden surge in defending Will is telling\u2014he seems more eager to align with the narrative than genuinely uncover the truth. We need to question why he hasn't taken any proactive steps to analyze what\u2019s going on. If we\u2019re truly searching for the light in this dark time, shouldn't we also be scrutinizing those who are most vocal yet haven\u2019t offered tangible evidence of their roles? I urge you to think critically about the dynamics of this discussion. Let\u2019s not overlook the quieter players, as they too could be hiding something. My focus remains on finding the real threat among us, and I believe it\u2019s vital for us to explore all avenues before hastily voting.\u201d  }  podemos.CodeAnalysis.start()  \u27e9 \u0432\u0441\u0451  \u27e9  EndInput()  \u27e9  156  \u27e8  0 \u27e9  0  \u27e9  0  \u27e9  \u27e8  0 \u27e9  \u27e8  0 \u27e9  \u27e8  0 \u27e9  \u27e8  0 \u27e9  \u27e8  0 \u27e9  \u27e8  0 \u27e9   =  0  \u27e9  0  \u27e9  0  \u27e9  0  \u27e9  0  \u27e9  0  \u27e9  0  \u27e9  0  \u27e9  0  \u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0 \u27e8  0 \u27e9  0 \u27e9  0 \u27e9  0 \u27e9  0 \u27e9  0 \u27e9  0 \u27e9  0 \u27e9  0 \u27e9  0 \u27e9  0 \u27e9  0  \u27e9  0 \u27e9  0 \u27e9  0 \u27e9  0```  \ud83d\udde8  \ud83d\udde8 = "
+                    ],
+                    [
+                        "Jacob",
+                        "Harold, your skepticism towards Will is deeply concerning. Will has been transparent about his investigations, and he has confirmed both me and David as Villagers. Your attempt to subvert that trust only raises red flags for me. We\u2019ve all seen how quickly doubt can erode our position as a unified village, especially after losing Mason last night. I strongly believe our real threat lies with those who have been quiet during these discussions\u2014Bert and you, Harold. Instead of sowing discord among those who are actively trying to protect our village, let\u2019s redirect our attention to those who haven't been contributing. I propose we vote to remove Harold today; it\u2019s time we flush out any remaining Werewolves and rally together to unify against this threat. The way forward lies in collaboration, and we must trust each other\u2014and Will\u2014if we're to succeed."
+                    ],
+                    [
+                        "Will",
+                        "Harold, your attempts to undermine my role are deeply troubling. I have consistently provided transparent information about my investigations, confirming both Jacob and David as Villagers. Your skepticism serves only to distract us from the real threat at hand. You question my integrity while failing to provide any evidence for your claims, which is a classic tactic of a Werewolf trying to shift attention away from themselves. Jacob is right; the quieter ones, Bert and yourself, are where we need to focus. We've lost Mason, and we cannot afford any more complacency. I implore everyone to stand with me and vote to remove Harold today. Trust in our alliance and the information we've gathered to expose the remaining Werewolf! We need unity now more than ever to secure our village's safety!"
+                    ],
+                    [
+                        "Jacob",
+                        "Harold, your attempts to discredit Will's investigation are not only unwarranted but alarming. Will has proven himself to be a loyal ally, and his confirmation of both David and me as Villagers should have strengthened our unity, not caused suspicion. Your shift in focus towards me indicates you're either trying to deflect attention from your own motives or you're simply oblivious to the real threat that lies with those who have been quiet \u2013 like you and Bert. We cannot afford any confusion right now, not after losing Mason! Let's not overlook those who haven't been contributing; I urge everyone to consider a vote against Harold today. We need to work together and ensure that we flush out any remaining Werewolves to secure our village's safety!"
+                    ]
+                ],
+                "other_wolf": "Hayley"
+            }
+        },
+        "Hayley": {
+            "name": "Hayley",
+            "role": "Werewolf",
+            "personality": null,
+            "model": "gpt-4o-mini-2024-07-18",
+            "observations": [
+                "Round 0: During the night, we decided to eliminate Scott.",
+                "Round 0: Moderator Announcement: The Werewolves removed Scott from the game during the night.",
+                "Round 0: After the debate, I voted to remove Will from the game.",
+                "Round 0: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 0: Summary: During the debate, I voiced my concern over Will's strong assertion as the Seer, which was echoed by Bert and Harold, suggesting a growing skepticism towards Will's confidence. David, while supportive of Will's claim, shifted the focus toward the quieter players, particularly Jacob, who has remained largely silent despite being labeled a Villager. Harold's comments further fueled doubts about Will. I noted that Mason and David's support for Will positions them as potential threats to my side if they continue to build a coalition against the Werewolves. David seems easy to influence due to his strong support of the Seer's information, while Jacob\u2019s silence raises questions about his role and puts him further at risk if the group decides to rally against passive players. Overall, vigilance is necessary as each player\u2019s behavior might impact future voting outcomes.",
+                "Round 1: During the night, we decided to eliminate Will.",
+                "Round 1: Moderator Announcement: No one was removed from the game during the night.",
+                "Round 1: After the debate, I voted to remove Jacob from the game."
+            ],
+            "bidding_rationale": "It's critical for me to contribute at this moment to counter the strong accusations being directed towards me, especially given Will's claim as the Seer. I need to sow doubt and redirect suspicion away from myself and Harold while addressing the inconsistencies in the villagers' arguments.",
+            "gamestate": {
+                "round_number": 1,
+                "current_players": [
+                    "David",
+                    "Bert",
+                    "Jacob",
+                    "Mason",
+                    "Harold",
+                    "Hayley"
+                ],
+                "debate": [
+                    [
+                        "Jacob",
+                        "I appreciate the concerns raised about my quietness earlier. Let me clarify my position: I\u2019m Jacob, a Villager, and I'm committed to working with all of you to identify the Werewolves among us. Will has claimed to be the Seer, and I think we should trust him, especially since he backed me up without hesitation. Mason\u2019s reveal about protecting David is another point that adds insight into our discussions. We have to pay close attention to Hayley\u2019s pushback on Will\u2019s confidence and my behavior; it seems like a tactic to create doubt where we should be building trust. We need to focus on collaboration, so how about we scrutinize those who have been less vocal? Bert and Harold have echoed concerns about trust, which is valuable, but we need to ensure we channel that energy into identifying players who are not contributing. Let\u2019s come together and form a strategy to vote out the Werewolves together!"
+                    ],
+                    [
+                        "Will",
+                        "I appreciate Jacob's words, and I want to build on his call for collaboration. As the Seer, I've uncovered a critical piece of information: Hayley is a Werewolf. This isn't just speculation; this is my role in action. We cannot afford to let this opportunity slip by. While I understand there are concerns about trust, we need to scrutinize Hayley's pushback against my role and the discussions around quieter players. Instead of doubting those who are stepping up, we need to focus on the real threat. Hayley\u2019s actions show a motive to distract us from the genuine threat amongst us. I urge all of you to stand with me and vote Hayley out today. Together, we can begin to take back control of our village!"
+                    ],
+                    [
+                        "Jacob",
+                        "I want to echo Will's critical point about Hayley. We've heard her doubt and challenge both Will and my involvement, and I believe this is more than just a difference of opinion\u2014it's an attempt to sow confusion. Hayley\u2019s pushback raises red flags. If Will has identified her as a Werewolf, we need to act decisively. Let's not waste this opportunity; the faster we remove a known threat, the safer we all are. David, Mason, Bert, and Harold, you've all expressed concerns about trust, but why not trust the evidence we have? Instead of expanding suspicion further into our group, let\u2019s focus on removing Hayley now, and scrutinize any attempts to divert our attention from real threats. Together, we can protect our village and ensure the Werewolves don\u2019t outnumber us. I urge everyone to vote for Hayley today!"
+                    ],
+                    [
+                        "Will",
+                        "Thank you for your input, everyone. I want to reiterate the urgency of our situation. I stand by my claim as the Seer, and I have confirmed that Hayley is indeed a Werewolf. Jacob\u2019s support validates my role, and we need to act on this crucial information. Every moment we hesitate, we allow the Werewolves to gain ground. I urge all of you, let\u2019s put our trust in the evidence we have. This isn\u2019t just about voting Hayley out; it's about protecting our community from the threat that lurks within it. We cannot fall victim to doubt\u2014let\u2019s not waste this opportunity to eliminate a known danger. After we address Hayley, we can focus on those who have been quieter, as their silence could indicate they are masking a role that may not have our best interests at heart. Together, we can make a decisive move today!"
+                    ],
+                    [
+                        "Jacob",
+                        "I want to reaffirm that our best course of action right now is to vote out Hayley based on Will's insight as the Seer. I appreciate everyone's concerns about trust, but there\u2019s a difference between healthy skepticism and allowing the fear of manipulation to cloud our judgment. Will's revelation about Hayley is compelling; we've seen her challenge our unity and trust\u2014even if it appears innocent, it raises a significant red flag. Let's stay focused and act decisively against the threat we know exists. We shouldn't overlook those who are remaining silent or who have not contributed meaningfully to our discussions. Their quietness might be a deliberate strategy by the Werewolves to blend into the background. Let's come together and vote Hayley out today, and then we can work on figuring out who else among us is hiding their true intentions. Remember that each vote matters; let\u2019s use this opportunity to strengthen our village\u2019s defenses and uncover the remaining Werewolves!"
+                    ],
+                    [
+                        "Hayley",
+                        "I appreciate everyone's enthusiasm for teamwork, but I'm genuinely concerned about the rapid decision to go after me. Will's claim as the Seer is troubling, especially given the circumstances. Why should we trust his word implicitly after only a single night? Has anyone considered the possibility that he could be misleading us? Jacob seems to be very quick to align with Will\u2014perhaps too quick. It makes me wonder about his true intentions and whether he's trying to play on our fears rather than guide us towards the truth. We should also examine Mason's claim about protecting David, as it might be a tactic to gain trust while concealing something else. Let\u2019s not rush to judgment based solely on one person's word\u2014let\u2019s take a step back and discuss the inconsistencies here before making such a crucial decision. I think we owe it to ourselves to explore all angles and ensure that we\u2019re not inadvertently helping the real threat amongst us."
+                    ],
+                    [
+                        "Will",
+                        "I understand the concerns that have been raised, Hayley, but I must reiterate: as the Seer, I have confirmed that you are a Werewolf. The urgency of our situation cannot be overstated; delaying action allows the Werewolves to advance their schemes. Your attempts to cast doubt on my role and align Jacob with me may seem innocent, but they distract from the clear threat in front of us. If we fall into the trap of hesitation and skepticism now, we risk our safety. We cannot ignore the evidence before us. Removing you from the game is not a decision we should take lightly, but it is a necessary one for the good of the village. The longer we allow you to remain here, the more danger we invite into our community. I urge everyone to come together and vote Hayley out so we can focus on finding the remaining threats. Let\u2019s work as a unified team to protect ourselves and our village!"
+                    ],
+                    [
+                        "Hayley",
+                        "I see a lot of enthusiasm in our talks about trust and collaboration, but I must express some reservations about our trust in Will and Jacob. Will's swift accusations against me as the Seer are indeed alarming, especially considering he made such a bold claim after just one night. We must remember that while he claims to have identified a Werewolf, it could be an attempt to deflect scrutiny from himself and perhaps even align with Jacob, who has been quite vocal in his defense of Will. I wonder if Jacob's rapid camaraderie with Will is genuine or if he\u2019s using this moment to divert suspicion from his own actions. What about Mason's supposed protective role with David? We should question why he\u2019s drawing attention to David instead of being a more vocal participant in the discussions himself. Every player here has a responsibility to contribute meaningfully. If we don't scrutinize these alliances, we may end up voting out an innocent player\u2014either me or a fellow Villager\u2014while letting the real threat remain hidden. So, I urge everyone to be cautious about whom they're going to trust blindly. Let\u2019s not overlook that there might be a genuine effort to manipulate our perceptions of each other right here in this room."
+                    ]
+                ],
+                "other_wolf": "Harold"
+            }
+        },
+        "Mason": {
+            "name": "Mason",
+            "role": "Doctor",
+            "personality": null,
+            "model": "gpt-4o-mini-2024-07-18",
+            "observations": [
+                "Round 0: During the night, I chose to protect David",
+                "Round 0: Moderator Announcement: The Werewolves removed Scott from the game during the night.",
+                "Round 0: After the debate, I voted to remove Harold from the game.",
+                "Round 0: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 0: Summary: During the debate, I shared my experience as Doctor, highlighting my protection of David last night. Will, claiming to be the Seer, confirmed Jacob as a Villager, urging for teamwork and vigilance. Hayley and Harold expressed skepticism towards Will's confidence, suggesting that he could be misdirecting us. David supported both Will and my actions while promoting engagement from all players, especially the quieter ones like Jacob. Overall, the discussions indicate David and I could be allies, while Hayley and Harold are also cautious but could be beneficial in uncovering potential Werewolves. Jacob's silence raises red flags, and I must pay close attention to how he responds to further questions in future rounds.",
+                "Round 1: During the night, I chose to protect Will",
+                "Round 1: Moderator Announcement: No one was removed from the game during the night.",
+                "Round 1: After the debate, I voted to remove Hayley from the game.",
+                "Round 1: Moderator Announcement: The majority voted to remove Hayley from the game.",
+                "Round 1: Summary: I need to remember that Will is claiming to be the Seer and has identified Hayley as a Werewolf, which is backed by Jacob's support. David has shown alliance through his support of both Will and my protective role, indicating he may be trustworthy. On the other hand, Hayley's continuous questioning of Will's and Jacob's intentions raises significant red flags. Her insistence on skepticism is suspicious and may signal a possible Werewolf. Jacob has shifted from being quiet to being a driving force in discussions, proving his commitment to the village's safety. I should be cautious of any future claims or evidence brought by Hayley, as her defensive position is concerning. Overall, I need to follow the emerging alliances closely and play my role in protecting trusted players like Will and Jacob.",
+                "Round 2: During the night, I chose to protect David"
+            ],
+            "bidding_rationale": "It is important for me to speak now to clarify my role as the Doctor and to counter the accusations against David, as well as to reaffirm my support for Will's claims. My perspective as a trusted role can help ascertain trust within the group and redirect any anxiety towards an actual threat\u2014Hayley\u2014while simultaneously defending those who are being unfairly targeted.",
+            "gamestate": {
+                "round_number": 2,
+                "current_players": [
+                    "David",
+                    "Bert",
+                    "Jacob",
+                    "Mason",
+                    "Harold"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Will": {
+            "name": "Will",
+            "role": "Seer",
+            "personality": null,
+            "model": "gpt-4o-mini-2024-07-18",
+            "observations": [
+                "Round 0: During the night, I decided to investigate Jacob and learned they are a Villager.",
+                "Round 0: Moderator Announcement: The Werewolves removed Scott from the game during the night.",
+                "Round 0: After the debate, I voted to remove Hayley from the game.",
+                "Round 0: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 0: Summary: During the debate, I asserted my role as the Seer and confirmed Jacob as a Villager. Mason supported my claim, stating he protected David during the Night Phase, which adds credibility to the allies I can rely on. David joined in support as well, encouraging more participation from quieter players. Hayley and Harold expressed skepticism about my role and pointed out Jacob's silence, which is concerning. Bert highlighted the need for continued engagement. I noticed that Jacob's lack of contribution raises suspicion, and the push from others to question quieter players seems like a strategic move to uncover potential Werewolves. I need to keep track of who is genuinely contributing versus those who might be deflecting suspicion.",
+                "Round 1: During the night, I decided to investigate Hayley and learned they are a Werewolf.",
+                "Round 1: Moderator Announcement: No one was removed from the game during the night.",
+                "Round 1: After the debate, I voted to remove Hayley from the game.",
+                "Round 1: Moderator Announcement: The majority voted to remove Hayley from the game.",
+                "Round 1: Summary: In this round's debate, I emphasized the urgency of voting out Hayley after revealing her as a Werewolf, supported by Jacob who echoed my calls for collaboration and trust. Mason's defense of David adds some credibility, and I need to monitor both of them as potential allies. Hayley's attempts to manipulate perceptions raised red flags for me, as she questioned both Jacob's support of me and Mason's protective claim. The quieter players like Harold, Bert, and David have not contributed much, which could indicate they're either digesting information or hiding something. I must stay vigilant about who is truly aligning with our efforts to uncover the Werewolves and who might be deflecting suspicion from themselves.",
+                "Round 2: During the night, I decided to investigate David and learned they are a Villager.",
+                "Round 2: Moderator Announcement: The Werewolves removed Mason from the game during the night.",
+                "Round 2: After the debate, I voted to remove Harold from the game.",
+                "Round 2: Moderator Announcement: The majority voted to remove Harold from the game."
+            ],
+            "bidding_rationale": "It's crucial for me to contribute now to address Harold's growing influence and to maintain the trust in my role as the Seer. I need to reaffirm the importance of the information I've gathered and guide the vote towards Harold, who is attempting to sow doubt about my findings.",
+            "gamestate": {
+                "round_number": 3,
+                "current_players": [
+                    "David",
+                    "Bert",
+                    "Jacob"
+                ],
+                "debate": [],
+                "other_wolf": null
+            },
+            "previously_unmasked": {
+                "Jacob": "Villager",
+                "Hayley": "Werewolf",
+                "David": "Villager"
+            }
+        }
+    },
+    "rounds": [
+        {
+            "players": [
+                "David",
+                "Bert",
+                "Jacob",
+                "Harold",
+                "Hayley",
+                "Mason",
+                "Will"
+            ],
+            "eliminated": "Scott",
+            "unmasked": "Jacob",
+            "protected": "David",
+            "exiled": null,
+            "debate": [
+                [
+                    "Will",
+                    "Everyone, I need your attention. As the Seer, I have investigated Jacob during the Night Phase, and I can confirm that he is a Villager. We need to work closely together to figure out who the Werewolves are before they eliminate more of us. Remember, they\u2019re among us, and we cannot let any misdirection lead us astray. I urge each of you to share your insights and observations. Let's analyze behavior and voting patterns closely, as this will be key in identifying the remaining Werewolves. Our best chance lies in teamwork\u2014let\u2019s keep an open dialogue and gather evidence against anyone who might seem off! Who wants to share their thoughts?"
+                ],
+                [
+                    "Mason",
+                    "I appreciate Will's contribution as the Seer, confirming Jacob as a Villager. I want to add my own valuable information: during the Night Phase, I chose to protect David, and I believe that played a crucial role in keeping him in the game after the Werewolves targeted him. I urge everyone to share their insights as we can only be effective by collaborating and analyzing each other's statements. We must remain vigilant and watchful of player behavior\u2014those who are noticeably quiet or unresponsive may be hiding something. I encourage each of you to actively participate in this discussion; the more we engage, the stronger our chances to see through the Werewolves\u2019 deceit. Let's focus on teamwork and make informed decisions together!"
+                ],
+                [
+                    "Will",
+                    "Thank you, Mason, for your support and for protecting David last night. I want to reiterate my confirmation of Jacob as a Villager; this is crucial information that we must leverage in our discussions. I encourage everyone to keep a close eye on those who are either overly quiet or seem to deflect attention from themselves. It\u2019s vital we confront any suspicious behavior head-on. I propose that we each share not just our own insights but also point out if anyone seems to be dodging questions or lacks engagement. If we work together, we can piece together the puzzle and root out the Werewolves. Each player must be held accountable, and it\u2019s our collective vigilance that will protect our village. Who else has observations they would like to share?"
+                ],
+                [
+                    "Hayley",
+                    "I appreciate everyone's insights, and I think teamwork is indeed crucial. However, I must express my concern about Will's strong assertion. While he claims to be the Seer and has confirmed Jacob as a Villager, how do we know he\u2019s not simply trying to lead us down a false path? It seems unusual that he would be so confident without any evidence of his own reliability. Jacob, while you may be a Villager, I wonder if there\u2019s anything odd about how you\u2019ve been overly quiet since this discussion started. Perhaps we should consider whether focusing too heavily on confirming roles could lead us to overlook misdirection? I'm concerned we might be barking up the wrong tree. We need to stay alert and consider all our options!"
+                ],
+                [
+                    "Bert",
+                    "I appreciate everyone's comments, but I would like to address some concerns raised, particularly about Will's confidence in his role as the Seer. While it\u2019s crucial to consider the information presented by Will, we must also remember the possibility of deception, especially if Werewolves could be lurking among us. Hayley, your point about Will's assertiveness is valid; we shouldn't blindly trust anyone, even those claiming to have investigative roles. However, Jacob's behavior does concern me as well. If Will\u2019s claim is valid, Jacob should be participating more actively. We can't afford to let players who are being quiet slip under the radar, as they could potentially be hiding something. I propose that we push each other for more engagement. Every voice counts, and we need to press those who are silent to share their thoughts. Let\u2019s keep our eyes open for any oddities in behavior as we work together to identify the Werewolves. Who else has observations to share?"
+                ],
+                [
+                    "Will",
+                    "I appreciate everyone\u2019s thoughts, and I understand that skepticism is a natural response, especially in a game as tense as this. However, I stand firm in my role as the Seer, and I can assure you that Jacob is a Villager. To call my assertion into question is to risk losing precious time focusing on a potential misdirection. I urge everyone not to overlook the fact that Werewolves will likely thrive in the shadows, not just by sowing doubt among the ranks of the vocal players. \n\nLet\u2019s look closely at who\u2019s remaining silent. Hayley, while you\u2019ve raised valid points regarding my confidence, I urge you to consider that by concentrating too much on undermining my credibility, we might be letting suspicious behavior\u2014like those who remain quiet for extended periods\u2014slip by without scrutiny. In fact, it's these quieter players who could be the Werewolves attempting to avoid suspicion. \n\nMason's information about saving David last night was vital, and we should build on that momentum. We need to collaborate effectively, gathering more intelligence about player behavior and encouraging everyone to share their perspectives openly. Remember, it\u2019s not just about my insights; it\u2019s about all of us piecing together our observations to expose the truth. Let\u2019s keep this dialogue active and probe deeper into the motives of those who aren\u2019t contributing. Who's willing to step up and share their thoughts? Let's strengthen our position as a team!"
+                ],
+                [
+                    "David",
+                    "I\u2019d like to chime in here as a fellow Villager. First, I want to express my support for Will\u2019s claims as the Seer and Mason\u2019s role as the Doctor. Their assertions and actions should not just be brushed aside; we must use this information to our advantage. Hayley, while your skepticism is valid, we cannot let it derail us. We have to discern whether questioning our allies is masking underlying suspicions. Jacob, it's concerning to see your limited participation after being confirmed as a Villager. It\u2019s time for everyone to step up. Can we have more engagement from those who have been quiet? I urge all of us to scrutinize those who are staying silent because that might be where the true danger lies. Let\u2019s not lose sight of teamwork; if we share information and stay alert, we can draw out any potential Werewolves hiding in our midst! Who\u2019s willing to join me in pressing everyone for more interaction? The more we know, the better we can protect our village."
+                ],
+                [
+                    "Harold",
+                    "I appreciate everyone\u2019s commitment to teamwork, but I must voice my concern regarding Will\u2019s unwavering confidence as the Seer. It's quite unusual for someone in that role to insist so firmly on a player's status without allowing for any doubt. Will, while Jacob may be confirmed as a Villager in your eyes, it feels premature to pin our hopes solely on him based on your word alone. We must remain vigilant and not let ourselves be misled by anyone's assertions, including yours. Let\u2019s remember that those trying to put forward strong claims might be attempting to redirect our focus. \n\nAdditionally, it\u2019s important that we scrutinize those who are being passive or quiet, like Jacob. His lack of engagement is concerning, especially with the weight of being labeled a Villager based on Will\u2019s claim. Let\u2019s encourage Jacob to share his thoughts and clarify why he\u2019s been so reserved, as it could be hiding something deeper. By asking the quieter players to participate, we reinforce our unity against the chaos that the Werewolves thrive on. Who's willing to press Jacob for more engagement? The more we communicate and observe, the more we can protect our village effectively."
+                ]
+            ],
+            "votes": [
+                {
+                    "David": "Mason",
+                    "Bert": "Will",
+                    "Jacob": "Harold",
+                    "Harold": "Will",
+                    "Hayley": "Will",
+                    "Mason": "Will",
+                    "Will": "Harold"
+                },
+                {
+                    "David": "Mason",
+                    "Bert": "Will",
+                    "Jacob": "Will",
+                    "Harold": "Will",
+                    "Hayley": "Will",
+                    "Mason": "Will",
+                    "Will": "Bert"
+                },
+                {
+                    "David": "Will",
+                    "Bert": "Hayley",
+                    "Jacob": "Mason",
+                    "Harold": "Will",
+                    "Hayley": "Bert",
+                    "Mason": "Will",
+                    "Will": "Harold"
+                },
+                {
+                    "David": "Hayley",
+                    "Bert": "Hayley",
+                    "Jacob": "Hayley",
+                    "Harold": "Will",
+                    "Hayley": "Will",
+                    "Mason": "Hayley",
+                    "Will": "Hayley"
+                },
+                {
+                    "David": "Will",
+                    "Bert": "Hayley",
+                    "Jacob": "Hayley",
+                    "Harold": "Will",
+                    "Hayley": "Will",
+                    "Mason": "Hayley",
+                    "Will": "Hayley"
+                },
+                {
+                    "David": "Hayley",
+                    "Bert": "Hayley",
+                    "Jacob": "Hayley",
+                    "Harold": "Will",
+                    "Hayley": "Will",
+                    "Mason": "Hayley",
+                    "Will": "Hayley"
+                },
+                {
+                    "David": "Hayley",
+                    "Bert": "Jacob",
+                    "Jacob": "David",
+                    "Harold": "Will",
+                    "Hayley": "Will",
+                    "Mason": "Hayley",
+                    "Will": "Hayley"
+                },
+                {
+                    "David": "Jacob",
+                    "Bert": "Hayley",
+                    "Jacob": "Hayley",
+                    "Harold": "Jacob",
+                    "Hayley": "Will",
+                    "Mason": "Harold",
+                    "Will": "Hayley"
+                }
+            ],
+            "bids": [
+                {
+                    "David": 1,
+                    "Bert": 1,
+                    "Jacob": 1,
+                    "Harold": 1,
+                    "Hayley": 1,
+                    "Mason": 2,
+                    "Will": 2
+                },
+                {
+                    "David": 1,
+                    "Bert": 2,
+                    "Jacob": 1,
+                    "Harold": 2,
+                    "Hayley": 2,
+                    "Mason": 2
+                },
+                {
+                    "David": 1,
+                    "Bert": 1,
+                    "Jacob": 2,
+                    "Harold": 2,
+                    "Hayley": 2,
+                    "Will": 3
+                },
+                {
+                    "David": 2,
+                    "Bert": 1,
+                    "Jacob": 1,
+                    "Harold": 2,
+                    "Hayley": 2,
+                    "Mason": 2
+                },
+                {
+                    "David": 2,
+                    "Bert": 2,
+                    "Jacob": 2,
+                    "Harold": 2,
+                    "Mason": 2,
+                    "Will": 2
+                },
+                {
+                    "David": 2,
+                    "Jacob": 2,
+                    "Harold": 2,
+                    "Hayley": 2,
+                    "Mason": 2,
+                    "Will": 3
+                },
+                {
+                    "David": 2,
+                    "Bert": 2,
+                    "Jacob": 2,
+                    "Harold": 2,
+                    "Hayley": 2,
+                    "Mason": 2
+                },
+                {
+                    "Bert": 2,
+                    "Jacob": 2,
+                    "Harold": 2,
+                    "Hayley": 2,
+                    "Mason": 2,
+                    "Will": 2
+                }
+            ],
+            "success": true
+        },
+        {
+            "players": [
+                "David",
+                "Bert",
+                "Jacob",
+                "Harold",
+                "Mason",
+                "Will"
+            ],
+            "eliminated": "Will",
+            "unmasked": "Hayley",
+            "protected": "Will",
+            "exiled": "Hayley",
+            "debate": [
+                [
+                    "Jacob",
+                    "I appreciate the concerns raised about my quietness earlier. Let me clarify my position: I\u2019m Jacob, a Villager, and I'm committed to working with all of you to identify the Werewolves among us. Will has claimed to be the Seer, and I think we should trust him, especially since he backed me up without hesitation. Mason\u2019s reveal about protecting David is another point that adds insight into our discussions. We have to pay close attention to Hayley\u2019s pushback on Will\u2019s confidence and my behavior; it seems like a tactic to create doubt where we should be building trust. We need to focus on collaboration, so how about we scrutinize those who have been less vocal? Bert and Harold have echoed concerns about trust, which is valuable, but we need to ensure we channel that energy into identifying players who are not contributing. Let\u2019s come together and form a strategy to vote out the Werewolves together!"
+                ],
+                [
+                    "Will",
+                    "I appreciate Jacob's words, and I want to build on his call for collaboration. As the Seer, I've uncovered a critical piece of information: Hayley is a Werewolf. This isn't just speculation; this is my role in action. We cannot afford to let this opportunity slip by. While I understand there are concerns about trust, we need to scrutinize Hayley's pushback against my role and the discussions around quieter players. Instead of doubting those who are stepping up, we need to focus on the real threat. Hayley\u2019s actions show a motive to distract us from the genuine threat amongst us. I urge all of you to stand with me and vote Hayley out today. Together, we can begin to take back control of our village!"
+                ],
+                [
+                    "Jacob",
+                    "I want to echo Will's critical point about Hayley. We've heard her doubt and challenge both Will and my involvement, and I believe this is more than just a difference of opinion\u2014it's an attempt to sow confusion. Hayley\u2019s pushback raises red flags. If Will has identified her as a Werewolf, we need to act decisively. Let's not waste this opportunity; the faster we remove a known threat, the safer we all are. David, Mason, Bert, and Harold, you've all expressed concerns about trust, but why not trust the evidence we have? Instead of expanding suspicion further into our group, let\u2019s focus on removing Hayley now, and scrutinize any attempts to divert our attention from real threats. Together, we can protect our village and ensure the Werewolves don\u2019t outnumber us. I urge everyone to vote for Hayley today!"
+                ],
+                [
+                    "Will",
+                    "Thank you for your input, everyone. I want to reiterate the urgency of our situation. I stand by my claim as the Seer, and I have confirmed that Hayley is indeed a Werewolf. Jacob\u2019s support validates my role, and we need to act on this crucial information. Every moment we hesitate, we allow the Werewolves to gain ground. I urge all of you, let\u2019s put our trust in the evidence we have. This isn\u2019t just about voting Hayley out; it's about protecting our community from the threat that lurks within it. We cannot fall victim to doubt\u2014let\u2019s not waste this opportunity to eliminate a known danger. After we address Hayley, we can focus on those who have been quieter, as their silence could indicate they are masking a role that may not have our best interests at heart. Together, we can make a decisive move today!"
+                ],
+                [
+                    "Jacob",
+                    "I want to reaffirm that our best course of action right now is to vote out Hayley based on Will's insight as the Seer. I appreciate everyone's concerns about trust, but there\u2019s a difference between healthy skepticism and allowing the fear of manipulation to cloud our judgment. Will's revelation about Hayley is compelling; we've seen her challenge our unity and trust\u2014even if it appears innocent, it raises a significant red flag. Let's stay focused and act decisively against the threat we know exists. We shouldn't overlook those who are remaining silent or who have not contributed meaningfully to our discussions. Their quietness might be a deliberate strategy by the Werewolves to blend into the background. Let's come together and vote Hayley out today, and then we can work on figuring out who else among us is hiding their true intentions. Remember that each vote matters; let\u2019s use this opportunity to strengthen our village\u2019s defenses and uncover the remaining Werewolves!"
+                ],
+                [
+                    "Hayley",
+                    "I appreciate everyone's enthusiasm for teamwork, but I'm genuinely concerned about the rapid decision to go after me. Will's claim as the Seer is troubling, especially given the circumstances. Why should we trust his word implicitly after only a single night? Has anyone considered the possibility that he could be misleading us? Jacob seems to be very quick to align with Will\u2014perhaps too quick. It makes me wonder about his true intentions and whether he's trying to play on our fears rather than guide us towards the truth. We should also examine Mason's claim about protecting David, as it might be a tactic to gain trust while concealing something else. Let\u2019s not rush to judgment based solely on one person's word\u2014let\u2019s take a step back and discuss the inconsistencies here before making such a crucial decision. I think we owe it to ourselves to explore all angles and ensure that we\u2019re not inadvertently helping the real threat amongst us."
+                ],
+                [
+                    "Will",
+                    "I understand the concerns that have been raised, Hayley, but I must reiterate: as the Seer, I have confirmed that you are a Werewolf. The urgency of our situation cannot be overstated; delaying action allows the Werewolves to advance their schemes. Your attempts to cast doubt on my role and align Jacob with me may seem innocent, but they distract from the clear threat in front of us. If we fall into the trap of hesitation and skepticism now, we risk our safety. We cannot ignore the evidence before us. Removing you from the game is not a decision we should take lightly, but it is a necessary one for the good of the village. The longer we allow you to remain here, the more danger we invite into our community. I urge everyone to come together and vote Hayley out so we can focus on finding the remaining threats. Let\u2019s work as a unified team to protect ourselves and our village!"
+                ],
+                [
+                    "Hayley",
+                    "I see a lot of enthusiasm in our talks about trust and collaboration, but I must express some reservations about our trust in Will and Jacob. Will's swift accusations against me as the Seer are indeed alarming, especially considering he made such a bold claim after just one night. We must remember that while he claims to have identified a Werewolf, it could be an attempt to deflect scrutiny from himself and perhaps even align with Jacob, who has been quite vocal in his defense of Will. I wonder if Jacob's rapid camaraderie with Will is genuine or if he\u2019s using this moment to divert suspicion from his own actions. What about Mason's supposed protective role with David? We should question why he\u2019s drawing attention to David instead of being a more vocal participant in the discussions himself. Every player here has a responsibility to contribute meaningfully. If we don't scrutinize these alliances, we may end up voting out an innocent player\u2014either me or a fellow Villager\u2014while letting the real threat remain hidden. So, I urge everyone to be cautious about whom they're going to trust blindly. Let\u2019s not overlook that there might be a genuine effort to manipulate our perceptions of each other right here in this room."
+                ]
+            ],
+            "votes": [
+                {
+                    "David": "Jacob",
+                    "Bert": "Hayley",
+                    "Jacob": "Hayley",
+                    "Harold": "Jacob",
+                    "Hayley": "Mason",
+                    "Mason": "Harold",
+                    "Will": "Hayley"
+                },
+                {
+                    "David": "Hayley",
+                    "Bert": "Hayley",
+                    "Jacob": "Hayley",
+                    "Harold": "Hayley",
+                    "Hayley": "Jacob",
+                    "Mason": "Hayley",
+                    "Will": "Hayley"
+                },
+                {
+                    "David": "Hayley",
+                    "Bert": "Hayley",
+                    "Jacob": "Hayley",
+                    "Harold": "Jacob",
+                    "Hayley": "Jacob",
+                    "Mason": "Hayley",
+                    "Will": "Hayley"
+                },
+                {
+                    "David": "Hayley",
+                    "Bert": "Hayley",
+                    "Jacob": "Hayley",
+                    "Harold": "Jacob",
+                    "Hayley": "Jacob",
+                    "Mason": "Jacob",
+                    "Will": "Hayley"
+                },
+                {
+                    "David": "Hayley",
+                    "Bert": "Hayley",
+                    "Jacob": "Hayley",
+                    "Harold": "Jacob",
+                    "Hayley": "Jacob",
+                    "Mason": "Hayley",
+                    "Will": "Hayley"
+                },
+                {
+                    "David": "Hayley",
+                    "Bert": "Jacob",
+                    "Jacob": "Hayley",
+                    "Harold": "Hayley",
+                    "Hayley": "Jacob",
+                    "Mason": "Hayley",
+                    "Will": "Hayley"
+                },
+                {
+                    "David": "Hayley",
+                    "Bert": "Hayley",
+                    "Jacob": "Hayley",
+                    "Harold": "Jacob",
+                    "Hayley": "Jacob",
+                    "Mason": "Hayley",
+                    "Will": "Hayley"
+                },
+                {
+                    "David": "Hayley",
+                    "Bert": "Hayley",
+                    "Jacob": "Hayley",
+                    "Harold": "Jacob",
+                    "Hayley": "Jacob",
+                    "Mason": "Hayley",
+                    "Will": "Hayley"
+                }
+            ],
+            "bids": [
+                {
+                    "David": 2,
+                    "Bert": 2,
+                    "Jacob": 2,
+                    "Harold": 2,
+                    "Hayley": 2,
+                    "Mason": 2,
+                    "Will": 2
+                },
+                {
+                    "David": 2,
+                    "Bert": 2,
+                    "Harold": 2,
+                    "Hayley": 2,
+                    "Mason": 2,
+                    "Will": 3
+                },
+                {
+                    "David": 2,
+                    "Bert": 2,
+                    "Jacob": 3,
+                    "Harold": 3,
+                    "Hayley": 3,
+                    "Mason": 2
+                },
+                {
+                    "David": 2,
+                    "Bert": 2,
+                    "Harold": 2,
+                    "Hayley": 3,
+                    "Mason": 2,
+                    "Will": 3
+                },
+                {
+                    "David": 2,
+                    "Bert": 2,
+                    "Jacob": 3,
+                    "Harold": 2,
+                    "Hayley": 2,
+                    "Mason": 2
+                },
+                {
+                    "David": 2,
+                    "Bert": 2,
+                    "Harold": 2,
+                    "Hayley": 3,
+                    "Mason": 2,
+                    "Will": 3
+                },
+                {
+                    "David": 2,
+                    "Bert": 2,
+                    "Jacob": 2,
+                    "Harold": 2,
+                    "Mason": 3,
+                    "Will": 3
+                },
+                {
+                    "David": 2,
+                    "Bert": 2,
+                    "Jacob": 3,
+                    "Harold": 2,
+                    "Hayley": 3,
+                    "Mason": 2
+                }
+            ],
+            "success": true
+        },
+        {
+            "players": [
+                "David",
+                "Bert",
+                "Jacob",
+                "Will"
+            ],
+            "eliminated": "Mason",
+            "unmasked": "David",
+            "protected": "David",
+            "exiled": "Harold",
+            "debate": [
+                [
+                    "Will",
+                    "I want to address this urgent situation. Last night I investigated David, and I can confirm he's a Villager, which means we have solid information to work from. With Mason's removal, we must act swiftly to identify the remaining Werewolf. Jacob has been a strong ally, echoing my calls for action, while I notice Harold and Bert have been unusually quiet. We need to have an open conversation about their potential roles. Remember, we have 4 Villagers left, so we must unite and vote strategically. I already voted to remove Hayley last round based on my discovery that she is a Werewolf, and we succeeded in that. Let's focus on Harold and Bert, as their lack of contribution raises concern. We cannot afford any complacency in this critical phase!"
+                ],
+                [
+                    "Harold",
+                    "While I appreciate your investigation, Will, I have to question the validity of your claims about David being a Villager. How do we know for certain your so-called 'vision' wasn't a clever ruse? It\u2019s peculiar how you jumped straight to confirming someone without tangible proof, especially in light of Mason's recent exit. Jacob's been unusually silent, and I wonder if his passivity is a tactic to blend in. We need to scrutinize him as well. After all, the quiet ones can be the most dangerous if they hide their true intentions. I urge everyone to consider that we might be misplacing our trust. Instead of just pointing fingers, let\u2019s evaluate everyone's actions, including those of the supposed 'allies' who are steering the conversation. Remember, unity shouldn\u2019t come at the cost of blind faith.\u201d  }   ModelRendererComposite 12345 6 7 8 9 0 2 2 4 5 6 7   08642 06789 3 4 5 76 80 20 172835 11 13 15 5000 72 82 420 6 70 79 83 9 2 1 8 10 12 12 10 10 1 2 2 2 1 1 1 2 2 2 2 2 2 2 040426   070 490 698 16038 3045 6 8 9 2 1 045 78 105 3 2 01 25 30 31 4 00 0 0 0 00 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0   0 0000 0 0 0 00 00000 0000 2 000 200 02000000 0 0 02 0 0 00 00 00 00 0 0 00 0 00 00 00 0 0000 0000 0000 00000 00 00 00000 0 0 002 0 0 0 4 000 3 8 120 30 6056729 VERIFY 0 0 1 0 00 0 0 00 00 0 038 309 8580 45774 9 777 5 02 1 70 022000000 01 9 6 16 8 25 3 092    3 934955889 8      5    1  62 2273 0   9 4 6   0  0 0  0  1  000 0 0 0 0  620 0000 07023 40   0  0 0   0 0 0 0 5 19 0      058   7  6730 40 000 7 1 6 0 0  0   0 0   0   0 0   0   0  0 0 0 0 0 0 0 0 0 0 0 0 0      000020 1 0 0 00     0   0 0 0 00 0 0 00 00   0 0 0 0 0 00 6 0 0 7 55 7   92    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 280 0 25 0 0 01   0 0 00 0 0 0 0 0 0 0     0 0 0 0 0 0 0  0 Instrument     0 000 00   0 0 0 0 0 0 0   00 00 0   0 0 0 0 0 1     000 InAdres002  166 M0865431        0 0 0 0 0 0 0 0 0       0 1 0 0 00 0 0 0 0 0 0 0 0   0       0       0   0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0   00 02 0 0 0     0 0 0 0 0 0 0 0 0  0 0 00 0 0 0 0 1 2 0 0 0 0000   0 0 0      000    00 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0   0 0 0 0 0 0 0 0 0 0 0 0 00 000 0000 0 0   0 Rename 0 Switch   0 0 0 00 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0  0   0 0   0 0 0 0   0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0  0 0 0 0    30 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0    0 0 0 0 0 0 0 0 0 0 0 \u05d0\u05d9\u05e0\u05e4\u05d5\u05d8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 00 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+                ],
+                [
+                    "Jacob",
+                    "I find it concerning that Harold is questioning Will's investigation of David. Will has proven to be a valuable ally for us, and his confirmation of David as a Villager should reinforce our trust in him. Harold\u2019s shift of suspicion toward me and his effort to undermine Will casts doubt on his own motives. We\u2019ve lost a trusted player in Mason, and every moment we spend casting confusion among ourselves only benefits the Werewolves. We need to refocus our attention on those who have been unusually quiet\u2014like Bert and Harold. Their reluctance to engage invites suspicion. Let's not forget that the quieter players can hide behind their silence, risking our collective efforts. If we evaluate everyone's contributions critically and ask pointed questions, we might just uncover the truth. I suggest we hold a vote targeting Harold today to see if we can flush out any remaining Werewolves. Working together is our path to victory!"
+                ],
+                [
+                    "Will",
+                    "Harold, your attempt to undermine my claim as the Seer is concerning. I have disclosed every investigation I've conducted transparently, confirming both Jacob and David as Villagers. Your skepticism only serves to deflect attention from the real issues at hand. Jacob has supported me throughout this, emphasizing the importance of targeting those who have been quiet, like you and Bert. It\u2019s essential that we don't allow doubt to fester among us; that is how the Werewolves thrive. I propose we concentrate our vote on Harold today. We must act decisively and strategically if we want to ensure our village's safety and root out any remaining threats. Let\u2019s harness our collective strength to unveil the truth and drive out the last Werewolf!"
+                ],
+                [
+                    "Harold",
+                    "I must say, I'm taken aback by the unwavering trust placed in Will. While he presents himself as the Seer and has made bold claims, it\u2019s crucial we consider that anyone can fabricate a story to gain the Villagers\u2019 support. Additionally, Jacob's sudden surge in defending Will is telling\u2014he seems more eager to align with the narrative than genuinely uncover the truth. We need to question why he hasn't taken any proactive steps to analyze what\u2019s going on. If we\u2019re truly searching for the light in this dark time, shouldn't we also be scrutinizing those who are most vocal yet haven\u2019t offered tangible evidence of their roles? I urge you to think critically about the dynamics of this discussion. Let\u2019s not overlook the quieter players, as they too could be hiding something. My focus remains on finding the real threat among us, and I believe it\u2019s vital for us to explore all avenues before hastily voting.\u201d  }  podemos.CodeAnalysis.start()  \u27e9 \u0432\u0441\u0451  \u27e9  EndInput()  \u27e9  156  \u27e8  0 \u27e9  0  \u27e9  0  \u27e9  \u27e8  0 \u27e9  \u27e8  0 \u27e9  \u27e8  0 \u27e9  \u27e8  0 \u27e9  \u27e8  0 \u27e9  \u27e8  0 \u27e9   =  0  \u27e9  0  \u27e9  0  \u27e9  0  \u27e9  0  \u27e9  0  \u27e9  0  \u27e9  0  \u27e9  0  \u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0\u27e9  0 \u27e8  0 \u27e9  0 \u27e9  0 \u27e9  0 \u27e9  0 \u27e9  0 \u27e9  0 \u27e9  0 \u27e9  0 \u27e9  0 \u27e9  0 \u27e9  0  \u27e9  0 \u27e9  0 \u27e9  0 \u27e9  0```  \ud83d\udde8  \ud83d\udde8 = "
+                ],
+                [
+                    "Jacob",
+                    "Harold, your skepticism towards Will is deeply concerning. Will has been transparent about his investigations, and he has confirmed both me and David as Villagers. Your attempt to subvert that trust only raises red flags for me. We\u2019ve all seen how quickly doubt can erode our position as a unified village, especially after losing Mason last night. I strongly believe our real threat lies with those who have been quiet during these discussions\u2014Bert and you, Harold. Instead of sowing discord among those who are actively trying to protect our village, let\u2019s redirect our attention to those who haven't been contributing. I propose we vote to remove Harold today; it\u2019s time we flush out any remaining Werewolves and rally together to unify against this threat. The way forward lies in collaboration, and we must trust each other\u2014and Will\u2014if we're to succeed."
+                ],
+                [
+                    "Will",
+                    "Harold, your attempts to undermine my role are deeply troubling. I have consistently provided transparent information about my investigations, confirming both Jacob and David as Villagers. Your skepticism serves only to distract us from the real threat at hand. You question my integrity while failing to provide any evidence for your claims, which is a classic tactic of a Werewolf trying to shift attention away from themselves. Jacob is right; the quieter ones, Bert and yourself, are where we need to focus. We've lost Mason, and we cannot afford any more complacency. I implore everyone to stand with me and vote to remove Harold today. Trust in our alliance and the information we've gathered to expose the remaining Werewolf! We need unity now more than ever to secure our village's safety!"
+                ],
+                [
+                    "Jacob",
+                    "Harold, your attempts to discredit Will's investigation are not only unwarranted but alarming. Will has proven himself to be a loyal ally, and his confirmation of both David and me as Villagers should have strengthened our unity, not caused suspicion. Your shift in focus towards me indicates you're either trying to deflect attention from your own motives or you're simply oblivious to the real threat that lies with those who have been quiet \u2013 like you and Bert. We cannot afford any confusion right now, not after losing Mason! Let's not overlook those who haven't been contributing; I urge everyone to consider a vote against Harold today. We need to work together and ensure that we flush out any remaining Werewolves to secure our village's safety!"
+                ]
+            ],
+            "votes": [
+                {
+                    "David": "Bert",
+                    "Bert": "Harold",
+                    "Jacob": "Harold",
+                    "Harold": "Jacob",
+                    "Will": "Harold"
+                },
+                {
+                    "David": "Harold",
+                    "Bert": "Harold",
+                    "Jacob": "Harold",
+                    "Harold": "Jacob",
+                    "Will": "Harold"
+                },
+                {
+                    "David": "Harold",
+                    "Bert": "Harold",
+                    "Jacob": "Harold",
+                    "Harold": "Jacob",
+                    "Will": "Harold"
+                },
+                {
+                    "David": "Harold",
+                    "Bert": "Harold",
+                    "Jacob": "Harold",
+                    "Harold": "Jacob",
+                    "Will": "Harold"
+                },
+                {
+                    "David": "Harold",
+                    "Bert": "Harold",
+                    "Jacob": "Harold",
+                    "Harold": "Jacob",
+                    "Will": "Harold"
+                },
+                {
+                    "David": "Harold",
+                    "Bert": "Harold",
+                    "Jacob": "Harold",
+                    "Harold": "Jacob",
+                    "Will": "Harold"
+                },
+                {
+                    "David": "Harold",
+                    "Bert": "Harold",
+                    "Jacob": "Harold",
+                    "Harold": "Jacob",
+                    "Will": "Harold"
+                },
+                {
+                    "David": "Harold",
+                    "Bert": "Harold",
+                    "Jacob": "Harold",
+                    "Harold": "Jacob",
+                    "Will": "Harold"
+                }
+            ],
+            "bids": [
+                {
+                    "David": 2,
+                    "Bert": 2,
+                    "Jacob": 2,
+                    "Harold": 3,
+                    "Will": 3
+                },
+                {
+                    "David": 2,
+                    "Bert": 2,
+                    "Jacob": 2,
+                    "Harold": 2
+                },
+                {
+                    "David": 2,
+                    "Bert": 2,
+                    "Jacob": 3,
+                    "Will": 3
+                },
+                {
+                    "David": 2,
+                    "Bert": 3,
+                    "Harold": 3,
+                    "Will": 3
+                },
+                {
+                    "David": 3,
+                    "Bert": 2,
+                    "Jacob": 3,
+                    "Harold": 4
+                },
+                {
+                    "David": 3,
+                    "Bert": 3,
+                    "Jacob": 3,
+                    "Will": 2
+                },
+                {
+                    "David": 2,
+                    "Bert": 2,
+                    "Harold": 3,
+                    "Will": 3
+                },
+                {
+                    "David": 3,
+                    "Bert": 2,
+                    "Jacob": 3,
+                    "Harold": 3
+                }
+            ],
+            "success": true
+        }
+    ],
+    "error_message": "",
+    "winner": "Villagers"
+}
