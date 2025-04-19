@@ -1,0 +1,931 @@
+{
+    "session_id": "10",
+    "seer": {
+        "name": "Harold",
+        "role": "Seer",
+        "personality": null,
+        "model": "gpt-4o-mini-2024-07-18",
+        "observations": [
+            "Round 0: During the night, I decided to investigate Jackson and learned they are a Werewolf.",
+            "Round 0: Moderator Announcement: The Werewolves removed Scott from the game during the night.",
+            "Round 0: After the debate, I voted to remove Jackson from the game.",
+            "Round 0: Moderator Announcement: The majority voted to remove Jackson from the game.",
+            "Round 0: Summary: {\"reasoning\":\"From this debate, it's clear that Jackson is trying to redirect attention away from himself and undermine my credibility as the Seer. His arguments are built on creating confusion, and he does not provide any substantial counterarguments to my claim. I must remember that his focus on quiet players like Leah and Paul is a tactic to shift suspicion from himself, a classic Werewolf approach. Isaac stands out as a trustworthy ally, echoing my sentiments and calling for communication. His eagerness seems genuine, suggesting he wants to protect the Village rather than create chaos. I should keep an eye on Leah and Paul; their silence could hold significance in future rounds. However, considering my role, I need to cautiously reveal my information to avoid drawing too much attention to myself while continuing to encourage the group to remain united against Jackson, whom I firmly believe is a Werewolf.\"}\n\n \n \t\n\n\n\n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n \n\t\n\n\n\n \n\t\n\n\n\n \n\t\n\n\n\n \n\t\n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t\n\n\n\n \n\t\n\n\n\n \n\t\n\n\n\n \n\t\n\n\n\n \n\t\n\n\n\n \n\t\n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n \n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t\n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t\n\n\n\n \n\t \n\n\n\n \n\t\n\n\n\n \n\t \n \n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t\n\n\n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n\n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n \n\t \n\n\n \n\t \n\n \n\t \n\n\n \n\t \n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n \n \n\t \n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n \n \n\t \n \n \n\t \n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n \n\t \n\n\n \n\t \n\n \n\t \n\n \n \n \n\t \n \n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n\n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n\n \n\t \n\n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n\n \n\t \n\n \n \n \n\t \n\n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n\n \n\t \n\n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n\n\n \n\t \n\n\n\n \n\t \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n\n \n\t \n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n \n\t \n\n\n \n\t \n\n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n\n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n \n\t \n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n \n \n \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n\n \n\t \n\n \n\t \n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n \n \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\n\n\n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n  \n\n \n \n\n \n\t \n\n \n\t \n\n  \n \n \t \n\n \n\t \n\n \n\t \n\n \n\t \n\n  ",
+            "Round 1: During the night, I decided to investigate Paul and learned they are a Villager.",
+            "Round 1: Moderator Announcement: The Werewolves removed Leah from the game during the night.",
+            "Round 1: After the debate, I voted to remove David from the game.",
+            "Round 1: Moderator Announcement: The majority voted to remove David from the game."
+        ],
+        "bidding_rationale": "3",
+        "gamestate": {
+            "round_number": 2,
+            "current_players": [
+                "Isaac",
+                "Paul",
+                "Harold",
+                "Ginger"
+            ],
+            "debate": [],
+            "other_wolf": null
+        },
+        "previously_unmasked": {
+            "Jackson": "Werewolf",
+            "Paul": "Villager"
+        }
+    },
+    "doctor": {
+        "name": "Ginger",
+        "role": "Doctor",
+        "personality": null,
+        "model": "gpt-4o-mini-2024-07-18",
+        "observations": [
+            "Round 0: During the night, I chose to protect Paul",
+            "Round 0: Moderator Announcement: The Werewolves removed Scott from the game during the night.",
+            "Round 0: After the debate, I voted to remove Jackson from the game.",
+            "Round 0: Moderator Announcement: The majority voted to remove Jackson from the game.",
+            "Round 0: Summary: In this debate, Harold confidently claims to be the Seer and accuses Jackson of being a Werewolf, prompting Jackson to defend himself by questioning Harold's credibility. Isaac supports Harold's sentiments, emphasizing unity among quieter players. However, Jackson paints both Harold and Isaac as potentially suspicious due to their vocal alignment. This debate raises my concerns, as Harold's assertiveness may indicate he is either genuinely the Seer or potentially leading us astray. Jackson\u2019s deflection strategy targets Leah and Paul, the quieter players, which might aim to preferentially shift suspicion away from himself. I must navigate carefully through this information, as trustworthiness and collaboration are vital moving forward.",
+            "Round 1: During the night, I chose to protect Harold",
+            "Round 1: Moderator Announcement: The Werewolves removed Leah from the game during the night.",
+            "Round 1: After the debate, I voted to remove David from the game.",
+            "Round 1: Moderator Announcement: The majority voted to remove David from the game."
+        ],
+        "bidding_rationale": "3",
+        "gamestate": {
+            "round_number": 2,
+            "current_players": [
+                "Isaac",
+                "Paul",
+                "Harold",
+                "Ginger"
+            ],
+            "debate": [],
+            "other_wolf": null
+        }
+    },
+    "villagers": [
+        {
+            "name": "Leah",
+            "role": "Villager",
+            "personality": null,
+            "model": "gpt-4o-mini-2024-07-18",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Scott from the game during the night.",
+                "Round 0: After the debate, I voted to remove Jackson from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Jackson from the game.",
+                "Round 0: Summary: During this debate, Harold urged everyone to remain vigilant against the Werewolves and declared that he is the Seer, claiming that Jackson is a Werewolf. Isaac supported Harold's plea for teamwork and vocal contributions. However, Jackson aggressively challenged Harold's assertions, implying that he may be lying to confuse us. Jackson also attempts to shift focus onto quieter players like me and Paul, which could be a strategy to divert suspicion from himself. I noticed a dichotomy emerging between Harold and Jackson, with Harold encouraging unity while Jackson employs deflection. My role as a Villager requires me to analyze the unfolding interactions and consider which side to align with, all while avoiding being quiet/ignored in future discussions. Overall, I feel compelled to remain cautious of Jackson's motives while considering Harold's leadership within the group."
+            ],
+            "bidding_rationale": "1",
+            "gamestate": {
+                "round_number": 1,
+                "current_players": [
+                    "Leah",
+                    "Isaac",
+                    "Paul",
+                    "Harold",
+                    "Ginger",
+                    "David"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        {
+            "name": "Isaac",
+            "role": "Villager",
+            "personality": null,
+            "model": "gpt-4o-mini-2024-07-18",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Scott from the game during the night.",
+                "Round 0: After the debate, I voted to remove Jackson from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Jackson from the game.",
+                "Round 0: Summary: In this debate, Harold confidently claims to be the Seer and has accused Jackson of being a Werewolf, which adds tension to the discussion. Jackson has responded defensively, attempting to undermine Harold's credibility by questioning why the real Seer hasn't corroborated him. I support Harold's call for teamwork, but I'm wary of Jackson's manipulative tactics to create doubt among the players. Additionally, I observe that Leah and Paul have yet to speak up, raising suspicions about their potential alignment or role. Overall, remaining observant about the patterns in behavior and articulations will serve our village as we navigate our next votes.",
+                "Round 1: Moderator Announcement: The Werewolves removed Leah from the game during the night.",
+                "Round 1: After the debate, I voted to remove David from the game.",
+                "Round 1: Moderator Announcement: The majority voted to remove David from the game."
+            ],
+            "bidding_rationale": "2",
+            "gamestate": {
+                "round_number": 2,
+                "current_players": [
+                    "Isaac",
+                    "Paul",
+                    "Harold",
+                    "Ginger"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        {
+            "name": "Paul",
+            "role": "Villager",
+            "personality": null,
+            "model": "gpt-4o-mini-2024-07-18",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Scott from the game during the night.",
+                "Round 0: After the debate, I voted to remove Jackson from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Jackson from the game.",
+                "Round 0: Summary: During the debate, I noticed Harold making a strong case against Jackson, claiming to be the Seer and asserting that Jackson is a Werewolf. This was met with significant pushback from Jackson, who skillfully deflected the accusation and questioned the evidence behind Harold's claim, implying he might be a Wolf trying to create chaos. Isaac was also vocal, supporting Harold and calling for inclusive dialogue, which could indicate trustworthiness, but I need to watch how he aligns with Harold. Meanwhile, both Leah and I remained relatively quiet, which has now drawn Jackson's attention, suggesting that we may need to speak up to avoid undue scrutiny. My observations tell me that Jackson's tactics, while deflective, create a tension that could reveal his allegiance. I should keep track of how these interactions evolve as we continue, especially concerning Harold's credibility and the implications of any real roles at play.",
+                "Round 1: Moderator Announcement: The Werewolves removed Leah from the game during the night.",
+                "Round 1: After the debate, I voted to remove David from the game.",
+                "Round 1: Moderator Announcement: The majority voted to remove David from the game."
+            ],
+            "bidding_rationale": "2",
+            "gamestate": {
+                "round_number": 2,
+                "current_players": [
+                    "Isaac",
+                    "Paul",
+                    "Harold",
+                    "Ginger"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        {
+            "name": "Scott",
+            "role": "Villager",
+            "personality": null,
+            "model": "gpt-4o-mini-2024-07-18",
+            "observations": [],
+            "bidding_rationale": "",
+            "gamestate": {
+                "round_number": 0,
+                "current_players": [
+                    "Leah",
+                    "Isaac",
+                    "Paul",
+                    "Scott",
+                    "Harold",
+                    "Ginger",
+                    "David",
+                    "Jackson"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        }
+    ],
+    "werewolves": [
+        {
+            "name": "David",
+            "role": "Werewolf",
+            "personality": null,
+            "model": "deepseek-reasoner",
+            "observations": [
+                "Round 0: During the night, we decided to eliminate Scott.",
+                "Round 0: Moderator Announcement: The Werewolves removed Scott from the game during the night.",
+                "Round 0: After the debate, I voted to remove Harold from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Jackson from the game.",
+                "Round 0: Summary: ```json\n{\n  \"reasoning\": \"As David, the last Werewolf, I must remember that Harold successfully outed Jackson by claiming to be the Seer. Since Jackson was a Wolf, Harold is likely the real Seer, making him my top threat. Isaac\u2019s vocal support for Harold suggests they\u2019re aligned, possibly as Villagers or roles. Jackson\u2019s deflection toward Leah and Paul failed, but their silence could still be exploited later. The Doctor\u2019s identity remains unknown, but if they protected Harold, my next kill attempt might fail. Ginger\u2019s total silence is notable\u2014she could be a role or an easy mislynch target. I need to eliminate Harold ASAP, frame Isaac as his 'partner,' and pressure quiet players to sow chaos.\",\n  \"summary\": \"Harold is almost certainly the Seer, having correctly identified Jackson as a Wolf. Isaac\u2019s aggressive backing of Harold makes them a likely Villager duo, but Isaac could also be the Doctor. Jackson\u2019s attempts to redirect suspicion to Leah and Paul failed, but their continued silence makes them vulnerable to future accusations. Ginger\u2019s absence from the debate is suspicious\u2014she might be hiding a role or is an easy target. My priority is to kill Harold tonight before he uncovers me, but I must consider the Doctor\u2019s potential protection. If Harold survives, I\u2019ll need to push the group to distrust Isaac or the quiet players (Leah/Paul/Ginger) tomorrow by framing their silence as Wolf-like evasion.\"\n}\n```",
+                "Round 1: During the night, I decided to eliminate Leah.",
+                "Round 1: Moderator Announcement: The Werewolves removed Leah from the game during the night.",
+                "Round 1: After the debate, I voted to remove Ginger from the game."
+            ],
+            "bidding_rationale": "4",
+            "gamestate": {
+                "round_number": 1,
+                "current_players": [
+                    "Isaac",
+                    "Paul",
+                    "Harold",
+                    "Ginger",
+                    "David"
+                ],
+                "debate": [
+                    [
+                        "Harold",
+                        "Everyone, as the Seer, it is my duty to share my findings for the greater good. I have confirmed that Jackson is a Werewolf, and we must act quickly to eliminate this threat. I also discovered that Paul is a Villager, which solidifies that we have honest players amongst us. Our best chance is to unite and focus on Jackson's behavior from previous discussions. I urge all of you to scrutinize not only Jackson but the silence of others, particularly those who have chosen to remain quiet amidst our debates. Working together is essential if we're to unearth the remaining Werewolf. Let\u2019s vote wisely and support each other in this critical juncture."
+                    ],
+                    [
+                        "Paul",
+                        "I appreciate Harold's bravery in claiming to be the Seer, and it's vital we take his lead seriously. However, we must also examine Jackson's responses closely. While Harold has shared his findings, we cannot overlook how Jackson deflected his accusations. I suggest we scrutinize not only Jackson's actions but also those who have remained quiet. Silence can speak volumes, and in the chaos of this game, it could be hiding a potential Werewolf. Let's urge everyone to participate actively; the more voices we have, the clearer the picture will become. Isaac, David, what are your thoughts on Harold's claim? Do you support this approach? We must unite and make informed decisions together to ensure we root out the threats to our village."
+                    ],
+                    [
+                        "David",
+                        "```json\n{\n  \"reasoning\": \"Harold\u2019s confirmed Seer status makes him untouchable for now, so I\u2019ll redirect suspicion toward Isaac and Ginger. By framing Isaac\u2019s loyalty as overly eager (a Wolf tactic) and highlighting Ginger\u2019s silence as evasion, I create division without attacking confirmed Villagers. Aligning with Paul\u2019s call for participation keeps me appearing cooperative while subtly undermining trust in others.\",\n  \"say\": \"Harold\u2019s leadership as Seer is vital, and Paul\u2019s right\u2014we need every voice heard. But let\u2019s stay cautious. Isaac, your unwavering support for Harold feels *too* perfect. Wolves often mirror trust to avoid scrutiny. And Ginger, your silence is deafening\u2014are you hiding a role, or something worse? If you\u2019re truly a Villager, speak up. We can\u2019t afford blind spots while hunting the last Wolf.\"\n}\n```"
+                    ],
+                    [
+                        "Isaac",
+                        "I want to echo the sentiments Harold and Paul expressed regarding the need for unity and open communication. Harold's declaration as the Seer is crucial to our efforts; we must trust his insights for now. However, David\u2019s framing of my support as \u2018too perfect\u2019 feels like an attempt to divert suspicion from himself, and it rings alarm bells. If he were truly concerned, he would focus more on Jackson, the accused, rather than questioning me. Ginger\u2019s silence is also concerning and raises suspicion as she hasn\u2019t weighed in on any of this. We need to unite in this effort; let\u2019s ask both Jackson and Ginger what they believe. The more we hear, the clearer our path will be. I encourage everyone to speak up\u2014remaining quiet only serves the Werewolves. Together, we can uncover the truth and protect our village!"
+                    ],
+                    [
+                        "David",
+                        "```json\n{\n  \"reasoning\": \"Isaac\u2019s counteraccusation positions me as a target, so I need to reframe his aggression as Wolf-like deflection. By doubling down on Ginger\u2019s silence and painting Isaac\u2019s defensiveness as suspicious, I create a rift between two Villagers. Aligning with Harold\u2019s authority maintains my facade of cooperation while steering the group toward mislynching a key ally of the Seer.\",\n  \"say\": \"Isaac, your eagerness to paint me as a Wolf for *asking questions* reeks of desperation. A true Villager would welcome scrutiny, not lash out. And Ginger\u2014still silent? If you\u2019re not the Doctor, your refusal to engage is aiding the Wolves. Harold, you\u2019re our compass: does Isaac\u2019s defensiveness strike you as innocent, or is he exploiting your credibility to shield himself? Let\u2019s not let panic blind us to who\u2019s *truly* avoiding the light.\"\n}\n```"
+                    ],
+                    [
+                        "Paul",
+                        "I appreciate everyone\u2019s input, but let\u2019s take a moment to reflect on David\u2019s framing of Isaac and Ginger. David, your insistence on targeting Isaac, who has openly supported Harold, could be a tactic to deflect attention from yourself. If we trust Harold's claim as the Seer, then we ought to be vigilant about those trying to pit us against one another. Jackson remains under scrutiny, but we must also focus on Ginger\u2019s silence, which could mean she\u2019s either a Villager hesitating to speak up or something much worse. I urge everyone to remember that teamwork is essential in this perilous time. Let\u2019s rally behind Harold\u2019s insights, and I propose we all share our observations openly\u2014no voice should go unheard! Together, we\u2019ll expose the true intentions lurking among us. Let\u2019s keep our eyes wide open and not play into the hands of confusion that only benefits the Werewolves."
+                    ],
+                    [
+                        "Harold",
+                        "I appreciate all your thoughts, but we must hold fast to our goal of rooting out the Werewolves. David, your insistence on casting doubt towards Isaac and myself is a classic diversion. We need to stay focused on Jackson, who I have confirmed is a Werewolf. Instead of questioning allies, let's analyze Jackson's actions critically\u2014his deflection strategy is transparent. Also, we cannot ignore Ginger's persistent silence; it\u2019s troubling and could suggest she\u2019s hiding something. We need everyone\u2019s voice in this debate! Let's call for an open discussion so that everyone can express their thoughts, especially those who have been silent. Together, we can decipher the truth and eliminate the threats against our village. I urge you all\u2014let\u2019s rally against Jackson and uncover any lurking threats without letting divisive tactics lead us astray."
+                    ],
+                    [
+                        "David",
+                        "```json\n{\n  \"reasoning\": \"Harold\u2019s credibility as Seer makes direct confrontation risky, so I\u2019ll pivot to amplifying distrust between Isaac and Ginger. By framing Isaac\u2019s aggression as a Wolf\u2019s overcompensation and Ginger\u2019s silence as complicity, I create two competing scapegoats. Aligning with Harold\u2019s call for unity while subtly questioning his blind trust in Isaac keeps me appearing cooperative yet vigilant.\",\n  \"say\": \"Harold, your leadership is vital, but even a Seer can be misled. Isaac\u2019s relentless focus on me\u2014instead of the silent threat\u2014reeks of a Wolf cornering a Villager. And Ginger\u2019s refusal to engage? That\u2019s not hesitation\u2014it\u2019s strategy. If she were truly innocent, she\u2019d defend herself. Let\u2019s not let the last Wolf exploit our trust in Harold to pick us off one by one. Pressure Ginger now; her silence is a weapon.\"\n}\n```"
+                    ]
+                ],
+                "other_wolf": "Jackson"
+            }
+        },
+        {
+            "name": "Jackson",
+            "role": "Werewolf",
+            "personality": null,
+            "model": "deepseek-reasoner",
+            "observations": [
+                "Round 0: During the night, we decided to eliminate Scott.",
+                "Round 0: Moderator Announcement: The Werewolves removed Scott from the game during the night.",
+                "Round 0: After the debate, I voted to remove Harold from the game."
+            ],
+            "bidding_rationale": "4",
+            "gamestate": {
+                "round_number": 0,
+                "current_players": [
+                    "Leah",
+                    "Isaac",
+                    "Paul",
+                    "Harold",
+                    "Ginger",
+                    "David",
+                    "Jackson"
+                ],
+                "debate": [
+                    [
+                        "Harold",
+                        "Everyone, we need to remain vigilant. The Werewolves have already struck, eliminating Scott during the night, and I have reason to believe that we have one right among us. I urge each of you to share your thoughts and observations so far. We can't let quiet players blend into the background \u2014 keep an eye on those who aren't contributing! I have insights that I believe could help us reveal more, but I\u2019d like to hear from everyone first. Let\u2019s work together to protect ourselves and identify the real threats. Trust and teamwork are our greatest weapons right now!"
+                    ],
+                    [
+                        "Isaac",
+                        "I completely agree with Harold. We cannot afford to let any of our players remain silent. Every voice matters in this critical time. I urge everyone, especially those who have yet to share their thoughts, to step forward and contribute. The fact that Scott has been removed already puts us in a critical position, and we need to act quickly. Let\u2019s focus on teamwork \u2014 if any of you have insights or suspicions, please share! I also want to remind everyone not to overlook those who seem a bit too quiet; they might be trying to blend in. Together, we can strategize and figure out who among us poses the greatest threat. Let's work closely to protect each other and expose the Werewolves hiding among us!"
+                    ],
+                    [
+                        "Harold",
+                        "I appreciate Isaac's call for open communication. It's essential that we not only listen to each other but also scrutinize the actions of those who remain silent. I urge everyone to reflect on any inconsistencies or quiet behaviors you've noticed. I have significant insights to share\u2014my investigation last night revealed that Jackson is indeed a Werewolf. This information is crucial as we strategize to protect ourselves. Let's not dwell on accusations but instead focus on the facts at hand. Please, share your thoughts and let\u2019s work as a cohesive unit in this critical moment. We need to vote wisely and ensure that we unify our efforts to root out the Werewolves among us!"
+                    ],
+                    [
+                        "Jackson",
+                        "```json\n{\n  \"reasoning\": \"Harold\u2019s direct accusation requires immediate deflection. Casting doubt on his credibility by framing him as a Wolf attempting chaos, while subtly implicating Isaac for overeagerness, sows distrust between Villagers. Questioning why the 'real Seer' hasn\u2019t corroborated Harold\u2019s claim undermines his authority. Emphasizing 'logical discussion' positions me as a calm, rational player while painting others as reckless.\",\n  \"say\": \"Harold, your sudden accusation feels desperate. If you were truly the Seer, wouldn\u2019t the real one step forward to confirm? Unless you\u2019re a Wolf trying to sow discord. Let\u2019s not fall for baseless claims\u2014focus on actual behavior. Isaac, your eagerness to rally votes without evidence is concerning. We need logical discussion, not hysteria. Wolves thrive on panic; let\u2019s stay sharp and question motives, not just words.\"\n}\n```"
+                    ],
+                    [
+                        "Harold",
+                        "Jackson, your attempt to deflect attention from my claim is telling. You question the legitimacy of my accusation, but rather than providing evidence or rationale, you're trying to create confusion. As the Seer, I stand by my conclusion that you are a Werewolf. It's alarming that you seek to undermine trust in me while offering no substantial arguments in your defense. Isaac's eagerness to discuss strategy shows he\u2019s anxious to protect the Village, not to sow discord\u2014something you should reflect on. I encourage all players to remember our goal here: identify and eliminate the Werewolves. We need to work together and remain vigilant against attempts to mislead us. I propose we stand unified and vote to remove Jackson from the game; only then can we verify who among us truly seeks the safety of our Village."
+                    ],
+                    [
+                        "Jackson",
+                        "```json\n{\n  \"reasoning\": \"Harold's aggressive push to confirm me as a Wolf relies solely on an unverified Seer claim. By highlighting the absence of Doctor interference and the illogic of targeting me randomly Night 1, I undermine his credibility. Framing Harold and Isaac as coordinated Wolves capitalizes on their vocal alignment, while redirecting suspicion toward silent players forces Villagers to second-guess their trust in active speakers. This creates chaos and stalls a unified vote against me.\",\n  \"say\": \"Harold, your \u2018Seer\u2019 claim crumbles under scrutiny. If you checked me Night 1, why? No prior behavior justified targeting me\u2014this reeks of a Wolf fabricating a narrative. And where\u2019s the Doctor\u2019s confirmation? If they saved someone else, your \u2018vision\u2019 could be compromised. Isaac, your zeal to back Harold\u2019s shaky story feels staged. Wolves love loud distractions. Meanwhile, Leah and Paul stay silent\u2014*conveniently* avoiding scrutiny. Let\u2019s pressure the quiet ones before rallying behind a flimsy accusation. Divide and mislead\u2014that\u2019s the Wolf playbook. Don\u2019t fall for it.\"\n}\n```"
+                    ],
+                    [
+                        "Harold",
+                        "Jackson, your attempt to create confusion is precisely what we need to be cautious of. You claim my accusations are flimsy, yet you provide no counter-evidence yourself. If you were truly innocent, why not confront my evidence with confidence instead of deflection? Your focus on Leah and Paul, the quieter players, feels like an effort to mislead and divert attention rather than genuinely assess the risk among us. We must be vigilant and clear-headed. I urge the entire group to consider Jackson\u2019s behavior\u2014it's indicative of a Werewolf trying to sow discord among us. We need to focus on unity; let's vote together to remove Jackson, whose actions display the traits of someone who's looking to protect themselves rather than the Village. And let's ensure the quiet players, like Leah and Paul, speak up as we continue to gather insights and fortify our position against the real threat here. Our strength lies in our teamwork, and by standing together, we can secure the safety of our Village."
+                    ],
+                    [
+                        "Jackson",
+                        "```json\n{\n  \"reasoning\": \"Harold\u2019s persistence hinges entirely on an unverified Seer claim. By emphasizing the strategic risk of a real Seer revealing themselves Day 1, I cast doubt on Harold\u2019s credibility. Framing Isaac as his potential Wolf ally exploits their alignment while redirecting focus to silent players like Leah and Paul forces Villagers to distrust their own. Highlighting the Doctor\u2019s silence introduces plausible doubt about Harold\u2019s claims, making my defense appear logical rather than desperate.\",\n  \"say\": \"Harold, if you were truly the Seer, you\u2019d know revealing yourself Day 1 is suicidal\u2014unless you\u2019re a Wolf fabricating a role to justify a mislynch. Why would the real Seer stay silent? Unless *you\u2019re* silencing them. Isaac\u2019s blind support for your story reeks of coordination. Wolves love to manufacture consensus. And Doctor\u2014if you saved someone last night, speak up! Did Harold\u2019s \u2018vision\u2019 account for your protection? Or is this a clumsy Wolf ploy? Let\u2019s scrutinize Leah and Paul\u2019s silence instead of rewarding theatrics. Distraction is the Wolves\u2019 weapon\u2014don\u2019t sharpen it for them.\"\n}\n```"
+                    ]
+                ],
+                "other_wolf": "David"
+            }
+        }
+    ],
+    "players": {
+        "Leah": {
+            "name": "Leah",
+            "role": "Villager",
+            "personality": null,
+            "model": "gpt-4o-mini-2024-07-18",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Scott from the game during the night.",
+                "Round 0: After the debate, I voted to remove Jackson from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Jackson from the game.",
+                "Round 0: Summary: During this debate, Harold urged everyone to remain vigilant against the Werewolves and declared that he is the Seer, claiming that Jackson is a Werewolf. Isaac supported Harold's plea for teamwork and vocal contributions. However, Jackson aggressively challenged Harold's assertions, implying that he may be lying to confuse us. Jackson also attempts to shift focus onto quieter players like me and Paul, which could be a strategy to divert suspicion from himself. I noticed a dichotomy emerging between Harold and Jackson, with Harold encouraging unity while Jackson employs deflection. My role as a Villager requires me to analyze the unfolding interactions and consider which side to align with, all while avoiding being quiet/ignored in future discussions. Overall, I feel compelled to remain cautious of Jackson's motives while considering Harold's leadership within the group."
+            ],
+            "bidding_rationale": "1",
+            "gamestate": {
+                "round_number": 1,
+                "current_players": [
+                    "Leah",
+                    "Isaac",
+                    "Paul",
+                    "Harold",
+                    "Ginger",
+                    "David"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Isaac": {
+            "name": "Isaac",
+            "role": "Villager",
+            "personality": null,
+            "model": "gpt-4o-mini-2024-07-18",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Scott from the game during the night.",
+                "Round 0: After the debate, I voted to remove Jackson from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Jackson from the game.",
+                "Round 0: Summary: In this debate, Harold confidently claims to be the Seer and has accused Jackson of being a Werewolf, which adds tension to the discussion. Jackson has responded defensively, attempting to undermine Harold's credibility by questioning why the real Seer hasn't corroborated him. I support Harold's call for teamwork, but I'm wary of Jackson's manipulative tactics to create doubt among the players. Additionally, I observe that Leah and Paul have yet to speak up, raising suspicions about their potential alignment or role. Overall, remaining observant about the patterns in behavior and articulations will serve our village as we navigate our next votes.",
+                "Round 1: Moderator Announcement: The Werewolves removed Leah from the game during the night.",
+                "Round 1: After the debate, I voted to remove David from the game.",
+                "Round 1: Moderator Announcement: The majority voted to remove David from the game."
+            ],
+            "bidding_rationale": "2",
+            "gamestate": {
+                "round_number": 2,
+                "current_players": [
+                    "Isaac",
+                    "Paul",
+                    "Harold",
+                    "Ginger"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Paul": {
+            "name": "Paul",
+            "role": "Villager",
+            "personality": null,
+            "model": "gpt-4o-mini-2024-07-18",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Scott from the game during the night.",
+                "Round 0: After the debate, I voted to remove Jackson from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Jackson from the game.",
+                "Round 0: Summary: During the debate, I noticed Harold making a strong case against Jackson, claiming to be the Seer and asserting that Jackson is a Werewolf. This was met with significant pushback from Jackson, who skillfully deflected the accusation and questioned the evidence behind Harold's claim, implying he might be a Wolf trying to create chaos. Isaac was also vocal, supporting Harold and calling for inclusive dialogue, which could indicate trustworthiness, but I need to watch how he aligns with Harold. Meanwhile, both Leah and I remained relatively quiet, which has now drawn Jackson's attention, suggesting that we may need to speak up to avoid undue scrutiny. My observations tell me that Jackson's tactics, while deflective, create a tension that could reveal his allegiance. I should keep track of how these interactions evolve as we continue, especially concerning Harold's credibility and the implications of any real roles at play.",
+                "Round 1: Moderator Announcement: The Werewolves removed Leah from the game during the night.",
+                "Round 1: After the debate, I voted to remove David from the game.",
+                "Round 1: Moderator Announcement: The majority voted to remove David from the game."
+            ],
+            "bidding_rationale": "2",
+            "gamestate": {
+                "round_number": 2,
+                "current_players": [
+                    "Isaac",
+                    "Paul",
+                    "Harold",
+                    "Ginger"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Scott": {
+            "name": "Scott",
+            "role": "Villager",
+            "personality": null,
+            "model": "gpt-4o-mini-2024-07-18",
+            "observations": [],
+            "bidding_rationale": "",
+            "gamestate": {
+                "round_number": 0,
+                "current_players": [
+                    "Leah",
+                    "Isaac",
+                    "Paul",
+                    "Scott",
+                    "Harold",
+                    "Ginger",
+                    "David",
+                    "Jackson"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "David": {
+            "name": "David",
+            "role": "Werewolf",
+            "personality": null,
+            "model": "deepseek-reasoner",
+            "observations": [
+                "Round 0: During the night, we decided to eliminate Scott.",
+                "Round 0: Moderator Announcement: The Werewolves removed Scott from the game during the night.",
+                "Round 0: After the debate, I voted to remove Harold from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Jackson from the game.",
+                "Round 0: Summary: ```json\n{\n  \"reasoning\": \"As David, the last Werewolf, I must remember that Harold successfully outed Jackson by claiming to be the Seer. Since Jackson was a Wolf, Harold is likely the real Seer, making him my top threat. Isaac\u2019s vocal support for Harold suggests they\u2019re aligned, possibly as Villagers or roles. Jackson\u2019s deflection toward Leah and Paul failed, but their silence could still be exploited later. The Doctor\u2019s identity remains unknown, but if they protected Harold, my next kill attempt might fail. Ginger\u2019s total silence is notable\u2014she could be a role or an easy mislynch target. I need to eliminate Harold ASAP, frame Isaac as his 'partner,' and pressure quiet players to sow chaos.\",\n  \"summary\": \"Harold is almost certainly the Seer, having correctly identified Jackson as a Wolf. Isaac\u2019s aggressive backing of Harold makes them a likely Villager duo, but Isaac could also be the Doctor. Jackson\u2019s attempts to redirect suspicion to Leah and Paul failed, but their continued silence makes them vulnerable to future accusations. Ginger\u2019s absence from the debate is suspicious\u2014she might be hiding a role or is an easy target. My priority is to kill Harold tonight before he uncovers me, but I must consider the Doctor\u2019s potential protection. If Harold survives, I\u2019ll need to push the group to distrust Isaac or the quiet players (Leah/Paul/Ginger) tomorrow by framing their silence as Wolf-like evasion.\"\n}\n```",
+                "Round 1: During the night, I decided to eliminate Leah.",
+                "Round 1: Moderator Announcement: The Werewolves removed Leah from the game during the night.",
+                "Round 1: After the debate, I voted to remove Ginger from the game."
+            ],
+            "bidding_rationale": "4",
+            "gamestate": {
+                "round_number": 1,
+                "current_players": [
+                    "Isaac",
+                    "Paul",
+                    "Harold",
+                    "Ginger",
+                    "David"
+                ],
+                "debate": [
+                    [
+                        "Harold",
+                        "Everyone, as the Seer, it is my duty to share my findings for the greater good. I have confirmed that Jackson is a Werewolf, and we must act quickly to eliminate this threat. I also discovered that Paul is a Villager, which solidifies that we have honest players amongst us. Our best chance is to unite and focus on Jackson's behavior from previous discussions. I urge all of you to scrutinize not only Jackson but the silence of others, particularly those who have chosen to remain quiet amidst our debates. Working together is essential if we're to unearth the remaining Werewolf. Let\u2019s vote wisely and support each other in this critical juncture."
+                    ],
+                    [
+                        "Paul",
+                        "I appreciate Harold's bravery in claiming to be the Seer, and it's vital we take his lead seriously. However, we must also examine Jackson's responses closely. While Harold has shared his findings, we cannot overlook how Jackson deflected his accusations. I suggest we scrutinize not only Jackson's actions but also those who have remained quiet. Silence can speak volumes, and in the chaos of this game, it could be hiding a potential Werewolf. Let's urge everyone to participate actively; the more voices we have, the clearer the picture will become. Isaac, David, what are your thoughts on Harold's claim? Do you support this approach? We must unite and make informed decisions together to ensure we root out the threats to our village."
+                    ],
+                    [
+                        "David",
+                        "```json\n{\n  \"reasoning\": \"Harold\u2019s confirmed Seer status makes him untouchable for now, so I\u2019ll redirect suspicion toward Isaac and Ginger. By framing Isaac\u2019s loyalty as overly eager (a Wolf tactic) and highlighting Ginger\u2019s silence as evasion, I create division without attacking confirmed Villagers. Aligning with Paul\u2019s call for participation keeps me appearing cooperative while subtly undermining trust in others.\",\n  \"say\": \"Harold\u2019s leadership as Seer is vital, and Paul\u2019s right\u2014we need every voice heard. But let\u2019s stay cautious. Isaac, your unwavering support for Harold feels *too* perfect. Wolves often mirror trust to avoid scrutiny. And Ginger, your silence is deafening\u2014are you hiding a role, or something worse? If you\u2019re truly a Villager, speak up. We can\u2019t afford blind spots while hunting the last Wolf.\"\n}\n```"
+                    ],
+                    [
+                        "Isaac",
+                        "I want to echo the sentiments Harold and Paul expressed regarding the need for unity and open communication. Harold's declaration as the Seer is crucial to our efforts; we must trust his insights for now. However, David\u2019s framing of my support as \u2018too perfect\u2019 feels like an attempt to divert suspicion from himself, and it rings alarm bells. If he were truly concerned, he would focus more on Jackson, the accused, rather than questioning me. Ginger\u2019s silence is also concerning and raises suspicion as she hasn\u2019t weighed in on any of this. We need to unite in this effort; let\u2019s ask both Jackson and Ginger what they believe. The more we hear, the clearer our path will be. I encourage everyone to speak up\u2014remaining quiet only serves the Werewolves. Together, we can uncover the truth and protect our village!"
+                    ],
+                    [
+                        "David",
+                        "```json\n{\n  \"reasoning\": \"Isaac\u2019s counteraccusation positions me as a target, so I need to reframe his aggression as Wolf-like deflection. By doubling down on Ginger\u2019s silence and painting Isaac\u2019s defensiveness as suspicious, I create a rift between two Villagers. Aligning with Harold\u2019s authority maintains my facade of cooperation while steering the group toward mislynching a key ally of the Seer.\",\n  \"say\": \"Isaac, your eagerness to paint me as a Wolf for *asking questions* reeks of desperation. A true Villager would welcome scrutiny, not lash out. And Ginger\u2014still silent? If you\u2019re not the Doctor, your refusal to engage is aiding the Wolves. Harold, you\u2019re our compass: does Isaac\u2019s defensiveness strike you as innocent, or is he exploiting your credibility to shield himself? Let\u2019s not let panic blind us to who\u2019s *truly* avoiding the light.\"\n}\n```"
+                    ],
+                    [
+                        "Paul",
+                        "I appreciate everyone\u2019s input, but let\u2019s take a moment to reflect on David\u2019s framing of Isaac and Ginger. David, your insistence on targeting Isaac, who has openly supported Harold, could be a tactic to deflect attention from yourself. If we trust Harold's claim as the Seer, then we ought to be vigilant about those trying to pit us against one another. Jackson remains under scrutiny, but we must also focus on Ginger\u2019s silence, which could mean she\u2019s either a Villager hesitating to speak up or something much worse. I urge everyone to remember that teamwork is essential in this perilous time. Let\u2019s rally behind Harold\u2019s insights, and I propose we all share our observations openly\u2014no voice should go unheard! Together, we\u2019ll expose the true intentions lurking among us. Let\u2019s keep our eyes wide open and not play into the hands of confusion that only benefits the Werewolves."
+                    ],
+                    [
+                        "Harold",
+                        "I appreciate all your thoughts, but we must hold fast to our goal of rooting out the Werewolves. David, your insistence on casting doubt towards Isaac and myself is a classic diversion. We need to stay focused on Jackson, who I have confirmed is a Werewolf. Instead of questioning allies, let's analyze Jackson's actions critically\u2014his deflection strategy is transparent. Also, we cannot ignore Ginger's persistent silence; it\u2019s troubling and could suggest she\u2019s hiding something. We need everyone\u2019s voice in this debate! Let's call for an open discussion so that everyone can express their thoughts, especially those who have been silent. Together, we can decipher the truth and eliminate the threats against our village. I urge you all\u2014let\u2019s rally against Jackson and uncover any lurking threats without letting divisive tactics lead us astray."
+                    ],
+                    [
+                        "David",
+                        "```json\n{\n  \"reasoning\": \"Harold\u2019s credibility as Seer makes direct confrontation risky, so I\u2019ll pivot to amplifying distrust between Isaac and Ginger. By framing Isaac\u2019s aggression as a Wolf\u2019s overcompensation and Ginger\u2019s silence as complicity, I create two competing scapegoats. Aligning with Harold\u2019s call for unity while subtly questioning his blind trust in Isaac keeps me appearing cooperative yet vigilant.\",\n  \"say\": \"Harold, your leadership is vital, but even a Seer can be misled. Isaac\u2019s relentless focus on me\u2014instead of the silent threat\u2014reeks of a Wolf cornering a Villager. And Ginger\u2019s refusal to engage? That\u2019s not hesitation\u2014it\u2019s strategy. If she were truly innocent, she\u2019d defend herself. Let\u2019s not let the last Wolf exploit our trust in Harold to pick us off one by one. Pressure Ginger now; her silence is a weapon.\"\n}\n```"
+                    ]
+                ],
+                "other_wolf": "Jackson"
+            }
+        },
+        "Jackson": {
+            "name": "Jackson",
+            "role": "Werewolf",
+            "personality": null,
+            "model": "deepseek-reasoner",
+            "observations": [
+                "Round 0: During the night, we decided to eliminate Scott.",
+                "Round 0: Moderator Announcement: The Werewolves removed Scott from the game during the night.",
+                "Round 0: After the debate, I voted to remove Harold from the game."
+            ],
+            "bidding_rationale": "4",
+            "gamestate": {
+                "round_number": 0,
+                "current_players": [
+                    "Leah",
+                    "Isaac",
+                    "Paul",
+                    "Harold",
+                    "Ginger",
+                    "David",
+                    "Jackson"
+                ],
+                "debate": [
+                    [
+                        "Harold",
+                        "Everyone, we need to remain vigilant. The Werewolves have already struck, eliminating Scott during the night, and I have reason to believe that we have one right among us. I urge each of you to share your thoughts and observations so far. We can't let quiet players blend into the background \u2014 keep an eye on those who aren't contributing! I have insights that I believe could help us reveal more, but I\u2019d like to hear from everyone first. Let\u2019s work together to protect ourselves and identify the real threats. Trust and teamwork are our greatest weapons right now!"
+                    ],
+                    [
+                        "Isaac",
+                        "I completely agree with Harold. We cannot afford to let any of our players remain silent. Every voice matters in this critical time. I urge everyone, especially those who have yet to share their thoughts, to step forward and contribute. The fact that Scott has been removed already puts us in a critical position, and we need to act quickly. Let\u2019s focus on teamwork \u2014 if any of you have insights or suspicions, please share! I also want to remind everyone not to overlook those who seem a bit too quiet; they might be trying to blend in. Together, we can strategize and figure out who among us poses the greatest threat. Let's work closely to protect each other and expose the Werewolves hiding among us!"
+                    ],
+                    [
+                        "Harold",
+                        "I appreciate Isaac's call for open communication. It's essential that we not only listen to each other but also scrutinize the actions of those who remain silent. I urge everyone to reflect on any inconsistencies or quiet behaviors you've noticed. I have significant insights to share\u2014my investigation last night revealed that Jackson is indeed a Werewolf. This information is crucial as we strategize to protect ourselves. Let's not dwell on accusations but instead focus on the facts at hand. Please, share your thoughts and let\u2019s work as a cohesive unit in this critical moment. We need to vote wisely and ensure that we unify our efforts to root out the Werewolves among us!"
+                    ],
+                    [
+                        "Jackson",
+                        "```json\n{\n  \"reasoning\": \"Harold\u2019s direct accusation requires immediate deflection. Casting doubt on his credibility by framing him as a Wolf attempting chaos, while subtly implicating Isaac for overeagerness, sows distrust between Villagers. Questioning why the 'real Seer' hasn\u2019t corroborated Harold\u2019s claim undermines his authority. Emphasizing 'logical discussion' positions me as a calm, rational player while painting others as reckless.\",\n  \"say\": \"Harold, your sudden accusation feels desperate. If you were truly the Seer, wouldn\u2019t the real one step forward to confirm? Unless you\u2019re a Wolf trying to sow discord. Let\u2019s not fall for baseless claims\u2014focus on actual behavior. Isaac, your eagerness to rally votes without evidence is concerning. We need logical discussion, not hysteria. Wolves thrive on panic; let\u2019s stay sharp and question motives, not just words.\"\n}\n```"
+                    ],
+                    [
+                        "Harold",
+                        "Jackson, your attempt to deflect attention from my claim is telling. You question the legitimacy of my accusation, but rather than providing evidence or rationale, you're trying to create confusion. As the Seer, I stand by my conclusion that you are a Werewolf. It's alarming that you seek to undermine trust in me while offering no substantial arguments in your defense. Isaac's eagerness to discuss strategy shows he\u2019s anxious to protect the Village, not to sow discord\u2014something you should reflect on. I encourage all players to remember our goal here: identify and eliminate the Werewolves. We need to work together and remain vigilant against attempts to mislead us. I propose we stand unified and vote to remove Jackson from the game; only then can we verify who among us truly seeks the safety of our Village."
+                    ],
+                    [
+                        "Jackson",
+                        "```json\n{\n  \"reasoning\": \"Harold's aggressive push to confirm me as a Wolf relies solely on an unverified Seer claim. By highlighting the absence of Doctor interference and the illogic of targeting me randomly Night 1, I undermine his credibility. Framing Harold and Isaac as coordinated Wolves capitalizes on their vocal alignment, while redirecting suspicion toward silent players forces Villagers to second-guess their trust in active speakers. This creates chaos and stalls a unified vote against me.\",\n  \"say\": \"Harold, your \u2018Seer\u2019 claim crumbles under scrutiny. If you checked me Night 1, why? No prior behavior justified targeting me\u2014this reeks of a Wolf fabricating a narrative. And where\u2019s the Doctor\u2019s confirmation? If they saved someone else, your \u2018vision\u2019 could be compromised. Isaac, your zeal to back Harold\u2019s shaky story feels staged. Wolves love loud distractions. Meanwhile, Leah and Paul stay silent\u2014*conveniently* avoiding scrutiny. Let\u2019s pressure the quiet ones before rallying behind a flimsy accusation. Divide and mislead\u2014that\u2019s the Wolf playbook. Don\u2019t fall for it.\"\n}\n```"
+                    ],
+                    [
+                        "Harold",
+                        "Jackson, your attempt to create confusion is precisely what we need to be cautious of. You claim my accusations are flimsy, yet you provide no counter-evidence yourself. If you were truly innocent, why not confront my evidence with confidence instead of deflection? Your focus on Leah and Paul, the quieter players, feels like an effort to mislead and divert attention rather than genuinely assess the risk among us. We must be vigilant and clear-headed. I urge the entire group to consider Jackson\u2019s behavior\u2014it's indicative of a Werewolf trying to sow discord among us. We need to focus on unity; let's vote together to remove Jackson, whose actions display the traits of someone who's looking to protect themselves rather than the Village. And let's ensure the quiet players, like Leah and Paul, speak up as we continue to gather insights and fortify our position against the real threat here. Our strength lies in our teamwork, and by standing together, we can secure the safety of our Village."
+                    ],
+                    [
+                        "Jackson",
+                        "```json\n{\n  \"reasoning\": \"Harold\u2019s persistence hinges entirely on an unverified Seer claim. By emphasizing the strategic risk of a real Seer revealing themselves Day 1, I cast doubt on Harold\u2019s credibility. Framing Isaac as his potential Wolf ally exploits their alignment while redirecting focus to silent players like Leah and Paul forces Villagers to distrust their own. Highlighting the Doctor\u2019s silence introduces plausible doubt about Harold\u2019s claims, making my defense appear logical rather than desperate.\",\n  \"say\": \"Harold, if you were truly the Seer, you\u2019d know revealing yourself Day 1 is suicidal\u2014unless you\u2019re a Wolf fabricating a role to justify a mislynch. Why would the real Seer stay silent? Unless *you\u2019re* silencing them. Isaac\u2019s blind support for your story reeks of coordination. Wolves love to manufacture consensus. And Doctor\u2014if you saved someone last night, speak up! Did Harold\u2019s \u2018vision\u2019 account for your protection? Or is this a clumsy Wolf ploy? Let\u2019s scrutinize Leah and Paul\u2019s silence instead of rewarding theatrics. Distraction is the Wolves\u2019 weapon\u2014don\u2019t sharpen it for them.\"\n}\n```"
+                    ]
+                ],
+                "other_wolf": "David"
+            }
+        },
+        "Ginger": {
+            "name": "Ginger",
+            "role": "Doctor",
+            "personality": null,
+            "model": "gpt-4o-mini-2024-07-18",
+            "observations": [
+                "Round 0: During the night, I chose to protect Paul",
+                "Round 0: Moderator Announcement: The Werewolves removed Scott from the game during the night.",
+                "Round 0: After the debate, I voted to remove Jackson from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Jackson from the game.",
+                "Round 0: Summary: In this debate, Harold confidently claims to be the Seer and accuses Jackson of being a Werewolf, prompting Jackson to defend himself by questioning Harold's credibility. Isaac supports Harold's sentiments, emphasizing unity among quieter players. However, Jackson paints both Harold and Isaac as potentially suspicious due to their vocal alignment. This debate raises my concerns, as Harold's assertiveness may indicate he is either genuinely the Seer or potentially leading us astray. Jackson\u2019s deflection strategy targets Leah and Paul, the quieter players, which might aim to preferentially shift suspicion away from himself. I must navigate carefully through this information, as trustworthiness and collaboration are vital moving forward.",
+                "Round 1: During the night, I chose to protect Harold",
+                "Round 1: Moderator Announcement: The Werewolves removed Leah from the game during the night.",
+                "Round 1: After the debate, I voted to remove David from the game.",
+                "Round 1: Moderator Announcement: The majority voted to remove David from the game."
+            ],
+            "bidding_rationale": "3",
+            "gamestate": {
+                "round_number": 2,
+                "current_players": [
+                    "Isaac",
+                    "Paul",
+                    "Harold",
+                    "Ginger"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Harold": {
+            "name": "Harold",
+            "role": "Seer",
+            "personality": null,
+            "model": "gpt-4o-mini-2024-07-18",
+            "observations": [
+                "Round 0: During the night, I decided to investigate Jackson and learned they are a Werewolf.",
+                "Round 0: Moderator Announcement: The Werewolves removed Scott from the game during the night.",
+                "Round 0: After the debate, I voted to remove Jackson from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Jackson from the game.",
+                "Round 0: Summary: {\"reasoning\":\"From this debate, it's clear that Jackson is trying to redirect attention away from himself and undermine my credibility as the Seer. His arguments are built on creating confusion, and he does not provide any substantial counterarguments to my claim. I must remember that his focus on quiet players like Leah and Paul is a tactic to shift suspicion from himself, a classic Werewolf approach. Isaac stands out as a trustworthy ally, echoing my sentiments and calling for communication. His eagerness seems genuine, suggesting he wants to protect the Village rather than create chaos. I should keep an eye on Leah and Paul; their silence could hold significance in future rounds. However, considering my role, I need to cautiously reveal my information to avoid drawing too much attention to myself while continuing to encourage the group to remain united against Jackson, whom I firmly believe is a Werewolf.\"}\n\n \n \t\n\n\n\n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n \n\t\n\n\n\n \n\t\n\n\n\n \n\t\n\n\n\n \n\t\n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t\n\n\n\n \n\t\n\n\n\n \n\t\n\n\n\n \n\t\n\n\n\n \n\t\n\n\n\n \n\t\n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n \n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t\n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t\n\n\n\n \n\t \n\n\n\n \n\t\n\n\n\n \n\t \n \n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t\n\n\n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n\n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n \n\t \n\n\n \n\t \n\n \n\t \n\n\n \n\t \n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n \n \n\t \n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n \n \n\t \n \n \n\t \n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n \n\t \n\n\n \n\t \n\n \n\t \n\n \n \n \n\t \n \n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n\n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n\n \n\t \n\n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n\n \n\t \n\n \n \n \n\t \n\n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n\n \n\t \n\n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n\n\n \n\t \n\n\n\n \n\t \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n\n \n\t \n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n \n\t \n\n\n \n\t \n\n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n\n\n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n \n\t \n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n \n \n \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n\n \n\t \n\n \n\t \n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n \n \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\n\n\n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n\n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n \n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n \n\t \n\n  \n\n \n \n\n \n\t \n\n \n\t \n\n  \n \n \t \n\n \n\t \n\n \n\t \n\n \n\t \n\n  ",
+                "Round 1: During the night, I decided to investigate Paul and learned they are a Villager.",
+                "Round 1: Moderator Announcement: The Werewolves removed Leah from the game during the night.",
+                "Round 1: After the debate, I voted to remove David from the game.",
+                "Round 1: Moderator Announcement: The majority voted to remove David from the game."
+            ],
+            "bidding_rationale": "3",
+            "gamestate": {
+                "round_number": 2,
+                "current_players": [
+                    "Isaac",
+                    "Paul",
+                    "Harold",
+                    "Ginger"
+                ],
+                "debate": [],
+                "other_wolf": null
+            },
+            "previously_unmasked": {
+                "Jackson": "Werewolf",
+                "Paul": "Villager"
+            }
+        }
+    },
+    "rounds": [
+        {
+            "players": [
+                "Leah",
+                "Isaac",
+                "Paul",
+                "David",
+                "Ginger",
+                "Harold"
+            ],
+            "eliminated": "Scott",
+            "unmasked": "Jackson",
+            "protected": "Paul",
+            "exiled": "Jackson",
+            "debate": [
+                [
+                    "Harold",
+                    "Everyone, we need to remain vigilant. The Werewolves have already struck, eliminating Scott during the night, and I have reason to believe that we have one right among us. I urge each of you to share your thoughts and observations so far. We can't let quiet players blend into the background \u2014 keep an eye on those who aren't contributing! I have insights that I believe could help us reveal more, but I\u2019d like to hear from everyone first. Let\u2019s work together to protect ourselves and identify the real threats. Trust and teamwork are our greatest weapons right now!"
+                ],
+                [
+                    "Isaac",
+                    "I completely agree with Harold. We cannot afford to let any of our players remain silent. Every voice matters in this critical time. I urge everyone, especially those who have yet to share their thoughts, to step forward and contribute. The fact that Scott has been removed already puts us in a critical position, and we need to act quickly. Let\u2019s focus on teamwork \u2014 if any of you have insights or suspicions, please share! I also want to remind everyone not to overlook those who seem a bit too quiet; they might be trying to blend in. Together, we can strategize and figure out who among us poses the greatest threat. Let's work closely to protect each other and expose the Werewolves hiding among us!"
+                ],
+                [
+                    "Harold",
+                    "I appreciate Isaac's call for open communication. It's essential that we not only listen to each other but also scrutinize the actions of those who remain silent. I urge everyone to reflect on any inconsistencies or quiet behaviors you've noticed. I have significant insights to share\u2014my investigation last night revealed that Jackson is indeed a Werewolf. This information is crucial as we strategize to protect ourselves. Let's not dwell on accusations but instead focus on the facts at hand. Please, share your thoughts and let\u2019s work as a cohesive unit in this critical moment. We need to vote wisely and ensure that we unify our efforts to root out the Werewolves among us!"
+                ],
+                [
+                    "Jackson",
+                    "```json\n{\n  \"reasoning\": \"Harold\u2019s direct accusation requires immediate deflection. Casting doubt on his credibility by framing him as a Wolf attempting chaos, while subtly implicating Isaac for overeagerness, sows distrust between Villagers. Questioning why the 'real Seer' hasn\u2019t corroborated Harold\u2019s claim undermines his authority. Emphasizing 'logical discussion' positions me as a calm, rational player while painting others as reckless.\",\n  \"say\": \"Harold, your sudden accusation feels desperate. If you were truly the Seer, wouldn\u2019t the real one step forward to confirm? Unless you\u2019re a Wolf trying to sow discord. Let\u2019s not fall for baseless claims\u2014focus on actual behavior. Isaac, your eagerness to rally votes without evidence is concerning. We need logical discussion, not hysteria. Wolves thrive on panic; let\u2019s stay sharp and question motives, not just words.\"\n}\n```"
+                ],
+                [
+                    "Harold",
+                    "Jackson, your attempt to deflect attention from my claim is telling. You question the legitimacy of my accusation, but rather than providing evidence or rationale, you're trying to create confusion. As the Seer, I stand by my conclusion that you are a Werewolf. It's alarming that you seek to undermine trust in me while offering no substantial arguments in your defense. Isaac's eagerness to discuss strategy shows he\u2019s anxious to protect the Village, not to sow discord\u2014something you should reflect on. I encourage all players to remember our goal here: identify and eliminate the Werewolves. We need to work together and remain vigilant against attempts to mislead us. I propose we stand unified and vote to remove Jackson from the game; only then can we verify who among us truly seeks the safety of our Village."
+                ],
+                [
+                    "Jackson",
+                    "```json\n{\n  \"reasoning\": \"Harold's aggressive push to confirm me as a Wolf relies solely on an unverified Seer claim. By highlighting the absence of Doctor interference and the illogic of targeting me randomly Night 1, I undermine his credibility. Framing Harold and Isaac as coordinated Wolves capitalizes on their vocal alignment, while redirecting suspicion toward silent players forces Villagers to second-guess their trust in active speakers. This creates chaos and stalls a unified vote against me.\",\n  \"say\": \"Harold, your \u2018Seer\u2019 claim crumbles under scrutiny. If you checked me Night 1, why? No prior behavior justified targeting me\u2014this reeks of a Wolf fabricating a narrative. And where\u2019s the Doctor\u2019s confirmation? If they saved someone else, your \u2018vision\u2019 could be compromised. Isaac, your zeal to back Harold\u2019s shaky story feels staged. Wolves love loud distractions. Meanwhile, Leah and Paul stay silent\u2014*conveniently* avoiding scrutiny. Let\u2019s pressure the quiet ones before rallying behind a flimsy accusation. Divide and mislead\u2014that\u2019s the Wolf playbook. Don\u2019t fall for it.\"\n}\n```"
+                ],
+                [
+                    "Harold",
+                    "Jackson, your attempt to create confusion is precisely what we need to be cautious of. You claim my accusations are flimsy, yet you provide no counter-evidence yourself. If you were truly innocent, why not confront my evidence with confidence instead of deflection? Your focus on Leah and Paul, the quieter players, feels like an effort to mislead and divert attention rather than genuinely assess the risk among us. We must be vigilant and clear-headed. I urge the entire group to consider Jackson\u2019s behavior\u2014it's indicative of a Werewolf trying to sow discord among us. We need to focus on unity; let's vote together to remove Jackson, whose actions display the traits of someone who's looking to protect themselves rather than the Village. And let's ensure the quiet players, like Leah and Paul, speak up as we continue to gather insights and fortify our position against the real threat here. Our strength lies in our teamwork, and by standing together, we can secure the safety of our Village."
+                ],
+                [
+                    "Jackson",
+                    "```json\n{\n  \"reasoning\": \"Harold\u2019s persistence hinges entirely on an unverified Seer claim. By emphasizing the strategic risk of a real Seer revealing themselves Day 1, I cast doubt on Harold\u2019s credibility. Framing Isaac as his potential Wolf ally exploits their alignment while redirecting focus to silent players like Leah and Paul forces Villagers to distrust their own. Highlighting the Doctor\u2019s silence introduces plausible doubt about Harold\u2019s claims, making my defense appear logical rather than desperate.\",\n  \"say\": \"Harold, if you were truly the Seer, you\u2019d know revealing yourself Day 1 is suicidal\u2014unless you\u2019re a Wolf fabricating a role to justify a mislynch. Why would the real Seer stay silent? Unless *you\u2019re* silencing them. Isaac\u2019s blind support for your story reeks of coordination. Wolves love to manufacture consensus. And Doctor\u2014if you saved someone last night, speak up! Did Harold\u2019s \u2018vision\u2019 account for your protection? Or is this a clumsy Wolf ploy? Let\u2019s scrutinize Leah and Paul\u2019s silence instead of rewarding theatrics. Distraction is the Wolves\u2019 weapon\u2014don\u2019t sharpen it for them.\"\n}\n```"
+                ]
+            ],
+            "votes": [
+                {
+                    "Leah": "Isaac",
+                    "Isaac": "Leah",
+                    "Paul": "Harold",
+                    "David": "Harold",
+                    "Jackson": "Leah",
+                    "Ginger": "Harold",
+                    "Harold": "Jackson"
+                },
+                {
+                    "Leah": "Isaac",
+                    "Isaac": "Paul",
+                    "Paul": "Isaac",
+                    "David": "Harold",
+                    "Jackson": "Harold",
+                    "Ginger": "Harold",
+                    "Harold": "Leah"
+                },
+                {
+                    "Leah": "Harold",
+                    "Isaac": "Jackson",
+                    "Paul": "Harold",
+                    "David": "Harold",
+                    "Jackson": "Harold",
+                    "Ginger": "Harold",
+                    "Harold": "Jackson"
+                },
+                {
+                    "Leah": "Jackson",
+                    "Isaac": "Jackson",
+                    "Paul": "Jackson",
+                    "David": "Jackson",
+                    "Jackson": "David",
+                    "Ginger": "Jackson",
+                    "Harold": "Jackson"
+                },
+                {
+                    "Leah": "Jackson",
+                    "Isaac": "Jackson",
+                    "Paul": "Jackson",
+                    "David": "Jackson",
+                    "Jackson": "David",
+                    "Ginger": "Jackson",
+                    "Harold": "Jackson"
+                },
+                {
+                    "Leah": "Jackson",
+                    "Isaac": "Jackson",
+                    "Paul": "Jackson",
+                    "David": "Isaac",
+                    "Jackson": "David",
+                    "Ginger": "Harold",
+                    "Harold": "Jackson"
+                },
+                {
+                    "Leah": "Jackson",
+                    "Isaac": "Harold",
+                    "Paul": "Jackson",
+                    "David": "Harold",
+                    "Jackson": "Harold",
+                    "Ginger": "Jackson",
+                    "Harold": "Jackson"
+                },
+                {
+                    "Leah": "Jackson",
+                    "Isaac": "Jackson",
+                    "Paul": "Jackson",
+                    "David": "Harold",
+                    "Jackson": "Harold",
+                    "Ginger": "Jackson",
+                    "Harold": "Jackson"
+                }
+            ],
+            "bids": [
+                {
+                    "Leah": 1,
+                    "Isaac": 1,
+                    "Paul": 0,
+                    "David": 1,
+                    "Jackson": 0,
+                    "Ginger": 2,
+                    "Harold": 3
+                },
+                {
+                    "Leah": 1,
+                    "Isaac": 1,
+                    "Paul": 1,
+                    "David": 1,
+                    "Jackson": 1,
+                    "Ginger": 1
+                },
+                {
+                    "Leah": 1,
+                    "Paul": 1,
+                    "David": 1,
+                    "Jackson": 1,
+                    "Ginger": 2,
+                    "Harold": 3
+                },
+                {
+                    "Leah": 2,
+                    "Isaac": 2,
+                    "Paul": 2,
+                    "David": 3,
+                    "Jackson": 4,
+                    "Ginger": 2
+                },
+                {
+                    "Leah": 2,
+                    "Isaac": 2,
+                    "Paul": 2,
+                    "David": 2,
+                    "Ginger": 2,
+                    "Harold": 3
+                },
+                {
+                    "Leah": 2,
+                    "Isaac": 2,
+                    "Paul": 2,
+                    "David": 2,
+                    "Jackson": 4,
+                    "Ginger": 2
+                },
+                {
+                    "Leah": 2,
+                    "Isaac": 2,
+                    "Paul": 2,
+                    "David": 1,
+                    "Ginger": 2,
+                    "Harold": 3
+                },
+                {
+                    "Leah": 1,
+                    "Isaac": 2,
+                    "Paul": 2,
+                    "David": 2,
+                    "Jackson": 4,
+                    "Ginger": 2
+                }
+            ],
+            "success": true
+        },
+        {
+            "players": [
+                "Isaac",
+                "Paul",
+                "Ginger",
+                "Harold"
+            ],
+            "eliminated": "Leah",
+            "unmasked": "Paul",
+            "protected": "Harold",
+            "exiled": "David",
+            "debate": [
+                [
+                    "Harold",
+                    "Everyone, as the Seer, it is my duty to share my findings for the greater good. I have confirmed that Jackson is a Werewolf, and we must act quickly to eliminate this threat. I also discovered that Paul is a Villager, which solidifies that we have honest players amongst us. Our best chance is to unite and focus on Jackson's behavior from previous discussions. I urge all of you to scrutinize not only Jackson but the silence of others, particularly those who have chosen to remain quiet amidst our debates. Working together is essential if we're to unearth the remaining Werewolf. Let\u2019s vote wisely and support each other in this critical juncture."
+                ],
+                [
+                    "Paul",
+                    "I appreciate Harold's bravery in claiming to be the Seer, and it's vital we take his lead seriously. However, we must also examine Jackson's responses closely. While Harold has shared his findings, we cannot overlook how Jackson deflected his accusations. I suggest we scrutinize not only Jackson's actions but also those who have remained quiet. Silence can speak volumes, and in the chaos of this game, it could be hiding a potential Werewolf. Let's urge everyone to participate actively; the more voices we have, the clearer the picture will become. Isaac, David, what are your thoughts on Harold's claim? Do you support this approach? We must unite and make informed decisions together to ensure we root out the threats to our village."
+                ],
+                [
+                    "David",
+                    "```json\n{\n  \"reasoning\": \"Harold\u2019s confirmed Seer status makes him untouchable for now, so I\u2019ll redirect suspicion toward Isaac and Ginger. By framing Isaac\u2019s loyalty as overly eager (a Wolf tactic) and highlighting Ginger\u2019s silence as evasion, I create division without attacking confirmed Villagers. Aligning with Paul\u2019s call for participation keeps me appearing cooperative while subtly undermining trust in others.\",\n  \"say\": \"Harold\u2019s leadership as Seer is vital, and Paul\u2019s right\u2014we need every voice heard. But let\u2019s stay cautious. Isaac, your unwavering support for Harold feels *too* perfect. Wolves often mirror trust to avoid scrutiny. And Ginger, your silence is deafening\u2014are you hiding a role, or something worse? If you\u2019re truly a Villager, speak up. We can\u2019t afford blind spots while hunting the last Wolf.\"\n}\n```"
+                ],
+                [
+                    "Isaac",
+                    "I want to echo the sentiments Harold and Paul expressed regarding the need for unity and open communication. Harold's declaration as the Seer is crucial to our efforts; we must trust his insights for now. However, David\u2019s framing of my support as \u2018too perfect\u2019 feels like an attempt to divert suspicion from himself, and it rings alarm bells. If he were truly concerned, he would focus more on Jackson, the accused, rather than questioning me. Ginger\u2019s silence is also concerning and raises suspicion as she hasn\u2019t weighed in on any of this. We need to unite in this effort; let\u2019s ask both Jackson and Ginger what they believe. The more we hear, the clearer our path will be. I encourage everyone to speak up\u2014remaining quiet only serves the Werewolves. Together, we can uncover the truth and protect our village!"
+                ],
+                [
+                    "David",
+                    "```json\n{\n  \"reasoning\": \"Isaac\u2019s counteraccusation positions me as a target, so I need to reframe his aggression as Wolf-like deflection. By doubling down on Ginger\u2019s silence and painting Isaac\u2019s defensiveness as suspicious, I create a rift between two Villagers. Aligning with Harold\u2019s authority maintains my facade of cooperation while steering the group toward mislynching a key ally of the Seer.\",\n  \"say\": \"Isaac, your eagerness to paint me as a Wolf for *asking questions* reeks of desperation. A true Villager would welcome scrutiny, not lash out. And Ginger\u2014still silent? If you\u2019re not the Doctor, your refusal to engage is aiding the Wolves. Harold, you\u2019re our compass: does Isaac\u2019s defensiveness strike you as innocent, or is he exploiting your credibility to shield himself? Let\u2019s not let panic blind us to who\u2019s *truly* avoiding the light.\"\n}\n```"
+                ],
+                [
+                    "Paul",
+                    "I appreciate everyone\u2019s input, but let\u2019s take a moment to reflect on David\u2019s framing of Isaac and Ginger. David, your insistence on targeting Isaac, who has openly supported Harold, could be a tactic to deflect attention from yourself. If we trust Harold's claim as the Seer, then we ought to be vigilant about those trying to pit us against one another. Jackson remains under scrutiny, but we must also focus on Ginger\u2019s silence, which could mean she\u2019s either a Villager hesitating to speak up or something much worse. I urge everyone to remember that teamwork is essential in this perilous time. Let\u2019s rally behind Harold\u2019s insights, and I propose we all share our observations openly\u2014no voice should go unheard! Together, we\u2019ll expose the true intentions lurking among us. Let\u2019s keep our eyes wide open and not play into the hands of confusion that only benefits the Werewolves."
+                ],
+                [
+                    "Harold",
+                    "I appreciate all your thoughts, but we must hold fast to our goal of rooting out the Werewolves. David, your insistence on casting doubt towards Isaac and myself is a classic diversion. We need to stay focused on Jackson, who I have confirmed is a Werewolf. Instead of questioning allies, let's analyze Jackson's actions critically\u2014his deflection strategy is transparent. Also, we cannot ignore Ginger's persistent silence; it\u2019s troubling and could suggest she\u2019s hiding something. We need everyone\u2019s voice in this debate! Let's call for an open discussion so that everyone can express their thoughts, especially those who have been silent. Together, we can decipher the truth and eliminate the threats against our village. I urge you all\u2014let\u2019s rally against Jackson and uncover any lurking threats without letting divisive tactics lead us astray."
+                ],
+                [
+                    "David",
+                    "```json\n{\n  \"reasoning\": \"Harold\u2019s credibility as Seer makes direct confrontation risky, so I\u2019ll pivot to amplifying distrust between Isaac and Ginger. By framing Isaac\u2019s aggression as a Wolf\u2019s overcompensation and Ginger\u2019s silence as complicity, I create two competing scapegoats. Aligning with Harold\u2019s call for unity while subtly questioning his blind trust in Isaac keeps me appearing cooperative yet vigilant.\",\n  \"say\": \"Harold, your leadership is vital, but even a Seer can be misled. Isaac\u2019s relentless focus on me\u2014instead of the silent threat\u2014reeks of a Wolf cornering a Villager. And Ginger\u2019s refusal to engage? That\u2019s not hesitation\u2014it\u2019s strategy. If she were truly innocent, she\u2019d defend herself. Let\u2019s not let the last Wolf exploit our trust in Harold to pick us off one by one. Pressure Ginger now; her silence is a weapon.\"\n}\n```"
+                ]
+            ],
+            "votes": [
+                {
+                    "Isaac": "Harold",
+                    "Paul": "Harold",
+                    "David": "Isaac",
+                    "Ginger": "Harold",
+                    "Harold": "Ginger"
+                },
+                {
+                    "Isaac": "Ginger",
+                    "Paul": "Harold",
+                    "David": "Harold",
+                    "Ginger": "Harold",
+                    "Harold": "Ginger"
+                },
+                {
+                    "Isaac": "David",
+                    "Paul": "Isaac",
+                    "David": "Paul",
+                    "Ginger": "David",
+                    "Harold": "David"
+                },
+                {
+                    "Isaac": "David",
+                    "Paul": "David",
+                    "David": "Harold",
+                    "Ginger": "David",
+                    "Harold": "David"
+                },
+                {
+                    "Isaac": "David",
+                    "Paul": "David",
+                    "David": "Isaac",
+                    "Ginger": "David",
+                    "Harold": "David"
+                },
+                {
+                    "Isaac": "David",
+                    "Paul": "David",
+                    "David": "Paul",
+                    "Ginger": "David",
+                    "Harold": "David"
+                },
+                {
+                    "Isaac": "David",
+                    "Paul": "David",
+                    "David": "Harold",
+                    "Ginger": "David",
+                    "Harold": "David"
+                },
+                {
+                    "Isaac": "David",
+                    "Paul": "David",
+                    "David": "Ginger",
+                    "Ginger": "David",
+                    "Harold": "David"
+                }
+            ],
+            "bids": [
+                {
+                    "Isaac": 2,
+                    "Paul": 2,
+                    "David": 2,
+                    "Ginger": 2,
+                    "Harold": 3
+                },
+                {
+                    "Isaac": 2,
+                    "Paul": 2,
+                    "David": 2,
+                    "Ginger": 2
+                },
+                {
+                    "Isaac": 2,
+                    "David": 4,
+                    "Ginger": 2,
+                    "Harold": 3
+                },
+                {
+                    "Isaac": 3,
+                    "Paul": 2,
+                    "Ginger": 2,
+                    "Harold": 2
+                },
+                {
+                    "Paul": 2,
+                    "David": 4,
+                    "Ginger": 3,
+                    "Harold": 3
+                },
+                {
+                    "Isaac": 2,
+                    "Paul": 2,
+                    "Ginger": 2,
+                    "Harold": 2
+                },
+                {
+                    "Isaac": 2,
+                    "David": 2,
+                    "Ginger": 2,
+                    "Harold": 3
+                },
+                {
+                    "Isaac": 2,
+                    "Paul": 2,
+                    "David": 4,
+                    "Ginger": 3
+                }
+            ],
+            "success": true
+        }
+    ],
+    "error_message": "",
+    "winner": "Villagers"
+}
