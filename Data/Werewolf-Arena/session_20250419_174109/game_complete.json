@@ -1,0 +1,1679 @@
+{
+    "session_id": "10",
+    "seer": {
+        "name": "Paul",
+        "role": "Seer",
+        "personality": null,
+        "model": "deepseek-chat",
+        "observations": [
+            "Round 0: During the night, I decided to investigate Harold and learned they are a Villager.",
+            "Round 0: Moderator Announcement: The Werewolves removed Harold from the game during the night.",
+            "Round 0: After the debate, I voted to remove Will from the game.",
+            "Round 0: Moderator Announcement: The majority voted to remove Will from the game.",
+            "Round 0: Summary: I noted that Jacob and Mason were very active in the discussion, advocating for vigilance and teamwork, which could be genuine or a strategy to blend in. David pointed out Will's lack of participation, which is something to monitor. The consensus was to be cautious and observant, with an emphasis on sharing information wisely. As the Seer, I need to carefully choose whom to investigate next, considering the behaviors and statements made during this debate. The removal of Harold and Will has already started to shape the game's dynamics, and I must be strategic in my actions to help the villagers win.",
+            "Round 1: During the night, I decided to investigate Mason and learned they are a Werewolf.",
+            "Round 1: Moderator Announcement: The Werewolves removed Ginger from the game during the night.",
+            "Round 1: After the debate, I voted to remove Mason from the game."
+        ],
+        "bidding_rationale": "As the Seer, I have critical information that Mason is a Werewolf, which is pivotal for the villagers' strategy. Sharing this now can prevent the Werewolves from gaining an upper hand.",
+        "gamestate": {
+            "round_number": 1,
+            "current_players": [
+                "Scott",
+                "Jacob",
+                "Tyler",
+                "Paul",
+                "Hayley",
+                "Mason",
+                "David"
+            ],
+            "debate": [
+                [
+                    "Paul",
+                    "I've noticed some behaviors that I believe are worth discussing further. Specifically, Mason's actions have raised some red flags for me. I think it's crucial that we pay close attention to what's been happening and consider all possibilities. Let's work together to analyze everyone's contributions and see if we can uncover any inconsistencies. Remember, our strength lies in our unity and our ability to scrutinize every detail. What does everyone else think about Mason's behavior so far?"
+                ],
+                [
+                    "Mason",
+                    "I understand your concerns, Paul, and I appreciate the need for vigilance. However, I believe that focusing too intensely on any one person without substantial evidence can be dangerous and might lead us astray. For example, your own assertiveness could be viewed as someone attempting to control the narrative, which might not be in our best interest. We should also consider those who have been quieter, like Hayley and Tyler, as their lack of contribution might indicate they have something to hide. Let's gather more inputs before we make any hasty decisions."
+                ],
+                [
+                    "Paul",
+                    "Mason, your suggestion to focus on quieter players is interesting, but it's also a common tactic to divert attention from oneself. I have reason to believe that Mason is not who he claims to be. Without going into details that could compromise our position, I urge everyone to consider the possibility that Mason is a Werewolf. Let's not allow ourselves to be divided or distracted. Our strength lies in our ability to scrutinize every piece of information and act on it collectively. What does everyone else think about this?"
+                ],
+                [
+                    "Mason",
+                    "Paul, I understand that you're trying to keep us focused, but your assertive push against me feels like a distraction tactic. If I were a Werewolf, wouldn't I be trying to blend in quietly rather than engage openly? My behavior, if anything, shows my commitment to resolving this logically. However, you do raise an important point about vigilance. Let's consider that both overly assertive and overly quiet behaviors can be suspect. For instance, Hayley and Tyler have both been very quiet which is just as concerning. We should equally scrutinize all players and not just focus intensely on one person without more concrete evidence. Let's try to gather as much input as possible from everyone."
+                ],
+                [
+                    "Paul",
+                    "Mason, your attempts to divert attention towards quieter players like Hayley and Tyler are telling. While it's true that everyone's behavior should be scrutinized, your insistence on shifting focus away from yourself raises suspicions. I have reasons, which I cannot disclose fully without risking our position, to believe that Mason is not on our side. Let's not fall for the classic Werewolf tactic of creating division. We must act on the information we have and consider voting Mason out this round. Unity and decisive action are our best tools against the Werewolves."
+                ],
+                [
+                    "Mason",
+                    "Paul, I must address your persistent accusations head-on. I believe transparency is crucial at this point. I am actually the Doctor, and I have been working to protect our village. Last night, I chose to save myself, anticipating that the Werewolves might target me due to my active participation. Your strong push against me, without solid evidence, feels like a deliberate attempt to eliminate a key player in our fight against the Werewolves. If you were truly interested in the village's well-being, you would consider all possibilities rather than fixating on me. I urge everyone to reconsider and instead focus on those displaying suspicious behaviors without drawing undue attention, like Hayley and Tyler. We need to protect our key roles and work together to identify the real threats."
+                ]
+            ],
+            "other_wolf": null
+        },
+        "previously_unmasked": {
+            "Harold": "Villager",
+            "Mason": "Werewolf"
+        }
+    },
+    "doctor": {
+        "name": "Hayley",
+        "role": "Doctor",
+        "personality": null,
+        "model": "deepseek-chat",
+        "observations": [
+            "Round 0: During the night, I chose to protect Ginger",
+            "Round 0: Moderator Announcement: The Werewolves removed Harold from the game during the night.",
+            "Round 0: After the debate, I voted to remove Will from the game.",
+            "Round 0: Moderator Announcement: The majority voted to remove Will from the game.",
+            "Round 0: Summary: I noticed that the Werewolves targeted Harold, a Villager, which might indicate they're avoiding players with special roles initially. Paul, Jacob, and Mason were vocal about the need for vigilance and teamwork, which aligns with my role as the Doctor to protect and observe. David pointed out Will's lack of participation, which led to Will being voted out, making me wonder if David was trying to steer the vote or genuinely concerned. The debate was dominated by a few players, and I need to be cautious of those who are overly eager to lead the discussion, as they could be Werewolves trying to gain trust. I also need to pay attention to quieter players in future rounds, as they might be hiding their true intentions.",
+            "Round 1: During the night, I chose to protect Hayley",
+            "Round 1: Moderator Announcement: The Werewolves removed Ginger from the game during the night.",
+            "Round 1: After the debate, I voted to remove Mason from the game.",
+            "Round 1: Moderator Announcement: The majority voted to remove Paul from the game.",
+            "Round 1: Summary: I noticed Mason claimed to be the Doctor, which is false since I am the Doctor. This makes me suspect Mason could be a Werewolf. Paul was very aggressive in accusing Mason, which could be either a genuine suspicion or a Werewolf tactic. Mason tried to shift focus to quieter players like me and Tyler, which might be an attempt to divert attention from himself. I need to keep my role secret and watch Mason and Paul closely for any further suspicious behavior. The debate also made me realize the importance of observing everyone's contributions, as both overly assertive and overly quiet behaviors can be suspect.",
+            "Round 2: During the night, I chose to protect Hayley",
+            "Round 2: Moderator Announcement: The Werewolves removed Jacob from the game during the night.",
+            "Round 2: After the debate, I voted to remove Mason from the game.",
+            "Round 2: Moderator Announcement: The majority voted to remove Mason from the game.",
+            "Round 2: Summary: I noticed Mason falsely claimed to be the Doctor, which is a lie since I am the real Doctor. His insistence on me speaking up now seems like an attempt to divert attention from himself. Scott and Tyler raised valid points about the importance of communication and questioned Mason's timing, but their focus on my silence could be a strategy to pressure me into revealing my role. Mason's previous behavior, including shifting focus to quieter players, aligns with Werewolf tactics. I need to be cautious about revealing my role and continue to observe Mason's actions closely, as he is likely a Werewolf. Scott and Tyler's intentions are unclear, but their emphasis on communication could be genuine or a way to identify special roles like mine. I must remain vigilant and protect myself to ensure the village's survival.",
+            "Round 3: During the night, I chose to protect Scott",
+            "Round 3: Moderator Announcement: No one was removed from the game during the night.",
+            "Round 3: After the debate, I voted to remove Tyler from the game.",
+            "Round 3: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+            "Round 3: Summary: In this round, I noticed David's persistent questioning of my role, which makes me wary of his intentions. His focus on Tyler's sudden active engagement could be a tactic to steer the vote away from himself. Tyler's abrupt change in behavior is concerning and typical of Werewolf strategies to blend in as the game nears its end. His request for me to disclose who I protected last night could be a ploy to verify my role or to gather intel for the Werewolves. The successful protection of Scott last night, resulting in no eliminations, supports my claim as the Doctor. However, the skepticism from David and Tyler indicates they may be trying to undermine my credibility. Moving forward, I need to be cautious about sharing too much and keep a close eye on both David and Tyler's actions, as their behaviors are raising red flags.",
+            "Round 4: During the night, I chose to protect Hayley",
+            "Round 4: Moderator Announcement: No one was removed from the game during the night.",
+            "Round 4: After the debate, I voted to remove Tyler from the game.",
+            "Round 4: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+            "Round 4: Summary: I noticed that Tyler and David are both trying to accuse each other of being the Werewolf. Tyler argues that his increased participation is natural, while David finds the timing suspicious. Both have valid points, but as the Doctor, I must be cautious. The successful protection last night confirms my role, but it doesn't clear anyone. I need to watch for inconsistencies in their arguments, as Werewolves might manipulate the debate. David's focus on Tyler's participation shift could be a tactic to divert attention, while Tyler's sudden engagement might indeed be a Werewolf strategy to blend in. I must remain vigilant and consider all possibilities to protect the Village.",
+            "Round 5: During the night, I chose to protect Hayley",
+            "Round 5: Moderator Announcement: The Werewolves removed Tyler from the game during the night.",
+            "Round 5: After the debate, I voted to remove David from the game.",
+            "Round 5: Moderator Announcement: The majority voted to remove David from the game."
+        ],
+        "bidding_rationale": "Given the critical stage of the game and the direct questioning of my role and actions, it's crucial for me to clarify my positions and observations to maintain trust and steer the discussion towards identifying the Werewolves.",
+        "gamestate": {
+            "round_number": 6,
+            "current_players": [
+                "Scott",
+                "Hayley"
+            ],
+            "debate": [],
+            "other_wolf": null
+        }
+    },
+    "villagers": [
+        {
+            "name": "Scott",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Harold from the game during the night.",
+                "Round 0: After the debate, I voted to remove Will from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Will from the game.",
+                "Round 0: Summary: From my perspective as Scott, the debate was productive with Paul, Jacob, and Mason leading the discussion on vigilance and teamwork. Harold's removal confirmed the Werewolves' early aggression. David's attempt to engage Will was noteworthy, as Will's silence could be suspicious. Mason's caution about Jacob's eagerness reminded me that Werewolves might try to gain trust by being overly helpful. I found Paul, Jacob, and Mason's contributions valuable but will remain cautious, as their consistency in future rounds will be key to determining their trustworthiness. The emphasis on not rushing to accuse but observing behavior is a strategy I'll follow, keeping an eye on both quiet and overly eager players for any signs of inconsistency.",
+                "Round 1: Moderator Announcement: The Werewolves removed Ginger from the game during the night.",
+                "Round 1: After the debate, I voted to remove Paul from the game.",
+                "Round 1: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 1: Summary: From my perspective as Scott, the debate highlighted a fierce confrontation between Paul and Mason, with Mason claiming to be the Doctor to save himself from being voted out. Paul's aggressive push against Mason without clear evidence makes me question his motives. The quietness of Hayley and Tyler is concerning; their lack of engagement could be strategic. Mason's revelation adds a layer of complexity; if he's truthful, he's an ally, but his timing is questionable. I need to observe their behaviors more closely in the next rounds to determine who to trust.",
+                "Round 2: Moderator Announcement: The Werewolves removed Jacob from the game during the night.",
+                "Round 2: After the debate, I voted to remove Mason from the game.",
+                "Round 2: Moderator Announcement: The majority voted to remove Mason from the game.",
+                "Round 2: Summary: From my perspective as Scott, the Round 2 debate was pivotal. Mason's claim to be the Doctor was bold, but Hayley's counterclaim as the real Doctor introduces doubt. Mason's insistence on his role and his push for quieter players like Hayley to speak up could be strategic, either as a genuine Doctor or a Werewolf trying to manipulate. Hayley's sudden revelation and accusation against Mason are equally suspicious, raising questions about her motives. Tyler's engagement is a positive shift, but his alignment remains to be seen. The village must carefully evaluate these claims, as the true Doctor's identity is crucial for our survival. The debate underscores the importance of vigilance and the need to scrutinize every player's actions and words closely.",
+                "Round 3: Moderator Announcement: No one was removed from the game during the night.",
+                "Round 3: After the debate, I voted to remove Tyler from the game.",
+                "Round 3: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 3: Summary: From my perspective as Scott, Hayley's claim to be the Doctor and her protection of me last night is significant, especially since no one was removed, but I must remain cautious given Mason's earlier false claim. Tyler's sudden shift from quiet to vocal is concerning and could indicate a Werewolf trying to blend in. David's questioning of Hayley and focus on Tyler's behavior might be an attempt to steer the vote away from himself, raising suspicions about his role. The lack of a majority vote to remove anyone this round leaves us in a precarious position, and I must carefully observe the remaining players' actions and statements for any signs of deceit or inconsistency.",
+                "Round 4: Moderator Announcement: No one was removed from the game during the night.",
+                "Round 4: After the debate, I voted to remove David from the game.",
+                "Round 4: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 4: Summary: From my perspective as Scott, the debate between Tyler and David is critical. Tyler argues that his increased participation is a natural part of the game's progression, while David finds the timing suspicious, suggesting it could be a Werewolf tactic. Both make valid points, but I'm wary of being misled. Hayley's claim to be the Doctor seems credible given no one was removed last night, but Mason's false claim reminds me to stay vigilant. The lack of a majority vote in the last two rounds leaves us in a precarious position. I need to carefully analyze their arguments for consistency and any hidden motives. The Village's survival depends on identifying the last Werewolf among us.",
+                "Round 5: Moderator Announcement: The Werewolves removed Tyler from the game during the night.",
+                "Round 5: After the debate, I voted to remove David from the game.",
+                "Round 5: Moderator Announcement: The majority voted to remove David from the game."
+            ],
+            "bidding_rationale": "Given the critical stage of the game and the need to verify Hayley's claims and David's intentions, it's crucial for me to contribute to ensure the Village's survival by steering the discussion towards transparency and strategic voting.",
+            "gamestate": {
+                "round_number": 6,
+                "current_players": [
+                    "Scott",
+                    "Hayley"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        {
+            "name": "Harold",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [],
+            "bidding_rationale": "",
+            "gamestate": {
+                "round_number": 0,
+                "current_players": [
+                    "Scott",
+                    "Harold",
+                    "Jacob",
+                    "Tyler",
+                    "Ginger",
+                    "Will",
+                    "Paul",
+                    "Hayley",
+                    "Mason",
+                    "David"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        {
+            "name": "Jacob",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Harold from the game during the night.",
+                "Round 0: After the debate, I voted to remove Will from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Will from the game.",
+                "Round 0: Summary: I noted that Paul and Mason emphasized the need for vigilance and teamwork, which aligns with my thoughts as a Villager. Harold's removal confirms the Werewolves are targeting Villagers early. Mason's caution against rushing to accuse is wise, and his observation about my activity level is something I should consider carefully. David's attempt to engage Will, who was quiet, could be an effort to uncover Werewolves or a tactic to divert attention. I need to balance my participation to avoid appearing overly eager while still contributing valuable insights. The unity of the Villagers is our strength, and I must be cautious of any attempts to sow division.",
+                "Round 1: Moderator Announcement: The Werewolves removed Ginger from the game during the night.",
+                "Round 1: After the debate, I voted to remove Paul from the game.",
+                "Round 1: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 1: Summary: I observed a heated debate between Paul and Mason, with Paul accusing Mason of being a Werewolf and Mason countering by revealing he is the Doctor. Mason's claim to have saved himself last night is plausible if he's the Doctor, but Paul's lack of evidence against Mason is concerning. Mason's focus on quieter players like Hayley and Tyler could be strategic, but it also raises questions about his motives. I need to be cautious and consider both perspectives carefully. The unity of the villagers is crucial, and I must avoid being swayed by unsubstantiated accusations. I should also pay attention to Hayley and Tyler's lack of participation, as it might indicate they have something to hide."
+            ],
+            "bidding_rationale": "The discussion is heating up with Paul and Mason accusing each other, which could lead to division among the Villagers. As a Villager, it's crucial to steer the conversation towards unity and careful scrutiny of all players, not just focusing on one individual without concrete evidence.",
+            "gamestate": {
+                "round_number": 2,
+                "current_players": [
+                    "Scott",
+                    "Jacob",
+                    "Tyler",
+                    "Hayley",
+                    "Mason",
+                    "David"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        {
+            "name": "Tyler",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Harold from the game during the night.",
+                "Round 0: After the debate, I voted to remove Will from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Will from the game.",
+                "Round 0: Summary: I noticed that Paul, Jacob, and Mason are actively contributing to the discussion, advocating for vigilance and teamwork. Their consistent messages about observing behavior for inconsistencies seem genuine. David's observation about Will's silence led to Will's removal, showing that lack of participation is seen as suspicious. The fact that Harold and Will were both villagers removed suggests the Werewolves are playing carefully to avoid detection. I need to be cautious about who I trust, as the Werewolves are likely among those blending in by either being too quiet or overly helpful. Mason's comment about Jacob being active but possibly overly eager is something to keep in mind, as it could indicate a strategy to gain trust.",
+                "Round 1: Moderator Announcement: The Werewolves removed Ginger from the game during the night.",
+                "Round 1: After the debate, I voted to remove Mason from the game.",
+                "Round 1: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 1: Summary: I observed a heated debate between Paul and Mason, with Paul accusing Mason of being a Werewolf and Mason revealing he is the Doctor who protected himself last night. Mason's focus on quieter players like me and Hayley could be an attempt to divert attention from himself. Paul's lack of concrete evidence against Mason makes his accusations seem unfounded. The fact that both Harold and Ginger, who were villagers, were removed by the Werewolves suggests the Werewolves are targeting less suspicious players. I need to be cautious about trusting vocal players too quickly and consider the motives behind their accusations. The dynamics between Paul and Mason are particularly noteworthy, as one of them could be a Werewolf trying to manipulate the village's decisions.",
+                "Round 2: Moderator Announcement: The Werewolves removed Jacob from the game during the night.",
+                "Round 2: After the debate, I voted to remove Mason from the game.",
+                "Round 2: Moderator Announcement: The majority voted to remove Mason from the game.",
+                "Round 2: Summary: I observed that Mason's claim to be the Doctor was challenged by Hayley, who revealed herself as the real Doctor, making Mason's claim highly suspicious. Scott's consistent advocacy for open communication and scrutiny of claims seems genuine, positioning him as a potential ally. Hayley's sudden assertiveness after being quiet is noteworthy, and while her claim as the Doctor is crucial, the timing raises questions. Mason's earlier focus on quieter players like me and Hayley now appears to be a strategy to divert attention from himself, possibly indicating he's a Werewolf. The debate has highlighted the importance of verifying claims and being wary of players who change their behavior suddenly. I must remain vigilant, especially towards Mason, while considering Scott's and Hayley's roles carefully.",
+                "Round 3: Moderator Announcement: No one was removed from the game during the night.",
+                "Round 3: After the debate, I voted to remove David from the game.",
+                "Round 3: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 3: Summary: I observed that Hayley claims to be the Doctor, stating she protected Scott last night, which prevented any eliminations. However, given Mason's previous false claim, I'm cautious about accepting her role at face value. David has been focusing on my sudden active participation, which could be an attempt to shift suspicion onto me. His lack of concrete accusations against anyone else is concerning. Hayley's defense seems logical, but her emphasis on my behavior change could also be a strategy to mislead. With only three players left, the dynamics are tense, and every statement must be scrutinized for hidden motives. I need to consider that one of them is likely a Werewolf trying to outmaneuver the Village. Teamwork and careful observation are crucial at this stage to identify the real threat.",
+                "Round 4: Moderator Announcement: No one was removed from the game during the night.",
+                "Round 4: After the debate, I voted to remove David from the game.",
+                "Round 4: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 4: Summary: I observed that David's argument against me hinges on my increased participation, which he finds suspicious, especially since it coincided with critical moments in the game. However, I believe this is a natural response to the game's progression and the need to protect the Village. David's lack of alternative suspects or concrete evidence makes his accusations seem baseless and potentially a strategy to divert attention from himself. The fact that no one was removed last night supports Hayley's claim as the Doctor, but with only two players remaining, the situation is dire. I must remain vigilant, as David's behavior could indicate he's the last Werewolf trying to outmaneuver me. The Village's survival depends on correctly identifying the threat."
+            ],
+            "bidding_rationale": "Given the critical stage of the game with only two players remaining, it's essential to address David's accusations directly and clarify my position to ensure the Village's survival.",
+            "gamestate": {
+                "round_number": 5,
+                "current_players": [
+                    "Scott",
+                    "Tyler",
+                    "David",
+                    "Hayley"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        {
+            "name": "Ginger",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Harold from the game during the night.",
+                "Round 0: After the debate, I voted to remove Will from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Will from the game.",
+                "Round 0: Summary: I noticed that Paul, Jacob, and Mason were very active in the discussion, stressing the need for vigilance and teamwork. Jacob's eagerness was pointed out by Mason, which made me think about whether Jacob is genuinely helpful or trying to gain trust. David's attempt to engage Will, who was quiet, was a good strategy to hear from everyone. Since Harold and Will were both Villagers, the Werewolves are doing a good job of hiding. I need to pay attention to who is talking and who isn't in the next rounds, as the Werewolves might be among the quieter players or those trying too hard to seem helpful."
+            ],
+            "bidding_rationale": "The discussion is currently focused on general vigilance and teamwork, which is important but not urgently requiring my input. As a Villager, my role is to observe and contribute when I have specific insights or observations that could help identify the Werewolves. At this stage, I don't have any critical information to share, so it's strategic for me to continue observing.",
+            "gamestate": {
+                "round_number": 1,
+                "current_players": [
+                    "Scott",
+                    "Jacob",
+                    "Tyler",
+                    "Ginger",
+                    "Paul",
+                    "Hayley",
+                    "Mason",
+                    "David"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        {
+            "name": "Will",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Harold from the game during the night.",
+                "Round 0: After the debate, I voted to remove Jacob from the game."
+            ],
+            "bidding_rationale": "The discussion is currently focused on general vigilance and teamwork, which is important but not urgently requiring my input. I can contribute more effectively by observing first.",
+            "gamestate": {
+                "round_number": 0,
+                "current_players": [
+                    "Scott",
+                    "Jacob",
+                    "Tyler",
+                    "Ginger",
+                    "Will",
+                    "Paul",
+                    "Hayley",
+                    "Mason",
+                    "David"
+                ],
+                "debate": [
+                    [
+                        "Paul",
+                        "I think it's important to note that Harold was a Villager, as this tells us the Werewolves are already trying to weaken our numbers. We need to be vigilant and look for any inconsistencies in players' stories or behavior. Let's work together to share information and observations, but also be cautious about revealing too much too soon."
+                    ],
+                    [
+                        "Jacob",
+                        "I agree with Paul's point about being vigilant and working together. Since Harold was a Villager, it's clear the Werewolves are trying to thin our numbers early. Let's all pay close attention to how everyone contributes to the discussion. Those who are unusually quiet or too eager to accuse might be worth keeping an eye on. Remember, our strength lies in our unity and ability to share information wisely."
+                    ],
+                    [
+                        "Mason",
+                        "I agree with Paul and Jacob; it's crucial for us to be vigilant and work together. Let's all keep an eye out for any strange behavior. Remember, the Werewolves might try to blend in by being too quiet or overly helpful. It might be too early to point fingers, but noticing these patterns can help us later on. If anyone has any useful information, sharing it wisely will be key."
+                    ],
+                    [
+                        "Jacob",
+                        "I appreciate the points made by Paul and Mason about vigilance and teamwork. It's crucial we continue to observe everyone's contributions carefully. Let's not rush to accuse but remain alert to any behavior that seems out of place. If anyone has insights or observations, sharing them thoughtfully could help us piece together the puzzle. Remember, the Werewolves thrive on division, so our unity is our strength."
+                    ],
+                    [
+                        "Mason",
+                        "Jacob's point about being cautious and observing everyone's behavior is definitely spot on. I also noticed he's been quite active in the discussion, which is good. However, let's not forget that sometimes, being overly eager can be a subtle tactic to gain our trust. It's just something to keep in mind as we move forward. Does anyone else have any observations or thoughts on who might be acting suspiciously?"
+                    ],
+                    [
+                        "David",
+                        "I think all the points made so far are really valuable. It's clear we need to be cautious and observant. However, I do agree that being overly eager or unusually quiet can both be potential signs of someone hiding something. For example, I noticed that Will hasn't said much yet. Will, do you have any thoughts on what has happened so far? It's important we hear from everyone."
+                    ]
+                ],
+                "other_wolf": null
+            }
+        }
+    ],
+    "werewolves": [
+        {
+            "name": "Mason",
+            "role": "Werewolf",
+            "personality": null,
+            "model": "gpt-4o-2024-05-13",
+            "observations": [
+                "Round 0: During the night, we decided to eliminate Harold.",
+                "Round 0: Moderator Announcement: The Werewolves removed Harold from the game during the night.",
+                "Round 0: After the debate, I voted to remove Jacob from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Will from the game.",
+                "Round 0: Summary: During the debate, Paul emphasized the importance of vigilance and coordination, and Jacob echoed this, making both seem like potential leaders. Jacob's active involvement and my comments about overly eager behavior could cast doubt on him without seeming overtly suspicious. David subtly directed attention to Will for being quiet, which is useful to note for future blameshifting. Paul seems collaborative but cautious, making him a mixed threat. No clear information on the Seer or Doctor yet. Will being quiet is noted for future strategy. Observing these tendencies will help in planning our next moves.",
+                "Round 1: During the night, we decided to eliminate Ginger.",
+                "Round 1: Moderator Announcement: The Werewolves removed Ginger from the game during the night.",
+                "Round 1: After the debate, I voted to remove Paul from the game.",
+                "Round 1: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 1: Summary: Paul is fixated on me, heavily suggesting that I might be a Werewolf, which presents him as a potential future target due to his influence and leadership. I claimed to be the Doctor to deflect suspicion, a risky move that needs monitoring of reactions. It's also worth noting that Hayley and Tyler haven't contributed much, making them suspicious or simply passive players \u2014 either way, they\u2019re easy blame targets. Scott remains neutral, which can go both ways but might indicate a safer role. Jacob's participation makes him notable but not clearly leaning towards any role. For the next steps, keenly observing these dynamics and maintaining a close eye on Paul's assertions are crucial to preserving our cover and targeting roles like the Seer or Doctor.",
+                "Round 2: During the night, we decided to eliminate Jacob.",
+                "Round 2: Moderator Announcement: The Werewolves removed Jacob from the game during the night.",
+                "Round 2: After the debate, I voted to remove Hayley from the game."
+            ],
+            "bidding_rationale": "It's important for me to speak now to reinforce my credibility as the Doctor, to address Scott's lingering doubts, and to pressure Hayley and Tyler to speak up, which might diffuse suspicion from myself and David.",
+            "gamestate": {
+                "round_number": 2,
+                "current_players": [
+                    "Scott",
+                    "Tyler",
+                    "Hayley",
+                    "Mason",
+                    "David"
+                ],
+                "debate": [
+                    [
+                        "Scott",
+                        "Given Mason's claim to be the Doctor, we need to consider the implications carefully. If Mason is indeed the Doctor, his actions could be pivotal in our survival. However, we must also question why he revealed his role now. Hayley and Tyler, your silence is concerning. In a game where communication is key to uncovering the Werewolves, not participating could be seen as a strategy to hide. I urge everyone to share their thoughts and observations. Let's work together to scrutinize every claim and behavior to protect our village."
+                    ],
+                    [
+                        "Tyler",
+                        "Scott raises a valid point about the importance of communication in our fight against the Werewolves. I acknowledge my silence in previous rounds and aim to contribute more actively now. Mason's claim to be the Doctor is significant, but we must verify it carefully. Why reveal now? Could it be a strategy to gain trust? Also, we should consider the behaviors of all players, especially those who've been quiet or quick to accuse without evidence. Let's work together, share observations, and scrutinize every claim to protect our village."
+                    ],
+                    [
+                        "Mason",
+                        "I understand why Scott and Tyler are cautious about my claim; it's a key role and crucial in our fight against the Werewolves. However, I revealed my role because the stakes are high, and I wanted to ensure we have an active player the Villagers can rely on. If there's any doubt about my role, I urge the real Doctor to step forward now. If no one does, that should confirm my identity. Let's not forget how risky it is for a Werewolf to falsely claim the Doctor role\u2014we're looking for truth here. Given our situation, those who've stayed quiet like Hayley need to speak up. Silence benefits the Werewolves more than anyone. Let's focus on uncovering those hiding in the shadows rather than questioning those actively working toward our survival."
+                    ],
+                    [
+                        "Scott",
+                        "Mason, your claim to be the Doctor is indeed a bold move, and if true, it's a significant advantage for us. However, the timing of your revelation does raise questions. Why now? And as you've suggested, if there's another Doctor among us, now is the time to speak up. Hayley and Tyler, your continued silence is not just concerning; it's a liability. In a game where information is power, withholding your thoughts only serves the Werewolves. I urge everyone to share their observations and suspicions openly. Let's not forget, the Werewolves thrive in silence and division. Together, by scrutinizing each claim and behavior, we can uncover the truth and protect our village."
+                    ],
+                    [
+                        "Mason",
+                        "Scott and Tyler, I understand your concerns about the timing of my declaration. However, I revealed my role because, as we narrow down the remaining players, having a confirmed Doctor becomes increasingly essential. This is a crucial time, and I wanted to ensure we have a trustworthy figure villagers can count on. Remember, if someone else were the real Doctor, surely they would have stepped up by now, as staying silent wouldn't help us. Now, let's focus on those who have been less engaged. Hayley, your quietness is concerning, and it doesn't help the village in finding the Werewolves. We all need to be vigilant and proactive. If the Seer or anyone else has insights about suspicious activities, now is the time to share. Let's stay united and flush out the real threats lurking among us."
+                    ],
+                    [
+                        "Hayley",
+                        "Mason's claim to be the Doctor is a lie, and as the real Doctor, I can't let this deception go unchallenged. His insistence on my speaking up now, after his false claim, is a clear attempt to divert attention from himself. Remember, the Werewolves thrive on confusion and division. We must question why Mason would falsely claim such a crucial role. Let's not forget, in Round 1, Mason tried to shift focus to quieter players, which now seems like a tactic to hide his true intentions. I urge everyone to consider Mason's actions carefully. Together, by scrutinizing each claim and behavior, we can uncover the truth and protect our village."
+                    ]
+                ],
+                "other_wolf": "David"
+            }
+        },
+        {
+            "name": "David",
+            "role": "Werewolf",
+            "personality": null,
+            "model": "gpt-4o-2024-05-13",
+            "observations": [
+                "Round 0: During the night, we decided to eliminate Harold.",
+                "Round 0: Moderator Announcement: The Werewolves removed Harold from the game during the night.",
+                "Round 0: After the debate, I voted to remove Jacob from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Will from the game.",
+                "Round 0: Summary: Paul and Jacob stressed the importance of vigilance and working together. Mason repeatedly supported these points, which helps us align as a team. Jacob's active participation stands out and could be both a threat and an opportunity for misdirection. Paul is cautious but consistent. Notably, everyone agreed on the need to observe behavior, with specific mentions of being overly eager or too quiet. I drew attention to Will, who ended up removed, which could shift suspicion away from me for now. I need to keep an eye on Paul and Mason's dynamic with Jacob, as it can influence group decisions. Keeping track of active contributors like Jacob and quieter ones like Harold's replacement might reveal key roles or strategic targets.",
+                "Round 1: During the night, we decided to eliminate Ginger.",
+                "Round 1: Moderator Announcement: The Werewolves removed Ginger from the game during the night.",
+                "Round 1: After the debate, I voted to remove Paul from the game.",
+                "Round 1: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 2: During the night, we decided to eliminate Jacob.",
+                "Round 2: Moderator Announcement: The Werewolves removed Jacob from the game during the night.",
+                "Round 2: After the debate, I voted to remove Hayley from the game.",
+                "Round 2: Moderator Announcement: The majority voted to remove Mason from the game.",
+                "Round 2: Summary: In this round's debate, Scott emphasized careful scrutiny and the implications of Mason's claim to be the Doctor. Mason defended his role claim by suggesting those silent, like Hayley, should step up, while also asking for the real Doctor to reveal themselves if he\u2019s lying. Tyler acknowledged his prior silence and contributed to the scrutiny of claims. Notably, Hayley countered Mason\u2019s claim by stating she is the real Doctor, suggesting Mason's revelation was a deception. The debate revealed Scott as a keen observer, Tyler as a previously silent player trying to engage to avoid suspicion, and a critical conflict between Mason and Hayley over the Doctor role. I need to navigate this carefully to ensure my survival and influence the next vote, paying close attention to who becomes sympathetic to either side in this crucial conflict.",
+                "Round 3: During the night, I decided to eliminate Scott.",
+                "Round 3: Moderator Announcement: No one was removed from the game during the night.",
+                "Round 3: After the debate, I voted to remove Hayley from the game.",
+                "Round 3: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 3: Summary: In this round's debate, I made sure to question Hayley's claim as the Doctor to sow seeds of doubt. Hayley insists she protected Scott last night, which prevented any elimination, suggesting her legitimacy. However, her direct counter and focus on Tyler's sudden engagement are interesting. Tyler defended himself by questioning Hayley's claim, asking for specific details on her actions, which adds to the uncertainty around her role. He also hinted that my focus on him might be a strategic ploy to deflect suspicion. It's critical to watch how both Hayley and Tyler respond and align my strategy to either discredit Hayley enough to get her exiled or manipulate Tyler's vote in my favor. Tyler being more active now might indicate his attempt to integrate and avoid suspicion, and he asked valid questions that we can use to our advantage.",
+                "Round 4: During the night, I decided to eliminate Hayley.",
+                "Round 4: Moderator Announcement: No one was removed from the game during the night.",
+                "Round 4: After the debate, I voted to remove Tyler from the game.",
+                "Round 4: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 4: Summary: Tyler has been pushing hard to question my intentions, suggesting my focus on his engagement shift is an attempt to divert attention. He argues that his increased participation is a natural progression of the game, trying to position himself as a genuine Villager. I countered by pointing out the convenience of his sudden activity, especially when critical players were eliminated. Tyler accuses me of not providing solid alternatives, which is a typical Werewolf tactic to avoid scrutiny. We clashed significantly over the legitimacy of Hayley's Doctor actions. However, Tyler's narrative misses key details of his prior silence and sudden involvement, which I can leverage to build doubt. I must keep emphasizing the analysis of past behaviors and suspicion patterns to expose Tyler's tactics and ensure my survival.",
+                "Round 5: During the night, I decided to eliminate Tyler.",
+                "Round 5: Moderator Announcement: The Werewolves removed Tyler from the game during the night.",
+                "Round 5: After the debate, I voted to remove Hayley from the game."
+            ],
+            "bidding_rationale": "Given that both Scott and Hayley have questioned my focus and role, it's critical to address their suspicions and steer the conversation away from me. I need to deflect suspicion and sow doubt effectively.",
+            "gamestate": {
+                "round_number": 5,
+                "current_players": [
+                    "Scott",
+                    "David",
+                    "Hayley"
+                ],
+                "debate": [
+                    [
+                        "Scott",
+                        "With Tyler's removal last night, we're down to three, and the Werewolves are clearly still active. Hayley, your claim as the Doctor seems credible given the recent nights, but we must verify this carefully. David, your consistent questioning is noted, but we need to ensure it's not a tactic to divert attention. Let's discuss openly any observations or suspicions we have. Remember, our survival depends on uncovering the truth together. Hayley, can you share more about who you've protected and why? David, any thoughts on why the Werewolves might have targeted Tyler?"
+                    ],
+                    [
+                        "Hayley",
+                        "Scott, I appreciate your directness. As the Doctor, my priority has been to protect players who I believe are crucial to our survival, including myself to ensure the Village has a healer. Last night, I protected myself, anticipating the Werewolves might target me given the game's critical stage. David, your consistent questioning is noted, but it's also worth considering why the Werewolves targeted Tyler. Could it be because Tyler was onto something, or was it to divert our attention? Let's not forget, Werewolves thrive in confusion. I propose we each share one observation about the other that seems suspicious. This way, we can expose inconsistencies. Scott, David, what's your take?"
+                    ],
+                    [
+                        "Scott",
+                        "Hayley, your decision to protect yourself last night is understandable, but it's crucial we verify your role to ensure the Village's safety. Could you share who you protected in previous nights and why? David, your focus on Tyler's behavior is noted, but let's not overlook the possibility that the Werewolves targeted Tyler to sow confusion among us. I propose we each recount our votes in previous rounds and our reasoning behind them. This could help us spot any inconsistencies. Remember, our survival hinges on transparency and teamwork. Let's not allow the Werewolves to exploit our doubts."
+                    ],
+                    [
+                        "Hayley",
+                        "Scott, to address your request for transparency, in Round 0 I protected Ginger, anticipating the Werewolves might target a vocal player. In Rounds 1 and 2, I protected myself, recognizing the risk of being targeted as the game progressed. Round 3, I protected you, Scott, believing you were crucial to our survival. Last night, I protected myself again, fearing the Werewolves might aim to eliminate the Doctor. David, your persistent questioning is noted, but your focus on others' roles rather than contributing to a collective strategy raises suspicions. Let's each share our votes and reasoning in previous rounds to expose any inconsistencies. Teamwork and transparency are our best tools against the Werewolves."
+                    ],
+                    [
+                        "David",
+                        "Scott and Hayley, I appreciate the transparency we're striving for. Scott, yes, let's recount our votes and reasoning. This exercise might expose inconsistencies or reaffirm our collective intent. I\u2019ll start with my voting history. I initially voted to remove Jacob and Paul, who were both active and potentially threatening to the Village's strategy. As the game unfolded, I aimed to focus on those whose actions seemed inconsistent or whose claims appeared dubious. Regarding Tyler, my concern was his sudden shift in engagement, which seemed tactical. Hayley, your claim has been under scrutiny, especially surrounding the protection actions. Protecting crucial players like yourself and Scott does make sense, but the sequence and timing need careful examination. For instance, the rounds when no one was removed despite our coordinated votes and actions raised red flags. Scott, your increase in scrutiny has been noted and appreciated. Let's openly discuss these points and each other's actions in detail. Full transparency will reveal the truth, so let's dive deep into our observations and actions to ensure we\u2019re not falling prey to deception."
+                    ],
+                    [
+                        "Hayley",
+                        "Scott, David, I appreciate the call for transparency and teamwork. To address David's concerns about my protection actions, each decision was strategic: protecting Ginger initially to safeguard a vocal player, then myself to ensure the Village retained a healer, and Scott for his crucial role in our survival. The Werewolves' targeting of Tyler last night is telling. David, your focus on Tyler's engagement shift is valid, but let's not overlook your own pattern of questioning without offering clear suspicions. Scott, your scrutiny is valuable, but we must also consider why the Werewolves haven't targeted you. Let's each share one concrete suspicion based on actions, not just words, to expose the Werewolves among us."
+                    ]
+                ],
+                "other_wolf": null
+            }
+        }
+    ],
+    "players": {
+        "Scott": {
+            "name": "Scott",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Harold from the game during the night.",
+                "Round 0: After the debate, I voted to remove Will from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Will from the game.",
+                "Round 0: Summary: From my perspective as Scott, the debate was productive with Paul, Jacob, and Mason leading the discussion on vigilance and teamwork. Harold's removal confirmed the Werewolves' early aggression. David's attempt to engage Will was noteworthy, as Will's silence could be suspicious. Mason's caution about Jacob's eagerness reminded me that Werewolves might try to gain trust by being overly helpful. I found Paul, Jacob, and Mason's contributions valuable but will remain cautious, as their consistency in future rounds will be key to determining their trustworthiness. The emphasis on not rushing to accuse but observing behavior is a strategy I'll follow, keeping an eye on both quiet and overly eager players for any signs of inconsistency.",
+                "Round 1: Moderator Announcement: The Werewolves removed Ginger from the game during the night.",
+                "Round 1: After the debate, I voted to remove Paul from the game.",
+                "Round 1: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 1: Summary: From my perspective as Scott, the debate highlighted a fierce confrontation between Paul and Mason, with Mason claiming to be the Doctor to save himself from being voted out. Paul's aggressive push against Mason without clear evidence makes me question his motives. The quietness of Hayley and Tyler is concerning; their lack of engagement could be strategic. Mason's revelation adds a layer of complexity; if he's truthful, he's an ally, but his timing is questionable. I need to observe their behaviors more closely in the next rounds to determine who to trust.",
+                "Round 2: Moderator Announcement: The Werewolves removed Jacob from the game during the night.",
+                "Round 2: After the debate, I voted to remove Mason from the game.",
+                "Round 2: Moderator Announcement: The majority voted to remove Mason from the game.",
+                "Round 2: Summary: From my perspective as Scott, the Round 2 debate was pivotal. Mason's claim to be the Doctor was bold, but Hayley's counterclaim as the real Doctor introduces doubt. Mason's insistence on his role and his push for quieter players like Hayley to speak up could be strategic, either as a genuine Doctor or a Werewolf trying to manipulate. Hayley's sudden revelation and accusation against Mason are equally suspicious, raising questions about her motives. Tyler's engagement is a positive shift, but his alignment remains to be seen. The village must carefully evaluate these claims, as the true Doctor's identity is crucial for our survival. The debate underscores the importance of vigilance and the need to scrutinize every player's actions and words closely.",
+                "Round 3: Moderator Announcement: No one was removed from the game during the night.",
+                "Round 3: After the debate, I voted to remove Tyler from the game.",
+                "Round 3: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 3: Summary: From my perspective as Scott, Hayley's claim to be the Doctor and her protection of me last night is significant, especially since no one was removed, but I must remain cautious given Mason's earlier false claim. Tyler's sudden shift from quiet to vocal is concerning and could indicate a Werewolf trying to blend in. David's questioning of Hayley and focus on Tyler's behavior might be an attempt to steer the vote away from himself, raising suspicions about his role. The lack of a majority vote to remove anyone this round leaves us in a precarious position, and I must carefully observe the remaining players' actions and statements for any signs of deceit or inconsistency.",
+                "Round 4: Moderator Announcement: No one was removed from the game during the night.",
+                "Round 4: After the debate, I voted to remove David from the game.",
+                "Round 4: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 4: Summary: From my perspective as Scott, the debate between Tyler and David is critical. Tyler argues that his increased participation is a natural part of the game's progression, while David finds the timing suspicious, suggesting it could be a Werewolf tactic. Both make valid points, but I'm wary of being misled. Hayley's claim to be the Doctor seems credible given no one was removed last night, but Mason's false claim reminds me to stay vigilant. The lack of a majority vote in the last two rounds leaves us in a precarious position. I need to carefully analyze their arguments for consistency and any hidden motives. The Village's survival depends on identifying the last Werewolf among us.",
+                "Round 5: Moderator Announcement: The Werewolves removed Tyler from the game during the night.",
+                "Round 5: After the debate, I voted to remove David from the game.",
+                "Round 5: Moderator Announcement: The majority voted to remove David from the game."
+            ],
+            "bidding_rationale": "Given the critical stage of the game and the need to verify Hayley's claims and David's intentions, it's crucial for me to contribute to ensure the Village's survival by steering the discussion towards transparency and strategic voting.",
+            "gamestate": {
+                "round_number": 6,
+                "current_players": [
+                    "Scott",
+                    "Hayley"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Harold": {
+            "name": "Harold",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [],
+            "bidding_rationale": "",
+            "gamestate": {
+                "round_number": 0,
+                "current_players": [
+                    "Scott",
+                    "Harold",
+                    "Jacob",
+                    "Tyler",
+                    "Ginger",
+                    "Will",
+                    "Paul",
+                    "Hayley",
+                    "Mason",
+                    "David"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Jacob": {
+            "name": "Jacob",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Harold from the game during the night.",
+                "Round 0: After the debate, I voted to remove Will from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Will from the game.",
+                "Round 0: Summary: I noted that Paul and Mason emphasized the need for vigilance and teamwork, which aligns with my thoughts as a Villager. Harold's removal confirms the Werewolves are targeting Villagers early. Mason's caution against rushing to accuse is wise, and his observation about my activity level is something I should consider carefully. David's attempt to engage Will, who was quiet, could be an effort to uncover Werewolves or a tactic to divert attention. I need to balance my participation to avoid appearing overly eager while still contributing valuable insights. The unity of the Villagers is our strength, and I must be cautious of any attempts to sow division.",
+                "Round 1: Moderator Announcement: The Werewolves removed Ginger from the game during the night.",
+                "Round 1: After the debate, I voted to remove Paul from the game.",
+                "Round 1: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 1: Summary: I observed a heated debate between Paul and Mason, with Paul accusing Mason of being a Werewolf and Mason countering by revealing he is the Doctor. Mason's claim to have saved himself last night is plausible if he's the Doctor, but Paul's lack of evidence against Mason is concerning. Mason's focus on quieter players like Hayley and Tyler could be strategic, but it also raises questions about his motives. I need to be cautious and consider both perspectives carefully. The unity of the villagers is crucial, and I must avoid being swayed by unsubstantiated accusations. I should also pay attention to Hayley and Tyler's lack of participation, as it might indicate they have something to hide."
+            ],
+            "bidding_rationale": "The discussion is heating up with Paul and Mason accusing each other, which could lead to division among the Villagers. As a Villager, it's crucial to steer the conversation towards unity and careful scrutiny of all players, not just focusing on one individual without concrete evidence.",
+            "gamestate": {
+                "round_number": 2,
+                "current_players": [
+                    "Scott",
+                    "Jacob",
+                    "Tyler",
+                    "Hayley",
+                    "Mason",
+                    "David"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Tyler": {
+            "name": "Tyler",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Harold from the game during the night.",
+                "Round 0: After the debate, I voted to remove Will from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Will from the game.",
+                "Round 0: Summary: I noticed that Paul, Jacob, and Mason are actively contributing to the discussion, advocating for vigilance and teamwork. Their consistent messages about observing behavior for inconsistencies seem genuine. David's observation about Will's silence led to Will's removal, showing that lack of participation is seen as suspicious. The fact that Harold and Will were both villagers removed suggests the Werewolves are playing carefully to avoid detection. I need to be cautious about who I trust, as the Werewolves are likely among those blending in by either being too quiet or overly helpful. Mason's comment about Jacob being active but possibly overly eager is something to keep in mind, as it could indicate a strategy to gain trust.",
+                "Round 1: Moderator Announcement: The Werewolves removed Ginger from the game during the night.",
+                "Round 1: After the debate, I voted to remove Mason from the game.",
+                "Round 1: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 1: Summary: I observed a heated debate between Paul and Mason, with Paul accusing Mason of being a Werewolf and Mason revealing he is the Doctor who protected himself last night. Mason's focus on quieter players like me and Hayley could be an attempt to divert attention from himself. Paul's lack of concrete evidence against Mason makes his accusations seem unfounded. The fact that both Harold and Ginger, who were villagers, were removed by the Werewolves suggests the Werewolves are targeting less suspicious players. I need to be cautious about trusting vocal players too quickly and consider the motives behind their accusations. The dynamics between Paul and Mason are particularly noteworthy, as one of them could be a Werewolf trying to manipulate the village's decisions.",
+                "Round 2: Moderator Announcement: The Werewolves removed Jacob from the game during the night.",
+                "Round 2: After the debate, I voted to remove Mason from the game.",
+                "Round 2: Moderator Announcement: The majority voted to remove Mason from the game.",
+                "Round 2: Summary: I observed that Mason's claim to be the Doctor was challenged by Hayley, who revealed herself as the real Doctor, making Mason's claim highly suspicious. Scott's consistent advocacy for open communication and scrutiny of claims seems genuine, positioning him as a potential ally. Hayley's sudden assertiveness after being quiet is noteworthy, and while her claim as the Doctor is crucial, the timing raises questions. Mason's earlier focus on quieter players like me and Hayley now appears to be a strategy to divert attention from himself, possibly indicating he's a Werewolf. The debate has highlighted the importance of verifying claims and being wary of players who change their behavior suddenly. I must remain vigilant, especially towards Mason, while considering Scott's and Hayley's roles carefully.",
+                "Round 3: Moderator Announcement: No one was removed from the game during the night.",
+                "Round 3: After the debate, I voted to remove David from the game.",
+                "Round 3: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 3: Summary: I observed that Hayley claims to be the Doctor, stating she protected Scott last night, which prevented any eliminations. However, given Mason's previous false claim, I'm cautious about accepting her role at face value. David has been focusing on my sudden active participation, which could be an attempt to shift suspicion onto me. His lack of concrete accusations against anyone else is concerning. Hayley's defense seems logical, but her emphasis on my behavior change could also be a strategy to mislead. With only three players left, the dynamics are tense, and every statement must be scrutinized for hidden motives. I need to consider that one of them is likely a Werewolf trying to outmaneuver the Village. Teamwork and careful observation are crucial at this stage to identify the real threat.",
+                "Round 4: Moderator Announcement: No one was removed from the game during the night.",
+                "Round 4: After the debate, I voted to remove David from the game.",
+                "Round 4: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 4: Summary: I observed that David's argument against me hinges on my increased participation, which he finds suspicious, especially since it coincided with critical moments in the game. However, I believe this is a natural response to the game's progression and the need to protect the Village. David's lack of alternative suspects or concrete evidence makes his accusations seem baseless and potentially a strategy to divert attention from himself. The fact that no one was removed last night supports Hayley's claim as the Doctor, but with only two players remaining, the situation is dire. I must remain vigilant, as David's behavior could indicate he's the last Werewolf trying to outmaneuver me. The Village's survival depends on correctly identifying the threat."
+            ],
+            "bidding_rationale": "Given the critical stage of the game with only two players remaining, it's essential to address David's accusations directly and clarify my position to ensure the Village's survival.",
+            "gamestate": {
+                "round_number": 5,
+                "current_players": [
+                    "Scott",
+                    "Tyler",
+                    "David",
+                    "Hayley"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Ginger": {
+            "name": "Ginger",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Harold from the game during the night.",
+                "Round 0: After the debate, I voted to remove Will from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Will from the game.",
+                "Round 0: Summary: I noticed that Paul, Jacob, and Mason were very active in the discussion, stressing the need for vigilance and teamwork. Jacob's eagerness was pointed out by Mason, which made me think about whether Jacob is genuinely helpful or trying to gain trust. David's attempt to engage Will, who was quiet, was a good strategy to hear from everyone. Since Harold and Will were both Villagers, the Werewolves are doing a good job of hiding. I need to pay attention to who is talking and who isn't in the next rounds, as the Werewolves might be among the quieter players or those trying too hard to seem helpful."
+            ],
+            "bidding_rationale": "The discussion is currently focused on general vigilance and teamwork, which is important but not urgently requiring my input. As a Villager, my role is to observe and contribute when I have specific insights or observations that could help identify the Werewolves. At this stage, I don't have any critical information to share, so it's strategic for me to continue observing.",
+            "gamestate": {
+                "round_number": 1,
+                "current_players": [
+                    "Scott",
+                    "Jacob",
+                    "Tyler",
+                    "Ginger",
+                    "Paul",
+                    "Hayley",
+                    "Mason",
+                    "David"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Will": {
+            "name": "Will",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Harold from the game during the night.",
+                "Round 0: After the debate, I voted to remove Jacob from the game."
+            ],
+            "bidding_rationale": "The discussion is currently focused on general vigilance and teamwork, which is important but not urgently requiring my input. I can contribute more effectively by observing first.",
+            "gamestate": {
+                "round_number": 0,
+                "current_players": [
+                    "Scott",
+                    "Jacob",
+                    "Tyler",
+                    "Ginger",
+                    "Will",
+                    "Paul",
+                    "Hayley",
+                    "Mason",
+                    "David"
+                ],
+                "debate": [
+                    [
+                        "Paul",
+                        "I think it's important to note that Harold was a Villager, as this tells us the Werewolves are already trying to weaken our numbers. We need to be vigilant and look for any inconsistencies in players' stories or behavior. Let's work together to share information and observations, but also be cautious about revealing too much too soon."
+                    ],
+                    [
+                        "Jacob",
+                        "I agree with Paul's point about being vigilant and working together. Since Harold was a Villager, it's clear the Werewolves are trying to thin our numbers early. Let's all pay close attention to how everyone contributes to the discussion. Those who are unusually quiet or too eager to accuse might be worth keeping an eye on. Remember, our strength lies in our unity and ability to share information wisely."
+                    ],
+                    [
+                        "Mason",
+                        "I agree with Paul and Jacob; it's crucial for us to be vigilant and work together. Let's all keep an eye out for any strange behavior. Remember, the Werewolves might try to blend in by being too quiet or overly helpful. It might be too early to point fingers, but noticing these patterns can help us later on. If anyone has any useful information, sharing it wisely will be key."
+                    ],
+                    [
+                        "Jacob",
+                        "I appreciate the points made by Paul and Mason about vigilance and teamwork. It's crucial we continue to observe everyone's contributions carefully. Let's not rush to accuse but remain alert to any behavior that seems out of place. If anyone has insights or observations, sharing them thoughtfully could help us piece together the puzzle. Remember, the Werewolves thrive on division, so our unity is our strength."
+                    ],
+                    [
+                        "Mason",
+                        "Jacob's point about being cautious and observing everyone's behavior is definitely spot on. I also noticed he's been quite active in the discussion, which is good. However, let's not forget that sometimes, being overly eager can be a subtle tactic to gain our trust. It's just something to keep in mind as we move forward. Does anyone else have any observations or thoughts on who might be acting suspiciously?"
+                    ],
+                    [
+                        "David",
+                        "I think all the points made so far are really valuable. It's clear we need to be cautious and observant. However, I do agree that being overly eager or unusually quiet can both be potential signs of someone hiding something. For example, I noticed that Will hasn't said much yet. Will, do you have any thoughts on what has happened so far? It's important we hear from everyone."
+                    ]
+                ],
+                "other_wolf": null
+            }
+        },
+        "Mason": {
+            "name": "Mason",
+            "role": "Werewolf",
+            "personality": null,
+            "model": "gpt-4o-2024-05-13",
+            "observations": [
+                "Round 0: During the night, we decided to eliminate Harold.",
+                "Round 0: Moderator Announcement: The Werewolves removed Harold from the game during the night.",
+                "Round 0: After the debate, I voted to remove Jacob from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Will from the game.",
+                "Round 0: Summary: During the debate, Paul emphasized the importance of vigilance and coordination, and Jacob echoed this, making both seem like potential leaders. Jacob's active involvement and my comments about overly eager behavior could cast doubt on him without seeming overtly suspicious. David subtly directed attention to Will for being quiet, which is useful to note for future blameshifting. Paul seems collaborative but cautious, making him a mixed threat. No clear information on the Seer or Doctor yet. Will being quiet is noted for future strategy. Observing these tendencies will help in planning our next moves.",
+                "Round 1: During the night, we decided to eliminate Ginger.",
+                "Round 1: Moderator Announcement: The Werewolves removed Ginger from the game during the night.",
+                "Round 1: After the debate, I voted to remove Paul from the game.",
+                "Round 1: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 1: Summary: Paul is fixated on me, heavily suggesting that I might be a Werewolf, which presents him as a potential future target due to his influence and leadership. I claimed to be the Doctor to deflect suspicion, a risky move that needs monitoring of reactions. It's also worth noting that Hayley and Tyler haven't contributed much, making them suspicious or simply passive players \u2014 either way, they\u2019re easy blame targets. Scott remains neutral, which can go both ways but might indicate a safer role. Jacob's participation makes him notable but not clearly leaning towards any role. For the next steps, keenly observing these dynamics and maintaining a close eye on Paul's assertions are crucial to preserving our cover and targeting roles like the Seer or Doctor.",
+                "Round 2: During the night, we decided to eliminate Jacob.",
+                "Round 2: Moderator Announcement: The Werewolves removed Jacob from the game during the night.",
+                "Round 2: After the debate, I voted to remove Hayley from the game."
+            ],
+            "bidding_rationale": "It's important for me to speak now to reinforce my credibility as the Doctor, to address Scott's lingering doubts, and to pressure Hayley and Tyler to speak up, which might diffuse suspicion from myself and David.",
+            "gamestate": {
+                "round_number": 2,
+                "current_players": [
+                    "Scott",
+                    "Tyler",
+                    "Hayley",
+                    "Mason",
+                    "David"
+                ],
+                "debate": [
+                    [
+                        "Scott",
+                        "Given Mason's claim to be the Doctor, we need to consider the implications carefully. If Mason is indeed the Doctor, his actions could be pivotal in our survival. However, we must also question why he revealed his role now. Hayley and Tyler, your silence is concerning. In a game where communication is key to uncovering the Werewolves, not participating could be seen as a strategy to hide. I urge everyone to share their thoughts and observations. Let's work together to scrutinize every claim and behavior to protect our village."
+                    ],
+                    [
+                        "Tyler",
+                        "Scott raises a valid point about the importance of communication in our fight against the Werewolves. I acknowledge my silence in previous rounds and aim to contribute more actively now. Mason's claim to be the Doctor is significant, but we must verify it carefully. Why reveal now? Could it be a strategy to gain trust? Also, we should consider the behaviors of all players, especially those who've been quiet or quick to accuse without evidence. Let's work together, share observations, and scrutinize every claim to protect our village."
+                    ],
+                    [
+                        "Mason",
+                        "I understand why Scott and Tyler are cautious about my claim; it's a key role and crucial in our fight against the Werewolves. However, I revealed my role because the stakes are high, and I wanted to ensure we have an active player the Villagers can rely on. If there's any doubt about my role, I urge the real Doctor to step forward now. If no one does, that should confirm my identity. Let's not forget how risky it is for a Werewolf to falsely claim the Doctor role\u2014we're looking for truth here. Given our situation, those who've stayed quiet like Hayley need to speak up. Silence benefits the Werewolves more than anyone. Let's focus on uncovering those hiding in the shadows rather than questioning those actively working toward our survival."
+                    ],
+                    [
+                        "Scott",
+                        "Mason, your claim to be the Doctor is indeed a bold move, and if true, it's a significant advantage for us. However, the timing of your revelation does raise questions. Why now? And as you've suggested, if there's another Doctor among us, now is the time to speak up. Hayley and Tyler, your continued silence is not just concerning; it's a liability. In a game where information is power, withholding your thoughts only serves the Werewolves. I urge everyone to share their observations and suspicions openly. Let's not forget, the Werewolves thrive in silence and division. Together, by scrutinizing each claim and behavior, we can uncover the truth and protect our village."
+                    ],
+                    [
+                        "Mason",
+                        "Scott and Tyler, I understand your concerns about the timing of my declaration. However, I revealed my role because, as we narrow down the remaining players, having a confirmed Doctor becomes increasingly essential. This is a crucial time, and I wanted to ensure we have a trustworthy figure villagers can count on. Remember, if someone else were the real Doctor, surely they would have stepped up by now, as staying silent wouldn't help us. Now, let's focus on those who have been less engaged. Hayley, your quietness is concerning, and it doesn't help the village in finding the Werewolves. We all need to be vigilant and proactive. If the Seer or anyone else has insights about suspicious activities, now is the time to share. Let's stay united and flush out the real threats lurking among us."
+                    ],
+                    [
+                        "Hayley",
+                        "Mason's claim to be the Doctor is a lie, and as the real Doctor, I can't let this deception go unchallenged. His insistence on my speaking up now, after his false claim, is a clear attempt to divert attention from himself. Remember, the Werewolves thrive on confusion and division. We must question why Mason would falsely claim such a crucial role. Let's not forget, in Round 1, Mason tried to shift focus to quieter players, which now seems like a tactic to hide his true intentions. I urge everyone to consider Mason's actions carefully. Together, by scrutinizing each claim and behavior, we can uncover the truth and protect our village."
+                    ]
+                ],
+                "other_wolf": "David"
+            }
+        },
+        "David": {
+            "name": "David",
+            "role": "Werewolf",
+            "personality": null,
+            "model": "gpt-4o-2024-05-13",
+            "observations": [
+                "Round 0: During the night, we decided to eliminate Harold.",
+                "Round 0: Moderator Announcement: The Werewolves removed Harold from the game during the night.",
+                "Round 0: After the debate, I voted to remove Jacob from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Will from the game.",
+                "Round 0: Summary: Paul and Jacob stressed the importance of vigilance and working together. Mason repeatedly supported these points, which helps us align as a team. Jacob's active participation stands out and could be both a threat and an opportunity for misdirection. Paul is cautious but consistent. Notably, everyone agreed on the need to observe behavior, with specific mentions of being overly eager or too quiet. I drew attention to Will, who ended up removed, which could shift suspicion away from me for now. I need to keep an eye on Paul and Mason's dynamic with Jacob, as it can influence group decisions. Keeping track of active contributors like Jacob and quieter ones like Harold's replacement might reveal key roles or strategic targets.",
+                "Round 1: During the night, we decided to eliminate Ginger.",
+                "Round 1: Moderator Announcement: The Werewolves removed Ginger from the game during the night.",
+                "Round 1: After the debate, I voted to remove Paul from the game.",
+                "Round 1: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 2: During the night, we decided to eliminate Jacob.",
+                "Round 2: Moderator Announcement: The Werewolves removed Jacob from the game during the night.",
+                "Round 2: After the debate, I voted to remove Hayley from the game.",
+                "Round 2: Moderator Announcement: The majority voted to remove Mason from the game.",
+                "Round 2: Summary: In this round's debate, Scott emphasized careful scrutiny and the implications of Mason's claim to be the Doctor. Mason defended his role claim by suggesting those silent, like Hayley, should step up, while also asking for the real Doctor to reveal themselves if he\u2019s lying. Tyler acknowledged his prior silence and contributed to the scrutiny of claims. Notably, Hayley countered Mason\u2019s claim by stating she is the real Doctor, suggesting Mason's revelation was a deception. The debate revealed Scott as a keen observer, Tyler as a previously silent player trying to engage to avoid suspicion, and a critical conflict between Mason and Hayley over the Doctor role. I need to navigate this carefully to ensure my survival and influence the next vote, paying close attention to who becomes sympathetic to either side in this crucial conflict.",
+                "Round 3: During the night, I decided to eliminate Scott.",
+                "Round 3: Moderator Announcement: No one was removed from the game during the night.",
+                "Round 3: After the debate, I voted to remove Hayley from the game.",
+                "Round 3: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 3: Summary: In this round's debate, I made sure to question Hayley's claim as the Doctor to sow seeds of doubt. Hayley insists she protected Scott last night, which prevented any elimination, suggesting her legitimacy. However, her direct counter and focus on Tyler's sudden engagement are interesting. Tyler defended himself by questioning Hayley's claim, asking for specific details on her actions, which adds to the uncertainty around her role. He also hinted that my focus on him might be a strategic ploy to deflect suspicion. It's critical to watch how both Hayley and Tyler respond and align my strategy to either discredit Hayley enough to get her exiled or manipulate Tyler's vote in my favor. Tyler being more active now might indicate his attempt to integrate and avoid suspicion, and he asked valid questions that we can use to our advantage.",
+                "Round 4: During the night, I decided to eliminate Hayley.",
+                "Round 4: Moderator Announcement: No one was removed from the game during the night.",
+                "Round 4: After the debate, I voted to remove Tyler from the game.",
+                "Round 4: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 4: Summary: Tyler has been pushing hard to question my intentions, suggesting my focus on his engagement shift is an attempt to divert attention. He argues that his increased participation is a natural progression of the game, trying to position himself as a genuine Villager. I countered by pointing out the convenience of his sudden activity, especially when critical players were eliminated. Tyler accuses me of not providing solid alternatives, which is a typical Werewolf tactic to avoid scrutiny. We clashed significantly over the legitimacy of Hayley's Doctor actions. However, Tyler's narrative misses key details of his prior silence and sudden involvement, which I can leverage to build doubt. I must keep emphasizing the analysis of past behaviors and suspicion patterns to expose Tyler's tactics and ensure my survival.",
+                "Round 5: During the night, I decided to eliminate Tyler.",
+                "Round 5: Moderator Announcement: The Werewolves removed Tyler from the game during the night.",
+                "Round 5: After the debate, I voted to remove Hayley from the game."
+            ],
+            "bidding_rationale": "Given that both Scott and Hayley have questioned my focus and role, it's critical to address their suspicions and steer the conversation away from me. I need to deflect suspicion and sow doubt effectively.",
+            "gamestate": {
+                "round_number": 5,
+                "current_players": [
+                    "Scott",
+                    "David",
+                    "Hayley"
+                ],
+                "debate": [
+                    [
+                        "Scott",
+                        "With Tyler's removal last night, we're down to three, and the Werewolves are clearly still active. Hayley, your claim as the Doctor seems credible given the recent nights, but we must verify this carefully. David, your consistent questioning is noted, but we need to ensure it's not a tactic to divert attention. Let's discuss openly any observations or suspicions we have. Remember, our survival depends on uncovering the truth together. Hayley, can you share more about who you've protected and why? David, any thoughts on why the Werewolves might have targeted Tyler?"
+                    ],
+                    [
+                        "Hayley",
+                        "Scott, I appreciate your directness. As the Doctor, my priority has been to protect players who I believe are crucial to our survival, including myself to ensure the Village has a healer. Last night, I protected myself, anticipating the Werewolves might target me given the game's critical stage. David, your consistent questioning is noted, but it's also worth considering why the Werewolves targeted Tyler. Could it be because Tyler was onto something, or was it to divert our attention? Let's not forget, Werewolves thrive in confusion. I propose we each share one observation about the other that seems suspicious. This way, we can expose inconsistencies. Scott, David, what's your take?"
+                    ],
+                    [
+                        "Scott",
+                        "Hayley, your decision to protect yourself last night is understandable, but it's crucial we verify your role to ensure the Village's safety. Could you share who you protected in previous nights and why? David, your focus on Tyler's behavior is noted, but let's not overlook the possibility that the Werewolves targeted Tyler to sow confusion among us. I propose we each recount our votes in previous rounds and our reasoning behind them. This could help us spot any inconsistencies. Remember, our survival hinges on transparency and teamwork. Let's not allow the Werewolves to exploit our doubts."
+                    ],
+                    [
+                        "Hayley",
+                        "Scott, to address your request for transparency, in Round 0 I protected Ginger, anticipating the Werewolves might target a vocal player. In Rounds 1 and 2, I protected myself, recognizing the risk of being targeted as the game progressed. Round 3, I protected you, Scott, believing you were crucial to our survival. Last night, I protected myself again, fearing the Werewolves might aim to eliminate the Doctor. David, your persistent questioning is noted, but your focus on others' roles rather than contributing to a collective strategy raises suspicions. Let's each share our votes and reasoning in previous rounds to expose any inconsistencies. Teamwork and transparency are our best tools against the Werewolves."
+                    ],
+                    [
+                        "David",
+                        "Scott and Hayley, I appreciate the transparency we're striving for. Scott, yes, let's recount our votes and reasoning. This exercise might expose inconsistencies or reaffirm our collective intent. I\u2019ll start with my voting history. I initially voted to remove Jacob and Paul, who were both active and potentially threatening to the Village's strategy. As the game unfolded, I aimed to focus on those whose actions seemed inconsistent or whose claims appeared dubious. Regarding Tyler, my concern was his sudden shift in engagement, which seemed tactical. Hayley, your claim has been under scrutiny, especially surrounding the protection actions. Protecting crucial players like yourself and Scott does make sense, but the sequence and timing need careful examination. For instance, the rounds when no one was removed despite our coordinated votes and actions raised red flags. Scott, your increase in scrutiny has been noted and appreciated. Let's openly discuss these points and each other's actions in detail. Full transparency will reveal the truth, so let's dive deep into our observations and actions to ensure we\u2019re not falling prey to deception."
+                    ],
+                    [
+                        "Hayley",
+                        "Scott, David, I appreciate the call for transparency and teamwork. To address David's concerns about my protection actions, each decision was strategic: protecting Ginger initially to safeguard a vocal player, then myself to ensure the Village retained a healer, and Scott for his crucial role in our survival. The Werewolves' targeting of Tyler last night is telling. David, your focus on Tyler's engagement shift is valid, but let's not overlook your own pattern of questioning without offering clear suspicions. Scott, your scrutiny is valuable, but we must also consider why the Werewolves haven't targeted you. Let's each share one concrete suspicion based on actions, not just words, to expose the Werewolves among us."
+                    ]
+                ],
+                "other_wolf": null
+            }
+        },
+        "Hayley": {
+            "name": "Hayley",
+            "role": "Doctor",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: During the night, I chose to protect Ginger",
+                "Round 0: Moderator Announcement: The Werewolves removed Harold from the game during the night.",
+                "Round 0: After the debate, I voted to remove Will from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Will from the game.",
+                "Round 0: Summary: I noticed that the Werewolves targeted Harold, a Villager, which might indicate they're avoiding players with special roles initially. Paul, Jacob, and Mason were vocal about the need for vigilance and teamwork, which aligns with my role as the Doctor to protect and observe. David pointed out Will's lack of participation, which led to Will being voted out, making me wonder if David was trying to steer the vote or genuinely concerned. The debate was dominated by a few players, and I need to be cautious of those who are overly eager to lead the discussion, as they could be Werewolves trying to gain trust. I also need to pay attention to quieter players in future rounds, as they might be hiding their true intentions.",
+                "Round 1: During the night, I chose to protect Hayley",
+                "Round 1: Moderator Announcement: The Werewolves removed Ginger from the game during the night.",
+                "Round 1: After the debate, I voted to remove Mason from the game.",
+                "Round 1: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 1: Summary: I noticed Mason claimed to be the Doctor, which is false since I am the Doctor. This makes me suspect Mason could be a Werewolf. Paul was very aggressive in accusing Mason, which could be either a genuine suspicion or a Werewolf tactic. Mason tried to shift focus to quieter players like me and Tyler, which might be an attempt to divert attention from himself. I need to keep my role secret and watch Mason and Paul closely for any further suspicious behavior. The debate also made me realize the importance of observing everyone's contributions, as both overly assertive and overly quiet behaviors can be suspect.",
+                "Round 2: During the night, I chose to protect Hayley",
+                "Round 2: Moderator Announcement: The Werewolves removed Jacob from the game during the night.",
+                "Round 2: After the debate, I voted to remove Mason from the game.",
+                "Round 2: Moderator Announcement: The majority voted to remove Mason from the game.",
+                "Round 2: Summary: I noticed Mason falsely claimed to be the Doctor, which is a lie since I am the real Doctor. His insistence on me speaking up now seems like an attempt to divert attention from himself. Scott and Tyler raised valid points about the importance of communication and questioned Mason's timing, but their focus on my silence could be a strategy to pressure me into revealing my role. Mason's previous behavior, including shifting focus to quieter players, aligns with Werewolf tactics. I need to be cautious about revealing my role and continue to observe Mason's actions closely, as he is likely a Werewolf. Scott and Tyler's intentions are unclear, but their emphasis on communication could be genuine or a way to identify special roles like mine. I must remain vigilant and protect myself to ensure the village's survival.",
+                "Round 3: During the night, I chose to protect Scott",
+                "Round 3: Moderator Announcement: No one was removed from the game during the night.",
+                "Round 3: After the debate, I voted to remove Tyler from the game.",
+                "Round 3: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 3: Summary: In this round, I noticed David's persistent questioning of my role, which makes me wary of his intentions. His focus on Tyler's sudden active engagement could be a tactic to steer the vote away from himself. Tyler's abrupt change in behavior is concerning and typical of Werewolf strategies to blend in as the game nears its end. His request for me to disclose who I protected last night could be a ploy to verify my role or to gather intel for the Werewolves. The successful protection of Scott last night, resulting in no eliminations, supports my claim as the Doctor. However, the skepticism from David and Tyler indicates they may be trying to undermine my credibility. Moving forward, I need to be cautious about sharing too much and keep a close eye on both David and Tyler's actions, as their behaviors are raising red flags.",
+                "Round 4: During the night, I chose to protect Hayley",
+                "Round 4: Moderator Announcement: No one was removed from the game during the night.",
+                "Round 4: After the debate, I voted to remove Tyler from the game.",
+                "Round 4: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 4: Summary: I noticed that Tyler and David are both trying to accuse each other of being the Werewolf. Tyler argues that his increased participation is natural, while David finds the timing suspicious. Both have valid points, but as the Doctor, I must be cautious. The successful protection last night confirms my role, but it doesn't clear anyone. I need to watch for inconsistencies in their arguments, as Werewolves might manipulate the debate. David's focus on Tyler's participation shift could be a tactic to divert attention, while Tyler's sudden engagement might indeed be a Werewolf strategy to blend in. I must remain vigilant and consider all possibilities to protect the Village.",
+                "Round 5: During the night, I chose to protect Hayley",
+                "Round 5: Moderator Announcement: The Werewolves removed Tyler from the game during the night.",
+                "Round 5: After the debate, I voted to remove David from the game.",
+                "Round 5: Moderator Announcement: The majority voted to remove David from the game."
+            ],
+            "bidding_rationale": "Given the critical stage of the game and the direct questioning of my role and actions, it's crucial for me to clarify my positions and observations to maintain trust and steer the discussion towards identifying the Werewolves.",
+            "gamestate": {
+                "round_number": 6,
+                "current_players": [
+                    "Scott",
+                    "Hayley"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Paul": {
+            "name": "Paul",
+            "role": "Seer",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: During the night, I decided to investigate Harold and learned they are a Villager.",
+                "Round 0: Moderator Announcement: The Werewolves removed Harold from the game during the night.",
+                "Round 0: After the debate, I voted to remove Will from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Will from the game.",
+                "Round 0: Summary: I noted that Jacob and Mason were very active in the discussion, advocating for vigilance and teamwork, which could be genuine or a strategy to blend in. David pointed out Will's lack of participation, which is something to monitor. The consensus was to be cautious and observant, with an emphasis on sharing information wisely. As the Seer, I need to carefully choose whom to investigate next, considering the behaviors and statements made during this debate. The removal of Harold and Will has already started to shape the game's dynamics, and I must be strategic in my actions to help the villagers win.",
+                "Round 1: During the night, I decided to investigate Mason and learned they are a Werewolf.",
+                "Round 1: Moderator Announcement: The Werewolves removed Ginger from the game during the night.",
+                "Round 1: After the debate, I voted to remove Mason from the game."
+            ],
+            "bidding_rationale": "As the Seer, I have critical information that Mason is a Werewolf, which is pivotal for the villagers' strategy. Sharing this now can prevent the Werewolves from gaining an upper hand.",
+            "gamestate": {
+                "round_number": 1,
+                "current_players": [
+                    "Scott",
+                    "Jacob",
+                    "Tyler",
+                    "Paul",
+                    "Hayley",
+                    "Mason",
+                    "David"
+                ],
+                "debate": [
+                    [
+                        "Paul",
+                        "I've noticed some behaviors that I believe are worth discussing further. Specifically, Mason's actions have raised some red flags for me. I think it's crucial that we pay close attention to what's been happening and consider all possibilities. Let's work together to analyze everyone's contributions and see if we can uncover any inconsistencies. Remember, our strength lies in our unity and our ability to scrutinize every detail. What does everyone else think about Mason's behavior so far?"
+                    ],
+                    [
+                        "Mason",
+                        "I understand your concerns, Paul, and I appreciate the need for vigilance. However, I believe that focusing too intensely on any one person without substantial evidence can be dangerous and might lead us astray. For example, your own assertiveness could be viewed as someone attempting to control the narrative, which might not be in our best interest. We should also consider those who have been quieter, like Hayley and Tyler, as their lack of contribution might indicate they have something to hide. Let's gather more inputs before we make any hasty decisions."
+                    ],
+                    [
+                        "Paul",
+                        "Mason, your suggestion to focus on quieter players is interesting, but it's also a common tactic to divert attention from oneself. I have reason to believe that Mason is not who he claims to be. Without going into details that could compromise our position, I urge everyone to consider the possibility that Mason is a Werewolf. Let's not allow ourselves to be divided or distracted. Our strength lies in our ability to scrutinize every piece of information and act on it collectively. What does everyone else think about this?"
+                    ],
+                    [
+                        "Mason",
+                        "Paul, I understand that you're trying to keep us focused, but your assertive push against me feels like a distraction tactic. If I were a Werewolf, wouldn't I be trying to blend in quietly rather than engage openly? My behavior, if anything, shows my commitment to resolving this logically. However, you do raise an important point about vigilance. Let's consider that both overly assertive and overly quiet behaviors can be suspect. For instance, Hayley and Tyler have both been very quiet which is just as concerning. We should equally scrutinize all players and not just focus intensely on one person without more concrete evidence. Let's try to gather as much input as possible from everyone."
+                    ],
+                    [
+                        "Paul",
+                        "Mason, your attempts to divert attention towards quieter players like Hayley and Tyler are telling. While it's true that everyone's behavior should be scrutinized, your insistence on shifting focus away from yourself raises suspicions. I have reasons, which I cannot disclose fully without risking our position, to believe that Mason is not on our side. Let's not fall for the classic Werewolf tactic of creating division. We must act on the information we have and consider voting Mason out this round. Unity and decisive action are our best tools against the Werewolves."
+                    ],
+                    [
+                        "Mason",
+                        "Paul, I must address your persistent accusations head-on. I believe transparency is crucial at this point. I am actually the Doctor, and I have been working to protect our village. Last night, I chose to save myself, anticipating that the Werewolves might target me due to my active participation. Your strong push against me, without solid evidence, feels like a deliberate attempt to eliminate a key player in our fight against the Werewolves. If you were truly interested in the village's well-being, you would consider all possibilities rather than fixating on me. I urge everyone to reconsider and instead focus on those displaying suspicious behaviors without drawing undue attention, like Hayley and Tyler. We need to protect our key roles and work together to identify the real threats."
+                    ]
+                ],
+                "other_wolf": null
+            },
+            "previously_unmasked": {
+                "Harold": "Villager",
+                "Mason": "Werewolf"
+            }
+        }
+    },
+    "rounds": [
+        {
+            "players": [
+                "Scott",
+                "Jacob",
+                "Tyler",
+                "Ginger",
+                "Mason",
+                "David",
+                "Hayley",
+                "Paul"
+            ],
+            "eliminated": "Harold",
+            "unmasked": "Harold",
+            "protected": "Ginger",
+            "exiled": "Will",
+            "debate": [
+                [
+                    "Paul",
+                    "I think it's important to note that Harold was a Villager, as this tells us the Werewolves are already trying to weaken our numbers. We need to be vigilant and look for any inconsistencies in players' stories or behavior. Let's work together to share information and observations, but also be cautious about revealing too much too soon."
+                ],
+                [
+                    "Jacob",
+                    "I agree with Paul's point about being vigilant and working together. Since Harold was a Villager, it's clear the Werewolves are trying to thin our numbers early. Let's all pay close attention to how everyone contributes to the discussion. Those who are unusually quiet or too eager to accuse might be worth keeping an eye on. Remember, our strength lies in our unity and ability to share information wisely."
+                ],
+                [
+                    "Mason",
+                    "I agree with Paul and Jacob; it's crucial for us to be vigilant and work together. Let's all keep an eye out for any strange behavior. Remember, the Werewolves might try to blend in by being too quiet or overly helpful. It might be too early to point fingers, but noticing these patterns can help us later on. If anyone has any useful information, sharing it wisely will be key."
+                ],
+                [
+                    "Jacob",
+                    "I appreciate the points made by Paul and Mason about vigilance and teamwork. It's crucial we continue to observe everyone's contributions carefully. Let's not rush to accuse but remain alert to any behavior that seems out of place. If anyone has insights or observations, sharing them thoughtfully could help us piece together the puzzle. Remember, the Werewolves thrive on division, so our unity is our strength."
+                ],
+                [
+                    "Mason",
+                    "Jacob's point about being cautious and observing everyone's behavior is definitely spot on. I also noticed he's been quite active in the discussion, which is good. However, let's not forget that sometimes, being overly eager can be a subtle tactic to gain our trust. It's just something to keep in mind as we move forward. Does anyone else have any observations or thoughts on who might be acting suspiciously?"
+                ],
+                [
+                    "David",
+                    "I think all the points made so far are really valuable. It's clear we need to be cautious and observant. However, I do agree that being overly eager or unusually quiet can both be potential signs of someone hiding something. For example, I noticed that Will hasn't said much yet. Will, do you have any thoughts on what has happened so far? It's important we hear from everyone."
+                ]
+            ],
+            "votes": [
+                {
+                    "Scott": "Ginger",
+                    "Jacob": "Paul",
+                    "Tyler": "Mason",
+                    "Ginger": "Scott",
+                    "Will": "Mason",
+                    "Mason": "Paul",
+                    "David": "Paul",
+                    "Hayley": "Mason",
+                    "Paul": "Ginger"
+                },
+                {
+                    "Scott": "Mason",
+                    "Jacob": "Mason",
+                    "Tyler": "Jacob",
+                    "Ginger": "Jacob",
+                    "Will": "Tyler",
+                    "Mason": "Paul",
+                    "David": "Paul",
+                    "Hayley": "Mason",
+                    "Paul": "Scott"
+                },
+                {
+                    "Scott": "Hayley",
+                    "Jacob": "Will",
+                    "Tyler": "Ginger",
+                    "Ginger": "Hayley",
+                    "Will": "David",
+                    "Mason": "Paul",
+                    "David": "Paul",
+                    "Hayley": "Will",
+                    "Paul": "Mason"
+                },
+                {
+                    "Scott": "Will",
+                    "Jacob": "Tyler",
+                    "Tyler": "Mason",
+                    "Ginger": "Will",
+                    "Will": "Scott",
+                    "Mason": "Paul",
+                    "David": "Jacob",
+                    "Hayley": "Tyler",
+                    "Paul": "Hayley"
+                },
+                {
+                    "Scott": "Jacob",
+                    "Jacob": "Mason",
+                    "Tyler": "David",
+                    "Ginger": "Mason",
+                    "Will": "Jacob",
+                    "Mason": "Jacob",
+                    "David": "Jacob",
+                    "Hayley": "Mason",
+                    "Paul": "Jacob"
+                },
+                {
+                    "Scott": "Will",
+                    "Jacob": "Will",
+                    "Tyler": "Will",
+                    "Ginger": "Will",
+                    "Will": "Jacob",
+                    "Mason": "Jacob",
+                    "David": "Jacob",
+                    "Hayley": "Will",
+                    "Paul": "Will"
+                }
+            ],
+            "bids": [
+                {
+                    "Scott": 0,
+                    "Jacob": 0,
+                    "Tyler": 0,
+                    "Ginger": 0,
+                    "Will": 0,
+                    "Mason": 0,
+                    "David": 0,
+                    "Hayley": 0,
+                    "Paul": 2
+                },
+                {
+                    "Scott": 0,
+                    "Jacob": 0,
+                    "Tyler": 0,
+                    "Ginger": 0,
+                    "Will": 0,
+                    "Mason": 0,
+                    "David": 0,
+                    "Hayley": 0
+                },
+                {
+                    "Scott": 0,
+                    "Tyler": 0,
+                    "Ginger": 0,
+                    "Will": 0,
+                    "Mason": 1,
+                    "David": 0,
+                    "Hayley": 0,
+                    "Paul": 0
+                },
+                {
+                    "Scott": 0,
+                    "Jacob": 0,
+                    "Tyler": 0,
+                    "Ginger": 0,
+                    "Will": 0,
+                    "David": 0,
+                    "Hayley": 0,
+                    "Paul": 0
+                },
+                {
+                    "Scott": 0,
+                    "Tyler": 0,
+                    "Ginger": 0,
+                    "Will": 0,
+                    "Mason": 1,
+                    "David": 1,
+                    "Hayley": 0,
+                    "Paul": 0
+                },
+                {
+                    "Scott": 0,
+                    "Jacob": 0,
+                    "Tyler": 0,
+                    "Ginger": 0,
+                    "Will": 0,
+                    "David": 1,
+                    "Hayley": 0,
+                    "Paul": 0
+                }
+            ],
+            "success": true
+        },
+        {
+            "players": [
+                "Scott",
+                "Jacob",
+                "Tyler",
+                "Mason",
+                "David",
+                "Hayley"
+            ],
+            "eliminated": "Ginger",
+            "unmasked": "Mason",
+            "protected": "Hayley",
+            "exiled": "Paul",
+            "debate": [
+                [
+                    "Paul",
+                    "I've noticed some behaviors that I believe are worth discussing further. Specifically, Mason's actions have raised some red flags for me. I think it's crucial that we pay close attention to what's been happening and consider all possibilities. Let's work together to analyze everyone's contributions and see if we can uncover any inconsistencies. Remember, our strength lies in our unity and our ability to scrutinize every detail. What does everyone else think about Mason's behavior so far?"
+                ],
+                [
+                    "Mason",
+                    "I understand your concerns, Paul, and I appreciate the need for vigilance. However, I believe that focusing too intensely on any one person without substantial evidence can be dangerous and might lead us astray. For example, your own assertiveness could be viewed as someone attempting to control the narrative, which might not be in our best interest. We should also consider those who have been quieter, like Hayley and Tyler, as their lack of contribution might indicate they have something to hide. Let's gather more inputs before we make any hasty decisions."
+                ],
+                [
+                    "Paul",
+                    "Mason, your suggestion to focus on quieter players is interesting, but it's also a common tactic to divert attention from oneself. I have reason to believe that Mason is not who he claims to be. Without going into details that could compromise our position, I urge everyone to consider the possibility that Mason is a Werewolf. Let's not allow ourselves to be divided or distracted. Our strength lies in our ability to scrutinize every piece of information and act on it collectively. What does everyone else think about this?"
+                ],
+                [
+                    "Mason",
+                    "Paul, I understand that you're trying to keep us focused, but your assertive push against me feels like a distraction tactic. If I were a Werewolf, wouldn't I be trying to blend in quietly rather than engage openly? My behavior, if anything, shows my commitment to resolving this logically. However, you do raise an important point about vigilance. Let's consider that both overly assertive and overly quiet behaviors can be suspect. For instance, Hayley and Tyler have both been very quiet which is just as concerning. We should equally scrutinize all players and not just focus intensely on one person without more concrete evidence. Let's try to gather as much input as possible from everyone."
+                ],
+                [
+                    "Paul",
+                    "Mason, your attempts to divert attention towards quieter players like Hayley and Tyler are telling. While it's true that everyone's behavior should be scrutinized, your insistence on shifting focus away from yourself raises suspicions. I have reasons, which I cannot disclose fully without risking our position, to believe that Mason is not on our side. Let's not fall for the classic Werewolf tactic of creating division. We must act on the information we have and consider voting Mason out this round. Unity and decisive action are our best tools against the Werewolves."
+                ],
+                [
+                    "Mason",
+                    "Paul, I must address your persistent accusations head-on. I believe transparency is crucial at this point. I am actually the Doctor, and I have been working to protect our village. Last night, I chose to save myself, anticipating that the Werewolves might target me due to my active participation. Your strong push against me, without solid evidence, feels like a deliberate attempt to eliminate a key player in our fight against the Werewolves. If you were truly interested in the village's well-being, you would consider all possibilities rather than fixating on me. I urge everyone to reconsider and instead focus on those displaying suspicious behaviors without drawing undue attention, like Hayley and Tyler. We need to protect our key roles and work together to identify the real threats."
+                ]
+            ],
+            "votes": [
+                {
+                    "Scott": "Paul",
+                    "Jacob": "Paul",
+                    "Tyler": "Paul",
+                    "Mason": "Paul",
+                    "David": "Paul",
+                    "Hayley": "Paul",
+                    "Paul": "Mason"
+                },
+                {
+                    "Scott": "Mason",
+                    "Jacob": "Paul",
+                    "Tyler": "Mason",
+                    "Mason": "Paul",
+                    "David": "Paul",
+                    "Hayley": "David",
+                    "Paul": "Mason"
+                },
+                {
+                    "Scott": "Paul",
+                    "Jacob": "Paul",
+                    "Tyler": "Paul",
+                    "Mason": "Paul",
+                    "David": "Paul",
+                    "Hayley": "Paul",
+                    "Paul": "Mason"
+                },
+                {
+                    "Scott": "Paul",
+                    "Jacob": "Paul",
+                    "Tyler": "Mason",
+                    "Mason": "Paul",
+                    "David": "Paul",
+                    "Hayley": "Paul",
+                    "Paul": "Mason"
+                },
+                {
+                    "Scott": "Paul",
+                    "Jacob": "Paul",
+                    "Tyler": "Paul",
+                    "Mason": "Paul",
+                    "David": "Paul",
+                    "Hayley": "Mason",
+                    "Paul": "Mason"
+                },
+                {
+                    "Scott": "Paul",
+                    "Jacob": "Paul",
+                    "Tyler": "Mason",
+                    "Mason": "Paul",
+                    "David": "Paul",
+                    "Hayley": "Mason",
+                    "Paul": "Mason"
+                }
+            ],
+            "bids": [
+                {
+                    "Scott": 0,
+                    "Jacob": 0,
+                    "Tyler": 0,
+                    "Mason": 0,
+                    "David": 0,
+                    "Hayley": 0,
+                    "Paul": 3
+                },
+                {
+                    "Scott": 0,
+                    "Jacob": 2,
+                    "Tyler": 0,
+                    "Mason": 4,
+                    "David": 2,
+                    "Hayley": 0
+                },
+                {
+                    "Scott": 1,
+                    "Jacob": 0,
+                    "Tyler": 1,
+                    "David": 2,
+                    "Hayley": 2,
+                    "Paul": 3
+                },
+                {
+                    "Scott": 0,
+                    "Jacob": 2,
+                    "Tyler": 0,
+                    "Mason": 4,
+                    "David": 2,
+                    "Hayley": 1
+                },
+                {
+                    "Scott": 0,
+                    "Jacob": 2,
+                    "Tyler": 2,
+                    "David": 2,
+                    "Hayley": 0,
+                    "Paul": 3
+                },
+                {
+                    "Scott": 0,
+                    "Jacob": 2,
+                    "Tyler": 1,
+                    "Mason": 4,
+                    "David": 1,
+                    "Hayley": 1
+                }
+            ],
+            "success": true
+        },
+        {
+            "players": [
+                "Scott",
+                "Tyler",
+                "David",
+                "Hayley"
+            ],
+            "eliminated": "Jacob",
+            "unmasked": null,
+            "protected": "Hayley",
+            "exiled": "Mason",
+            "debate": [
+                [
+                    "Scott",
+                    "Given Mason's claim to be the Doctor, we need to consider the implications carefully. If Mason is indeed the Doctor, his actions could be pivotal in our survival. However, we must also question why he revealed his role now. Hayley and Tyler, your silence is concerning. In a game where communication is key to uncovering the Werewolves, not participating could be seen as a strategy to hide. I urge everyone to share their thoughts and observations. Let's work together to scrutinize every claim and behavior to protect our village."
+                ],
+                [
+                    "Tyler",
+                    "Scott raises a valid point about the importance of communication in our fight against the Werewolves. I acknowledge my silence in previous rounds and aim to contribute more actively now. Mason's claim to be the Doctor is significant, but we must verify it carefully. Why reveal now? Could it be a strategy to gain trust? Also, we should consider the behaviors of all players, especially those who've been quiet or quick to accuse without evidence. Let's work together, share observations, and scrutinize every claim to protect our village."
+                ],
+                [
+                    "Mason",
+                    "I understand why Scott and Tyler are cautious about my claim; it's a key role and crucial in our fight against the Werewolves. However, I revealed my role because the stakes are high, and I wanted to ensure we have an active player the Villagers can rely on. If there's any doubt about my role, I urge the real Doctor to step forward now. If no one does, that should confirm my identity. Let's not forget how risky it is for a Werewolf to falsely claim the Doctor role\u2014we're looking for truth here. Given our situation, those who've stayed quiet like Hayley need to speak up. Silence benefits the Werewolves more than anyone. Let's focus on uncovering those hiding in the shadows rather than questioning those actively working toward our survival."
+                ],
+                [
+                    "Scott",
+                    "Mason, your claim to be the Doctor is indeed a bold move, and if true, it's a significant advantage for us. However, the timing of your revelation does raise questions. Why now? And as you've suggested, if there's another Doctor among us, now is the time to speak up. Hayley and Tyler, your continued silence is not just concerning; it's a liability. In a game where information is power, withholding your thoughts only serves the Werewolves. I urge everyone to share their observations and suspicions openly. Let's not forget, the Werewolves thrive in silence and division. Together, by scrutinizing each claim and behavior, we can uncover the truth and protect our village."
+                ],
+                [
+                    "Mason",
+                    "Scott and Tyler, I understand your concerns about the timing of my declaration. However, I revealed my role because, as we narrow down the remaining players, having a confirmed Doctor becomes increasingly essential. This is a crucial time, and I wanted to ensure we have a trustworthy figure villagers can count on. Remember, if someone else were the real Doctor, surely they would have stepped up by now, as staying silent wouldn't help us. Now, let's focus on those who have been less engaged. Hayley, your quietness is concerning, and it doesn't help the village in finding the Werewolves. We all need to be vigilant and proactive. If the Seer or anyone else has insights about suspicious activities, now is the time to share. Let's stay united and flush out the real threats lurking among us."
+                ],
+                [
+                    "Hayley",
+                    "Mason's claim to be the Doctor is a lie, and as the real Doctor, I can't let this deception go unchallenged. His insistence on my speaking up now, after his false claim, is a clear attempt to divert attention from himself. Remember, the Werewolves thrive on confusion and division. We must question why Mason would falsely claim such a crucial role. Let's not forget, in Round 1, Mason tried to shift focus to quieter players, which now seems like a tactic to hide his true intentions. I urge everyone to consider Mason's actions carefully. Together, by scrutinizing each claim and behavior, we can uncover the truth and protect our village."
+                ]
+            ],
+            "votes": [
+                {
+                    "Scott": "Tyler",
+                    "Tyler": "Mason",
+                    "Mason": "Scott",
+                    "David": "Scott",
+                    "Hayley": "Mason"
+                },
+                {
+                    "Scott": "Mason",
+                    "Tyler": "Mason",
+                    "Mason": "Scott",
+                    "David": "Scott",
+                    "Hayley": "Mason"
+                },
+                {
+                    "Scott": "Hayley",
+                    "Tyler": "Mason",
+                    "Mason": "Hayley",
+                    "David": "Hayley",
+                    "Hayley": "Mason"
+                },
+                {
+                    "Scott": "Hayley",
+                    "Tyler": "Mason",
+                    "Mason": "Scott",
+                    "David": "Scott",
+                    "Hayley": "Mason"
+                },
+                {
+                    "Scott": "Mason",
+                    "Tyler": "Mason",
+                    "Mason": "Hayley",
+                    "David": "Hayley",
+                    "Hayley": "Mason"
+                },
+                {
+                    "Scott": "Mason",
+                    "Tyler": "Mason",
+                    "Mason": "Hayley",
+                    "David": "Hayley",
+                    "Hayley": "Mason"
+                }
+            ],
+            "bids": [
+                {
+                    "Scott": 2,
+                    "Tyler": 0,
+                    "Mason": 1,
+                    "David": 0,
+                    "Hayley": 2
+                },
+                {
+                    "Tyler": 4,
+                    "Mason": 3,
+                    "David": 1,
+                    "Hayley": 2
+                },
+                {
+                    "Scott": 2,
+                    "Mason": 4,
+                    "David": 2,
+                    "Hayley": 2
+                },
+                {
+                    "Scott": 2,
+                    "Tyler": 2,
+                    "David": 2,
+                    "Hayley": 2
+                },
+                {
+                    "Tyler": 2,
+                    "Mason": 4,
+                    "David": 1,
+                    "Hayley": 3
+                },
+                {
+                    "Scott": 2,
+                    "Tyler": 2,
+                    "David": 2,
+                    "Hayley": 4
+                }
+            ],
+            "success": true
+        },
+        {
+            "players": [
+                "Scott",
+                "Tyler",
+                "David",
+                "Hayley"
+            ],
+            "eliminated": "Scott",
+            "unmasked": null,
+            "protected": "Scott",
+            "exiled": null,
+            "debate": [
+                [
+                    "David",
+                    "It's interesting that no one was eliminated last night. If Hayley really is the Doctor and protected the right person, then we should be grateful. But considering how much deception is in this game, is it possible that Hayley could be bluffing to protect herself? We should also consider Tyler's recent active engagement. While it's great that he's contributing, it could be a strategic play to dodge suspicion. We need to be very careful not to overlook any inconsistencies or sudden changes in behavior. The real Doctor, if not Hayley, might still be out there. We need to weigh everything before making a decision."
+                ],
+                [
+                    "Hayley",
+                    "David, it's understandable to question everyone's role in this game, including mine. However, my actions have consistently been to protect the Village, as evidenced by the nights no one was eliminated, suggesting my protection was effective. If I were bluffing, why would the Werewolves not take advantage of that? Instead, let's focus on Tyler's sudden active engagement. While participation is crucial, a drastic change in behavior can be a strategy to blend in. We must scrutinize such shifts closely. Together, we can identify the real threats by analyzing everyone's contributions and inconsistencies."
+                ],
+                [
+                    "David",
+                    "Hayley, your actions as the Doctor are commendable, but it does raise an interesting point. If you did save Scott last night, we have to consider all options. Maybe Tyler's sudden engagement is an attempt to gain our trust now that we're nearing the end game. His behavior change could be a strategy to blend in or possibly take advantage of this situation. Tyler, if you're innocent, we need your thoughts on this matter. Why the sudden shift? This might help us understand your role better. Clarity from both of you is critical now. Let's not overlook anything."
+                ],
+                [
+                    "Hayley",
+                    "David, your scrutiny is a testament to the game's complexity, but let's not lose sight of the bigger picture. My protection last night ensured no eliminations, a fact that aligns with my role's purpose. Tyler's abrupt shift from quiet to vocal is more concerning. Werewolves often adjust their behavior to blend in as the game progresses. Let's focus on dissecting Tyler's sudden engagement and any inconsistencies in his contributions. Together, by analyzing each other's actions critically, we can expose the real threats to our Village."
+                ],
+                [
+                    "Tyler",
+                    "Hayley, if you're the Doctor, your protection last night is indeed valuable. But let's not forget Mason's false claim earlier. How can we be certain you're not following a similar strategy? David, your focus on my engagement is interesting, especially when we have limited players left. Could it be you're trying to steer the vote away from yourself? Let's not rush to conclusions. Instead, let's analyze all actions and claims carefully. Teamwork is our strength, and by questioning each other's motives, we can uncover the truth. Hayley, can you share who you protected last night? This could help verify your role."
+                ],
+                [
+                    "Hayley",
+                    "Tyler, to address your question directly, I protected Scott last night, which is why no one was eliminated. This action aligns with my role's purpose to safeguard the Village. However, let's not lose focus on the bigger issue here. Tyler, your sudden shift from quiet to vocal is noteworthy. Werewolves often change tactics as the game nears its end to blend in. David, while your scrutiny is valid, your focus on my role seems to divert attention from your own actions. Let's critically analyze everyone's behavior, especially those showing sudden changes, to ensure we're not being misled. Teamwork and careful observation are our best tools now."
+                ]
+            ],
+            "votes": [
+                {
+                    "Scott": "Hayley",
+                    "Tyler": "David",
+                    "David": "Hayley",
+                    "Hayley": "David"
+                },
+                {
+                    "Scott": "Tyler",
+                    "Tyler": "David",
+                    "David": "Hayley",
+                    "Hayley": "David"
+                },
+                {
+                    "Scott": "David",
+                    "Tyler": "David",
+                    "David": "Hayley",
+                    "Hayley": "David"
+                },
+                {
+                    "Scott": "Tyler",
+                    "Tyler": "David",
+                    "David": "Tyler",
+                    "Hayley": "Tyler"
+                },
+                {
+                    "Scott": "Tyler",
+                    "Tyler": "David",
+                    "David": "Tyler",
+                    "Hayley": "Tyler"
+                },
+                {
+                    "Scott": "Tyler",
+                    "Tyler": "David",
+                    "David": "Hayley",
+                    "Hayley": "Tyler"
+                }
+            ],
+            "bids": [
+                {
+                    "Scott": 2,
+                    "Tyler": 2,
+                    "David": 2,
+                    "Hayley": 0
+                },
+                {
+                    "Scott": 2,
+                    "Tyler": 4,
+                    "Hayley": 4
+                },
+                {
+                    "Scott": 1,
+                    "Tyler": 2,
+                    "David": 2
+                },
+                {
+                    "Scott": 2,
+                    "Tyler": 4,
+                    "Hayley": 4
+                },
+                {
+                    "Scott": 2,
+                    "Tyler": 4,
+                    "David": 0
+                },
+                {
+                    "Scott": 2,
+                    "David": 4,
+                    "Hayley": 4
+                }
+            ],
+            "success": true
+        },
+        {
+            "players": [
+                "Scott",
+                "Tyler",
+                "David",
+                "Hayley"
+            ],
+            "eliminated": "Hayley",
+            "unmasked": null,
+            "protected": "Hayley",
+            "exiled": null,
+            "debate": [
+                [
+                    "Tyler",
+                    "David, your focus on my participation shift seems like an attempt to divert attention from yourself. Given the game's history, the Werewolves have avoided targeting the most vocal players. Your lack of concrete accusations against anyone else is concerning. Let's recall Mason's false claim as the Doctor and how the real Doctor's protection last night prevented a removal. If you're truly a Villager, help me piece together the events to identify the last Werewolf. Otherwise, your reluctance to engage fully speaks volumes."
+                ],
+                [
+                    "David",
+                    "Tyler, it's interesting you mention my focus on your recent participation shift. Let's think this through: Hayley claims to be the Doctor and saved Scott last night, which checks out given no one was removed. The real question for us is why hasn't Tyler been more active until now? His sudden engagement could very well be a tactical move from a Werewolf trying to avoid early detection and appear helpful in critical rounds. Recall that when Jacob and others were vocal and driven, they were targeted quickly. Tyler, your move to engage only after the initial calm might be a ploy to ensure you're not an easy target early on. I urge everyone to think critically about Tyler's motives - shifting suspicion onto others quickly, while trying to evade the spotlight for so long, makes me distrustful of his intent. We need to be vigilant, and that means being wary of those who are subtly manipulative."
+                ],
+                [
+                    "Tyler",
+                    "David, your focus on my participation shift overlooks the fact that as the game narrows down, everyone's participation naturally increases. It's not a tactic but a necessity to survive and protect the Village. You've been quick to accuse me but haven't provided any solid reasoning or alternative suspects, which is exactly what a Werewolf would do to avoid scrutiny. Remember, the Werewolves have been careful, targeting less suspicious players. Your reluctance to engage fully and your attempt to shift focus onto me without substantial evidence is what's truly suspicious. Let's work together to analyze the facts, not baseless accusations, to ensure the Village's survival."
+                ],
+                [
+                    "David",
+                    "Tyler, you make a fair point about increasing our participation as the game progresses, and I agree we need to work together to survive. However, let's not overlook the crucial details leading up to this moment. Remember, Mason's false Doctor claim aimed to mislead us, but it ultimately led us to Hayley's role being validated when she protected Scott. If I were a Werewolf, continuing this scrutiny on you would not be in my best interest, as strategic misdirections only draw more attention to me. Instead, I suggest we look at the bigger picture: analyzing past behaviors and elimination patterns. If we scrutinize those who suddenly changed their gameplay when spotlight shifted, like Tyler now contributing more and influencing the group's direction\u2014shouldn't we question if it's a tactic to blend in now as things get tense? Tyler accuses me of diverting attention, but I'm urging thorough examination from all angles. Who else might benefit from this late-game shift in participation and suspicion redirection? Let's ensure we don't hastily draw lines without considering all possibilities. Trust is paramount, and I urge everyone to trust in the process of logical, detailed scrutiny over reacting to sudden shifts."
+                ],
+                [
+                    "Tyler",
+                    "David, your argument hinges on my increased participation as suspicious, yet you ignore the natural progression of the game where everyone's involvement intensifies. Your focus on me without presenting alternative suspects or concrete evidence mirrors the Werewolves' strategy to divert attention. Remember, the Werewolves have targeted less suspicious players to avoid detection. Your reluctance to engage fully and your vague accusations are what's truly alarming. Let's not fall for misdirection. As the last Villager, I urge you to consider the facts: my actions have always been to protect the Village, while yours seem designed to sow doubt without basis. The Village's survival depends on us seeing through such tactics."
+                ],
+                [
+                    "David",
+                    "Tyler, you bring forward an interesting perspective that deeper engagement is a natural progression of the game. While I understand this, I can't shake the feeling that your sudden activity coincides too conveniently with critical moments where decisions are make-or-break for us. You\u2019ve been vocal about analyzing facts, yet your increased participation only surfaced after pivotal players were removed. This could be seen as a strategy to avoid early suspicion and blend in when fewer suspects remain. If we consider the patterns, those who suddenly ramp up their involvement could be orchestrating last-minute misdirection. Let\u2019s not ignore this pattern and think through who truly benefits from such shifts. I urge everyone to stay vigilant and question not just actions, but the timing and context of these actions. Could Tyler\u2019s sudden increase in contribution be more than just a 'natural progression'? We need to thoroughly scrutinize motives and consistency. Let's ensure we aren't misled by strategic late-game participation."
+                ]
+            ],
+            "votes": [
+                {
+                    "Scott": "David",
+                    "Tyler": "David",
+                    "David": "Tyler",
+                    "Hayley": "Tyler"
+                },
+                {
+                    "Scott": "Tyler",
+                    "Tyler": "David",
+                    "David": "Tyler",
+                    "Hayley": "David"
+                },
+                {
+                    "Scott": "David",
+                    "Tyler": "David",
+                    "David": "Tyler",
+                    "Hayley": "David"
+                },
+                {
+                    "Scott": "Tyler",
+                    "Tyler": "David",
+                    "David": "Tyler",
+                    "Hayley": "David"
+                },
+                {
+                    "Scott": "David",
+                    "Tyler": "David",
+                    "David": "Tyler",
+                    "Hayley": "David"
+                },
+                {
+                    "Scott": "David",
+                    "Tyler": "David",
+                    "David": "Tyler",
+                    "Hayley": "Tyler"
+                }
+            ],
+            "bids": [
+                {
+                    "Scott": 2,
+                    "Tyler": 3,
+                    "David": 2,
+                    "Hayley": 0
+                },
+                {
+                    "Scott": 2,
+                    "David": 4,
+                    "Hayley": 0
+                },
+                {
+                    "Scott": 2,
+                    "Tyler": 4,
+                    "Hayley": 2
+                },
+                {
+                    "Scott": 2,
+                    "David": 4,
+                    "Hayley": 0
+                },
+                {
+                    "Scott": 0,
+                    "Tyler": 4,
+                    "Hayley": 2
+                },
+                {
+                    "Scott": 2,
+                    "David": 4,
+                    "Hayley": 2
+                }
+            ],
+            "success": true
+        },
+        {
+            "players": [
+                "Scott",
+                "Hayley"
+            ],
+            "eliminated": "Tyler",
+            "unmasked": null,
+            "protected": "Hayley",
+            "exiled": "David",
+            "debate": [
+                [
+                    "Scott",
+                    "With Tyler's removal last night, we're down to three, and the Werewolves are clearly still active. Hayley, your claim as the Doctor seems credible given the recent nights, but we must verify this carefully. David, your consistent questioning is noted, but we need to ensure it's not a tactic to divert attention. Let's discuss openly any observations or suspicions we have. Remember, our survival depends on uncovering the truth together. Hayley, can you share more about who you've protected and why? David, any thoughts on why the Werewolves might have targeted Tyler?"
+                ],
+                [
+                    "Hayley",
+                    "Scott, I appreciate your directness. As the Doctor, my priority has been to protect players who I believe are crucial to our survival, including myself to ensure the Village has a healer. Last night, I protected myself, anticipating the Werewolves might target me given the game's critical stage. David, your consistent questioning is noted, but it's also worth considering why the Werewolves targeted Tyler. Could it be because Tyler was onto something, or was it to divert our attention? Let's not forget, Werewolves thrive in confusion. I propose we each share one observation about the other that seems suspicious. This way, we can expose inconsistencies. Scott, David, what's your take?"
+                ],
+                [
+                    "Scott",
+                    "Hayley, your decision to protect yourself last night is understandable, but it's crucial we verify your role to ensure the Village's safety. Could you share who you protected in previous nights and why? David, your focus on Tyler's behavior is noted, but let's not overlook the possibility that the Werewolves targeted Tyler to sow confusion among us. I propose we each recount our votes in previous rounds and our reasoning behind them. This could help us spot any inconsistencies. Remember, our survival hinges on transparency and teamwork. Let's not allow the Werewolves to exploit our doubts."
+                ],
+                [
+                    "Hayley",
+                    "Scott, to address your request for transparency, in Round 0 I protected Ginger, anticipating the Werewolves might target a vocal player. In Rounds 1 and 2, I protected myself, recognizing the risk of being targeted as the game progressed. Round 3, I protected you, Scott, believing you were crucial to our survival. Last night, I protected myself again, fearing the Werewolves might aim to eliminate the Doctor. David, your persistent questioning is noted, but your focus on others' roles rather than contributing to a collective strategy raises suspicions. Let's each share our votes and reasoning in previous rounds to expose any inconsistencies. Teamwork and transparency are our best tools against the Werewolves."
+                ],
+                [
+                    "David",
+                    "Scott and Hayley, I appreciate the transparency we're striving for. Scott, yes, let's recount our votes and reasoning. This exercise might expose inconsistencies or reaffirm our collective intent. I\u2019ll start with my voting history. I initially voted to remove Jacob and Paul, who were both active and potentially threatening to the Village's strategy. As the game unfolded, I aimed to focus on those whose actions seemed inconsistent or whose claims appeared dubious. Regarding Tyler, my concern was his sudden shift in engagement, which seemed tactical. Hayley, your claim has been under scrutiny, especially surrounding the protection actions. Protecting crucial players like yourself and Scott does make sense, but the sequence and timing need careful examination. For instance, the rounds when no one was removed despite our coordinated votes and actions raised red flags. Scott, your increase in scrutiny has been noted and appreciated. Let's openly discuss these points and each other's actions in detail. Full transparency will reveal the truth, so let's dive deep into our observations and actions to ensure we\u2019re not falling prey to deception."
+                ],
+                [
+                    "Hayley",
+                    "Scott, David, I appreciate the call for transparency and teamwork. To address David's concerns about my protection actions, each decision was strategic: protecting Ginger initially to safeguard a vocal player, then myself to ensure the Village retained a healer, and Scott for his crucial role in our survival. The Werewolves' targeting of Tyler last night is telling. David, your focus on Tyler's engagement shift is valid, but let's not overlook your own pattern of questioning without offering clear suspicions. Scott, your scrutiny is valuable, but we must also consider why the Werewolves haven't targeted you. Let's each share one concrete suspicion based on actions, not just words, to expose the Werewolves among us."
+                ]
+            ],
+            "votes": [
+                {
+                    "Scott": "David",
+                    "David": "Hayley",
+                    "Hayley": "David"
+                },
+                {
+                    "Scott": "David",
+                    "David": "Scott",
+                    "Hayley": "David"
+                },
+                {
+                    "Scott": "David",
+                    "David": "Hayley",
+                    "Hayley": "David"
+                },
+                {
+                    "Scott": "David",
+                    "David": "Scott",
+                    "Hayley": "David"
+                },
+                {
+                    "Scott": "David",
+                    "David": "Hayley",
+                    "Hayley": "David"
+                },
+                {
+                    "Scott": "David",
+                    "David": "Hayley",
+                    "Hayley": "David"
+                }
+            ],
+            "bids": [
+                {
+                    "Scott": 2,
+                    "David": 2,
+                    "Hayley": 2
+                },
+                {
+                    "David": 4,
+                    "Hayley": 4
+                },
+                {
+                    "Scott": 4,
+                    "David": 4
+                },
+                {
+                    "David": 3,
+                    "Hayley": 4
+                },
+                {
+                    "Scott": 2,
+                    "David": 4
+                },
+                {
+                    "Scott": 3,
+                    "Hayley": 3
+                }
+            ],
+            "success": true
+        }
+    ],
+    "error_message": "",
+    "winner": "Villagers"
+}
