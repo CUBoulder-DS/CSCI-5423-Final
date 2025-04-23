@@ -2,3 +2,4 @@ Quarto/site_libs
 Quarto/generated/*
 !Quarto/generated/paper.pdf
 Notebooks/.ipynb_checkpoints
+Quarto/Notebooks

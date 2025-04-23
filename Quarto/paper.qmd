@@ -1,29 +1,19 @@
 ---
-title: Modeling Persuasion Behaviors in Social Deduction Games
+title: "The Werewolf Among Us: Humans vs LLMs in Multi-Agent Games"
 author:
-  - name: First Author
-    orcid: 0000-0000-0000-0000
+  - name: Bhavana Jonnalagadda
+    orcid: 0009-0009-1054-0995
     corresponding: true
-    email: first.author@university.edu
-    roles:
-      - Investigation
-      - Methodology
-      - Software
-      - Writing – original draft
-      - Visualization
+    email: bhavana.jonnalagadda@colorado.edu
     affiliations:
-      - Department of Computer Science, University Name
-  - name: Second Author
-    orcid: 0000-0000-0000-0000
-    corresponding: false
-    email: second.author@university.edu
-    roles:
-      - Conceptualization
-      - Data Curation
-      - Writing – review & editing
-      - Project administration
+      - name: University of Colorado Boulder
+        id: 1
+        city: Boulder
+        state: CO
+  - name: Riley Jones
+    email: rjones@colorado.edu
     affiliations:
-      - Department of Computer Science, University Name
+      - id: 1
 keywords:
   - social deduction games
   - persuasion modeling

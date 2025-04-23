@@ -8,6 +8,10 @@ manuscript:
     - text: Source Github Repository
       href: https://github.com/CUBoulder-DS/CSCI-5423-Final
       icon: github
+  notebooks:
+    - notebook: ../Notebooks/EDA_Comparison.ipynb
+    - notebook: ../Notebooks/EDA_Werewolf-Arena.ipynb
+    - notebook: ../Notebooks/EDA_Werewolf-Among-Us.ipynb
 
 format:
   html:
