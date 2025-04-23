@@ -1,4 +1,4 @@
-,players,eliminated,unmasked,protected,exiled,success,session_id,winner,round,roles
+,players,eliminated,unmasked,protected,exiled,success,game_id,winner,round,roles
 0,"['Harold', 'Will', 'Sam', 'Jackson', 'Hayley', 'Jacob', 'Mason']",Dan,Will,Hayley,,True,861,Werewolves,0,"['Villager', 'Villager', 'Villager', 'Villager', 'Werewolf', 'Werewolf', 'Doctor']"
 1,"['Harold', 'Sam', 'Jackson', 'Hayley', 'Jacob', 'Mason']",Will,,Sam,,True,861,Werewolves,1,"['Villager', 'Villager', 'Villager', 'Werewolf', 'Werewolf', 'Doctor']"
 2,"['Sam', 'Hayley', 'Jacob', 'Mason']",Harold,,Sam,Jackson,True,861,Werewolves,2,"['Villager', 'Werewolf', 'Werewolf', 'Doctor']"
