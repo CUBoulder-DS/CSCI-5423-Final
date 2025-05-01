@@ -2,6 +2,16 @@ project:
   type: manuscript
   output-dir: generated
 
+book:
+  chapters:
+    - paper.qmd
+  code-links:
+    - text: Source Github Repository
+      href: https://github.com/CUBoulder-DS/CSCI-5423-Final
+      icon: github
+  # notebooks:
+  #   - notebook: Data/EDA_Comparison.ipynb
+
 manuscript:
   article: paper.qmd
   code-links:
@@ -9,9 +19,7 @@ manuscript:
       href: https://github.com/CUBoulder-DS/CSCI-5423-Final
       icon: github
   notebooks:
-    - notebook: ../Notebooks/EDA_Comparison.ipynb
-    - notebook: ../Notebooks/EDA_Werewolf-Arena.ipynb
-    - notebook: ../Notebooks/EDA_Werewolf-Among-Us.ipynb
+    - notebook: Data/EDA_Comparison.ipynb
 
 format:
   html:
@@ -23,8 +31,6 @@ format:
     smooth-scroll: true
     citations-hover: true
     image: Images/logo.png
-    # comments: # Enable live user commenting
-    #   hypothesis: true
   pdf:
     link-citations: true
     toc: true
@@ -36,7 +42,6 @@ format:
     latex-clean: true # delete latex files after rendering
     fig-pos: H # Make figures render at the location in the doc they were specified!!!
     documentclass: scrreprt # The document format
-  # docx: default
 
 quarto-required: ">= 1.4.0"
 
@@ -44,13 +49,13 @@ brand:
   logo:
     medium: Images/logo.png
 
-# bibliography: references.bib
+bibliography: bibliography.bib
 # Force all references in .bib file to appear in References
 nocite: |
   @*
 
 execute:
-  freeze: auto
+  freeze: true
 
 ## PDF creation settings
 latex-clean: true # delete latex files after rendering

@@ -21,66 +21,128 @@ keywords:
   - large language models
   - multimodal analysis
 abstract: |
-  This final project for CSCI‑5423 explores the modeling of persuasion behaviors in the text-based social deduction game Werewolf. We leverage the multimodal “Werewolf Among Us” dataset (Lai, 2022) and evaluate several large language models on their ability to persuade, deceive, and cooperate within game dialogues. Through a combination of feature engineering, sequence modeling, and reinforcement learning agents, we compare performance against baseline classifiers and analyze key linguistic strategies.
+  Abstract TODO
 date: last-modified
 citation:
-  container-title: CSCI‑5423 Final Report
+  container-title: Human vs LLM Multi-Agent Games
 ---
+
+::: {.content-visible when-format="html"}
+::: {.column-margin}
+![](Images/logo.png)
+:::
+:::
 
 # Introduction
 
-Introduce the motivation for studying persuasion in social deduction games. Describe the Werewolf game mechanics and why it offers a rich testbed for multimodal persuasion analysis.
+<!-- TODO: Broken for some reason?!?!? Fix -->
+<!-- ::: {.content-hidden unless-format="latex"}
+::: {.callout-tip}
+## View Online
+This PDF's content, the source code notebooks, along with live interactive versions of all figures (and more!) is available at the website version of this paper: [https://cuboulder-ds.github.io/CSCI-5423-Final](https://cuboulder-ds.github.io/CSCI-5423-Final)
+:::
+::: -->
 
-# Related Work
 
-Review prior datasets and frameworks:
+- A description of the problem and its significance
+- How do LLMs function in a multi-agent environment?
+  - Each has limited information
+  - Approximately the same ability, traits, skills
+- We use LLMs to simulate whether synthetic agents can participate in complex, adversarial group dynamics
+- Werewolf is a good candiate for testing multi agent systems of cooperation and secrecy
+  - Need citation
+  - The game tests adaptive reasoning, strategic alignment, and collective threat detection under special conditions
 
-- Werewolf Among Us: dataset and original paper (Lai, 2022)
-- PersuasionGames repository and baseline models
-- AmongAgents and evaluation of LLMs in interactive text-based games (Chi, 2024)
-- RL approaches to strategic play in Werewolf (Xu et al., 2023)
-- Werewolf Arena framework by Google for LLM evaluation
 
-# Data and Preprocessing
+## Related Work
 
-Detail how we load and preprocess the HuggingFace Werewolf-Among-Us dataset. Include data splits, feature extraction, and any augmentation steps.
+### Multi-Agent LLMs
+
+- Among us game [@chiAMONGAGENTSEvaluatingLarge2024]
+- Collective problem solving [@duLargeLanguageModels2024]
+  - "analyses indicate that LLM agent groups exhibit more disagreements, complex statements, and a propensity for positive statements compared to human groups"
+- Govsim [@piattiCooperateCollapseEmergence2024]
+  - "In GOVSIM, a society of AI agents must collectively balance exploiting a common resource with sustaining it for future use. This environment enables the study of how ethical considerations, strategic planning, and negotiation skills impact cooperative outcomes."
+- All found similar themes
+  - That LLMs are capable and good at understanding the rules
+  - That they can cooperate and be sneaky
+
+### LLMs and Werewolf
+
+- Examination of improving werewolf by LLMs [@xuLanguageAgentsReinforcement2024]
+  - "our agents use an LLM to perform deductive reasoning and generate a diverse set of action candidates. Then an RL policy trained to optimize the decision-making ability chooses an action from the candidates to play in the game. Extensive experiments show that our agents overcome the intrinsic bias and outperform existing LLM-based agents in the Werewolf game."
+- Werewolf Arena [@bailisWerewolfArenaCase2024]
+  - Used in this paper
+- Explicitly discuss how none of the exisiting LLM+Werewolf papers examine the differences/compare from a human dataset
 
 # Methods
 
-Describe the modeling approaches:
+## Data
 
-- Baseline classifiers (e.g., logistic regression, SVM)
-- Sequence models (e.g., LSTM, Transformer)
-- RL-based agent setup and reward definitions
+### Werewolf Among Us Human Dataset
 
-# Experiments and Evaluation
+- Human dataset description [@laiWerewolfUsMultimodal2022]
+- Is specifically for a form of one-night werewolf
+  - Describe key differences
+- Used specifically for the text available
+  - and annotations of persuasion strategy on the text
 
-Outline experimental setups:
+### Werewolf Arena
 
-- Persuasion classification tasks
-- Game simulation with LLM agents
-- Metrics for persuasion success, deception detection, and cooperative play
+- [@bailisWerewolfArenaCase2024]
+- Discuss the framework, how it works, prompts, etc
+- Discuss what types of runs we did
+- Discuss the data included in output
+- Talk about how we had to annotate the LLM speech with persuasion strategies ourselves
+
+## Analysis
+
+- Formatted data to match, performed various comparisons
 
 # Results
 
-Present quantitative results in tables and figures. Analyze which models and features best capture persuasion strategies.
+{{< embed Data/EDA_Comparison.ipynb#fig-llm-winrounds >}}
 
-# Discussion
+{{< embed Data/EDA_Comparison.ipynb#fig-stratbyrole-hum >}}
+{{< embed Data/EDA_Comparison.ipynb#fig-stratbyrole-llms >}}
+
+# Discussion and Conclusion
 
 Interpret findings, discuss limitations, and propose future work.
 
-# Conclusion
+## Limitations
+
+## Future Work
+
+## Summary
 
 Summarize contributions and insights from the project.
 
+---
+
+<!-- See https://quarto.org/docs/authoring/citations.html -->
 # References
 
-Lai, B. (2022). Werewolf Among Us: A Multimodal Dataset for Modeling Persuasion Behaviors in Social Deduction Games. arXiv:2212.08279.
-
-Chi, Y. (2024). AmongAgents: Evaluating Large Language Models in the Interactive Text-Based Social Deduction Game. arXiv:2407.16521v2.
-
-Xu, Z., et al. (2023). Language Agents with Reinforcement Learning for Strategic Play in the Werewolf Game. arXiv:2310.18940v3.
-
-Blanchard, T., et al. (2024). Werewolf Arena: A Case Study in LLM Evaluation via Social Deduction. arXiv:2407.13943.
+::: {#refs}
+:::
 
 ---
+
+# Project Contributions
+
+**Bhavana Jonnalagadda**:
+
+- Paper framework (Quarto) setup
+- Github repo management
+- EDA on LLM dataset
+- Final comparison EDA and results analysis
+- Results section
+- Discussion and Conclusion section
+- Abstract
+
+**Riley Jones**:
+
+- EDA on human dataset
+- Werewolf Arena LLM simulation running and data aquisition
+- Introduction section
+- Methods section
