@@ -1,4 +1,5 @@
 % Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
 \PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
@@ -7,21 +8,23 @@
   letterpaper,
   DIV=11,
   numbers=noendperiod]{scrreprt}
-
+\usepackage{xcolor}
+\usepackage[margin=0.5in]{geometry}
 \usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
 \usepackage{iftex}
 \ifPDFTeX
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
 \else % if luatex or xetex
-  \usepackage{unicode-math}
+  \usepackage{unicode-math} % this also loads fontspec
   \defaultfontfeatures{Scale=MatchLowercase}
   \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 \fi
 \usepackage{lmodern}
-\ifPDFTeX\else  
-    % xetex/luatex font selection
+\ifPDFTeX\else
+  % xetex/luatex font selection
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
@@ -39,10 +42,6 @@
 }{% if KOMA class
   \KOMAoptions{parskip=half}}
 \makeatother
-\usepackage{xcolor}
-\usepackage[margin=0.5in]{geometry}
-\setlength{\emergencystretch}{3em} % prevent overfull lines
-\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
 % Make \paragraph and \subparagraph free-standing
 \makeatletter
 \ifx\paragraph\undefined\else
@@ -68,8 +67,7 @@
 \makeatother
 
 
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
@@ -94,6 +92,53 @@
 % Set default figure placement to htbp
 \def\fps@figure{htbp}
 \makeatother
+
+
+% definitions for citeproc citations
+\NewDocumentCommand\citeproctext{}{}
+\NewDocumentCommand\citeproc{mm}{%
+  \begingroup\def\citeproctext{#2}\cite{#1}\endgroup}
+\makeatletter
+ % allow citations to break across lines
+ \let\@cite@ofmt\@firstofone
+ % avoid brackets around text for \cite:
+ \def\@biblabel#1{}
+ \def\@cite#1#2{{#1\if@tempswa , #2\fi}}
+\makeatother
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2] % #1 hanging-indent, #2 entry-spacing
+ {\begin{list}{}{%
+  \setlength{\itemindent}{0pt}
+  \setlength{\leftmargin}{0pt}
+  \setlength{\parsep}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+   \setlength{\leftmargin}{\cslhangindent}
+   \setlength{\itemindent}{-1\cslhangindent}
+  \fi
+  % set entry spacing
+  \setlength{\itemsep}{#2\baselineskip}}}
+ {\end{list}}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{\hfill\break\parbox[t]{\linewidth}{\strut\ignorespaces#1\strut}}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
 
 \KOMAoption{captions}{tableheading}
 \makeatletter
@@ -137,11 +182,9 @@
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
 \makeatother
-
 \usepackage{bookmark}
-
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\urlstyle{same} % disable monospaced font for URLs
+\urlstyle{same}
 \hypersetup{
   pdftitle={The Werewolf Among Us: Humans vs LLMs in Multi-Agent Games},
   pdfauthor={Bhavana Jonnalagadda; Riley Jones},
@@ -157,19 +200,11 @@ Among Us dataset, large language models, multimodal analysis},
 
 \title{The Werewolf Among Us: Humans vs LLMs in Multi-Agent Games}
 \author{Bhavana Jonnalagadda \and Riley Jones}
-\date{2025-04-23}
-
+\date{2025-05-01}
 \begin{document}
 \maketitle
 \begin{abstract}
-This final project for CSCI‑5423 explores the modeling of persuasion
-behaviors in the text-based social deduction game Werewolf. We leverage
-the multimodal ``Werewolf Among Us'' dataset (Lai, 2022) and evaluate
-several large language models on their ability to persuade, deceive, and
-cooperate within game dialogues. Through a combination of feature
-engineering, sequence modeling, and reinforcement learning agents, we
-compare performance against baseline classifiers and analyze key
-linguistic strategies.
+Abstract TODO
 \end{abstract}
 
 \renewcommand*\contentsname{Table of contents}
@@ -181,92 +216,341 @@ linguistic strategies.
 
 \chapter{Introduction}\label{introduction}
 
-Introduce the motivation for studying persuasion in social deduction
-games. Describe the Werewolf game mechanics and why it offers a rich
-testbed for multimodal persuasion analysis.
+\begin{itemize}
+\tightlist
+\item
+  A description of the problem and its significance
+\item
+  How do LLMs function in a multi-agent environment?
 
-\chapter{Related Work}\label{related-work}
+  \begin{itemize}
+  \tightlist
+  \item
+    Each has limited information
+  \item
+    Approximately the same ability, traits, skills
+  \end{itemize}
+\item
+  We use LLMs to simulate whether synthetic agents can participate in
+  complex, adversarial group dynamics
+\item
+  Werewolf is a good candiate for testing multi agent systems of
+  cooperation and secrecy
 
-Review prior datasets and frameworks:
+  \begin{itemize}
+  \tightlist
+  \item
+    Need citation
+  \item
+    The game tests adaptive reasoning, strategic alignment, and
+    collective threat detection under special conditions
+  \end{itemize}
+\end{itemize}
+
+\section{Related Work}\label{related-work}
+
+\subsection{Multi-Agent LLMs}\label{multi-agent-llms}
 
 \begin{itemize}
 \tightlist
 \item
-  Werewolf Among Us: dataset and original paper (Lai, 2022)
+  Among us game (\citeproc{ref-chiAMONGAGENTSEvaluatingLarge2024}{Chi,
+  Mao, and Tang 2024})
 \item
-  PersuasionGames repository and baseline models
+  Collective problem solving
+  (\citeproc{ref-duLargeLanguageModels2024}{Du, Rajivan, and Gonzalez
+  2024})
+
+  \begin{itemize}
+  \tightlist
+  \item
+    ``analyses indicate that LLM agent groups exhibit more
+    disagreements, complex statements, and a propensity for positive
+    statements compared to human groups''
+  \end{itemize}
 \item
-  AmongAgents and evaluation of LLMs in interactive text-based games
-  (Chi, 2024)
+  Govsim (\citeproc{ref-piattiCooperateCollapseEmergence2024}{Piatti et
+  al. 2024})
+
+  \begin{itemize}
+  \tightlist
+  \item
+    ``In GOVSIM, a society of AI agents must collectively balance
+    exploiting a common resource with sustaining it for future use. This
+    environment enables the study of how ethical considerations,
+    strategic planning, and negotiation skills impact cooperative
+    outcomes.''
+  \end{itemize}
 \item
-  RL approaches to strategic play in Werewolf (Xu et al., 2023)
-\item
-  Werewolf Arena framework by Google for LLM evaluation
+  All found similar themes
+
+  \begin{itemize}
+  \tightlist
+  \item
+    That LLMs are capable and good at understanding the rules
+  \item
+    That they can cooperate and be sneaky
+  \end{itemize}
 \end{itemize}
 
-\chapter{Data and Preprocessing}\label{data-and-preprocessing}
+\subsection{LLMs and Werewolf}\label{llms-and-werewolf}
 
-Detail how we load and preprocess the HuggingFace Werewolf-Among-Us
-dataset. Include data splits, feature extraction, and any augmentation
-steps.
+\begin{itemize}
+\tightlist
+\item
+  Examination of improving werewolf by LLMs
+  (\citeproc{ref-xuLanguageAgentsReinforcement2024}{Xu et al. 2024})
+
+  \begin{itemize}
+  \tightlist
+  \item
+    ``our agents use an LLM to perform deductive reasoning and generate
+    a diverse set of action candidates. Then an RL policy trained to
+    optimize the decision-making ability chooses an action from the
+    candidates to play in the game. Extensive experiments show that our
+    agents overcome the intrinsic bias and outperform existing LLM-based
+    agents in the Werewolf game.''
+  \end{itemize}
+\item
+  Werewolf Arena (\citeproc{ref-bailisWerewolfArenaCase2024}{Bailis,
+  Friedhoff, and Chen 2024})
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Used in this paper
+  \end{itemize}
+\item
+  Explicitly discuss how none of the exisiting LLM+Werewolf papers
+  examine the differences/compare from a human dataset
+\end{itemize}
 
 \chapter{Methods}\label{methods}
 
-Describe the modeling approaches:
+\section{Data}\label{data}
+
+\subsection{Werewolf Among Us Human
+Dataset}\label{werewolf-among-us-human-dataset}
 
 \begin{itemize}
 \tightlist
 \item
-  Baseline classifiers (e.g., logistic regression, SVM)
+  Human dataset description
+  (\citeproc{ref-laiWerewolfUsMultimodal2022}{Lai et al. 2022})
 \item
-  Sequence models (e.g., LSTM, Transformer)
+  Is specifically for a form of one-night werewolf
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Describe key differences
+  \end{itemize}
 \item
-  RL-based agent setup and reward definitions
+  Used specifically for the text available
+
+  \begin{itemize}
+  \tightlist
+  \item
+    and annotations of persuasion strategy on the text
+  \end{itemize}
 \end{itemize}
 
-\chapter{Experiments and Evaluation}\label{experiments-and-evaluation}
-
-Outline experimental setups:
+\subsection{Werewolf Arena}\label{werewolf-arena}
 
 \begin{itemize}
 \tightlist
 \item
-  Persuasion classification tasks
+  (\citeproc{ref-bailisWerewolfArenaCase2024}{Bailis, Friedhoff, and
+  Chen 2024})
 \item
-  Game simulation with LLM agents
+  Discuss the framework, how it works, prompts, etc
 \item
-  Metrics for persuasion success, deception detection, and cooperative
-  play
+  Discuss what types of runs we did
+\item
+  Discuss the data included in output
+\item
+  Talk about how we had to annotate the LLM speech with persuasion
+  strategies ourselves
+\end{itemize}
+
+\section{Analysis}\label{analysis}
+
+\begin{itemize}
+\tightlist
+\item
+  Formatted data to match, performed various comparisons
 \end{itemize}
 
 \chapter{Results}\label{results}
 
-Present quantitative results in tables and figures. Analyze which models
-and features best capture persuasion strategies.
+\begin{figure}[H]
 
-\chapter{Discussion}\label{discussion}
+\centering{
+
+\centering{
+
+\begin{verbatim}
+Unable to display output for mime type(s): text/html
+\end{verbatim}
+
+}
+
+\subcaption{\label{fig-llm-winrounds-1}The LLM wins, by how many rounds
+that partiticular game had.}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{paper_files/figure-latex/Data-EDA_Comparison-fig-llm-winrounds-output-2.png}}
+
+}
+
+\subcaption{\label{fig-llm-winrounds-2}}
+
+}
+
+\caption{\label{fig-llm-winrounds}}
+
+\end{figure}%
+
+\textsubscript{Source:
+\href{https://CUBoulder-DS.github.io/CSCI-5423-Final/Data/EDA_Comparison-preview.html\#cell-fig-llm-winrounds}{Werewolf
+Among Us: Human vs LLM Analysis}}
+
+\begin{figure}[H]
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{paper_files/figure-latex/Data-EDA_Comparison-fig-stratbyrole-hum-output-1.png}}
+
+}
+
+\caption{\label{fig-stratbyrole-hum}}
+
+\end{figure}%
+
+\textsubscript{Source:
+\href{https://CUBoulder-DS.github.io/CSCI-5423-Final/Data/EDA_Comparison-preview.html\#cell-fig-stratbyrole-hum}{Werewolf
+Among Us: Human vs LLM Analysis}}
+
+\begin{figure}[H]
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{paper_files/figure-latex/Data-EDA_Comparison-fig-stratbyrole-llms-output-1.png}}
+
+}
+
+\caption{\label{fig-stratbyrole-llms}}
+
+\end{figure}%
+
+\textsubscript{Source:
+\href{https://CUBoulder-DS.github.io/CSCI-5423-Final/Data/EDA_Comparison-preview.html\#cell-fig-stratbyrole-llms}{Werewolf
+Among Us: Human vs LLM Analysis}}
+
+\chapter{Discussion and Conclusion}\label{discussion-and-conclusion}
 
 Interpret findings, discuss limitations, and propose future work.
 
-\chapter{Conclusion}\label{conclusion}
+\section{Limitations}\label{limitations}
+
+\section{Future Work}\label{future-work}
+
+\section{Summary}\label{summary}
 
 Summarize contributions and insights from the project.
 
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
 \chapter{References}\label{references}
 
-Lai, B. (2022). Werewolf Among Us: A Multimodal Dataset for Modeling
-Persuasion Behaviors in Social Deduction Games. arXiv:2212.08279.
+\phantomsection\label{refs}
+\begin{CSLReferences}{1}{0}
+\bibitem[\citeproctext]{ref-bailisWerewolfArenaCase2024}
+Bailis, Suma, Jane Friedhoff, and Feiyang Chen. 2024. {``Werewolf
+{Arena}: {A Case Study} in {LLM Evaluation} via {Social Deduction}.''}
+July 18, 2024. \url{https://doi.org/10.48550/arXiv.2407.13943}.
 
-Chi, Y. (2024). AmongAgents: Evaluating Large Language Models in the
-Interactive Text-Based Social Deduction Game. arXiv:2407.16521v2.
+\bibitem[\citeproctext]{ref-chiAMONGAGENTSEvaluatingLarge2024}
+Chi, Yizhou, Lingjun Mao, and Zineng Tang. 2024. {``{AMONGAGENTS}:
+{Evaluating Large Language Models} in the {Interactive Text-Based Social
+Deduction Game}.''} July 24, 2024.
+\url{https://doi.org/10.48550/arXiv.2407.16521}.
 
-Xu, Z., et al.~(2023). Language Agents with Reinforcement Learning for
-Strategic Play in the Werewolf Game. arXiv:2310.18940v3.
+\bibitem[\citeproctext]{ref-choRoundTableInvestigatingGroup2024}
+Cho, Young-Min, Raphael Shu, Nilaksh Das, Tamer Alkhouli, Yi-An Lai,
+Jason Cai, Monica Sunkara, and Yi Zhang. 2024. {``{RoundTable}:
+{Investigating Group Decision-Making Mechanism} in {Multi-Agent
+Collaboration}.''} November 11, 2024.
+\url{https://doi.org/10.48550/arXiv.2411.07161}.
 
-Blanchard, T., et al.~(2024). Werewolf Arena: A Case Study in LLM
-Evaluation via Social Deduction. arXiv:2407.13943.
+\bibitem[\citeproctext]{ref-duLargeLanguageModels2024}
+Du, Yinuo, Prashanth Rajivan, and Cleotilde Gonzalez. 2024. {``Large
+{Language Models} for {Collective Problem-Solving}: {Insights} into
+{Group Consensus Decision-Making}.''} \emph{Proceedings of the Annual
+Meeting of the Cognitive Science Society} 46 (0).
+\url{https://escholarship.org/uc/item/6s060914}.
+
+\bibitem[\citeproctext]{ref-laiWerewolfUsMultimodal2022}
+Lai, Bolin, Hongxin Zhang, Miao Liu, Aryan Pariani, Fiona Ryan, Wenqi
+Jia, Shirley Anugrah Hayati, James M. Rehg, and Diyi Yang. 2022.
+{``Werewolf {Among Us}: {A Multimodal Dataset} for {Modeling Persuasion
+Behaviors} in {Social Deduction Games}.''} December 16, 2022.
+\url{https://doi.org/10.48550/arXiv.2212.08279}.
+
+\bibitem[\citeproctext]{ref-piattiCooperateCollapseEmergence2024}
+Piatti, Giorgio, Zhijing Jin, Max Kleiman-Weiner, Bernhard Schölkopf,
+Mrinmaya Sachan, and Rada Mihalcea. 2024. {``Cooperate or {Collapse}:
+{Emergence} of {Sustainable Cooperation} in a {Society} of {LLM
+Agents}.''} \emph{Advances in Neural Information Processing Systems} 37
+(December): 111715--59.
+\url{https://proceedings.neurips.cc/paper_files/paper/2024/hash/ca9567d8ef6b2ea2da0d7eed57b933ee-Abstract-Conference.html}.
+
+\bibitem[\citeproctext]{ref-xuLanguageAgentsReinforcement2024}
+Xu, Zelai, Chao Yu, Fei Fang, Yu Wang, and Yi Wu. 2024. {``Language
+{Agents} with {Reinforcement Learning} for {Strategic Play} in the
+{Werewolf Game}.''} February 20, 2024.
+\url{https://doi.org/10.48550/arXiv.2310.18940}.
+
+\end{CSLReferences}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\chapter{Project Contributions}\label{project-contributions}
+
+\textbf{Bhavana Jonnalagadda}:
+
+\begin{itemize}
+\tightlist
+\item
+  Paper framework (Quarto) setup
+\item
+  Github repo management
+\item
+  EDA on LLM dataset
+\item
+  Final comparison EDA and results analysis
+\item
+  Results section
+\item
+  Discussion and Conclusion section
+\item
+  Abstract
+\end{itemize}
+
+\textbf{Riley Jones}:
+
+\begin{itemize}
+\tightlist
+\item
+  EDA on human dataset
+\item
+  Werewolf Arena LLM simulation running and data aquisition
+\item
+  Introduction section
+\item
+  Methods section
+\end{itemize}
 
 
 
