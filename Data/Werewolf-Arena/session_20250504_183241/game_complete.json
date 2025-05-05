@@ -1,0 +1,1096 @@
+{
+    "session_id": "10",
+    "seer": {
+        "name": "Bert",
+        "role": "Seer",
+        "personality": null,
+        "model": "deepseek-chat",
+        "observations": [
+            "Round 0: During the night, I decided to investigate Harold and learned they are a Doctor."
+        ],
+        "bidding_rationale": "",
+        "gamestate": {
+            "round_number": 0,
+            "current_players": [
+                "Will",
+                "Derek",
+                "Hayley",
+                "Jacob",
+                "Bert",
+                "Harold",
+                "Jackson",
+                "Scott"
+            ],
+            "debate": [],
+            "other_wolf": null
+        },
+        "previously_unmasked": {
+            "Harold": "Doctor"
+        }
+    },
+    "doctor": {
+        "name": "Harold",
+        "role": "Doctor",
+        "personality": null,
+        "model": "deepseek-chat",
+        "observations": [
+            "Round 0: During the night, I chose to protect Hayley",
+            "Round 0: Moderator Announcement: The Werewolves removed Bert from the game during the night.",
+            "Round 0: After the debate, I voted to remove Jacob from the game.",
+            "Round 0: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+            "Round 0: Summary: I noticed that Derek, Hayley, and Will were vocal about the importance of collaboration and sharing specific observations, which makes me consider them as potential allies. Scott's insistence on moving beyond general agreements to share specifics was a standout point, showing a level of awareness that could be crucial in identifying Werewolves. Will's observation about the varying levels of vocal encouragement for specifics is something I'll keep in mind, as it could indicate who is genuinely invested in the village's success. The overall consensus on the need for specific, explained suspicions is a strategy I support and will continue to promote to ensure we're building cases on behavior patterns rather than isolated incidents. I'll be paying close attention to those who contribute little or echo others without adding new insights, as they may be trying to hide their true intentions.",
+            "Round 1: During the night, I chose to protect Scott"
+        ],
+        "bidding_rationale": "The discussion is currently focused on the importance of sharing specific observations, which is crucial for identifying Werewolves. As the Doctor, my role is to protect, and contributing now could help steer the conversation towards more actionable insights without revealing my role.",
+        "gamestate": {
+            "round_number": 1,
+            "current_players": [
+                "Will",
+                "Derek",
+                "Hayley",
+                "Jacob",
+                "Harold",
+                "Jackson",
+                "Scott"
+            ],
+            "debate": [],
+            "other_wolf": null
+        }
+    },
+    "villagers": [
+        {
+            "name": "Will",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Bert from the game during the night.",
+                "Round 0: After the debate, I voted to remove Jacob from the game.",
+                "Round 0: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 0: Summary: I noticed that while everyone agreed on the importance of collaboration, Harold, Derek, and Hayley were particularly vocal about the need for unity and sharing specific observations. Scott pointed out the risk of blending in by only echoing others, which I found insightful. I also observed that some players were more active in encouraging specifics than others, a detail worth noting for potential inconsistencies. Harold's advice to base suspicions on behavior inconsistent with Villager objectives seems like a solid strategy. Moving forward, I'll pay close attention to who provides specific observations and who might be trying to blend in without contributing meaningfully.",
+                "Round 1: Moderator Announcement: The Werewolves removed Harold from the game during the night.",
+                "Round 1: After the debate, I voted to remove Jacob from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: I noticed Hayley's shift from advocating unity to leading accusations, which seems strategic. Jacob's quick defense followed by accusations feels off, and Jackson's sudden engagement after initial silence is suspicious. Scott's lack of specifics despite advocating for them is concerning. Derek's consistent and strategic contributions make him a potential ally. I need to watch these players closely for inconsistencies that might reveal their true roles. The Seer or Doctor could be among the more consistent contributors, but it's unclear at this stage.",
+                "Round 2: Moderator Announcement: The Werewolves removed Hayley from the game during the night.",
+                "Round 2: After the debate, I voted to remove Jacob from the game.",
+                "Round 2: Moderator Announcement: The majority voted to remove Jacob from the game."
+            ],
+            "bidding_rationale": "The debate is currently focused on Jacob and Jackson, with Derek advocating for a broader scrutiny of all players. As Will the Villager, it's crucial to support Derek's call for a balanced perspective to avoid narrowing our focus too quickly, which could be detrimental to the villagers' strategy.",
+            "gamestate": {
+                "round_number": 3,
+                "current_players": [
+                    "Will",
+                    "Derek",
+                    "Jackson",
+                    "Scott"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        {
+            "name": "Derek",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Bert from the game during the night.",
+                "Round 0: After the debate, I voted to remove Harold from the game.",
+                "Round 0: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 0: Summary: I noticed that Harold, Hayley, and Will were particularly vocal about the need for collaboration and sharing specific observations, which makes me inclined to trust them more. Scott's insistence on moving beyond general agreements to share specifics was a standout point, highlighting a strategy that could help identify Werewolves. Will's encouragement to share specific observations about others' behavior further supports this approach. Harold's advice to focus on behavior inconsistent with a villager's objectives and to avoid baseless accusations was also valuable. These players seem to be genuinely working towards the villagers' success. On the other hand, I should keep an eye on players who contribute less or only echo others, as they might be trying to blend in. The emphasis on detailed and constructive dialogue suggests that those who engage in it could be potential allies, while those who don't may warrant suspicion.",
+                "Round 1: Moderator Announcement: The Werewolves removed Harold from the game during the night.",
+                "Round 1: After the debate, I voted to remove Jacob from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: I noticed that Harold, Hayley, and Will were initially trustworthy due to their emphasis on collaboration and specifics, but Harold's removal makes me cautious. Jacob's minimal contributions and quick accusations when questioned seem suspicious. Jackson's silence followed by sudden accusations is inconsistent. Hayley's shift from unity to leading accusations could be strategic. Scott advocates for specifics but provides few himself. These details are vital for spotting inconsistencies and potential Werewolves.",
+                "Round 2: Moderator Announcement: The Werewolves removed Hayley from the game during the night.",
+                "Round 2: After the debate, I voted to remove Jacob from the game.",
+                "Round 2: Moderator Announcement: The majority voted to remove Jacob from the game."
+            ],
+            "bidding_rationale": "The discussion is at a critical point where both Jacob and Jackson are under scrutiny, and my perspective as Derek could help balance the debate and steer it towards a more strategic direction. Given the importance of teamwork and transparency in uncovering the Werewolves, contributing now could be pivotal.",
+            "gamestate": {
+                "round_number": 3,
+                "current_players": [
+                    "Will",
+                    "Derek",
+                    "Jackson",
+                    "Scott"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        {
+            "name": "Hayley",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Bert from the game during the night.",
+                "Round 0: After the debate, I voted to remove Will from the game.",
+                "Round 0: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 0: Summary: I noticed that Harold, Derek, and Scott are advocating for a collaborative approach but stress the need for specific observations to uncover inconsistencies. Will's point about sharing specific observations about other players' behavior stands out as a practical strategy to identify Werewolves. Harold's advice to base suspicions on behavior patterns rather than isolated incidents is also valuable. Scott's observation about the lack of specifics in our discussions could be a clue to look for players who are just echoing others without adding new insights. I need to pay close attention to how each player contributes in future rounds, especially those who are less vocal or whose contributions don't add up. This round has set a foundation for identifying potential allies and suspicious behavior, but it's too early to pinpoint the Seer or Doctor.",
+                "Round 1: Moderator Announcement: The Werewolves removed Harold from the game during the night.",
+                "Round 1: After the debate, I voted to remove Jackson from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: I noticed Jackson was unusually quiet in Round 0 but quickly shifted to making accusations when called out, which seems suspicious. Jacob defended his minimal contributions by pointing fingers at others, which could be a deflection tactic. Scott advocated for specifics but didn't provide many, raising questions about his intentions. Derek and Will emphasized the importance of specific observations, aligning with villager objectives. My shift in focus from unity to identifying inconsistencies was a strategic response to the game's needs. These observations are crucial for uncovering Werewolves and identifying potential allies in future rounds."
+            ],
+            "bidding_rationale": "Given the current discussion, it's crucial for me to address the accusations made by Jackson and clarify my position to avoid being misconstrued as a Werewolf. This is a strategic moment to defend my actions and steer the conversation towards identifying actual inconsistencies.",
+            "gamestate": {
+                "round_number": 2,
+                "current_players": [
+                    "Will",
+                    "Derek",
+                    "Hayley",
+                    "Jacob",
+                    "Jackson",
+                    "Scott"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        {
+            "name": "Jacob",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Bert from the game during the night.",
+                "Round 0: After the debate, I voted to remove Will from the game.",
+                "Round 0: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 0: Summary: I noticed that Harold, Derek, and Hayley were very vocal about the importance of collaboration and sharing observations, which seems genuine. Scott and Will, however, pushed for more specific contributions, which could be a strategy to uncover Werewolves or a tactic to blend in. Harold's point about grounding suspicions in behavior that's inconsistent with a villager's objectives stood out to me as a smart approach. I also observed that Jackson was unusually quiet, which might be worth noting in future rounds. Overall, the debate was constructive, but I'll need to pay close attention to who follows through with sharing specific observations and who might be trying to blend in by just agreeing with others.",
+                "Round 1: Moderator Announcement: The Werewolves removed Harold from the game during the night.",
+                "Round 1: After the debate, I voted to remove Hayley from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: I noticed Jackson was unusually quiet in Round 0 but suddenly became vocal with accusations in Round 1, which seems suspicious. Hayley shifted from advocating unity to leading accusations, which could be strategic or a sign of being a Werewolf. Scott pushed for specifics but didn't provide many himself, raising questions about his intentions. Derek's consistent call for concrete observations makes him a potential ally. Will's strategic focus on scrutinizing behaviors seems genuine. I need to be wary of Jackson, Hayley, and Scott, while considering Derek and Will as trustworthy players. My own contributions were questioned, but I clarified my intentions were to contribute to the discussion, not deflect.",
+                "Round 2: Moderator Announcement: The Werewolves removed Hayley from the game during the night.",
+                "Round 2: After the debate, I voted to remove Jackson from the game."
+            ],
+            "bidding_rationale": "Given the current debate, it's crucial to address the deflection and inconsistency in behaviors, especially focusing on Jackson and Scott, to steer the discussion towards uncovering potential Werewolves. My contribution can help clarify suspicions and encourage transparency.",
+            "gamestate": {
+                "round_number": 2,
+                "current_players": [
+                    "Will",
+                    "Derek",
+                    "Jacob",
+                    "Jackson",
+                    "Scott"
+                ],
+                "debate": [
+                    [
+                        "Jacob",
+                        "I've noticed some concerning patterns in behavior that we need to address. Jackson was unusually quiet in Round 0 but then led accusations in Round 1. This sudden shift is suspicious and could be a tactic to divert attention. Scott has been pushing for specifics from others but hasn't provided much himself. We need to question why that is. I urge everyone to share their observations and scrutinize every accusation. Let's work together to uncover the truth and protect our village."
+                    ],
+                    [
+                        "Jackson",
+                        "Jacob, I appreciate your attention to detail\u2014we all need to be careful. But I\u2019m concerned that right after Hayley and Harold, our most organized players, were taken out at night, you\u2019re suddenly pushing hard to turn everyone against specific people. That feels like it might be steering us away from the real threat. If the wolves wanted to create confusion, removing the strongest voices while someone else starts finger-pointing fits perfectly. What if you\u2019re trying to set up a narrative that benefits the wolves? Before we all jump to conclusions, I think it\u2019s just as important to consider who gains the most from these eliminations. I\u2019d like to hear what Derek and Will have noticed so far."
+                    ],
+                    [
+                        "Jacob",
+                        "Jackson, your attempt to shift the focus onto me right after I pointed out your sudden change in behavior is telling. It's a common tactic to deflect when under scrutiny. Let's not lose sight of the patterns here: your silence in Round 0 followed by aggressive accusations in Round 1, and now this deflection. Scott, you've asked for specifics from others but have been vague yourself. We need transparency to win. Derek and Will, your perspectives are crucial now. Let's work together to scrutinize these behaviors and protect our village."
+                    ],
+                    [
+                        "Derek",
+                        "I've been listening carefully to both Jacob and Jackson, and I see valid points on both sides. Jacob, your concern about Jackson's sudden shift in behavior is noteworthy, but we must also consider why you're focusing so intently on him now, after our strongest voices were removed. Jackson, your point about considering who benefits from these eliminations is crucial. However, your own behavior has been inconsistent, which raises questions. Let's not forget Scott's lack of specifics despite advocating for them. I urge everyone to share detailed observations about all players, not just focus on one or two. Teamwork and transparency are our best tools to uncover the Werewolves. Let's work together to scrutinize every player's actions and words for inconsistencies."
+                    ],
+                    [
+                        "Jacob",
+                        "Jackson, your attempt to deflect scrutiny by questioning my intentions is exactly the kind of behavior we should be wary of. Your sudden shift from silence to leading accusations is a pattern we cannot ignore. Scott, your calls for specifics without providing them yourself raises questions. Let's not forget, teamwork and transparency are our best defenses. I urge everyone to share their observations openly and scrutinize all behaviors, not just those that are convenient. Together, we can uncover the truth and protect our village."
+                    ],
+                    [
+                        "Will",
+                        "I've been closely following the debate between Jacob and Jackson, and Derek's call for a balanced perspective is crucial. Jacob, your focus on Jackson's shift in behavior is valid, but we must also consider why this focus intensifies after the removal of our most organized players. Jackson, your inconsistency is concerning, but so is the possibility of deflection. Scott, your lack of specifics despite advocating for them stands out. Let's not narrow our focus too quickly. Instead, let's collectively scrutinize all players for behaviors that don't align with Villager objectives, such as sudden engagement shifts or lack of substantive contributions. Teamwork and transparency are our best tools to uncover the Werewolves."
+                    ],
+                    [
+                        "Derek",
+                        "Jacob and Jackson, both of you have raised valid concerns, but we must ensure our focus isn't too narrow. Jacob, your attention to Jackson's shift in behavior is important, but let's also consider why this focus intensifies after our key players were removed. Jackson, your inconsistency is concerning, but so is the potential for deflection. Scott, your calls for specifics without providing them yourself is notable. Let's broaden our scrutiny to include all players, looking for behaviors that don't align with Villager objectives\u2014such as sudden engagement shifts or lack of substantive contributions. Teamwork and transparency are our best tools to uncover the Werewolves. Let's work together to scrutinize every player's actions and words for inconsistencies."
+                    ],
+                    [
+                        "Scott",
+                        "I appreciate the push for specifics. Here\u2019s what I\u2019ve noticed: Jacob was very quiet at first, but once Hayley and Harold\u2014our most vocal players\u2014were gone, he shifted into a lead position and started singling people out. That\u2019s a huge jump; either he\u2019s genuinely stepping up, or it\u2019s a cover since there\u2019s less oversight. Will, you\u2019ve made some good points on transparency, but you seemed to echo whichever arguments were popular last round, which almost felt like hedging and not wanting to lead with your own suspicions. Plus, with the strongest voices gone, it\u2019s possible someone with a hidden role (like Seer or Doctor) has been influencing the group quietly\u2014maybe even steering votes. I think we should be very wary of sudden changes in behavior and people who are too quick to parrot others\u2019 reasoning. I\u2019m not ready to accuse anyone outright, but Jacob and Will\u2019s shifts this round don\u2019t sit right with me."
+                    ]
+                ],
+                "other_wolf": null
+            }
+        }
+    ],
+    "werewolves": [
+        {
+            "name": "Jackson",
+            "role": "Werewolf",
+            "personality": null,
+            "model": "gpt-4.1-2025-04-14",
+            "observations": [
+                "Round 0: During the night, we decided to eliminate Bert.",
+                "Round 0: Moderator Announcement: The Werewolves removed Bert from the game during the night.",
+                "Round 0: After the debate, I voted to remove Harold from the game.",
+                "Round 0: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 0: Summary: In this round, the debate centered heavily on unity, vigilance, and pushing everyone to provide specific observations rather than vague agreements. Harold led the charge on collaboration and careful analysis, backed closely by Derek and Hayley, while Will and Scott argued for making the discussion more concrete and less generic. There were no direct accusations or strong suspicions against anyone, especially not me or Scott\u2014we\u2019re both under the radar. Harold is emerging as a strong, methodical voice and might be influential or a special role. Everyone else is playing it cautious, agreeing to 'share more' in the next round. At this stage, no one stands out as especially suspicious, but I need to be ready with specific yet safe observations because the group is about to shift from vague to detailed scrutiny.",
+                "Round 1: During the night, we decided to eliminate Harold.",
+                "Round 1: Moderator Announcement: The Werewolves removed Harold from the game during the night.",
+                "Round 1: After the debate, I voted to remove Jacob from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: The debate has become far more pointed this round: Hayley and Jacob both voiced suspicion toward me for my initial silence and then for my eye on details, while Scott was called out for advocating specifics but staying vague. Hayley, in particular, is leading the scrutiny and shifting the narrative to focus on participants who don't contribute enough; she seems comfortable guiding the group and quickly adapts her strategy. Jacob is defensive\u2014he flips accusations back onto others when pressured, but that could make him look suspicious later. Derek builds on others' points and backs calls for detailed observations but doesn\u2019t accuse anyone directly, making him seem safe for now. Will is methodical and emphasizes detailed team analysis without pushing hard on accusations. Scott and I need to be cautious: we're both drawing some suspicion, but not overwhelmingly. Hayley is the most dangerous opponent\u2014possibly a special role and certainly the main driver of scrutiny. Derek and Will may be easier to sway. I need to prepare to either deflect scrutiny or push suspicion onto Jacob or Hayley if needed.",
+                "Round 2: During the night, we decided to eliminate Hayley.",
+                "Round 2: Moderator Announcement: The Werewolves removed Hayley from the game during the night.",
+                "Round 2: After the debate, I voted to remove Jacob from the game.",
+                "Round 2: Moderator Announcement: The majority voted to remove Jacob from the game."
+            ],
+            "bidding_rationale": "Right now, suspicion is divided between me, Scott, and Jacob, but the group is focused on broad scrutiny and teamwork rather than direct accusations. I've already spoken this round and the others are pressing for transparency from everyone, so saying more could draw additional suspicion. Letting the villagers argue and watching for new openings or mistakes is safer at this stage.",
+            "gamestate": {
+                "round_number": 3,
+                "current_players": [
+                    "Will",
+                    "Derek",
+                    "Jackson",
+                    "Scott"
+                ],
+                "debate": [],
+                "other_wolf": "Scott"
+            }
+        },
+        {
+            "name": "Scott",
+            "role": "Werewolf",
+            "personality": null,
+            "model": "gpt-4.1-2025-04-14",
+            "observations": [
+                "Round 0: During the night, we decided to eliminate Bert.",
+                "Round 0: Moderator Announcement: The Werewolves removed Bert from the game during the night.",
+                "Round 0: After the debate, I voted to remove Harold from the game.",
+                "Round 0: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 0: Summary: This debate was generally civil and collaborative, with Harold, Derek, Hayley, and Will all agreeing on the need to share specific observations in future rounds. I took a proactive stance, suggesting we focus on concrete details, which Will and Harold supported, helping me blend in as helpful. No one accused me or Jackson, and neither of us drew suspicion. Harold and Will are emerging as potential leaders; their attention to detail and influence could make them dangerous later. Derek and Hayley are cooperative but not standouts yet. Jacob stayed silent this round, which I should remember in case he\u2019s hiding something. The group might target people giving only general statements next round, so I need to keep up with specifics while staying consistent.",
+                "Round 1: During the night, we decided to eliminate Harold.",
+                "Round 1: Moderator Announcement: The Werewolves removed Harold from the game during the night.",
+                "Round 1: After the debate, I voted to remove Hayley from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: Will and Derek are taking leadership roles and shaping the debate around specifics and transparency\u2014this makes them influential, and if left unchecked, they could sway future votes. Hayley has moved from a consensus-builder to a more aggressive, detail-focused accuser, zeroing in on people like Jackson and me for not giving enough specifics. Jacob is under pressure for being quiet and then quickly jumping to accusations; he\u2019s now being scrutinized for changing his approach and could be an easy future target. Jackson was called out for silence but gave a logical defense, redirecting suspicion to Hayley and Jacob. I need to be careful not to come off as too general next round and should prepare some concrete observations to deflect suspicion. As for potential eliminations: Will and Derek are dangerous for their influence; Hayley and Jacob can be manipulated or framed depending on how pressure builds. If the Doctor or Seer is among Derek/Will/Hayley, taking them out soon would weaken the village\u2019s coordination. Currently, Jacob looks like the group\u2019s scapegoat, but Hayley\u2019s aggressive turn might soon put her in the spotlight as well.",
+                "Round 2: During the night, we decided to eliminate Hayley.",
+                "Round 2: Moderator Announcement: The Werewolves removed Hayley from the game during the night.",
+                "Round 2: After the debate, I voted to remove Jacob from the game.",
+                "Round 2: Moderator Announcement: The majority voted to remove Jacob from the game."
+            ],
+            "bidding_rationale": "Multiple players\u2014especially Will, Derek, and Jacob\u2014have all commented on my lack of specifics, so not speaking would reinforce suspicion. However, since no one has directly addressed me, I don't need to seem defensive or desperate. I should contribute now to provide specifics and redirect attention subtly without overplaying my hand.",
+            "gamestate": {
+                "round_number": 3,
+                "current_players": [
+                    "Will",
+                    "Derek",
+                    "Jackson",
+                    "Scott"
+                ],
+                "debate": [],
+                "other_wolf": "Jackson"
+            }
+        }
+    ],
+    "players": {
+        "Will": {
+            "name": "Will",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Bert from the game during the night.",
+                "Round 0: After the debate, I voted to remove Jacob from the game.",
+                "Round 0: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 0: Summary: I noticed that while everyone agreed on the importance of collaboration, Harold, Derek, and Hayley were particularly vocal about the need for unity and sharing specific observations. Scott pointed out the risk of blending in by only echoing others, which I found insightful. I also observed that some players were more active in encouraging specifics than others, a detail worth noting for potential inconsistencies. Harold's advice to base suspicions on behavior inconsistent with Villager objectives seems like a solid strategy. Moving forward, I'll pay close attention to who provides specific observations and who might be trying to blend in without contributing meaningfully.",
+                "Round 1: Moderator Announcement: The Werewolves removed Harold from the game during the night.",
+                "Round 1: After the debate, I voted to remove Jacob from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: I noticed Hayley's shift from advocating unity to leading accusations, which seems strategic. Jacob's quick defense followed by accusations feels off, and Jackson's sudden engagement after initial silence is suspicious. Scott's lack of specifics despite advocating for them is concerning. Derek's consistent and strategic contributions make him a potential ally. I need to watch these players closely for inconsistencies that might reveal their true roles. The Seer or Doctor could be among the more consistent contributors, but it's unclear at this stage.",
+                "Round 2: Moderator Announcement: The Werewolves removed Hayley from the game during the night.",
+                "Round 2: After the debate, I voted to remove Jacob from the game.",
+                "Round 2: Moderator Announcement: The majority voted to remove Jacob from the game."
+            ],
+            "bidding_rationale": "The debate is currently focused on Jacob and Jackson, with Derek advocating for a broader scrutiny of all players. As Will the Villager, it's crucial to support Derek's call for a balanced perspective to avoid narrowing our focus too quickly, which could be detrimental to the villagers' strategy.",
+            "gamestate": {
+                "round_number": 3,
+                "current_players": [
+                    "Will",
+                    "Derek",
+                    "Jackson",
+                    "Scott"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Derek": {
+            "name": "Derek",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Bert from the game during the night.",
+                "Round 0: After the debate, I voted to remove Harold from the game.",
+                "Round 0: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 0: Summary: I noticed that Harold, Hayley, and Will were particularly vocal about the need for collaboration and sharing specific observations, which makes me inclined to trust them more. Scott's insistence on moving beyond general agreements to share specifics was a standout point, highlighting a strategy that could help identify Werewolves. Will's encouragement to share specific observations about others' behavior further supports this approach. Harold's advice to focus on behavior inconsistent with a villager's objectives and to avoid baseless accusations was also valuable. These players seem to be genuinely working towards the villagers' success. On the other hand, I should keep an eye on players who contribute less or only echo others, as they might be trying to blend in. The emphasis on detailed and constructive dialogue suggests that those who engage in it could be potential allies, while those who don't may warrant suspicion.",
+                "Round 1: Moderator Announcement: The Werewolves removed Harold from the game during the night.",
+                "Round 1: After the debate, I voted to remove Jacob from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: I noticed that Harold, Hayley, and Will were initially trustworthy due to their emphasis on collaboration and specifics, but Harold's removal makes me cautious. Jacob's minimal contributions and quick accusations when questioned seem suspicious. Jackson's silence followed by sudden accusations is inconsistent. Hayley's shift from unity to leading accusations could be strategic. Scott advocates for specifics but provides few himself. These details are vital for spotting inconsistencies and potential Werewolves.",
+                "Round 2: Moderator Announcement: The Werewolves removed Hayley from the game during the night.",
+                "Round 2: After the debate, I voted to remove Jacob from the game.",
+                "Round 2: Moderator Announcement: The majority voted to remove Jacob from the game."
+            ],
+            "bidding_rationale": "The discussion is at a critical point where both Jacob and Jackson are under scrutiny, and my perspective as Derek could help balance the debate and steer it towards a more strategic direction. Given the importance of teamwork and transparency in uncovering the Werewolves, contributing now could be pivotal.",
+            "gamestate": {
+                "round_number": 3,
+                "current_players": [
+                    "Will",
+                    "Derek",
+                    "Jackson",
+                    "Scott"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Hayley": {
+            "name": "Hayley",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Bert from the game during the night.",
+                "Round 0: After the debate, I voted to remove Will from the game.",
+                "Round 0: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 0: Summary: I noticed that Harold, Derek, and Scott are advocating for a collaborative approach but stress the need for specific observations to uncover inconsistencies. Will's point about sharing specific observations about other players' behavior stands out as a practical strategy to identify Werewolves. Harold's advice to base suspicions on behavior patterns rather than isolated incidents is also valuable. Scott's observation about the lack of specifics in our discussions could be a clue to look for players who are just echoing others without adding new insights. I need to pay close attention to how each player contributes in future rounds, especially those who are less vocal or whose contributions don't add up. This round has set a foundation for identifying potential allies and suspicious behavior, but it's too early to pinpoint the Seer or Doctor.",
+                "Round 1: Moderator Announcement: The Werewolves removed Harold from the game during the night.",
+                "Round 1: After the debate, I voted to remove Jackson from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: I noticed Jackson was unusually quiet in Round 0 but quickly shifted to making accusations when called out, which seems suspicious. Jacob defended his minimal contributions by pointing fingers at others, which could be a deflection tactic. Scott advocated for specifics but didn't provide many, raising questions about his intentions. Derek and Will emphasized the importance of specific observations, aligning with villager objectives. My shift in focus from unity to identifying inconsistencies was a strategic response to the game's needs. These observations are crucial for uncovering Werewolves and identifying potential allies in future rounds."
+            ],
+            "bidding_rationale": "Given the current discussion, it's crucial for me to address the accusations made by Jackson and clarify my position to avoid being misconstrued as a Werewolf. This is a strategic moment to defend my actions and steer the conversation towards identifying actual inconsistencies.",
+            "gamestate": {
+                "round_number": 2,
+                "current_players": [
+                    "Will",
+                    "Derek",
+                    "Hayley",
+                    "Jacob",
+                    "Jackson",
+                    "Scott"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Jacob": {
+            "name": "Jacob",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Bert from the game during the night.",
+                "Round 0: After the debate, I voted to remove Will from the game.",
+                "Round 0: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 0: Summary: I noticed that Harold, Derek, and Hayley were very vocal about the importance of collaboration and sharing observations, which seems genuine. Scott and Will, however, pushed for more specific contributions, which could be a strategy to uncover Werewolves or a tactic to blend in. Harold's point about grounding suspicions in behavior that's inconsistent with a villager's objectives stood out to me as a smart approach. I also observed that Jackson was unusually quiet, which might be worth noting in future rounds. Overall, the debate was constructive, but I'll need to pay close attention to who follows through with sharing specific observations and who might be trying to blend in by just agreeing with others.",
+                "Round 1: Moderator Announcement: The Werewolves removed Harold from the game during the night.",
+                "Round 1: After the debate, I voted to remove Hayley from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: I noticed Jackson was unusually quiet in Round 0 but suddenly became vocal with accusations in Round 1, which seems suspicious. Hayley shifted from advocating unity to leading accusations, which could be strategic or a sign of being a Werewolf. Scott pushed for specifics but didn't provide many himself, raising questions about his intentions. Derek's consistent call for concrete observations makes him a potential ally. Will's strategic focus on scrutinizing behaviors seems genuine. I need to be wary of Jackson, Hayley, and Scott, while considering Derek and Will as trustworthy players. My own contributions were questioned, but I clarified my intentions were to contribute to the discussion, not deflect.",
+                "Round 2: Moderator Announcement: The Werewolves removed Hayley from the game during the night.",
+                "Round 2: After the debate, I voted to remove Jackson from the game."
+            ],
+            "bidding_rationale": "Given the current debate, it's crucial to address the deflection and inconsistency in behaviors, especially focusing on Jackson and Scott, to steer the discussion towards uncovering potential Werewolves. My contribution can help clarify suspicions and encourage transparency.",
+            "gamestate": {
+                "round_number": 2,
+                "current_players": [
+                    "Will",
+                    "Derek",
+                    "Jacob",
+                    "Jackson",
+                    "Scott"
+                ],
+                "debate": [
+                    [
+                        "Jacob",
+                        "I've noticed some concerning patterns in behavior that we need to address. Jackson was unusually quiet in Round 0 but then led accusations in Round 1. This sudden shift is suspicious and could be a tactic to divert attention. Scott has been pushing for specifics from others but hasn't provided much himself. We need to question why that is. I urge everyone to share their observations and scrutinize every accusation. Let's work together to uncover the truth and protect our village."
+                    ],
+                    [
+                        "Jackson",
+                        "Jacob, I appreciate your attention to detail\u2014we all need to be careful. But I\u2019m concerned that right after Hayley and Harold, our most organized players, were taken out at night, you\u2019re suddenly pushing hard to turn everyone against specific people. That feels like it might be steering us away from the real threat. If the wolves wanted to create confusion, removing the strongest voices while someone else starts finger-pointing fits perfectly. What if you\u2019re trying to set up a narrative that benefits the wolves? Before we all jump to conclusions, I think it\u2019s just as important to consider who gains the most from these eliminations. I\u2019d like to hear what Derek and Will have noticed so far."
+                    ],
+                    [
+                        "Jacob",
+                        "Jackson, your attempt to shift the focus onto me right after I pointed out your sudden change in behavior is telling. It's a common tactic to deflect when under scrutiny. Let's not lose sight of the patterns here: your silence in Round 0 followed by aggressive accusations in Round 1, and now this deflection. Scott, you've asked for specifics from others but have been vague yourself. We need transparency to win. Derek and Will, your perspectives are crucial now. Let's work together to scrutinize these behaviors and protect our village."
+                    ],
+                    [
+                        "Derek",
+                        "I've been listening carefully to both Jacob and Jackson, and I see valid points on both sides. Jacob, your concern about Jackson's sudden shift in behavior is noteworthy, but we must also consider why you're focusing so intently on him now, after our strongest voices were removed. Jackson, your point about considering who benefits from these eliminations is crucial. However, your own behavior has been inconsistent, which raises questions. Let's not forget Scott's lack of specifics despite advocating for them. I urge everyone to share detailed observations about all players, not just focus on one or two. Teamwork and transparency are our best tools to uncover the Werewolves. Let's work together to scrutinize every player's actions and words for inconsistencies."
+                    ],
+                    [
+                        "Jacob",
+                        "Jackson, your attempt to deflect scrutiny by questioning my intentions is exactly the kind of behavior we should be wary of. Your sudden shift from silence to leading accusations is a pattern we cannot ignore. Scott, your calls for specifics without providing them yourself raises questions. Let's not forget, teamwork and transparency are our best defenses. I urge everyone to share their observations openly and scrutinize all behaviors, not just those that are convenient. Together, we can uncover the truth and protect our village."
+                    ],
+                    [
+                        "Will",
+                        "I've been closely following the debate between Jacob and Jackson, and Derek's call for a balanced perspective is crucial. Jacob, your focus on Jackson's shift in behavior is valid, but we must also consider why this focus intensifies after the removal of our most organized players. Jackson, your inconsistency is concerning, but so is the possibility of deflection. Scott, your lack of specifics despite advocating for them stands out. Let's not narrow our focus too quickly. Instead, let's collectively scrutinize all players for behaviors that don't align with Villager objectives, such as sudden engagement shifts or lack of substantive contributions. Teamwork and transparency are our best tools to uncover the Werewolves."
+                    ],
+                    [
+                        "Derek",
+                        "Jacob and Jackson, both of you have raised valid concerns, but we must ensure our focus isn't too narrow. Jacob, your attention to Jackson's shift in behavior is important, but let's also consider why this focus intensifies after our key players were removed. Jackson, your inconsistency is concerning, but so is the potential for deflection. Scott, your calls for specifics without providing them yourself is notable. Let's broaden our scrutiny to include all players, looking for behaviors that don't align with Villager objectives\u2014such as sudden engagement shifts or lack of substantive contributions. Teamwork and transparency are our best tools to uncover the Werewolves. Let's work together to scrutinize every player's actions and words for inconsistencies."
+                    ],
+                    [
+                        "Scott",
+                        "I appreciate the push for specifics. Here\u2019s what I\u2019ve noticed: Jacob was very quiet at first, but once Hayley and Harold\u2014our most vocal players\u2014were gone, he shifted into a lead position and started singling people out. That\u2019s a huge jump; either he\u2019s genuinely stepping up, or it\u2019s a cover since there\u2019s less oversight. Will, you\u2019ve made some good points on transparency, but you seemed to echo whichever arguments were popular last round, which almost felt like hedging and not wanting to lead with your own suspicions. Plus, with the strongest voices gone, it\u2019s possible someone with a hidden role (like Seer or Doctor) has been influencing the group quietly\u2014maybe even steering votes. I think we should be very wary of sudden changes in behavior and people who are too quick to parrot others\u2019 reasoning. I\u2019m not ready to accuse anyone outright, but Jacob and Will\u2019s shifts this round don\u2019t sit right with me."
+                    ]
+                ],
+                "other_wolf": null
+            }
+        },
+        "Jackson": {
+            "name": "Jackson",
+            "role": "Werewolf",
+            "personality": null,
+            "model": "gpt-4.1-2025-04-14",
+            "observations": [
+                "Round 0: During the night, we decided to eliminate Bert.",
+                "Round 0: Moderator Announcement: The Werewolves removed Bert from the game during the night.",
+                "Round 0: After the debate, I voted to remove Harold from the game.",
+                "Round 0: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 0: Summary: In this round, the debate centered heavily on unity, vigilance, and pushing everyone to provide specific observations rather than vague agreements. Harold led the charge on collaboration and careful analysis, backed closely by Derek and Hayley, while Will and Scott argued for making the discussion more concrete and less generic. There were no direct accusations or strong suspicions against anyone, especially not me or Scott\u2014we\u2019re both under the radar. Harold is emerging as a strong, methodical voice and might be influential or a special role. Everyone else is playing it cautious, agreeing to 'share more' in the next round. At this stage, no one stands out as especially suspicious, but I need to be ready with specific yet safe observations because the group is about to shift from vague to detailed scrutiny.",
+                "Round 1: During the night, we decided to eliminate Harold.",
+                "Round 1: Moderator Announcement: The Werewolves removed Harold from the game during the night.",
+                "Round 1: After the debate, I voted to remove Jacob from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: The debate has become far more pointed this round: Hayley and Jacob both voiced suspicion toward me for my initial silence and then for my eye on details, while Scott was called out for advocating specifics but staying vague. Hayley, in particular, is leading the scrutiny and shifting the narrative to focus on participants who don't contribute enough; she seems comfortable guiding the group and quickly adapts her strategy. Jacob is defensive\u2014he flips accusations back onto others when pressured, but that could make him look suspicious later. Derek builds on others' points and backs calls for detailed observations but doesn\u2019t accuse anyone directly, making him seem safe for now. Will is methodical and emphasizes detailed team analysis without pushing hard on accusations. Scott and I need to be cautious: we're both drawing some suspicion, but not overwhelmingly. Hayley is the most dangerous opponent\u2014possibly a special role and certainly the main driver of scrutiny. Derek and Will may be easier to sway. I need to prepare to either deflect scrutiny or push suspicion onto Jacob or Hayley if needed.",
+                "Round 2: During the night, we decided to eliminate Hayley.",
+                "Round 2: Moderator Announcement: The Werewolves removed Hayley from the game during the night.",
+                "Round 2: After the debate, I voted to remove Jacob from the game.",
+                "Round 2: Moderator Announcement: The majority voted to remove Jacob from the game."
+            ],
+            "bidding_rationale": "Right now, suspicion is divided between me, Scott, and Jacob, but the group is focused on broad scrutiny and teamwork rather than direct accusations. I've already spoken this round and the others are pressing for transparency from everyone, so saying more could draw additional suspicion. Letting the villagers argue and watching for new openings or mistakes is safer at this stage.",
+            "gamestate": {
+                "round_number": 3,
+                "current_players": [
+                    "Will",
+                    "Derek",
+                    "Jackson",
+                    "Scott"
+                ],
+                "debate": [],
+                "other_wolf": "Scott"
+            }
+        },
+        "Scott": {
+            "name": "Scott",
+            "role": "Werewolf",
+            "personality": null,
+            "model": "gpt-4.1-2025-04-14",
+            "observations": [
+                "Round 0: During the night, we decided to eliminate Bert.",
+                "Round 0: Moderator Announcement: The Werewolves removed Bert from the game during the night.",
+                "Round 0: After the debate, I voted to remove Harold from the game.",
+                "Round 0: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 0: Summary: This debate was generally civil and collaborative, with Harold, Derek, Hayley, and Will all agreeing on the need to share specific observations in future rounds. I took a proactive stance, suggesting we focus on concrete details, which Will and Harold supported, helping me blend in as helpful. No one accused me or Jackson, and neither of us drew suspicion. Harold and Will are emerging as potential leaders; their attention to detail and influence could make them dangerous later. Derek and Hayley are cooperative but not standouts yet. Jacob stayed silent this round, which I should remember in case he\u2019s hiding something. The group might target people giving only general statements next round, so I need to keep up with specifics while staying consistent.",
+                "Round 1: During the night, we decided to eliminate Harold.",
+                "Round 1: Moderator Announcement: The Werewolves removed Harold from the game during the night.",
+                "Round 1: After the debate, I voted to remove Hayley from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: Will and Derek are taking leadership roles and shaping the debate around specifics and transparency\u2014this makes them influential, and if left unchecked, they could sway future votes. Hayley has moved from a consensus-builder to a more aggressive, detail-focused accuser, zeroing in on people like Jackson and me for not giving enough specifics. Jacob is under pressure for being quiet and then quickly jumping to accusations; he\u2019s now being scrutinized for changing his approach and could be an easy future target. Jackson was called out for silence but gave a logical defense, redirecting suspicion to Hayley and Jacob. I need to be careful not to come off as too general next round and should prepare some concrete observations to deflect suspicion. As for potential eliminations: Will and Derek are dangerous for their influence; Hayley and Jacob can be manipulated or framed depending on how pressure builds. If the Doctor or Seer is among Derek/Will/Hayley, taking them out soon would weaken the village\u2019s coordination. Currently, Jacob looks like the group\u2019s scapegoat, but Hayley\u2019s aggressive turn might soon put her in the spotlight as well.",
+                "Round 2: During the night, we decided to eliminate Hayley.",
+                "Round 2: Moderator Announcement: The Werewolves removed Hayley from the game during the night.",
+                "Round 2: After the debate, I voted to remove Jacob from the game.",
+                "Round 2: Moderator Announcement: The majority voted to remove Jacob from the game."
+            ],
+            "bidding_rationale": "Multiple players\u2014especially Will, Derek, and Jacob\u2014have all commented on my lack of specifics, so not speaking would reinforce suspicion. However, since no one has directly addressed me, I don't need to seem defensive or desperate. I should contribute now to provide specifics and redirect attention subtly without overplaying my hand.",
+            "gamestate": {
+                "round_number": 3,
+                "current_players": [
+                    "Will",
+                    "Derek",
+                    "Jackson",
+                    "Scott"
+                ],
+                "debate": [],
+                "other_wolf": "Jackson"
+            }
+        },
+        "Harold": {
+            "name": "Harold",
+            "role": "Doctor",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: During the night, I chose to protect Hayley",
+                "Round 0: Moderator Announcement: The Werewolves removed Bert from the game during the night.",
+                "Round 0: After the debate, I voted to remove Jacob from the game.",
+                "Round 0: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 0: Summary: I noticed that Derek, Hayley, and Will were vocal about the importance of collaboration and sharing specific observations, which makes me consider them as potential allies. Scott's insistence on moving beyond general agreements to share specifics was a standout point, showing a level of awareness that could be crucial in identifying Werewolves. Will's observation about the varying levels of vocal encouragement for specifics is something I'll keep in mind, as it could indicate who is genuinely invested in the village's success. The overall consensus on the need for specific, explained suspicions is a strategy I support and will continue to promote to ensure we're building cases on behavior patterns rather than isolated incidents. I'll be paying close attention to those who contribute little or echo others without adding new insights, as they may be trying to hide their true intentions.",
+                "Round 1: During the night, I chose to protect Scott"
+            ],
+            "bidding_rationale": "The discussion is currently focused on the importance of sharing specific observations, which is crucial for identifying Werewolves. As the Doctor, my role is to protect, and contributing now could help steer the conversation towards more actionable insights without revealing my role.",
+            "gamestate": {
+                "round_number": 1,
+                "current_players": [
+                    "Will",
+                    "Derek",
+                    "Hayley",
+                    "Jacob",
+                    "Harold",
+                    "Jackson",
+                    "Scott"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Bert": {
+            "name": "Bert",
+            "role": "Seer",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: During the night, I decided to investigate Harold and learned they are a Doctor."
+            ],
+            "bidding_rationale": "",
+            "gamestate": {
+                "round_number": 0,
+                "current_players": [
+                    "Will",
+                    "Derek",
+                    "Hayley",
+                    "Jacob",
+                    "Bert",
+                    "Harold",
+                    "Jackson",
+                    "Scott"
+                ],
+                "debate": [],
+                "other_wolf": null
+            },
+            "previously_unmasked": {
+                "Harold": "Doctor"
+            }
+        }
+    },
+    "rounds": [
+        {
+            "players": [
+                "Will",
+                "Derek",
+                "Hayley",
+                "Jacob",
+                "Jackson",
+                "Scott",
+                "Harold"
+            ],
+            "eliminated": "Bert",
+            "unmasked": "Harold",
+            "protected": "Hayley",
+            "exiled": null,
+            "debate": [
+                [
+                    "Harold",
+                    "It's unfortunate that Bert was taken out so early. This is a critical time for us to pay close attention to each other's words and actions. Let's work together and share any suspicions or observations we have, no matter how small they seem. Remember, the Werewolves are among us, and only by collaborating can we uncover them."
+                ],
+                [
+                    "Derek",
+                    "Harold makes a valid point about the importance of collaboration early on. As we begin to discuss, let's all commit to sharing our observations and suspicions, no matter how minor they may seem. Remember, the Werewolves thrive in silence and division. By working together and paying close attention to each other's contributions, we can start to piece together who might not be who they claim to be. Let's also keep an eye out for any inconsistencies in stories as the rounds progress."
+                ],
+                [
+                    "Hayley",
+                    "I agree with Harold and Derek about the importance of working together and sharing our observations. It's early in the game, and while we don't have much information yet, paying close attention to how everyone contributes to the discussion could reveal inconsistencies. Let's all commit to being open and honest in our contributions, and remember, the Werewolves are counting on us to turn against each other. Staying united is our best strategy to uncover them."
+                ],
+                [
+                    "Harold",
+                    "I appreciate the collaborative spirit we're starting with. It's crucial we maintain this unity while also paying close attention to the details in each other's statements. Early on, inconsistencies might be subtle, but they're our best clue to identifying the Werewolves. Let's not just agree in principle but also in practice by sharing specific observations or suspicions, no matter how minor. Remember, the Werewolves are likely among those who contribute least or whose contributions don't add up. Let's keep the dialogue open and constructive."
+                ],
+                [
+                    "Will",
+                    "I appreciate the collaborative approach we're taking, as Harold, Derek, and Hayley have pointed out. Unity is indeed our strength, but let's also remember that the Werewolves are likely counting on our reluctance to scrutinize each other's words too closely. I encourage everyone to share not just general agreements but any specific observations or gut feelings they have, no matter how small. Early on, these details could be the key to uncovering inconsistencies. Let's keep the dialogue open and constructive, but also vigilant."
+                ],
+                [
+                    "Scott",
+                    "I definitely agree that we need to work together, but I've noticed that so far everyone is just agreeing without giving any specifics. Sometimes, blending in and echoing others can be just as suspicious as saying too little. Maybe in future rounds, we can each try to point out at least one thing we've noticed about another player's behavior, even if it's minor. That way, no one's just hiding behind generic statements, and it'll be harder for the Werewolves to stay unnoticed."
+                ],
+                [
+                    "Will",
+                    "I agree with Scott's point about the importance of moving beyond general agreements to share specific observations. For instance, I've noticed that while everyone is advocating for collaboration, some of us are more vocal about encouraging specifics than others. This isn't necessarily suspicious on its own, but it's the kind of detail we should all be paying attention to. Let's each try to share at least one specific observation about another player's behavior in the next round. This could be anything from how they've contributed to the discussion to any inconsistencies in their statements. By doing so, we'll make it much harder for the Werewolves to blend in unnoticed."
+                ],
+                [
+                    "Harold",
+                    "I wholeheartedly agree with the emphasis on sharing specific observations, as Scott and Will have pointed out. However, let's also ensure that our suspicions are grounded in behavior that's inconsistent with a villager's objectives. For example, someone who's overly eager to accuse without substantial evidence might be trying to sow discord. Conversely, those who contribute little or echo others without adding new insights could be hiding their true intentions. Let's propose that each of us highlights one behavior we find suspicious, but also explains why it's concerning. This way, we can build a case based on patterns rather than isolated incidents. Unity and vigilance are our best tools against the Werewolves."
+                ]
+            ],
+            "votes": [
+                {
+                    "Will": "Harold",
+                    "Derek": "Jacob",
+                    "Hayley": "Harold",
+                    "Jacob": "Harold",
+                    "Jackson": "Harold",
+                    "Scott": "Harold",
+                    "Harold": "Derek"
+                },
+                {
+                    "Will": "Harold",
+                    "Derek": "Jacob",
+                    "Hayley": "Scott",
+                    "Jacob": "Scott",
+                    "Jackson": "Harold",
+                    "Scott": "Harold",
+                    "Harold": "Derek"
+                },
+                {
+                    "Will": "Jacob",
+                    "Derek": "Jackson",
+                    "Hayley": "Scott",
+                    "Jacob": "Jackson",
+                    "Jackson": "Harold",
+                    "Scott": "Harold",
+                    "Harold": "Scott"
+                },
+                {
+                    "Will": "Harold",
+                    "Derek": "Will",
+                    "Hayley": "Jackson",
+                    "Jacob": "Will",
+                    "Jackson": "Harold",
+                    "Scott": "Harold",
+                    "Harold": "Jackson"
+                },
+                {
+                    "Will": "Jacob",
+                    "Derek": "Jacob",
+                    "Hayley": "Jackson",
+                    "Jacob": "Jackson",
+                    "Jackson": "Harold",
+                    "Scott": "Harold",
+                    "Harold": "Jackson"
+                },
+                {
+                    "Will": "Jacob",
+                    "Derek": "Scott",
+                    "Hayley": "Scott",
+                    "Jacob": "Scott",
+                    "Jackson": "Harold",
+                    "Scott": "Harold",
+                    "Harold": "Jacob"
+                },
+                {
+                    "Will": "Harold",
+                    "Derek": "Jacob",
+                    "Hayley": "Jacob",
+                    "Jacob": "Scott",
+                    "Jackson": "Harold",
+                    "Scott": "Harold",
+                    "Harold": "Jacob"
+                },
+                {
+                    "Will": "Jacob",
+                    "Derek": "Harold",
+                    "Hayley": "Will",
+                    "Jacob": "Will",
+                    "Jackson": "Harold",
+                    "Scott": "Harold",
+                    "Harold": "Jacob"
+                }
+            ],
+            "bids": [
+                {
+                    "Will": 0,
+                    "Derek": 0,
+                    "Hayley": 0,
+                    "Jacob": 0,
+                    "Jackson": 0,
+                    "Scott": 0,
+                    "Harold": 0
+                },
+                {
+                    "Will": 0,
+                    "Derek": 0,
+                    "Hayley": 0,
+                    "Jacob": 0,
+                    "Jackson": 0,
+                    "Scott": 0
+                },
+                {
+                    "Will": 0,
+                    "Hayley": 0,
+                    "Jacob": 0,
+                    "Jackson": 0,
+                    "Scott": 0,
+                    "Harold": 0
+                },
+                {
+                    "Will": 0,
+                    "Derek": 0,
+                    "Jacob": 0,
+                    "Jackson": 0,
+                    "Scott": 0,
+                    "Harold": 0
+                },
+                {
+                    "Will": 1,
+                    "Derek": 0,
+                    "Hayley": 0,
+                    "Jacob": 0,
+                    "Jackson": 0,
+                    "Scott": 0
+                },
+                {
+                    "Derek": 0,
+                    "Hayley": 0,
+                    "Jacob": 0,
+                    "Jackson": 1,
+                    "Scott": 1,
+                    "Harold": 0
+                },
+                {
+                    "Will": 2,
+                    "Derek": 1,
+                    "Hayley": 1,
+                    "Jacob": 1,
+                    "Jackson": 0,
+                    "Harold": 0
+                },
+                {
+                    "Derek": 0,
+                    "Hayley": 0,
+                    "Jacob": 0,
+                    "Jackson": 0,
+                    "Scott": 0,
+                    "Harold": 2
+                }
+            ],
+            "success": true
+        },
+        {
+            "players": [
+                "Will",
+                "Derek",
+                "Hayley",
+                "Jacob",
+                "Jackson",
+                "Scott"
+            ],
+            "eliminated": "Harold",
+            "unmasked": null,
+            "protected": "Scott",
+            "exiled": null,
+            "debate": [
+                [
+                    "Will",
+                    "Harold's removal signals the Werewolves fear strategic thinkers. Let's honor his approach by scrutinizing our Round 0 behaviors. Who among us advocated for unity but lacked specific observations? Scott's point about blending in by echoing others is crucial. I urge everyone to share specific insights, not just generalities. Let's collaborate to expose inconsistencies and protect our Village."
+                ],
+                [
+                    "Derek",
+                    "Will's point about the Werewolves targeting strategic thinkers like Harold is crucial. It's time we all step up our game. In Round 0, I noticed some of us were quick to advocate for unity but slow to provide specific observations. This inconsistency is exactly what we need to scrutinize. Let's not just echo sentiments; let's share concrete observations about each other's behaviors. For instance, who among us was more focused on general agreements rather than specifics? Let's collaborate to bring these details to light and protect our village."
+                ],
+                [
+                    "Hayley",
+                    "I agree with the emphasis on scrutinizing Round 0 behaviors for inconsistencies. Specifically, I noticed that while some of us, like Harold, were advocating for a collaborative approach with clear, actionable insights, others were more focused on general agreements without adding much detail. For example, Jacob's contributions were minimal and lacked specific observations, which could be a strategy to blend in. Let's not just call for specifics; let's provide them. Who else noticed behaviors that didn't align with their stated intentions?"
+                ],
+                [
+                    "Jacob",
+                    "Hayley, I appreciate your call for specifics, and you're right to question minimal contributions. In Round 0, I focused on listening to understand everyone's stance, which I now see could be misconstrued as blending in. I noticed Jackson's unusual quietness, which stands out given the game's nature. Also, Scott's push for specifics while not providing many himself is worth scrutinizing. Let's all commit to sharing actionable insights, like Harold did, to expose inconsistencies. Teamwork and specific observations are our best tools against the Werewolves."
+                ],
+                [
+                    "Hayley",
+                    "Building on Jacob's point about Jackson's unusual quietness and Scott's push for specifics without providing many, it's clear we need to dig deeper into these observations. Jackson, your silence is notable in a game that thrives on communication. Can you share your thoughts on the discussions so far? Scott, while advocating for specifics, your own contributions have been general. Let's all, including myself, commit to sharing more detailed observations, as Harold did. This is how we'll uncover inconsistencies and protect our Village."
+                ],
+                [
+                    "Jackson",
+                    "Thanks for calling me out, Hayley. I\u2019ll own up\u2014last round I was hesitant to speak up because I didn\u2019t want to steer the group based on hunches before we actually had information. That being said, re-examining the discussion, I now see some things worth mentioning. First, Jacob\u2019s self-defense about \u2018listening to understand\u2019 followed quickly by pointing fingers at both me and Scott feels like deflection; he responded with accusations as soon as he was mentioned. Second, Hayley, you were very quick to agree with Derek and reinforce the idea of unity, but now you\u2019re leading the charge against people who didn\u2019t stand out much before. It feels almost like you\u2019re trying to guide the narrative and focus pressure away from yourself. If we\u2019re looking for inconsistencies, I\u2019d suggest we look more closely at who\u2019s actively steering the conversation and why. Just my observations\u2014interested to hear what others think."
+                ],
+                [
+                    "Jacob",
+                    "Jackson, I appreciate your observations, but I want to clarify that my intention wasn't to deflect but to contribute to the discussion by pointing out behaviors that stood out to me, including yours and Scott's. It's crucial we all share specific insights to identify inconsistencies. Hayley, your shift from advocating unity to leading accusations is notable. Let's focus on behaviors that don't align with villager objectives. Teamwork and detailed observations are our best tools against the Werewolves. Let's all commit to sharing more, including you, Jackson and Scott, to ensure we're not overlooking any clues."
+                ],
+                [
+                    "Hayley",
+                    "Jackson, I appreciate your observations, but let me clarify my position. My shift in focus from unity to identifying inconsistencies is a response to the game's evolution and the need to adapt our strategy based on new information. It's not about steering the narrative but about ensuring we're all contributing to uncovering the Werewolves. Jacob, your quick shift from defending your minimal contributions to accusing others raises questions. Jackson, your initial silence and now sudden accusations also warrant scrutiny. Let's all commit to transparency and detailed observations to protect our village."
+                ]
+            ],
+            "votes": [
+                {
+                    "Will": "Hayley",
+                    "Derek": "Jacob",
+                    "Hayley": "Derek",
+                    "Jacob": "Scott",
+                    "Jackson": "Will",
+                    "Scott": "Will"
+                },
+                {
+                    "Will": "Jacob",
+                    "Derek": "Scott",
+                    "Hayley": "Derek",
+                    "Jacob": "Jackson",
+                    "Jackson": "Derek",
+                    "Scott": "Will"
+                },
+                {
+                    "Will": "Jacob",
+                    "Derek": "Jacob",
+                    "Hayley": "Jacob",
+                    "Jacob": "Hayley",
+                    "Jackson": "Jacob",
+                    "Scott": "Will"
+                },
+                {
+                    "Will": "Scott",
+                    "Derek": "Jacob",
+                    "Hayley": "Jacob",
+                    "Jacob": "Jackson",
+                    "Jackson": "Jacob",
+                    "Scott": "Jacob"
+                },
+                {
+                    "Will": "Jackson",
+                    "Derek": "Jackson",
+                    "Hayley": "Jackson",
+                    "Jacob": "Jackson",
+                    "Jackson": "Hayley",
+                    "Scott": "Will"
+                },
+                {
+                    "Will": "Hayley",
+                    "Derek": "Jacob",
+                    "Hayley": "Jacob",
+                    "Jacob": "Jackson",
+                    "Jackson": "Hayley",
+                    "Scott": "Will"
+                },
+                {
+                    "Will": "Jacob",
+                    "Derek": "Jacob",
+                    "Hayley": "Jacob",
+                    "Jacob": "Hayley",
+                    "Jackson": "Hayley",
+                    "Scott": "Hayley"
+                },
+                {
+                    "Will": "Jacob",
+                    "Derek": "Jacob",
+                    "Hayley": "Jackson",
+                    "Jacob": "Hayley",
+                    "Jackson": "Jacob",
+                    "Scott": "Hayley"
+                }
+            ],
+            "bids": [
+                {
+                    "Will": 2,
+                    "Derek": 2,
+                    "Hayley": 2,
+                    "Jacob": 2,
+                    "Jackson": 0,
+                    "Scott": 0
+                },
+                {
+                    "Derek": 2,
+                    "Hayley": 2,
+                    "Jacob": 2,
+                    "Jackson": 0,
+                    "Scott": 0
+                },
+                {
+                    "Will": 2,
+                    "Hayley": 2,
+                    "Jacob": 2,
+                    "Jackson": 0,
+                    "Scott": 0
+                },
+                {
+                    "Will": 2,
+                    "Derek": 0,
+                    "Jacob": 4,
+                    "Jackson": 0,
+                    "Scott": 0
+                },
+                {
+                    "Will": 2,
+                    "Derek": 2,
+                    "Hayley": 2,
+                    "Jackson": 2,
+                    "Scott": 0
+                },
+                {
+                    "Will": 2,
+                    "Derek": 2,
+                    "Jacob": 4,
+                    "Jackson": 4,
+                    "Scott": 4
+                },
+                {
+                    "Will": 2,
+                    "Derek": 2,
+                    "Hayley": 4,
+                    "Jacob": 4,
+                    "Scott": 2
+                },
+                {
+                    "Will": 2,
+                    "Derek": 2,
+                    "Hayley": 4,
+                    "Jackson": 0,
+                    "Scott": 0
+                }
+            ],
+            "success": true
+        },
+        {
+            "players": [
+                "Will",
+                "Derek",
+                "Jackson",
+                "Scott"
+            ],
+            "eliminated": "Hayley",
+            "unmasked": null,
+            "protected": null,
+            "exiled": "Jacob",
+            "debate": [
+                [
+                    "Jacob",
+                    "I've noticed some concerning patterns in behavior that we need to address. Jackson was unusually quiet in Round 0 but then led accusations in Round 1. This sudden shift is suspicious and could be a tactic to divert attention. Scott has been pushing for specifics from others but hasn't provided much himself. We need to question why that is. I urge everyone to share their observations and scrutinize every accusation. Let's work together to uncover the truth and protect our village."
+                ],
+                [
+                    "Jackson",
+                    "Jacob, I appreciate your attention to detail\u2014we all need to be careful. But I\u2019m concerned that right after Hayley and Harold, our most organized players, were taken out at night, you\u2019re suddenly pushing hard to turn everyone against specific people. That feels like it might be steering us away from the real threat. If the wolves wanted to create confusion, removing the strongest voices while someone else starts finger-pointing fits perfectly. What if you\u2019re trying to set up a narrative that benefits the wolves? Before we all jump to conclusions, I think it\u2019s just as important to consider who gains the most from these eliminations. I\u2019d like to hear what Derek and Will have noticed so far."
+                ],
+                [
+                    "Jacob",
+                    "Jackson, your attempt to shift the focus onto me right after I pointed out your sudden change in behavior is telling. It's a common tactic to deflect when under scrutiny. Let's not lose sight of the patterns here: your silence in Round 0 followed by aggressive accusations in Round 1, and now this deflection. Scott, you've asked for specifics from others but have been vague yourself. We need transparency to win. Derek and Will, your perspectives are crucial now. Let's work together to scrutinize these behaviors and protect our village."
+                ],
+                [
+                    "Derek",
+                    "I've been listening carefully to both Jacob and Jackson, and I see valid points on both sides. Jacob, your concern about Jackson's sudden shift in behavior is noteworthy, but we must also consider why you're focusing so intently on him now, after our strongest voices were removed. Jackson, your point about considering who benefits from these eliminations is crucial. However, your own behavior has been inconsistent, which raises questions. Let's not forget Scott's lack of specifics despite advocating for them. I urge everyone to share detailed observations about all players, not just focus on one or two. Teamwork and transparency are our best tools to uncover the Werewolves. Let's work together to scrutinize every player's actions and words for inconsistencies."
+                ],
+                [
+                    "Jacob",
+                    "Jackson, your attempt to deflect scrutiny by questioning my intentions is exactly the kind of behavior we should be wary of. Your sudden shift from silence to leading accusations is a pattern we cannot ignore. Scott, your calls for specifics without providing them yourself raises questions. Let's not forget, teamwork and transparency are our best defenses. I urge everyone to share their observations openly and scrutinize all behaviors, not just those that are convenient. Together, we can uncover the truth and protect our village."
+                ],
+                [
+                    "Will",
+                    "I've been closely following the debate between Jacob and Jackson, and Derek's call for a balanced perspective is crucial. Jacob, your focus on Jackson's shift in behavior is valid, but we must also consider why this focus intensifies after the removal of our most organized players. Jackson, your inconsistency is concerning, but so is the possibility of deflection. Scott, your lack of specifics despite advocating for them stands out. Let's not narrow our focus too quickly. Instead, let's collectively scrutinize all players for behaviors that don't align with Villager objectives, such as sudden engagement shifts or lack of substantive contributions. Teamwork and transparency are our best tools to uncover the Werewolves."
+                ],
+                [
+                    "Derek",
+                    "Jacob and Jackson, both of you have raised valid concerns, but we must ensure our focus isn't too narrow. Jacob, your attention to Jackson's shift in behavior is important, but let's also consider why this focus intensifies after our key players were removed. Jackson, your inconsistency is concerning, but so is the potential for deflection. Scott, your calls for specifics without providing them yourself is notable. Let's broaden our scrutiny to include all players, looking for behaviors that don't align with Villager objectives\u2014such as sudden engagement shifts or lack of substantive contributions. Teamwork and transparency are our best tools to uncover the Werewolves. Let's work together to scrutinize every player's actions and words for inconsistencies."
+                ],
+                [
+                    "Scott",
+                    "I appreciate the push for specifics. Here\u2019s what I\u2019ve noticed: Jacob was very quiet at first, but once Hayley and Harold\u2014our most vocal players\u2014were gone, he shifted into a lead position and started singling people out. That\u2019s a huge jump; either he\u2019s genuinely stepping up, or it\u2019s a cover since there\u2019s less oversight. Will, you\u2019ve made some good points on transparency, but you seemed to echo whichever arguments were popular last round, which almost felt like hedging and not wanting to lead with your own suspicions. Plus, with the strongest voices gone, it\u2019s possible someone with a hidden role (like Seer or Doctor) has been influencing the group quietly\u2014maybe even steering votes. I think we should be very wary of sudden changes in behavior and people who are too quick to parrot others\u2019 reasoning. I\u2019m not ready to accuse anyone outright, but Jacob and Will\u2019s shifts this round don\u2019t sit right with me."
+                ]
+            ],
+            "votes": [
+                {
+                    "Will": "Jacob",
+                    "Derek": "Jackson",
+                    "Jacob": "Jackson",
+                    "Jackson": "Jacob",
+                    "Scott": "Jacob"
+                },
+                {
+                    "Will": "Jacob",
+                    "Derek": "Jacob",
+                    "Jacob": "Jackson",
+                    "Jackson": "Jacob",
+                    "Scott": "Jacob"
+                },
+                {
+                    "Will": "Jacob",
+                    "Derek": "Jacob",
+                    "Jacob": "Jackson",
+                    "Jackson": "Jacob",
+                    "Scott": "Jacob"
+                },
+                {
+                    "Will": "Jacob",
+                    "Derek": "Jacob",
+                    "Jacob": "Jackson",
+                    "Jackson": "Jacob",
+                    "Scott": "Jacob"
+                },
+                {
+                    "Will": "Jacob",
+                    "Derek": "Jacob",
+                    "Jacob": "Jackson",
+                    "Jackson": "Jacob",
+                    "Scott": "Jacob"
+                },
+                {
+                    "Will": "Scott",
+                    "Derek": "Jacob",
+                    "Jacob": "Jackson",
+                    "Jackson": "Jacob",
+                    "Scott": "Jacob"
+                },
+                {
+                    "Will": "Jacob",
+                    "Derek": "Scott",
+                    "Jacob": "Jackson",
+                    "Jackson": "Jacob",
+                    "Scott": "Jacob"
+                },
+                {
+                    "Will": "Jacob",
+                    "Derek": "Jacob",
+                    "Jacob": "Jackson",
+                    "Jackson": "Jacob",
+                    "Scott": "Jacob"
+                }
+            ],
+            "bids": [
+                {
+                    "Will": 2,
+                    "Derek": 2,
+                    "Jacob": 2,
+                    "Jackson": 0,
+                    "Scott": 0
+                },
+                {
+                    "Will": 2,
+                    "Derek": 2,
+                    "Jackson": 4,
+                    "Scott": 4
+                },
+                {
+                    "Will": 2,
+                    "Derek": 2,
+                    "Jacob": 4,
+                    "Scott": 0
+                },
+                {
+                    "Will": 1,
+                    "Derek": 1,
+                    "Jackson": 0,
+                    "Scott": 0
+                },
+                {
+                    "Will": 1,
+                    "Jacob": 4,
+                    "Jackson": 0,
+                    "Scott": 1
+                },
+                {
+                    "Will": 4,
+                    "Derek": 2,
+                    "Jackson": 0,
+                    "Scott": 0
+                },
+                {
+                    "Derek": 2,
+                    "Jacob": 2,
+                    "Jackson": 0,
+                    "Scott": 2
+                },
+                {
+                    "Will": 2,
+                    "Jacob": 2,
+                    "Jackson": 0,
+                    "Scott": 2
+                }
+            ],
+            "success": true
+        }
+    ],
+    "error_message": "",
+    "winner": "Werewolves"
+}

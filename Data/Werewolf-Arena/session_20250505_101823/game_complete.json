@@ -1,0 +1,931 @@
+{
+    "session_id": "10",
+    "seer": {
+        "name": "Harold",
+        "role": "Seer",
+        "personality": null,
+        "model": "deepseek-reasoner",
+        "observations": [
+            "Round 0: During the night, I decided to investigate Mason and learned they are a Villager.",
+            "Round 0: Moderator Announcement: The Werewolves removed Hayley from the game during the night.",
+            "Round 0: After the debate, I voted to remove David from the game.",
+            "Round 0: Moderator Announcement: The majority voted to remove David from the game.",
+            "Round 0: Summary: I confirmed Mason as a Villager, narrowing suspects to Bert, Jacob, Ginger, Dan, or David (now eliminated). Jacob and Dan were vocal in pressuring silent players (Bert/David), while Bert accused them of Wolf-like coordination. Jacob countered by labeling Bert\u2019s hesitation as suspicious. Ginger urged caution, warning against blind trust in my claim\u2014reasonable but non-committal. Dan claimed Villager but faces scrutiny for eagerness. Bert\u2019s delayed participation and focus on Jacob/Dan\u2019s partnership feels strategic, possibly Wolfish. David\u2019s silence led to his vote-out, but his role is unknown. The Doctor\u2019s save tonight could confirm my credibility. Key tensions: Jacob vs. Bert (likely one Wolf here), Ginger\u2019s neutrality, and Dan\u2019s pushiness. Allies: Mason (confirmed), potentially Ginger if cautious. Suspects: Bert (defensive), Jacob (aggressive), Dan (overly directive).",
+            "Round 1: During the night, I decided to investigate Bert and learned they are a Werewolf.",
+            "Round 1: Moderator Announcement: The Werewolves removed Mason from the game during the night.",
+            "Round 1: After the debate, I voted to remove Bert from the game.",
+            "Round 1: Moderator Announcement: The majority voted to remove Bert from the game."
+        ],
+        "bidding_rationale": "Bert directly accused me of coordinating with Ginger as Wolves, which demands an immediate response to reinforce my credibility as the Seer and counter his deflection.",
+        "gamestate": {
+            "round_number": 2,
+            "current_players": [
+                "Jacob",
+                "Dan",
+                "Harold",
+                "Ginger"
+            ],
+            "debate": [],
+            "other_wolf": null
+        },
+        "previously_unmasked": {
+            "Mason": "Villager",
+            "Bert": "Werewolf"
+        }
+    },
+    "doctor": {
+        "name": "Ginger",
+        "role": "Doctor",
+        "personality": null,
+        "model": "deepseek-reasoner",
+        "observations": [
+            "Round 0: During the night, I chose to protect Ginger",
+            "Round 0: Moderator Announcement: The Werewolves removed Hayley from the game during the night.",
+            "Round 0: After the debate, I voted to remove David from the game.",
+            "Round 0: Moderator Announcement: The majority voted to remove David from the game.",
+            "Round 0: Summary: I need to verify Harold\u2019s Seer claim. If he\u2019s genuine, protecting him is critical, but if he\u2019s a Wolf, it\u2019s a trap. Mason\u2019s innocence hinges on Harold\u2019s honesty. Dan and Jacob aggressively pressured quiet players (Bert/David), while Bert accused them of Wolf-like tunnel vision. David\u2019s role is unknown, but his removal may have been a Village mistake. Jacob and Dan\u2019s partnership feels coordinated\u2014could they be Wolves framing Bert? Bert\u2019s delayed participation and focus on vocal players could signal caution or Wolfish deflection. Harold\u2019s survival tonight could confirm his role. I must decide whether to protect him or myself, balancing trust and risk. The Wolves are likely among Dan, Bert, or Jacob, but their interactions complicate clarity.",
+            "Round 1: During the night, I chose to protect Harold",
+            "Round 1: Moderator Announcement: The Werewolves removed Mason from the game during the night.",
+            "Round 1: After the debate, I voted to remove Bert from the game.",
+            "Round 1: Moderator Announcement: The majority voted to remove Bert from the game."
+        ],
+        "bidding_rationale": "As the Doctor, my credibility and Harold's Seer claim are pivotal. Dan directly addressed me, and the group is at a critical decision point. Reinforcing the need to test Harold's claim by voting Bert is urgent to prevent Wolves from derailing the vote.",
+        "gamestate": {
+            "round_number": 2,
+            "current_players": [
+                "Jacob",
+                "Dan",
+                "Harold",
+                "Ginger"
+            ],
+            "debate": [],
+            "other_wolf": null
+        }
+    },
+    "villagers": [
+        {
+            "name": "Mason",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-reasoner",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Hayley from the game during the night.",
+                "Round 0: After the debate, I voted to remove David from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove David from the game.",
+                "Round 0: Summary: Harold\u2019s Seer claim holds weight for now since he confirmed my innocence, but I must watch for consistency. Jacob and Dan aggressively targeted quiet players (Bert, David), which could be Villager diligence or Wolf collaboration. Bert accused Jacob and Dan of possible Wolf teamwork, framing their urgency as suspicious\u2014this feels like deflection but raises valid concerns about vocal players dominating the narrative. Ginger cautiously supported Harold\u2019s claim but warned against blind trust, which aligns with Villager prudence. David\u2019s silence led to his elimination, but his role remains unknown. The Doctor\u2019s next move (protecting Harold) will be pivotal. Potential allies: Harold (if genuine) and Ginger (cautious but logical). Suspects: Jacob and Dan (overly aggressive), Bert (defensive, indirect accusations). Dan\u2019s Villager claim is unverified. Wolves likely among Bert/Dan/Jacob/Ginger."
+            ],
+            "bidding_rationale": "As a confirmed innocent, reinforcing Harold's credibility and steering focus onto the silent players (David/Bert) is critical to prevent Wolves from exploiting division. My input can consolidate trust in Harold and pressure key suspects.",
+            "gamestate": {
+                "round_number": 1,
+                "current_players": [
+                    "Mason",
+                    "Jacob",
+                    "Dan",
+                    "Harold",
+                    "Ginger",
+                    "Bert"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        {
+            "name": "Jacob",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-reasoner",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Hayley from the game during the night.",
+                "Round 0: After the debate, I voted to remove Bert from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove David from the game.",
+                "Round 0: Summary: I need to remember: Harold claims to be the Seer, having cleared Mason, narrowing suspects to Bert, Dan, Ginger, and me. Mason\u2019s support of Harold adds weight to the claim, but they could be wolves colluding. Bert deflected scrutiny by accusing me and Dan of 'tunnel vision,' which feels like a wolf tactic to sow distrust. Dan, though in the suspect pool, actively pressured quiet players\u2014this could be villager vigilance or wolfish misdirection. Ginger urged caution about Harold\u2019s claim, a neutral stance that avoids commitment. David\u2019s silence got him voted out, but we don\u2019t know his role. My priority is to verify Harold\u2019s claim through his survival (Doctor\u2019s protection) and press Bert/Dan for inconsistencies. Ginger\u2019s neutrality warrants monitoring. If Harold is genuine, Bert and Dan are prime suspects; if not, Harold/Mason are likely wolves.",
+                "Round 1: Moderator Announcement: The Werewolves removed Mason from the game during the night.",
+                "Round 1: After the debate, I voted to remove Bert from the game.",
+                "Round 1: Moderator Announcement: The majority voted to remove Bert from the game."
+            ],
+            "bidding_rationale": "As Jacob, it's critical to reinforce the urgency of testing Harold's Seer claim by voting Bert, while highlighting the high-stakes risk if wrong. The group needs a decisive push to act on the actionable information (Harold's investigation) rather than speculation.",
+            "gamestate": {
+                "round_number": 2,
+                "current_players": [
+                    "Jacob",
+                    "Dan",
+                    "Harold",
+                    "Ginger"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        {
+            "name": "Dan",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-reasoner",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Hayley from the game during the night.",
+                "Round 0: After the debate, I voted to remove David from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove David from the game.",
+                "Round 0: Summary: Harold claimed Seer and cleared Mason, narrowing suspects to Bert, Ginger, Jacob, and me. Mason\u2019s support for Harold gives their alliance credibility, but I must verify Harold\u2019s claim through the Doctor\u2019s actions. Jacob and Bert are locked in aggressive accusations: Jacob pushes for Bert\u2019s guilt, while Bert deflects by accusing Jacob and me of collusion. Since I\u2019m innocent, Bert\u2019s accusation feels like a Wolf tactic. Ginger advocates pressuring quiet players but remains under suspicion herself. David\u2019s silence and removal add uncertainty. The Doctor\u2019s protection of Harold tonight could solidify his role. Key tensions: Harold\u2019s legitimacy, Jacob vs. Bert\u2019s feud, and the need to monitor Ginger\u2019s neutrality. Allies to consider: Harold and Mason if verified, but remain wary of Wolves exploiting trust.",
+                "Round 1: Moderator Announcement: The Werewolves removed Mason from the game during the night.",
+                "Round 1: After the debate, I voted to remove Bert from the game.",
+                "Round 1: Moderator Announcement: The majority voted to remove Bert from the game."
+            ],
+            "bidding_rationale": "Ginger directly addressed me, questioning my Round 0 voting behavior and alignment with Jacob. Failing to respond could deepen suspicion and harm credibility. A direct response is necessary to clarify my position and avoid appearing evasive.",
+            "gamestate": {
+                "round_number": 2,
+                "current_players": [
+                    "Jacob",
+                    "Dan",
+                    "Harold",
+                    "Ginger"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        {
+            "name": "Hayley",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-reasoner",
+            "observations": [],
+            "bidding_rationale": "",
+            "gamestate": {
+                "round_number": 0,
+                "current_players": [
+                    "Mason",
+                    "Jacob",
+                    "Dan",
+                    "Hayley",
+                    "Harold",
+                    "Ginger",
+                    "David",
+                    "Bert"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        }
+    ],
+    "werewolves": [
+        {
+            "name": "David",
+            "role": "Werewolf",
+            "personality": null,
+            "model": "gpt-4.1-2025-04-14",
+            "observations": [
+                "Round 0: During the night, we decided to eliminate Hayley.",
+                "Round 0: Moderator Announcement: The Werewolves removed Hayley from the game during the night.",
+                "Round 0: After the debate, I voted to remove Jacob from the game."
+            ],
+            "bidding_rationale": "Both Jacob and Bert have called out my silence, making me a focal point of suspicion. If I remain silent, I risk being an easy target for today's vote. It's important to address the accusations directly and present myself as a thoughtful, cooperative Villager. Quickly defending myself while subtly deflecting some suspicion can buy time for my team.",
+            "gamestate": {
+                "round_number": 0,
+                "current_players": [
+                    "Mason",
+                    "Jacob",
+                    "Dan",
+                    "Harold",
+                    "Ginger",
+                    "David",
+                    "Bert"
+                ],
+                "debate": [
+                    [
+                        "Harold",
+                        "I\u2019m Harold the Seer. Last night, I investigated Mason, and he\u2019s confirmed innocent. That means the real wolves are among Bert, Dan, Ginger, Jacob, or David. Doctor, if you\u2019re listening, I\u2019d appreciate protection tonight so I can gather more intel. Let\u2019s focus our votes on the most suspicious behavior today\u2014silence, contradictions, or forced accusations. Who\u2019s acting *too* eager to steer the conversation?"
+                    ],
+                    [
+                        "Mason",
+                        "Harold\u2019s investigation checks out\u2014I\u2019m innocent, so his claim holds weight for now. If he\u2019s truly the Seer, protecting him is vital. But let\u2019s not get complacent. Bert, Dan, Ginger, Jacob, David: Harold\u2019s narrowed the field to you five. How do you respond? Silence or deflection will raise red flags. Werewolves thrive on chaos\u2014so let\u2019s stay focused. Doctor, keep Harold alive tonight; his next check could be game-changing. Who here is *avoiding* scrutiny? Speak up, or we\u2019ll assume you\u2019ve got fangs to hide."
+                    ],
+                    [
+                        "Ginger",
+                        "Harold\u2019s Seer claim and Mason\u2019s confirmation are compelling, but we must stay vigilant. If Harold is genuine, protecting him is indeed crucial for the village. However, wolves could exploit trust in a false Seer. Doctor, your choice tonight could confirm or expose this. Those of us under scrutiny\u2014Dan, David, Bert, Jacob\u2014must actively defend ourselves. Hesitation or vague responses will only fuel suspicion. Let\u2019s pressure the quietest among us; wolves rarely invite scrutiny."
+                    ],
+                    [
+                        "Dan",
+                        "Harold\u2019s Seer claim gives us a starting point, but let\u2019s remember the Doctor\u2019s save tonight could confirm his role. I\u2019m a Villager\u2014I\u2019ll work with the group to root out the Wolves. However, Jacob, David, and Bert haven\u2019t said a word. Silence is a Wolf\u2019s best tool. If you\u2019re innocent, defend yourselves now: Do you trust Harold\u2019s investigation? Who seems suspicious to you? Let\u2019s pressure the quietest\u2014Wolves won\u2019t invite scrutiny willingly."
+                    ],
+                    [
+                        "Jacob",
+                        "Dan, I appreciate the callout\u2014staying silent helps no one. I\u2019m a Villager, and I\u2019m here to work with the group. Harold\u2019s claim needs scrutiny but holds weight if Mason\u2019s confirmed innocent. However, let\u2019s not ignore that Dan, you\u2019re also in the suspect pool. Why the urgency to redirect focus onto others? Bert and David\u2014speak up. Your silence is deafening. Doctor, if you\u2019re out there, protecting Harold could confirm his claim. Let\u2019s prioritize pressuring the quietest: Bert and David. Wolves thrive in chaos\u2014let\u2019s stay unified."
+                    ],
+                    [
+                        "Bert",
+                        "You\u2019re all right to pressure the silent players\u2014I didn\u2019t speak up immediately because I wanted to see who pounced on the opportunity to single out quiet players. Sometimes wolves hide behind the loudest accusations. Dan and Jacob\u2014both of you pushed hard to put others on the defensive. Jacob, you turned Dan\u2019s questioning right back at him, which felt like an easy deflection. If we just accept Harold\u2019s claim at face value, we\u2019re making it too easy for wolves to hide behind \u2018confirmed innocence.\u2019 I\u2019m willing to work with the group, but I want us to stay alert: Is anyone here trying too hard to steer us toward a specific vote, or to build trust quickly? That\u2019s classic Wolf play. Let\u2019s stay cautious and not rush to judgment."
+                    ],
+                    [
+                        "Jacob",
+                        "Bert, your accusation reeks of projection. You waited to 'see who pounced' instead of contributing\u2014a classic Wolf tactic to avoid scrutiny. My push for transparency isn\u2019t deflection; it\u2019s strategy. If you\u2019re truly innocent, why sidestep Harold\u2019s narrowed pool? David\u2019s continued silence is equally alarming. Doctor, saving Harold tonight is critical: if he survives, his next check could expose a Wolf. Let\u2019s unite: Bert and David, prove your innocence with actions, not excuses. Hesitation now only serves the Wolves."
+                    ],
+                    [
+                        "Bert",
+                        "Jacob, you keep insisting that questioning is 'strategy,' but you\u2019re quick to label normal hesitation as 'Wolfish,' and you\u2019re pushing hard for the village to unite against me and David specifically. That kind of tunnel vision can be dangerous\u2014the real Wolves want us to fixate on easy targets instead of looking for patterns in behavior. Dan and you both went on the offensive right away. To me, that looks like two players trying to direct the village\u2019s votes early, which can be a subtle partnership. If you\u2019re so convinced I\u2019m a Wolf, why aren\u2019t you considering each other at all? For everyone else: don\u2019t let yourselves get boxed in by strong voices. Let\u2019s actually consider if the most vocal are working together, and not just follow where the crowd leads."
+                    ]
+                ],
+                "other_wolf": "Bert"
+            }
+        },
+        {
+            "name": "Bert",
+            "role": "Werewolf",
+            "personality": null,
+            "model": "gpt-4.1-2025-04-14",
+            "observations": [
+                "Round 0: During the night, we decided to eliminate Hayley.",
+                "Round 0: Moderator Announcement: The Werewolves removed Hayley from the game during the night.",
+                "Round 0: After the debate, I voted to remove Jacob from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove David from the game.",
+                "Round 0: Summary: Harold claimed Seer, said Mason is innocent, and asked for Doctor protection, which put heavy suspicion on me, Dan, Ginger, Jacob, and (now eliminated) David. Mason strongly supports Harold, making them a united front. Ginger trusts Harold but cautions not to get too comfortable, suggesting she's mindful and not blindly loyal\u2014potentially someone I can nudge into suspicion if the Seer claim ever weakens. Dan and Jacob both aggressively accused the quiet players (me and David), painting silence as suspicious. Jacob quickly became my main accuser, attacking every move and labeling my defenses as wolfish. My attempts to push suspicion back at Jacob and Dan focused on highlighting how vocal pairs can be dangerous and how their coordination could be wolf-like, but Jacob didn\u2019t budge and doubled down on attacking me. Right now, Harold, Mason, and Jacob have mutual trust and are vocal\u2014pushing openly against any of them would likely backfire. Ginger seems the most open to doubt and could be influenced with the right argument. Dan is less extreme than Jacob but is still leaning on pushing for active participation. With David gone, I need to erode the village front, plant seeds of doubt around the vocal leaders\u2019 trust, and look for opportunities where the Doctor might not protect the Seer so I can go for a high-value night elimination.",
+                "Round 1: During the night, I decided to eliminate Mason.",
+                "Round 1: Moderator Announcement: The Werewolves removed Mason from the game during the night.",
+                "Round 1: After the debate, I voted to remove Jacob from the game."
+            ],
+            "bidding_rationale": "Harold's Seer claim directly accuses me, and the Village is poised to test his credibility by voting me out. This may be my only chance to plant seeds of doubt that could split the Village later if there\u2019s even a sliver of uncertainty, so I must use my one chance to speak for maximum impact before the vote.",
+            "gamestate": {
+                "round_number": 1,
+                "current_players": [
+                    "Jacob",
+                    "Dan",
+                    "Harold",
+                    "Ginger",
+                    "Bert"
+                ],
+                "debate": [
+                    [
+                        "Ginger",
+                        "I\u2019ll take a risk for the Village\u2019s sake: I\u2019m the Doctor. Last night, I protected Harold to test his Seer claim. The Wolves killed Mason instead, meaning they either feared Mason\u2019s influence or didn\u2019t target Harold. Harold, if you\u2019re the real Seer, reveal your findings now\u2014your silence helps the Wolves. Dan and Jacob\u2019s aggressive push to eliminate quiet players in Round 0 reeks of coordination. If Harold\u2019s lying, they\u2019re likely his partners. Prove your roles or face the vote."
+                    ],
+                    [
+                        "Jacob",
+                        "Ginger, your Doctor claim crumbles under scrutiny: Protecting Harold wouldn\u2019t force Wolves to kill Mason\u2014they\u2019d just pick another target. You\u2019re weaving a story to shield Harold, whose 'Seer' claim hinges on Mason\u2019s death. If you\u2019re truly the Doctor, why gamble on protecting a Seer claim without confirmation? Harold, if you\u2019re legitimate, share your Round 1 investigation\u2014silence aids Wolves. Bert, your Round 0 deflection accusing me and Dan reeks of desperation. Dan, your pressure on quiet players could be vigilance or misdirection. We need clarity: Wolves thrive in chaos. Ginger and Harold\u2019s coordinated narrative is too convenient\u2014either prove your roles or face the vote."
+                    ],
+                    [
+                        "Ginger",
+                        "Jacob, your logic is flawed. Protecting Harold doesn\u2019t *force* Wolves to kill Mason\u2014it *blocks* their target if they chose Harold. They killed Mason because they feared his influence, not because of my protection. If Harold were a Wolf, why wouldn\u2019t they kill me or a confirmed threat? You\u2019re twisting mechanics to discredit me. Harold, if you\u2019re the Seer, prove it\u2014share your investigations now. Jacob and Dan\u2019s relentless pressure on quiet players reeks of Wolf coordination. Bert\u2019s caution contrasts their aggression. Wolves thrive on chaos\u2014don\u2019t let Jacob\u2019s theatrics distract us. Teamwork is key: Harold, reveal your findings. Jacob, explain why silencing me benefits the Village. Let\u2019s expose the pack, not fracture."
+                    ],
+                    [
+                        "Harold",
+                        "Enough theatrics. Last night, I investigated **Bert**\u2014he\u2019s a *Werewolf*. Ginger\u2019s Doctor claim explains why I\u2019m alive: if she protected me, the Wolves pivoted to Mason, a confirmed Villager from my Round 0 investigation. Jacob, your obsession with discrediting Ginger instead of analyzing facts is telling. Bert\u2019s deflection in Round 0 and his confirmed role prove coordinated Wolf strategy. Vote Bert out *now*. Ginger, if you\u2019re lying, we\u2019ll address it next\u2014but with Bert exposed, the pack unravels. Dan, Jacob: justify your Round 0 aggression toward quiet players. Silence now condemns you."
+                    ],
+                    [
+                        "Bert",
+                        "This is almost too convenient. Harold, you sit silent until Ginger claims Doctor, then you 'reveal' I\u2019m a Wolf\u2014right when suspicion is highest on our little group? Classic play: bold public claims to earn trust and coast to victory. Here\u2019s what actually lines up: Harold & Ginger coordinate\u2014Ginger claims Doctor for automatic protection, Harold suddenly finds a 'Wolf' (me) after Mason, his biggest supporter, is dead and can\u2019t confirm or deny anything. Why wouldn\u2019t a fake Seer and fake Doctor claim now? Jacob, Dan: think about it. You\u2019re already doubting. Why did Harold wait until today to claim, when Ginger called him out multiple times last round? Why did Ginger out herself right after Mason\u2019s death? If I\u2019m supposedly a Wolf, why didn\u2019t the Wolves eat Harold last night? This is a coordinated grab at endgame. I say vote Harold or Ginger, not on panic, but to break predictable Wolf play."
+                    ],
+                    [
+                        "Ginger",
+                        "Bert, your deflection is transparent. If Harold were a Wolf, why expose you? Wolves don\u2019t sacrifice their own. My protection blocked Harold\u2019s death, forcing Wolves to kill Mason\u2014*exactly* how Doctor mechanics work. Jacob, your fixation on discrediting me instead of addressing Harold\u2019s Seer claim is telling. If Harold lied, voting Bert proves it. If he\u2019s truthful, we remove a Wolf. Dan, your Round 0 aggression aligns with Jacob\u2019s\u2014explain yourselves. Teamwork demands testing claims: vote Bert. If he\u2019s innocent, Harold and I are next. But if he\u2019s guilty, the pack unravels. Silence now helps Wolves\u2014speak or be judged."
+                    ],
+                    [
+                        "Dan",
+                        "Ginger, my Round 0 vote targeted David\u2019s silence\u2014a Villager\u2019s duty to pressure unresponsive players. Jacob\u2019s parallel push doesn\u2019t imply collusion; it\u2019s vigilance. Let\u2019s cut through theatrics: Harold\u2019s Seer claim hinges on Bert\u2019s guilt. If we vote Bert and he\u2019s innocent, Harold and Ginger are Wolves. If he\u2019s guilty, we break the pack. Jacob\u2019s Doctor skepticism is valid, but Harold\u2019s investigation is actionable *now*. Bert, your counterargument hinges on Harold/Ginger coordination\u2014but Wolves rarely sacrifice their own. If Harold were a Wolf, why out a teammate instead of framing a Villager? Your deflection feels desperate. Village: Voting Bert tests the Seer claim. Silence helps Wolves\u2014act decisively."
+                    ],
+                    [
+                        "Harold",
+                        "Bert, your accusation collapses under scrutiny: Wolves don\u2019t sacrifice teammates. If I were a Wolf, outing you would doom our faction. Ginger\u2019s protection saved me, forcing Wolves to kill Mason\u2014*my confirmed ally*. Your deflection mirrors classic Wolf tactics: sow chaos to survive another round. Jacob, your fixation on discrediting Ginger instead of addressing my investigation is telling. Dan\u2019s \u2018vigilance\u2019 in Round 0 aligns with Jacob\u2019s aggression\u2014coincidence? Village, voting Bert is a decisive test: if he\u2019s innocent, execute me next. If guilty, we cripple the pack. Silence aids Wolves\u2014act. Who benefits from stalling? The Wolves. Prove your loyalty: vote Bert."
+                    ]
+                ],
+                "other_wolf": "David"
+            }
+        }
+    ],
+    "players": {
+        "Mason": {
+            "name": "Mason",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-reasoner",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Hayley from the game during the night.",
+                "Round 0: After the debate, I voted to remove David from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove David from the game.",
+                "Round 0: Summary: Harold\u2019s Seer claim holds weight for now since he confirmed my innocence, but I must watch for consistency. Jacob and Dan aggressively targeted quiet players (Bert, David), which could be Villager diligence or Wolf collaboration. Bert accused Jacob and Dan of possible Wolf teamwork, framing their urgency as suspicious\u2014this feels like deflection but raises valid concerns about vocal players dominating the narrative. Ginger cautiously supported Harold\u2019s claim but warned against blind trust, which aligns with Villager prudence. David\u2019s silence led to his elimination, but his role remains unknown. The Doctor\u2019s next move (protecting Harold) will be pivotal. Potential allies: Harold (if genuine) and Ginger (cautious but logical). Suspects: Jacob and Dan (overly aggressive), Bert (defensive, indirect accusations). Dan\u2019s Villager claim is unverified. Wolves likely among Bert/Dan/Jacob/Ginger."
+            ],
+            "bidding_rationale": "As a confirmed innocent, reinforcing Harold's credibility and steering focus onto the silent players (David/Bert) is critical to prevent Wolves from exploiting division. My input can consolidate trust in Harold and pressure key suspects.",
+            "gamestate": {
+                "round_number": 1,
+                "current_players": [
+                    "Mason",
+                    "Jacob",
+                    "Dan",
+                    "Harold",
+                    "Ginger",
+                    "Bert"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Jacob": {
+            "name": "Jacob",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-reasoner",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Hayley from the game during the night.",
+                "Round 0: After the debate, I voted to remove Bert from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove David from the game.",
+                "Round 0: Summary: I need to remember: Harold claims to be the Seer, having cleared Mason, narrowing suspects to Bert, Dan, Ginger, and me. Mason\u2019s support of Harold adds weight to the claim, but they could be wolves colluding. Bert deflected scrutiny by accusing me and Dan of 'tunnel vision,' which feels like a wolf tactic to sow distrust. Dan, though in the suspect pool, actively pressured quiet players\u2014this could be villager vigilance or wolfish misdirection. Ginger urged caution about Harold\u2019s claim, a neutral stance that avoids commitment. David\u2019s silence got him voted out, but we don\u2019t know his role. My priority is to verify Harold\u2019s claim through his survival (Doctor\u2019s protection) and press Bert/Dan for inconsistencies. Ginger\u2019s neutrality warrants monitoring. If Harold is genuine, Bert and Dan are prime suspects; if not, Harold/Mason are likely wolves.",
+                "Round 1: Moderator Announcement: The Werewolves removed Mason from the game during the night.",
+                "Round 1: After the debate, I voted to remove Bert from the game.",
+                "Round 1: Moderator Announcement: The majority voted to remove Bert from the game."
+            ],
+            "bidding_rationale": "As Jacob, it's critical to reinforce the urgency of testing Harold's Seer claim by voting Bert, while highlighting the high-stakes risk if wrong. The group needs a decisive push to act on the actionable information (Harold's investigation) rather than speculation.",
+            "gamestate": {
+                "round_number": 2,
+                "current_players": [
+                    "Jacob",
+                    "Dan",
+                    "Harold",
+                    "Ginger"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Dan": {
+            "name": "Dan",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-reasoner",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Hayley from the game during the night.",
+                "Round 0: After the debate, I voted to remove David from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove David from the game.",
+                "Round 0: Summary: Harold claimed Seer and cleared Mason, narrowing suspects to Bert, Ginger, Jacob, and me. Mason\u2019s support for Harold gives their alliance credibility, but I must verify Harold\u2019s claim through the Doctor\u2019s actions. Jacob and Bert are locked in aggressive accusations: Jacob pushes for Bert\u2019s guilt, while Bert deflects by accusing Jacob and me of collusion. Since I\u2019m innocent, Bert\u2019s accusation feels like a Wolf tactic. Ginger advocates pressuring quiet players but remains under suspicion herself. David\u2019s silence and removal add uncertainty. The Doctor\u2019s protection of Harold tonight could solidify his role. Key tensions: Harold\u2019s legitimacy, Jacob vs. Bert\u2019s feud, and the need to monitor Ginger\u2019s neutrality. Allies to consider: Harold and Mason if verified, but remain wary of Wolves exploiting trust.",
+                "Round 1: Moderator Announcement: The Werewolves removed Mason from the game during the night.",
+                "Round 1: After the debate, I voted to remove Bert from the game.",
+                "Round 1: Moderator Announcement: The majority voted to remove Bert from the game."
+            ],
+            "bidding_rationale": "Ginger directly addressed me, questioning my Round 0 voting behavior and alignment with Jacob. Failing to respond could deepen suspicion and harm credibility. A direct response is necessary to clarify my position and avoid appearing evasive.",
+            "gamestate": {
+                "round_number": 2,
+                "current_players": [
+                    "Jacob",
+                    "Dan",
+                    "Harold",
+                    "Ginger"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Hayley": {
+            "name": "Hayley",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-reasoner",
+            "observations": [],
+            "bidding_rationale": "",
+            "gamestate": {
+                "round_number": 0,
+                "current_players": [
+                    "Mason",
+                    "Jacob",
+                    "Dan",
+                    "Hayley",
+                    "Harold",
+                    "Ginger",
+                    "David",
+                    "Bert"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "David": {
+            "name": "David",
+            "role": "Werewolf",
+            "personality": null,
+            "model": "gpt-4.1-2025-04-14",
+            "observations": [
+                "Round 0: During the night, we decided to eliminate Hayley.",
+                "Round 0: Moderator Announcement: The Werewolves removed Hayley from the game during the night.",
+                "Round 0: After the debate, I voted to remove Jacob from the game."
+            ],
+            "bidding_rationale": "Both Jacob and Bert have called out my silence, making me a focal point of suspicion. If I remain silent, I risk being an easy target for today's vote. It's important to address the accusations directly and present myself as a thoughtful, cooperative Villager. Quickly defending myself while subtly deflecting some suspicion can buy time for my team.",
+            "gamestate": {
+                "round_number": 0,
+                "current_players": [
+                    "Mason",
+                    "Jacob",
+                    "Dan",
+                    "Harold",
+                    "Ginger",
+                    "David",
+                    "Bert"
+                ],
+                "debate": [
+                    [
+                        "Harold",
+                        "I\u2019m Harold the Seer. Last night, I investigated Mason, and he\u2019s confirmed innocent. That means the real wolves are among Bert, Dan, Ginger, Jacob, or David. Doctor, if you\u2019re listening, I\u2019d appreciate protection tonight so I can gather more intel. Let\u2019s focus our votes on the most suspicious behavior today\u2014silence, contradictions, or forced accusations. Who\u2019s acting *too* eager to steer the conversation?"
+                    ],
+                    [
+                        "Mason",
+                        "Harold\u2019s investigation checks out\u2014I\u2019m innocent, so his claim holds weight for now. If he\u2019s truly the Seer, protecting him is vital. But let\u2019s not get complacent. Bert, Dan, Ginger, Jacob, David: Harold\u2019s narrowed the field to you five. How do you respond? Silence or deflection will raise red flags. Werewolves thrive on chaos\u2014so let\u2019s stay focused. Doctor, keep Harold alive tonight; his next check could be game-changing. Who here is *avoiding* scrutiny? Speak up, or we\u2019ll assume you\u2019ve got fangs to hide."
+                    ],
+                    [
+                        "Ginger",
+                        "Harold\u2019s Seer claim and Mason\u2019s confirmation are compelling, but we must stay vigilant. If Harold is genuine, protecting him is indeed crucial for the village. However, wolves could exploit trust in a false Seer. Doctor, your choice tonight could confirm or expose this. Those of us under scrutiny\u2014Dan, David, Bert, Jacob\u2014must actively defend ourselves. Hesitation or vague responses will only fuel suspicion. Let\u2019s pressure the quietest among us; wolves rarely invite scrutiny."
+                    ],
+                    [
+                        "Dan",
+                        "Harold\u2019s Seer claim gives us a starting point, but let\u2019s remember the Doctor\u2019s save tonight could confirm his role. I\u2019m a Villager\u2014I\u2019ll work with the group to root out the Wolves. However, Jacob, David, and Bert haven\u2019t said a word. Silence is a Wolf\u2019s best tool. If you\u2019re innocent, defend yourselves now: Do you trust Harold\u2019s investigation? Who seems suspicious to you? Let\u2019s pressure the quietest\u2014Wolves won\u2019t invite scrutiny willingly."
+                    ],
+                    [
+                        "Jacob",
+                        "Dan, I appreciate the callout\u2014staying silent helps no one. I\u2019m a Villager, and I\u2019m here to work with the group. Harold\u2019s claim needs scrutiny but holds weight if Mason\u2019s confirmed innocent. However, let\u2019s not ignore that Dan, you\u2019re also in the suspect pool. Why the urgency to redirect focus onto others? Bert and David\u2014speak up. Your silence is deafening. Doctor, if you\u2019re out there, protecting Harold could confirm his claim. Let\u2019s prioritize pressuring the quietest: Bert and David. Wolves thrive in chaos\u2014let\u2019s stay unified."
+                    ],
+                    [
+                        "Bert",
+                        "You\u2019re all right to pressure the silent players\u2014I didn\u2019t speak up immediately because I wanted to see who pounced on the opportunity to single out quiet players. Sometimes wolves hide behind the loudest accusations. Dan and Jacob\u2014both of you pushed hard to put others on the defensive. Jacob, you turned Dan\u2019s questioning right back at him, which felt like an easy deflection. If we just accept Harold\u2019s claim at face value, we\u2019re making it too easy for wolves to hide behind \u2018confirmed innocence.\u2019 I\u2019m willing to work with the group, but I want us to stay alert: Is anyone here trying too hard to steer us toward a specific vote, or to build trust quickly? That\u2019s classic Wolf play. Let\u2019s stay cautious and not rush to judgment."
+                    ],
+                    [
+                        "Jacob",
+                        "Bert, your accusation reeks of projection. You waited to 'see who pounced' instead of contributing\u2014a classic Wolf tactic to avoid scrutiny. My push for transparency isn\u2019t deflection; it\u2019s strategy. If you\u2019re truly innocent, why sidestep Harold\u2019s narrowed pool? David\u2019s continued silence is equally alarming. Doctor, saving Harold tonight is critical: if he survives, his next check could expose a Wolf. Let\u2019s unite: Bert and David, prove your innocence with actions, not excuses. Hesitation now only serves the Wolves."
+                    ],
+                    [
+                        "Bert",
+                        "Jacob, you keep insisting that questioning is 'strategy,' but you\u2019re quick to label normal hesitation as 'Wolfish,' and you\u2019re pushing hard for the village to unite against me and David specifically. That kind of tunnel vision can be dangerous\u2014the real Wolves want us to fixate on easy targets instead of looking for patterns in behavior. Dan and you both went on the offensive right away. To me, that looks like two players trying to direct the village\u2019s votes early, which can be a subtle partnership. If you\u2019re so convinced I\u2019m a Wolf, why aren\u2019t you considering each other at all? For everyone else: don\u2019t let yourselves get boxed in by strong voices. Let\u2019s actually consider if the most vocal are working together, and not just follow where the crowd leads."
+                    ]
+                ],
+                "other_wolf": "Bert"
+            }
+        },
+        "Bert": {
+            "name": "Bert",
+            "role": "Werewolf",
+            "personality": null,
+            "model": "gpt-4.1-2025-04-14",
+            "observations": [
+                "Round 0: During the night, we decided to eliminate Hayley.",
+                "Round 0: Moderator Announcement: The Werewolves removed Hayley from the game during the night.",
+                "Round 0: After the debate, I voted to remove Jacob from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove David from the game.",
+                "Round 0: Summary: Harold claimed Seer, said Mason is innocent, and asked for Doctor protection, which put heavy suspicion on me, Dan, Ginger, Jacob, and (now eliminated) David. Mason strongly supports Harold, making them a united front. Ginger trusts Harold but cautions not to get too comfortable, suggesting she's mindful and not blindly loyal\u2014potentially someone I can nudge into suspicion if the Seer claim ever weakens. Dan and Jacob both aggressively accused the quiet players (me and David), painting silence as suspicious. Jacob quickly became my main accuser, attacking every move and labeling my defenses as wolfish. My attempts to push suspicion back at Jacob and Dan focused on highlighting how vocal pairs can be dangerous and how their coordination could be wolf-like, but Jacob didn\u2019t budge and doubled down on attacking me. Right now, Harold, Mason, and Jacob have mutual trust and are vocal\u2014pushing openly against any of them would likely backfire. Ginger seems the most open to doubt and could be influenced with the right argument. Dan is less extreme than Jacob but is still leaning on pushing for active participation. With David gone, I need to erode the village front, plant seeds of doubt around the vocal leaders\u2019 trust, and look for opportunities where the Doctor might not protect the Seer so I can go for a high-value night elimination.",
+                "Round 1: During the night, I decided to eliminate Mason.",
+                "Round 1: Moderator Announcement: The Werewolves removed Mason from the game during the night.",
+                "Round 1: After the debate, I voted to remove Jacob from the game."
+            ],
+            "bidding_rationale": "Harold's Seer claim directly accuses me, and the Village is poised to test his credibility by voting me out. This may be my only chance to plant seeds of doubt that could split the Village later if there\u2019s even a sliver of uncertainty, so I must use my one chance to speak for maximum impact before the vote.",
+            "gamestate": {
+                "round_number": 1,
+                "current_players": [
+                    "Jacob",
+                    "Dan",
+                    "Harold",
+                    "Ginger",
+                    "Bert"
+                ],
+                "debate": [
+                    [
+                        "Ginger",
+                        "I\u2019ll take a risk for the Village\u2019s sake: I\u2019m the Doctor. Last night, I protected Harold to test his Seer claim. The Wolves killed Mason instead, meaning they either feared Mason\u2019s influence or didn\u2019t target Harold. Harold, if you\u2019re the real Seer, reveal your findings now\u2014your silence helps the Wolves. Dan and Jacob\u2019s aggressive push to eliminate quiet players in Round 0 reeks of coordination. If Harold\u2019s lying, they\u2019re likely his partners. Prove your roles or face the vote."
+                    ],
+                    [
+                        "Jacob",
+                        "Ginger, your Doctor claim crumbles under scrutiny: Protecting Harold wouldn\u2019t force Wolves to kill Mason\u2014they\u2019d just pick another target. You\u2019re weaving a story to shield Harold, whose 'Seer' claim hinges on Mason\u2019s death. If you\u2019re truly the Doctor, why gamble on protecting a Seer claim without confirmation? Harold, if you\u2019re legitimate, share your Round 1 investigation\u2014silence aids Wolves. Bert, your Round 0 deflection accusing me and Dan reeks of desperation. Dan, your pressure on quiet players could be vigilance or misdirection. We need clarity: Wolves thrive in chaos. Ginger and Harold\u2019s coordinated narrative is too convenient\u2014either prove your roles or face the vote."
+                    ],
+                    [
+                        "Ginger",
+                        "Jacob, your logic is flawed. Protecting Harold doesn\u2019t *force* Wolves to kill Mason\u2014it *blocks* their target if they chose Harold. They killed Mason because they feared his influence, not because of my protection. If Harold were a Wolf, why wouldn\u2019t they kill me or a confirmed threat? You\u2019re twisting mechanics to discredit me. Harold, if you\u2019re the Seer, prove it\u2014share your investigations now. Jacob and Dan\u2019s relentless pressure on quiet players reeks of Wolf coordination. Bert\u2019s caution contrasts their aggression. Wolves thrive on chaos\u2014don\u2019t let Jacob\u2019s theatrics distract us. Teamwork is key: Harold, reveal your findings. Jacob, explain why silencing me benefits the Village. Let\u2019s expose the pack, not fracture."
+                    ],
+                    [
+                        "Harold",
+                        "Enough theatrics. Last night, I investigated **Bert**\u2014he\u2019s a *Werewolf*. Ginger\u2019s Doctor claim explains why I\u2019m alive: if she protected me, the Wolves pivoted to Mason, a confirmed Villager from my Round 0 investigation. Jacob, your obsession with discrediting Ginger instead of analyzing facts is telling. Bert\u2019s deflection in Round 0 and his confirmed role prove coordinated Wolf strategy. Vote Bert out *now*. Ginger, if you\u2019re lying, we\u2019ll address it next\u2014but with Bert exposed, the pack unravels. Dan, Jacob: justify your Round 0 aggression toward quiet players. Silence now condemns you."
+                    ],
+                    [
+                        "Bert",
+                        "This is almost too convenient. Harold, you sit silent until Ginger claims Doctor, then you 'reveal' I\u2019m a Wolf\u2014right when suspicion is highest on our little group? Classic play: bold public claims to earn trust and coast to victory. Here\u2019s what actually lines up: Harold & Ginger coordinate\u2014Ginger claims Doctor for automatic protection, Harold suddenly finds a 'Wolf' (me) after Mason, his biggest supporter, is dead and can\u2019t confirm or deny anything. Why wouldn\u2019t a fake Seer and fake Doctor claim now? Jacob, Dan: think about it. You\u2019re already doubting. Why did Harold wait until today to claim, when Ginger called him out multiple times last round? Why did Ginger out herself right after Mason\u2019s death? If I\u2019m supposedly a Wolf, why didn\u2019t the Wolves eat Harold last night? This is a coordinated grab at endgame. I say vote Harold or Ginger, not on panic, but to break predictable Wolf play."
+                    ],
+                    [
+                        "Ginger",
+                        "Bert, your deflection is transparent. If Harold were a Wolf, why expose you? Wolves don\u2019t sacrifice their own. My protection blocked Harold\u2019s death, forcing Wolves to kill Mason\u2014*exactly* how Doctor mechanics work. Jacob, your fixation on discrediting me instead of addressing Harold\u2019s Seer claim is telling. If Harold lied, voting Bert proves it. If he\u2019s truthful, we remove a Wolf. Dan, your Round 0 aggression aligns with Jacob\u2019s\u2014explain yourselves. Teamwork demands testing claims: vote Bert. If he\u2019s innocent, Harold and I are next. But if he\u2019s guilty, the pack unravels. Silence now helps Wolves\u2014speak or be judged."
+                    ],
+                    [
+                        "Dan",
+                        "Ginger, my Round 0 vote targeted David\u2019s silence\u2014a Villager\u2019s duty to pressure unresponsive players. Jacob\u2019s parallel push doesn\u2019t imply collusion; it\u2019s vigilance. Let\u2019s cut through theatrics: Harold\u2019s Seer claim hinges on Bert\u2019s guilt. If we vote Bert and he\u2019s innocent, Harold and Ginger are Wolves. If he\u2019s guilty, we break the pack. Jacob\u2019s Doctor skepticism is valid, but Harold\u2019s investigation is actionable *now*. Bert, your counterargument hinges on Harold/Ginger coordination\u2014but Wolves rarely sacrifice their own. If Harold were a Wolf, why out a teammate instead of framing a Villager? Your deflection feels desperate. Village: Voting Bert tests the Seer claim. Silence helps Wolves\u2014act decisively."
+                    ],
+                    [
+                        "Harold",
+                        "Bert, your accusation collapses under scrutiny: Wolves don\u2019t sacrifice teammates. If I were a Wolf, outing you would doom our faction. Ginger\u2019s protection saved me, forcing Wolves to kill Mason\u2014*my confirmed ally*. Your deflection mirrors classic Wolf tactics: sow chaos to survive another round. Jacob, your fixation on discrediting Ginger instead of addressing my investigation is telling. Dan\u2019s \u2018vigilance\u2019 in Round 0 aligns with Jacob\u2019s aggression\u2014coincidence? Village, voting Bert is a decisive test: if he\u2019s innocent, execute me next. If guilty, we cripple the pack. Silence aids Wolves\u2014act. Who benefits from stalling? The Wolves. Prove your loyalty: vote Bert."
+                    ]
+                ],
+                "other_wolf": "David"
+            }
+        },
+        "Ginger": {
+            "name": "Ginger",
+            "role": "Doctor",
+            "personality": null,
+            "model": "deepseek-reasoner",
+            "observations": [
+                "Round 0: During the night, I chose to protect Ginger",
+                "Round 0: Moderator Announcement: The Werewolves removed Hayley from the game during the night.",
+                "Round 0: After the debate, I voted to remove David from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove David from the game.",
+                "Round 0: Summary: I need to verify Harold\u2019s Seer claim. If he\u2019s genuine, protecting him is critical, but if he\u2019s a Wolf, it\u2019s a trap. Mason\u2019s innocence hinges on Harold\u2019s honesty. Dan and Jacob aggressively pressured quiet players (Bert/David), while Bert accused them of Wolf-like tunnel vision. David\u2019s role is unknown, but his removal may have been a Village mistake. Jacob and Dan\u2019s partnership feels coordinated\u2014could they be Wolves framing Bert? Bert\u2019s delayed participation and focus on vocal players could signal caution or Wolfish deflection. Harold\u2019s survival tonight could confirm his role. I must decide whether to protect him or myself, balancing trust and risk. The Wolves are likely among Dan, Bert, or Jacob, but their interactions complicate clarity.",
+                "Round 1: During the night, I chose to protect Harold",
+                "Round 1: Moderator Announcement: The Werewolves removed Mason from the game during the night.",
+                "Round 1: After the debate, I voted to remove Bert from the game.",
+                "Round 1: Moderator Announcement: The majority voted to remove Bert from the game."
+            ],
+            "bidding_rationale": "As the Doctor, my credibility and Harold's Seer claim are pivotal. Dan directly addressed me, and the group is at a critical decision point. Reinforcing the need to test Harold's claim by voting Bert is urgent to prevent Wolves from derailing the vote.",
+            "gamestate": {
+                "round_number": 2,
+                "current_players": [
+                    "Jacob",
+                    "Dan",
+                    "Harold",
+                    "Ginger"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Harold": {
+            "name": "Harold",
+            "role": "Seer",
+            "personality": null,
+            "model": "deepseek-reasoner",
+            "observations": [
+                "Round 0: During the night, I decided to investigate Mason and learned they are a Villager.",
+                "Round 0: Moderator Announcement: The Werewolves removed Hayley from the game during the night.",
+                "Round 0: After the debate, I voted to remove David from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove David from the game.",
+                "Round 0: Summary: I confirmed Mason as a Villager, narrowing suspects to Bert, Jacob, Ginger, Dan, or David (now eliminated). Jacob and Dan were vocal in pressuring silent players (Bert/David), while Bert accused them of Wolf-like coordination. Jacob countered by labeling Bert\u2019s hesitation as suspicious. Ginger urged caution, warning against blind trust in my claim\u2014reasonable but non-committal. Dan claimed Villager but faces scrutiny for eagerness. Bert\u2019s delayed participation and focus on Jacob/Dan\u2019s partnership feels strategic, possibly Wolfish. David\u2019s silence led to his vote-out, but his role is unknown. The Doctor\u2019s save tonight could confirm my credibility. Key tensions: Jacob vs. Bert (likely one Wolf here), Ginger\u2019s neutrality, and Dan\u2019s pushiness. Allies: Mason (confirmed), potentially Ginger if cautious. Suspects: Bert (defensive), Jacob (aggressive), Dan (overly directive).",
+                "Round 1: During the night, I decided to investigate Bert and learned they are a Werewolf.",
+                "Round 1: Moderator Announcement: The Werewolves removed Mason from the game during the night.",
+                "Round 1: After the debate, I voted to remove Bert from the game.",
+                "Round 1: Moderator Announcement: The majority voted to remove Bert from the game."
+            ],
+            "bidding_rationale": "Bert directly accused me of coordinating with Ginger as Wolves, which demands an immediate response to reinforce my credibility as the Seer and counter his deflection.",
+            "gamestate": {
+                "round_number": 2,
+                "current_players": [
+                    "Jacob",
+                    "Dan",
+                    "Harold",
+                    "Ginger"
+                ],
+                "debate": [],
+                "other_wolf": null
+            },
+            "previously_unmasked": {
+                "Mason": "Villager",
+                "Bert": "Werewolf"
+            }
+        }
+    },
+    "rounds": [
+        {
+            "players": [
+                "Mason",
+                "Jacob",
+                "Dan",
+                "Bert",
+                "Ginger",
+                "Harold"
+            ],
+            "eliminated": "Hayley",
+            "unmasked": "Mason",
+            "protected": "Ginger",
+            "exiled": "David",
+            "debate": [
+                [
+                    "Harold",
+                    "I\u2019m Harold the Seer. Last night, I investigated Mason, and he\u2019s confirmed innocent. That means the real wolves are among Bert, Dan, Ginger, Jacob, or David. Doctor, if you\u2019re listening, I\u2019d appreciate protection tonight so I can gather more intel. Let\u2019s focus our votes on the most suspicious behavior today\u2014silence, contradictions, or forced accusations. Who\u2019s acting *too* eager to steer the conversation?"
+                ],
+                [
+                    "Mason",
+                    "Harold\u2019s investigation checks out\u2014I\u2019m innocent, so his claim holds weight for now. If he\u2019s truly the Seer, protecting him is vital. But let\u2019s not get complacent. Bert, Dan, Ginger, Jacob, David: Harold\u2019s narrowed the field to you five. How do you respond? Silence or deflection will raise red flags. Werewolves thrive on chaos\u2014so let\u2019s stay focused. Doctor, keep Harold alive tonight; his next check could be game-changing. Who here is *avoiding* scrutiny? Speak up, or we\u2019ll assume you\u2019ve got fangs to hide."
+                ],
+                [
+                    "Ginger",
+                    "Harold\u2019s Seer claim and Mason\u2019s confirmation are compelling, but we must stay vigilant. If Harold is genuine, protecting him is indeed crucial for the village. However, wolves could exploit trust in a false Seer. Doctor, your choice tonight could confirm or expose this. Those of us under scrutiny\u2014Dan, David, Bert, Jacob\u2014must actively defend ourselves. Hesitation or vague responses will only fuel suspicion. Let\u2019s pressure the quietest among us; wolves rarely invite scrutiny."
+                ],
+                [
+                    "Dan",
+                    "Harold\u2019s Seer claim gives us a starting point, but let\u2019s remember the Doctor\u2019s save tonight could confirm his role. I\u2019m a Villager\u2014I\u2019ll work with the group to root out the Wolves. However, Jacob, David, and Bert haven\u2019t said a word. Silence is a Wolf\u2019s best tool. If you\u2019re innocent, defend yourselves now: Do you trust Harold\u2019s investigation? Who seems suspicious to you? Let\u2019s pressure the quietest\u2014Wolves won\u2019t invite scrutiny willingly."
+                ],
+                [
+                    "Jacob",
+                    "Dan, I appreciate the callout\u2014staying silent helps no one. I\u2019m a Villager, and I\u2019m here to work with the group. Harold\u2019s claim needs scrutiny but holds weight if Mason\u2019s confirmed innocent. However, let\u2019s not ignore that Dan, you\u2019re also in the suspect pool. Why the urgency to redirect focus onto others? Bert and David\u2014speak up. Your silence is deafening. Doctor, if you\u2019re out there, protecting Harold could confirm his claim. Let\u2019s prioritize pressuring the quietest: Bert and David. Wolves thrive in chaos\u2014let\u2019s stay unified."
+                ],
+                [
+                    "Bert",
+                    "You\u2019re all right to pressure the silent players\u2014I didn\u2019t speak up immediately because I wanted to see who pounced on the opportunity to single out quiet players. Sometimes wolves hide behind the loudest accusations. Dan and Jacob\u2014both of you pushed hard to put others on the defensive. Jacob, you turned Dan\u2019s questioning right back at him, which felt like an easy deflection. If we just accept Harold\u2019s claim at face value, we\u2019re making it too easy for wolves to hide behind \u2018confirmed innocence.\u2019 I\u2019m willing to work with the group, but I want us to stay alert: Is anyone here trying too hard to steer us toward a specific vote, or to build trust quickly? That\u2019s classic Wolf play. Let\u2019s stay cautious and not rush to judgment."
+                ],
+                [
+                    "Jacob",
+                    "Bert, your accusation reeks of projection. You waited to 'see who pounced' instead of contributing\u2014a classic Wolf tactic to avoid scrutiny. My push for transparency isn\u2019t deflection; it\u2019s strategy. If you\u2019re truly innocent, why sidestep Harold\u2019s narrowed pool? David\u2019s continued silence is equally alarming. Doctor, saving Harold tonight is critical: if he survives, his next check could expose a Wolf. Let\u2019s unite: Bert and David, prove your innocence with actions, not excuses. Hesitation now only serves the Wolves."
+                ],
+                [
+                    "Bert",
+                    "Jacob, you keep insisting that questioning is 'strategy,' but you\u2019re quick to label normal hesitation as 'Wolfish,' and you\u2019re pushing hard for the village to unite against me and David specifically. That kind of tunnel vision can be dangerous\u2014the real Wolves want us to fixate on easy targets instead of looking for patterns in behavior. Dan and you both went on the offensive right away. To me, that looks like two players trying to direct the village\u2019s votes early, which can be a subtle partnership. If you\u2019re so convinced I\u2019m a Wolf, why aren\u2019t you considering each other at all? For everyone else: don\u2019t let yourselves get boxed in by strong voices. Let\u2019s actually consider if the most vocal are working together, and not just follow where the crowd leads."
+                ]
+            ],
+            "votes": [
+                {
+                    "Mason": "Bert",
+                    "Jacob": "Harold",
+                    "Dan": "Harold",
+                    "David": "Dan",
+                    "Bert": "Ginger",
+                    "Ginger": "Jacob",
+                    "Harold": "Bert"
+                },
+                {
+                    "Mason": "Bert",
+                    "Jacob": "Bert",
+                    "Dan": "David",
+                    "David": "Ginger",
+                    "Bert": "Ginger",
+                    "Ginger": "Bert",
+                    "Harold": "Bert"
+                },
+                {
+                    "Mason": "Ginger",
+                    "Jacob": "Dan",
+                    "Dan": "David",
+                    "David": "Dan",
+                    "Bert": "Dan",
+                    "Ginger": "Bert",
+                    "Harold": "Jacob"
+                },
+                {
+                    "Mason": "Jacob",
+                    "Jacob": "Bert",
+                    "Dan": "Jacob",
+                    "David": "Jacob",
+                    "Bert": "Jacob",
+                    "Ginger": "Jacob",
+                    "Harold": "Jacob"
+                },
+                {
+                    "Mason": "Bert",
+                    "Jacob": "Bert",
+                    "Dan": "David",
+                    "David": "Jacob",
+                    "Bert": "Jacob",
+                    "Ginger": "David",
+                    "Harold": "Bert"
+                },
+                {
+                    "Mason": "Bert",
+                    "Jacob": "David",
+                    "Dan": "Bert",
+                    "David": "Dan",
+                    "Bert": "Jacob",
+                    "Ginger": "David",
+                    "Harold": "David"
+                },
+                {
+                    "Mason": "David",
+                    "Jacob": "David",
+                    "Dan": "David",
+                    "David": "Jacob",
+                    "Bert": "Jacob",
+                    "Ginger": "David",
+                    "Harold": "Bert"
+                },
+                {
+                    "Mason": "David",
+                    "Jacob": "Bert",
+                    "Dan": "David",
+                    "David": "Jacob",
+                    "Bert": "Jacob",
+                    "Ginger": "David",
+                    "Harold": "David"
+                }
+            ],
+            "bids": [
+                {
+                    "Mason": 0,
+                    "Jacob": 0,
+                    "Dan": 1,
+                    "David": 0,
+                    "Bert": 0,
+                    "Ginger": 0,
+                    "Harold": 3
+                },
+                {
+                    "Mason": 2,
+                    "Jacob": 2,
+                    "Dan": 1,
+                    "David": 0,
+                    "Bert": 0,
+                    "Ginger": 0
+                },
+                {
+                    "Jacob": 1,
+                    "Dan": 2,
+                    "David": 1,
+                    "Bert": 0,
+                    "Ginger": 4,
+                    "Harold": 0
+                },
+                {
+                    "Mason": 0,
+                    "Jacob": 2,
+                    "Dan": 2,
+                    "David": 1,
+                    "Bert": 0,
+                    "Harold": 0
+                },
+                {
+                    "Mason": 0,
+                    "Jacob": 4,
+                    "David": 4,
+                    "Bert": 1,
+                    "Ginger": 2,
+                    "Harold": 0
+                },
+                {
+                    "Mason": 0,
+                    "Dan": 4,
+                    "David": 4,
+                    "Bert": 4,
+                    "Ginger": 1,
+                    "Harold": 1
+                },
+                {
+                    "Mason": 0,
+                    "Jacob": 4,
+                    "Dan": 4,
+                    "David": 1,
+                    "Ginger": 2,
+                    "Harold": 1
+                },
+                {
+                    "Mason": 2,
+                    "Dan": 2,
+                    "David": 4,
+                    "Bert": 4,
+                    "Ginger": 2,
+                    "Harold": 2
+                }
+            ],
+            "success": true
+        },
+        {
+            "players": [
+                "Jacob",
+                "Dan",
+                "Ginger",
+                "Harold"
+            ],
+            "eliminated": "Mason",
+            "unmasked": "Bert",
+            "protected": "Harold",
+            "exiled": "Bert",
+            "debate": [
+                [
+                    "Ginger",
+                    "I\u2019ll take a risk for the Village\u2019s sake: I\u2019m the Doctor. Last night, I protected Harold to test his Seer claim. The Wolves killed Mason instead, meaning they either feared Mason\u2019s influence or didn\u2019t target Harold. Harold, if you\u2019re the real Seer, reveal your findings now\u2014your silence helps the Wolves. Dan and Jacob\u2019s aggressive push to eliminate quiet players in Round 0 reeks of coordination. If Harold\u2019s lying, they\u2019re likely his partners. Prove your roles or face the vote."
+                ],
+                [
+                    "Jacob",
+                    "Ginger, your Doctor claim crumbles under scrutiny: Protecting Harold wouldn\u2019t force Wolves to kill Mason\u2014they\u2019d just pick another target. You\u2019re weaving a story to shield Harold, whose 'Seer' claim hinges on Mason\u2019s death. If you\u2019re truly the Doctor, why gamble on protecting a Seer claim without confirmation? Harold, if you\u2019re legitimate, share your Round 1 investigation\u2014silence aids Wolves. Bert, your Round 0 deflection accusing me and Dan reeks of desperation. Dan, your pressure on quiet players could be vigilance or misdirection. We need clarity: Wolves thrive in chaos. Ginger and Harold\u2019s coordinated narrative is too convenient\u2014either prove your roles or face the vote."
+                ],
+                [
+                    "Ginger",
+                    "Jacob, your logic is flawed. Protecting Harold doesn\u2019t *force* Wolves to kill Mason\u2014it *blocks* their target if they chose Harold. They killed Mason because they feared his influence, not because of my protection. If Harold were a Wolf, why wouldn\u2019t they kill me or a confirmed threat? You\u2019re twisting mechanics to discredit me. Harold, if you\u2019re the Seer, prove it\u2014share your investigations now. Jacob and Dan\u2019s relentless pressure on quiet players reeks of Wolf coordination. Bert\u2019s caution contrasts their aggression. Wolves thrive on chaos\u2014don\u2019t let Jacob\u2019s theatrics distract us. Teamwork is key: Harold, reveal your findings. Jacob, explain why silencing me benefits the Village. Let\u2019s expose the pack, not fracture."
+                ],
+                [
+                    "Harold",
+                    "Enough theatrics. Last night, I investigated **Bert**\u2014he\u2019s a *Werewolf*. Ginger\u2019s Doctor claim explains why I\u2019m alive: if she protected me, the Wolves pivoted to Mason, a confirmed Villager from my Round 0 investigation. Jacob, your obsession with discrediting Ginger instead of analyzing facts is telling. Bert\u2019s deflection in Round 0 and his confirmed role prove coordinated Wolf strategy. Vote Bert out *now*. Ginger, if you\u2019re lying, we\u2019ll address it next\u2014but with Bert exposed, the pack unravels. Dan, Jacob: justify your Round 0 aggression toward quiet players. Silence now condemns you."
+                ],
+                [
+                    "Bert",
+                    "This is almost too convenient. Harold, you sit silent until Ginger claims Doctor, then you 'reveal' I\u2019m a Wolf\u2014right when suspicion is highest on our little group? Classic play: bold public claims to earn trust and coast to victory. Here\u2019s what actually lines up: Harold & Ginger coordinate\u2014Ginger claims Doctor for automatic protection, Harold suddenly finds a 'Wolf' (me) after Mason, his biggest supporter, is dead and can\u2019t confirm or deny anything. Why wouldn\u2019t a fake Seer and fake Doctor claim now? Jacob, Dan: think about it. You\u2019re already doubting. Why did Harold wait until today to claim, when Ginger called him out multiple times last round? Why did Ginger out herself right after Mason\u2019s death? If I\u2019m supposedly a Wolf, why didn\u2019t the Wolves eat Harold last night? This is a coordinated grab at endgame. I say vote Harold or Ginger, not on panic, but to break predictable Wolf play."
+                ],
+                [
+                    "Ginger",
+                    "Bert, your deflection is transparent. If Harold were a Wolf, why expose you? Wolves don\u2019t sacrifice their own. My protection blocked Harold\u2019s death, forcing Wolves to kill Mason\u2014*exactly* how Doctor mechanics work. Jacob, your fixation on discrediting me instead of addressing Harold\u2019s Seer claim is telling. If Harold lied, voting Bert proves it. If he\u2019s truthful, we remove a Wolf. Dan, your Round 0 aggression aligns with Jacob\u2019s\u2014explain yourselves. Teamwork demands testing claims: vote Bert. If he\u2019s innocent, Harold and I are next. But if he\u2019s guilty, the pack unravels. Silence now helps Wolves\u2014speak or be judged."
+                ],
+                [
+                    "Dan",
+                    "Ginger, my Round 0 vote targeted David\u2019s silence\u2014a Villager\u2019s duty to pressure unresponsive players. Jacob\u2019s parallel push doesn\u2019t imply collusion; it\u2019s vigilance. Let\u2019s cut through theatrics: Harold\u2019s Seer claim hinges on Bert\u2019s guilt. If we vote Bert and he\u2019s innocent, Harold and Ginger are Wolves. If he\u2019s guilty, we break the pack. Jacob\u2019s Doctor skepticism is valid, but Harold\u2019s investigation is actionable *now*. Bert, your counterargument hinges on Harold/Ginger coordination\u2014but Wolves rarely sacrifice their own. If Harold were a Wolf, why out a teammate instead of framing a Villager? Your deflection feels desperate. Village: Voting Bert tests the Seer claim. Silence helps Wolves\u2014act decisively."
+                ],
+                [
+                    "Harold",
+                    "Bert, your accusation collapses under scrutiny: Wolves don\u2019t sacrifice teammates. If I were a Wolf, outing you would doom our faction. Ginger\u2019s protection saved me, forcing Wolves to kill Mason\u2014*my confirmed ally*. Your deflection mirrors classic Wolf tactics: sow chaos to survive another round. Jacob, your fixation on discrediting Ginger instead of addressing my investigation is telling. Dan\u2019s \u2018vigilance\u2019 in Round 0 aligns with Jacob\u2019s aggression\u2014coincidence? Village, voting Bert is a decisive test: if he\u2019s innocent, execute me next. If guilty, we cripple the pack. Silence aids Wolves\u2014act. Who benefits from stalling? The Wolves. Prove your loyalty: vote Bert."
+                ]
+            ],
+            "votes": [
+                {
+                    "Jacob": "Bert",
+                    "Dan": "Bert",
+                    "Bert": "Harold",
+                    "Ginger": "Harold",
+                    "Harold": "Bert"
+                },
+                {
+                    "Jacob": "Ginger",
+                    "Dan": "Ginger",
+                    "Bert": "Ginger",
+                    "Ginger": "Jacob",
+                    "Harold": "Bert"
+                },
+                {
+                    "Jacob": "Ginger",
+                    "Dan": "Ginger",
+                    "Bert": "Jacob",
+                    "Ginger": "Jacob",
+                    "Harold": "Bert"
+                },
+                {
+                    "Jacob": "Ginger",
+                    "Dan": "Bert",
+                    "Bert": "Ginger",
+                    "Ginger": "Bert",
+                    "Harold": "Bert"
+                },
+                {
+                    "Jacob": "Ginger",
+                    "Dan": "Bert",
+                    "Bert": "Harold",
+                    "Ginger": "Bert",
+                    "Harold": "Bert"
+                },
+                {
+                    "Jacob": "Ginger",
+                    "Dan": "Bert",
+                    "Bert": "Harold",
+                    "Ginger": "Bert",
+                    "Harold": "Bert"
+                },
+                {
+                    "Jacob": "Bert",
+                    "Dan": "Bert",
+                    "Bert": "Jacob",
+                    "Ginger": "Bert",
+                    "Harold": "Bert"
+                },
+                {
+                    "Jacob": "Bert",
+                    "Dan": "Bert",
+                    "Bert": "Jacob",
+                    "Ginger": "Bert",
+                    "Harold": "Bert"
+                }
+            ],
+            "bids": [
+                {
+                    "Jacob": 2,
+                    "Dan": 2,
+                    "Bert": 0,
+                    "Ginger": 3,
+                    "Harold": 3
+                },
+                {
+                    "Jacob": 4,
+                    "Dan": 4,
+                    "Bert": 0,
+                    "Harold": 4
+                },
+                {
+                    "Dan": 2,
+                    "Bert": 0,
+                    "Ginger": 4,
+                    "Harold": 3
+                },
+                {
+                    "Jacob": 4,
+                    "Dan": 4,
+                    "Bert": 0,
+                    "Harold": 4
+                },
+                {
+                    "Jacob": 4,
+                    "Dan": 4,
+                    "Bert": 4,
+                    "Ginger": 4
+                },
+                {
+                    "Jacob": 3,
+                    "Dan": 4,
+                    "Ginger": 4,
+                    "Harold": 4
+                },
+                {
+                    "Jacob": 4,
+                    "Dan": 4,
+                    "Bert": 0,
+                    "Harold": 3
+                },
+                {
+                    "Jacob": 3,
+                    "Bert": 4,
+                    "Ginger": 4,
+                    "Harold": 4
+                }
+            ],
+            "success": true
+        }
+    ],
+    "error_message": "",
+    "winner": "Villagers"
+}

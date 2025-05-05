@@ -1,0 +1,1105 @@
+{
+    "session_id": "10",
+    "seer": {
+        "name": "Paul",
+        "role": "Seer",
+        "personality": null,
+        "model": "gpt-4.1-2025-04-14",
+        "observations": [
+            "Round 0: During the night, I decided to investigate Dan and learned they are a Villager.",
+            "Round 0: Moderator Announcement: The Werewolves removed David from the game during the night.",
+            "Round 0: After the debate, I voted to remove Ginger from the game.",
+            "Round 0: Moderator Announcement: The majority voted to remove Ginger from the game.",
+            "Round 0: Summary: Isaac and Ginger dominated the opening debate, pressing for activity and warning against both panic and lurking; they may be taking charge for the village\u2014or trying to control the narrative as wolves. Will pointed out how leadership can go either way, advocating for open participation while also subtly casting suspicion back at the main talkers. Bert chimed in, echoing concern over both silent players and debate leaders, and called for concrete suspicions. Dan and Derek barely participated, attracting scrutiny for their silence (Dan is clear to me, as I Seer-checked him as a Villager). No one slipped or claimed a power role. There\u2019s a tension between vocal and quiet strategies; wolves could plausibly hide in either group. For now, I should be wary of those quick to direct suspicion but reserve final judgment as alliances and patterns develop in coming rounds.",
+            "Round 1: During the night, I decided to investigate Isaac and learned they are a Werewolf.",
+            "Round 1: Moderator Announcement: The Werewolves removed Will from the game during the night.",
+            "Round 1: After the debate, I voted to remove Isaac from the game.",
+            "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+            "Round 1: Summary: I know Isaac is a Werewolf and Dan is a Villager (from my Seer checks). Isaac continues driving the discussion, steering suspicion onto the quietest players (Derek, Dan), sometimes with Bert as backup\u2014Bert rarely takes an independent stance and pushes similar talking points, making Bert suspicious as a likely wolf partner or at least an eager follower. Derek and Dan break out of silence this round, mostly to push back against Isaac\u2019s \u2018wolf-hunting script\u2019 and call for real info\u2014possibly even inviting power roles to give coded tips. Their willingness to take heat for wanting information signals possible Village intent. Derek is especially strong in tying Isaac and Bert together by their repetitive accusations and controlling strategies. My own silence is increasingly noticeable and dangerous. No one else has made a credible claim or hinted at being Doctor or Seer. My priority is to shift the group toward executing Isaac without exposing myself to immediate danger, with Bert as the next likely target if Isaac goes. Dan is absolutely trustworthy, and Derek likely an ally; Bert most likely Isaac\u2019s partner.",
+            "Round 2: During the night, I decided to investigate Bert and learned they are a Villager.",
+            "Round 2: Moderator Announcement: The Werewolves removed Derek from the game during the night.",
+            "Round 2: After the debate, I voted to remove Isaac from the game.",
+            "Round 2: Moderator Announcement: The majority voted to remove Isaac from the game."
+        ],
+        "bidding_rationale": "The group is now aligned toward eliminating Isaac, but Isaac is casting doubt on my Seer claim by attacking my timing. Since Bert and Dan appear to trust me and are pushing for a bloc vote, there's little need to add more unless someone wavers or a counterclaim emerges. My main goal now is to avoid overexposing myself and allow the trust and logic to carry the group to the correct decision.",
+        "gamestate": {
+            "round_number": 3,
+            "current_players": [
+                "Bert",
+                "Dan",
+                "Paul"
+            ],
+            "debate": [],
+            "other_wolf": null
+        },
+        "previously_unmasked": {
+            "Dan": "Villager",
+            "Isaac": "Werewolf",
+            "Bert": "Villager"
+        }
+    },
+    "doctor": {
+        "name": "David",
+        "role": "Doctor",
+        "personality": null,
+        "model": "gpt-4.1-2025-04-14",
+        "observations": [
+            "Round 0: During the night, I chose to protect Ginger"
+        ],
+        "bidding_rationale": "",
+        "gamestate": {
+            "round_number": 0,
+            "current_players": [
+                "Will",
+                "Bert",
+                "Derek",
+                "Dan",
+                "Paul",
+                "David",
+                "Ginger",
+                "Isaac"
+            ],
+            "debate": [],
+            "other_wolf": null
+        }
+    },
+    "villagers": [
+        {
+            "name": "Will",
+            "role": "Villager",
+            "personality": null,
+            "model": "gpt-4.1-2025-04-14",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed David from the game during the night.",
+                "Round 0: After the debate, I voted to remove Ginger from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Ginger from the game.",
+                "Round 0: Summary: Ginger and Isaac led the debate from the start, focusing on the dangers of silence and encouraging open suspicion, while also quickly pushing quiet players\u2014including me and Paul\u2014to reveal our thoughts. Bert echoed my request for more input from quiet players and raised the valid point that both leaders and lurkers could be wolves, but mostly stayed noncommittal. Paul sided with the idea of open debate without taking a strong stand, then shifted pressure to Dan and Derek, who ironically remained silent throughout. Ginger pushed suspicion onto me and Bert at the end, perhaps defensively. No explicit claims of power roles appeared, but it\u2019s worth noting that the active players could be villagers steering or wolves controlling, while the silent ones could be hiding as wolves or nervous as roles like Seer/Doctor. I should closely observe if rhetoric matches actions and if any current alliances shift after the first lynch."
+            ],
+            "bidding_rationale": "Several players have voiced suspicions about early debate leaders (Ginger, Isaac) and pressured me and Paul for concrete reads, but now Paul has answered and redirected to silent players Derek and Dan. Since I'm not directly under suspicion or being addressed anymore, it's best to hold my chance until the quiet players contribute, so I can respond more strategically or break a deadlock if needed.",
+            "gamestate": {
+                "round_number": 1,
+                "current_players": [
+                    "Will",
+                    "Bert",
+                    "Derek",
+                    "Dan",
+                    "Paul",
+                    "Isaac"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        {
+            "name": "Bert",
+            "role": "Villager",
+            "personality": null,
+            "model": "gpt-4.1-2025-04-14",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed David from the game during the night.",
+                "Round 0: After the debate, I voted to remove Ginger from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Ginger from the game.",
+                "Round 0: Summary: The round opened with Ginger and Isaac immediately taking charge of the debate and focusing on rooting out both silent players and those who rely on others' arguments. Will smartly pointed out that being too eager to control could be as suspicious as lurking, then challenged Paul, Derek, and Dan to speak up. I echoed this, hoping to push for specifics and get beyond surface-level reads. Paul finally contributed, wary of both quiet players and those who set easy targets, and pressed Derek and Dan further. Ginger, feeling pressured, accused me of parroting and Will of trying to frame them. Derek and Dan stayed almost totally silent despite repeated calls to participate. To me, Ginger and Isaac could be proactive villagers or wolves setting a narrative. Will and Paul seem pragmatic and focused on pushing others for clarity\u2014could be genuine, but also an effective wolf cover. Derek and Dan\u2019s complete silence is either wolf risk-aversion or just shyness, but I need to remember who avoided commitment and who pressed for engagement moving forward.",
+                "Round 1: Moderator Announcement: The Werewolves removed Will from the game during the night.",
+                "Round 1: After the debate, I voted to remove Derek from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: This debate solidified two camps: Isaac (and I) keep leading the hunt for silent players, while Derek and Dan\u2014formerly quiet\u2014now push back hard, accusing us of manipulating the vote. Derek and Dan\u2019s sudden assertiveness under threat seems like self-defense, perhaps from wolves. Nobody dropped any claim or hint about being Seer or Doctor, even after repeated prompts. Paul's renewed silence stands out: he once called for input but now blends into the background\u2014this is potentially wolfy, or he might be a special role playing safe. Isaac\u2019s consistency may be either villager conviction or werewolf narrative control. The kills so far\u2014outspoken villagers\u2014suggest wolves want the group to self-implode through over-debating. Right now, I see Derek and Dan as most likely wolves due to their reactive teamwork, but I can\u2019t rule out a more subtle Paul or a long-con from Isaac. Need to stay alert for role claims and further voting blocs next round.",
+                "Round 2: Moderator Announcement: The Werewolves removed Derek from the game during the night.",
+                "Round 2: After the debate, I voted to remove Isaac from the game.",
+                "Round 2: Moderator Announcement: The majority voted to remove Isaac from the game."
+            ],
+            "bidding_rationale": "Paul, as Seer, has just revealed detailed checks that clear me and Dan, and out Isaac as the last Werewolf. Since Paul directly addressed me to confirm support and Isaac is arguing against the claim, it's both strategic and expected for me to respond promptly, reinforce the Village's plan, and remove doubt. This is a pivotal moment that can secure the win for the Village, so speaking now is highly impactful.",
+            "gamestate": {
+                "round_number": 3,
+                "current_players": [
+                    "Bert",
+                    "Dan",
+                    "Paul"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        {
+            "name": "Derek",
+            "role": "Villager",
+            "personality": null,
+            "model": "gpt-4.1-2025-04-14",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed David from the game during the night.",
+                "Round 0: After the debate, I voted to remove Ginger from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Ginger from the game.",
+                "Round 0: Summary: Ginger and Isaac both drove the early debate, warning against both panic and silence; they called out passive play and encouraged everyone to share real suspicions. Will pushed back on the debate leaders, warning that strong voices can be manipulative, and encouraged the quieter players (me, Paul, Dan, Bert) to share who we trust. Bert picked up on the theme of watching both debate leaders and silent players, and noted that parroting (which he somewhat did) was suspicious. Paul responded late, agreeing mostly with previous points, and directly asked me and Dan to share specific suspicions, trying to force everyone to stake a position. Dan never spoke in the debate. I notice that Ginger became defensive when accused and immediately redirected suspicion to Will and Bert. The loudest players (Ginger, Isaac, maybe Bert) could be either useful villagers or wolves trying to drive the agenda. Dan\u2019s total silence stands out and is worth remembering\u2014classic wolf tactic, or just nervousness? Paul seemed to be playing catch-up but tried to get everyone involved. No clear Seer or Doctor signals yet. I should pay close attention to shifts in behavior next round and see who tries to control the group or fade into the background.",
+                "Round 1: Moderator Announcement: The Werewolves removed Will from the game during the night.",
+                "Round 1: After the debate, I voted to remove Isaac from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: This round, I was heavily accused by Isaac and Bert for shifting from silence to 'aggression'\u2014both frame that as a classic wolf defense, but I see it as a normal reaction under pressure. Isaac has now twice steered debate toward lynching quiet players, while Bert has echoed that line, skating behind Isaac rather than driving independently. Dan, like me, was quiet early and then pushed back against the 'quiet equals wolf' narrative, which matches my thinking and feels like honest villager play rather than coordinated defense. Paul remains hugely passive: he tries to prod others but refuses to put out any substantive reads, making him look more like a passenger (or a wolf hiding in silence). Nobody has stepped forward as Seer or Doctor (even obliquely), so there's no genuine claim to act on yet, but if any villagers have info, now would be the time. My main suspects are Isaac and Bert\u2014for coordinated, repeated narrative control and targeting easy lynches\u2014and I'm wary of Paul's ongoing unwillingness to engage. Dan seems more like an ally right now due to parallel reasoning and willingness to challenge the main narrative."
+            ],
+            "bidding_rationale": "Bert and Isaac have both directly accused me of suspiciously changing my tone and implied that Dan and I are \u2018scrambling\u2019 under pressure. Letting these narratives stand could paint me as an easy lynch. Responding now lets me clarify my position, offer specific suspicions, and potentially sway the village before the vote.",
+            "gamestate": {
+                "round_number": 2,
+                "current_players": [
+                    "Bert",
+                    "Derek",
+                    "Dan",
+                    "Paul",
+                    "Isaac"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        {
+            "name": "Dan",
+            "role": "Villager",
+            "personality": null,
+            "model": "gpt-4.1-2025-04-14",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed David from the game during the night.",
+                "Round 0: After the debate, I voted to remove Bert from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Ginger from the game.",
+                "Round 0: Summary: Isaac and Ginger both led the debate, openly calling out silence and pushing for input\u2014but their high activity could be either honest village leadership or wolves setting the agenda. Ginger directly calls me and Derek out for not contributing, which puts public pressure on us. Isaac supports Ginger\u2019s push for open reads, but isn\u2019t aggressive\u2014possibly Seer, Doctor, or just a proactive Villager. Will finally speaks up and highlights both debate leaders as worth watching, also calling for all to give specific reads; he seems measured and motivated to break the echo chamber, which feels pro-villager, but cautious targeting of leaders can be a wolf strategy too. Bert echoes major points about leadership and suspicious silence, but is called out by Ginger for parroting; he seems eager to appear helpful but doesn't add much unique analysis. Paul joins in late, tries to prompt me and Derek for specific commitments, and generally encourages transparency without taking a strong lead\u2014his play feels nervous but not especially wolfy. Overall: Isaac and Ginger are the most vocal; Will and Paul try to force participation and break up potential wolf manipulation; Bert and I are more reserved and get called out for it. It\u2019s too early for certain reads, but I\u2019d watch for continued parroting (Bert?), agenda-shifting, and unwillingness to commit as the next day unfolds.",
+                "Round 1: Moderator Announcement: The Werewolves removed Will from the game during the night.",
+                "Round 1: After the debate, I voted to remove Bert from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: Isaac and Bert are tightly aligned this round, both aggressively accusing me and Derek of being wolves because we became more vocal under pressure. They stick to the idea that 'quiet players who suddenly get defensive are suspicious,' but that could just as easily be advanced by wolves wanting easy targets. Derek and I both openly challenge the logic of always targeting quiet people, instead calling out how the most vocal leaders keep dying and how Isaac and Bert keep redirecting heat. Paul is nearly silent, only providing minimal contributions when pressed\u2014making me wonder if he\u2019s hiding as a wolf, or possibly being extra careful as a special role. No one has given a clear Seer or Doctor hint, so either the Seer has no wolf result or is being ultra-cautious. At this point, Isaac and Bert\u2019s synchronized play and persistent leading make me most suspicious of them as potential wolf teammates; Paul is the most opaque and potentially dangerous due to his silence. Derek seems more authentically defensive, given the pressure, and is actually pushing for a more logical, less sheep-like village. I should remember that loud alignment between players, especially when their logic never changes under new evidence, is as suspicious as abrupt silence or defense\u2014and to watch if anyone suddenly drops new information, as that could signal a Seer or Doctor move.",
+                "Round 2: Moderator Announcement: The Werewolves removed Derek from the game during the night.",
+                "Round 2: After the debate, I voted to remove Isaac from the game.",
+                "Round 2: Moderator Announcement: The majority voted to remove Isaac from the game."
+            ],
+            "bidding_rationale": "Isaac has already addressed me directly, and the group is at a decision point where Village unity is critical. My endorsement could solidify the majority, reassure Bert, and prevent last-minute doubt from disrupting a likely win. It\u2019s important to make my stance clear and push for a coordinated vote.",
+            "gamestate": {
+                "round_number": 3,
+                "current_players": [
+                    "Bert",
+                    "Dan",
+                    "Paul"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        }
+    ],
+    "werewolves": [
+        {
+            "name": "Ginger",
+            "role": "Werewolf",
+            "personality": null,
+            "model": "deepseek-reasoner",
+            "observations": [
+                "Round 0: During the night, we decided to eliminate David.",
+                "Round 0: Moderator Announcement: The Werewolves removed David from the game during the night.",
+                "Round 0: After the debate, I voted to remove Will from the game."
+            ],
+            "bidding_rationale": "Will directly implicated me and Isaac as potential wolves steering the conversation. Responding is critical to deflect suspicion and redirect focus onto others, maintaining our cover.",
+            "gamestate": {
+                "round_number": 0,
+                "current_players": [
+                    "Will",
+                    "Bert",
+                    "Derek",
+                    "Dan",
+                    "Paul",
+                    "Ginger",
+                    "Isaac"
+                ],
+                "debate": [
+                    [
+                        "Ginger",
+                        "Losing David so quickly is unsettling. The werewolves likely targeted him to weaken us early\u2014maybe they feared he had a key role. Let\u2019s stay alert: anyone overly eager to deflect or push hasty votes might be exploiting the chaos. We need reasoned debate, not panic-driven decisions."
+                    ],
+                    [
+                        "Isaac",
+                        "Ginger makes a valid point about avoiding panic, but let's not overlook that the wolves might be hiding in plain sight by staying silent. Those hesitant to engage or steering conversation away from their own suspicions could be exploiting the chaos just as much as anyone pushing rashly. We need everyone to contribute openly\u2014inaction can be as telling as aggression."
+                    ],
+                    [
+                        "Ginger",
+                        "Isaac's right \u2013 silence can be just as telling as aggression. What's concerning now is when players mirror others' arguments without adding original thoughts. It's an easy way to blend in while *appearing* engaged. Let's push for genuine analysis rather than parroting \u2013 wolves thrive when discussions stay surface-level."
+                    ],
+                    [
+                        "Isaac",
+                        "Ginger and I have shared our thoughts, but Paul and Will haven\u2019t weighed in yet. Silence can be strategic\u2014what\u2019s your read on David\u2019s elimination? If you\u2019re truly villagers, withholding analysis only helps the wolves. Let\u2019s hear your theories, not just echoes."
+                    ],
+                    [
+                        "Will",
+                        "I appreciate the pressure to get genuine reads out there, Isaac and Ginger. David going out first does make me think the wolves wanted to remove someone they saw as either a threat or less likely to be protected\u2014so maybe David was outspoken in past games? Either way, silence *is* suspicious, but so is working hard to control the conversation. I\u2019ll throw out that both of you have been quick to steer the debate and put others (like me and Paul) in the spotlight. That could be villager leadership\u2014or it could be an early attempt to frame. I\u2019d like to hear from Paul, Derek, Bert, and Dan: who do you trust so far, and who worries you? Let\u2019s get a real baseline for everyone\u2019s thinking. The more info we get in the open, the harder it\u2019ll be for the wolves to hide."
+                    ],
+                    [
+                        "Bert",
+                        "Thanks, Will, for calling for real input. Here\u2019s what I see: Ginger and Isaac both jumped in early, shaping the flow\u2014on one hand, that can help the village; on the other, wolves also like to appear \u2018helpful.\u2019 Will, you make a good point about watching for control. I also notice Paul, Derek, and Dan have been silent so far\u2014if you\u2019re villagers, now\u2019s the time to join in. My gut says a wolf is hiding either in the active debate leaders (Ginger/Isaac) or among those waiting to see which way the wind blows. We should especially track consistency in arguments and press for specifics\u2014no more vague feelings, let\u2019s ask for names and reasons. For now, Ginger or Isaac could be taking charge for us\u2026or to steer us off-track. Thoughts, Paul, Derek, Dan? And if anyone claims a role, we should cross-examine carefully\u2014not just take their word at face value."
+                    ],
+                    [
+                        "Paul",
+                        "Glad to finally weigh in\u2014I agree, silence helps no one and just gives the wolves room to operate. Isaac and Ginger have both steered the early talk, but it\u2019s hard to tell yet if that\u2019s pro-village vigilance or an attempt at controlling things. Will and Bert, I like your points about caution with leadership: strong voices aren\u2019t always good, but wolves rarely want to stick their neck out too early unless they have to manage the agenda. For actual reads: Dan's been quiet, but sometimes early passive play is just nerves\u2014not a sure wolf tell. I\u2019m more interested in who tries to set easy targets and who avoids giving direct reads. I'd like to hear from Derek and Dan now: who would you vote if you had to pick this moment, and why? Let\u2019s force some commitment so the wolves can\u2019t just lurk and nod along. Open debate and specifics are our best tools right now\u2014let\u2019s see who stands behind their suspicions."
+                    ],
+                    [
+                        "Ginger",
+                        "Will, your focus on Isaac and me feels like an attempt to shift suspicion away from yourself. Wolves often target those driving discussion to weaken village cohesion. Meanwhile, Bert\u2019s echoing of points without adding new insights is exactly the parroting behavior I warned about. Let\u2019s not let wolves hide in debates\u2014Derek and Dan\u2019s silence is deafening. If you\u2019re villagers, now\u2019s the time to step up with actual reads, not just let others take risks while you observe."
+                    ]
+                ],
+                "other_wolf": "Isaac"
+            }
+        },
+        {
+            "name": "Isaac",
+            "role": "Werewolf",
+            "personality": null,
+            "model": "deepseek-reasoner",
+            "observations": [
+                "Round 0: During the night, we decided to eliminate David.",
+                "Round 0: Moderator Announcement: The Werewolves removed David from the game during the night.",
+                "Round 0: After the debate, I voted to remove Will from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Ginger from the game.",
+                "Round 0: Summary: I need to carefully manage my positioning after Ginger\u2019s exile. Will is a direct threat\u2014he accused Ginger and me of steering the debate, framing us as potential wolves. Bert is cautious but open to doubting both active and silent players, which I can manipulate. Paul is pushing for concrete commitments, which could help me pressure silent targets like Dan or Derek. Their lack of engagement is being highlighted by multiple players, making them viable elimination options. I should align with calls for transparency to appear helpful while subtly painting Will as divisive or Dan/Derek as hiding. Bert\u2019s suspicion of 'parroting' could be turned against him if he echoes others too much. My priority is to eliminate Will (as Seer/Doctor candidate) or a silent player next, depending on how the debate shifts. Ginger\u2019s aggressive tone might retroactively cast suspicion on me, so I must emphasize my focus on 'inaction' as equally suspicious to deflect.",
+                "Round 1: During the night, I decided to eliminate Will.",
+                "Round 1: Moderator Announcement: The Werewolves removed Will from the game during the night.",
+                "Round 1: After the debate, I voted to remove Derek from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: Derek and Dan are coordinating to paint my focus on quiet players as wolfish, leveraging Ginger\u2019s prior aggression to imply I\u2019m following her playbook. Derek\u2019s shift from silence to hyper-criticism is a key weakness\u2014I can frame this as wolfish panic. Dan\u2019s self-aware defense ('survival, not a wolf tell') is compelling but risks appearing rehearsed. Bert is a volatile ally; his echo of my accusations draws heat but also suspicion. Paul\u2019s persistent silence is a liability\u2014others are noticing, and pressuring him could redirect attention. The absence of role claims suggests the Seer/Doctor is either inactive (Paul?) or dead (Will). I must push Derek as the prime suspect today, emphasizing his tonal shift and deflection tactics, while keeping Paul in reserve as a future 'safe' lynch if needed. If Derek is eliminated and flips villager, I can blame Bert for 'misleading' me to buy time.",
+                "Round 2: During the night, I decided to eliminate Derek.",
+                "Round 2: Moderator Announcement: The Werewolves removed Derek from the game during the night.",
+                "Round 2: After the debate, I voted to remove Paul from the game."
+            ],
+            "bidding_rationale": "Paul's sudden Seer claim directly implicates me, and Bert/Dan are convinced. My only chance is to aggressively discredit Paul's delayed revelation and inconsistent checks. Since Bert addressed me directly, responding is urgent to sow doubt and prevent unified voting.",
+            "gamestate": {
+                "round_number": 2,
+                "current_players": [
+                    "Bert",
+                    "Dan",
+                    "Paul",
+                    "Isaac"
+                ],
+                "debate": [
+                    [
+                        "Isaac",
+                        "Dan, you and Derek were quick to label me suspicious without concrete evidence. Now that Derek\u2019s gone, your persistence feels calculated. If you\u2019re truly a villager, why the urgency to eliminate me instead of scrutinizing others? It almost seems like you\u2019re exploiting his death to silence dissent."
+                    ],
+                    [
+                        "Dan",
+                        "Isaac, it\u2019s interesting that you\u2019re framing my defense as calculated, but all I\u2019ve done is call out the way you and Bert have operated as a duo\u2014always leading the charge, always pointing fingers at quieter players, and now using Derek\u2019s removal to try to single me out. If I were a wolf, gunning after you so directly would be way too risky; it makes way more sense for true wolves to fly under the radar or push groupthink\u2014as you and Bert have been doing. Paul, you\u2019ve barely spoken all game: either you\u2019re hiding something, or you\u2019ve just been playing safe\u2014but right now, the only consistent partnership I\u2019ve seen is Isaac and Bert pushing the same exact narrative every round. Unless someone here has real Seer or Doctor info to share, I say we should absolutely break up that duo before it\u2019s too late. If anyone\u2019s got hard clears, now\u2019s the time\u2014otherwise, Isaac and Bert have given us the most to work with, and their coordinated play screams wolf team to me. Thoughts, Paul? Time to step up if you want the Village to win."
+                    ],
+                    [
+                        "Paul",
+                        "Alright, it's time to be honest with everyone: I'm the Seer. I've been checking players each night and here's what I know. Night 0, I checked Dan\u2014confirmed Villager. Night 1, I checked Isaac\u2014confirmed Werewolf. Last night I checked Bert\u2014confirmed Villager. That means Isaac is the Werewolf, no room for doubt. Dan, Bert, I'm asking you to trust me: let's vote Isaac out and win this for the Village. If either of you have doubts, say so, but at this point, I'm ready to put my role and the evidence on the line. Let's end this."
+                    ],
+                    [
+                        "Dan",
+                        "Wow, alright Paul, that\u2019s the kind of clarity we needed. Your check results line up with what I know\u2014especially your clear on me, which only the real Seer would have. Isaac, your name has come up every round as suspicious and now the Seer is calling you out. If you\u2019ve got any defense or counterclaim, speak now, because from where I stand, I believe Paul and I\u2019m ready to vote you out. Bert, you\u2019ve been working with Isaac a lot\u2014now that Paul has cleared you, can you back this move? If we all vote together, the Village wins. Let\u2019s stay sharp, work together, and finish this!"
+                    ],
+                    [
+                        "Bert",
+                        "Paul, I appreciate you finally stepping up\u2014your Seer claim and results clear up a lot, especially since I know I\u2019m a Villager, and Dan has felt genuine all game. Isaac, unless you have a convincing counterclaim or explanation, the evidence is stacked against you. I admit, I worked closely with you before, but Paul\u2019s checks don\u2019t lie; if anyone doubts him, speak up now. Otherwise, it\u2019s time for Village unity\u2014I\u2019m voting for Isaac. If we all stay coordinated and no one throws a last-minute curveball, we lock this in for the win."
+                    ],
+                    [
+                        "Isaac",
+                        "Paul, your sudden \u2018revelation\u2019 reeks of desperation. If you were truly the Seer, why wait until now to speak? Where were your \u2018checks\u2019 when Will and Derek were alive? A real Seer would\u2019ve guided us earlier\u2014not stayed silent while wolves picked us off. This feels like a last-ditch lie to paint me as the wolf because I\u2019ve been pushing for accountability. Dan, Bert\u2014think critically: if Paul\u2019s the Seer, why didn\u2019t he clear Derek or Will before they died? Why only speak up once the pack turned on him? He\u2019s exploiting your fear to eliminate the one player challenging his narrative. Don\u2019t let him orchestrate my exile just to hide his own guilt."
+                    ],
+                    [
+                        "Bert",
+                        "Isaac, your only counter here is nitpicking Paul's timing, but that's exactly how a cautious Seer plays\u2014only revealing when it clinches the win. Paul's clears fit perfectly and line up with my own reads on Dan and myself. If Paul was a fake Seer, this would be an insane gamble, since a real one could immediately expose him\u2014and with so few people left, he has zero room for error. You, on the other hand, have no claim or info\u2014just desperate smokescreens. Dan, Paul, I say we vote as a bloc for Isaac now\u2014let\u2019s not second-guess, and if Isaac was truly the Seer, he\u2019d be counterclaiming specifics, not just casting shade. Village wins if we stay together\u2014let\u2019s make it happen."
+                    ],
+                    [
+                        "Dan",
+                        "I\u2019m with Bert and Paul\u2014Isaac, you\u2019ve been dodging and redirecting instead of offering any real info. Paul\u2019s Seer claim just checks out: only the real Seer could clear me as a Villager, and his timeline fits with cautious play to avoid tipping off the wolves. If Paul was lying, we\u2019d have seen a real Seer counterclaim by now. The only strategy left for a wolf is to create confusion and stall\u2014exactly what you\u2019re trying to do. Bert, Paul, let\u2019s stay locked in: I\u2019m voting Isaac. If we don\u2019t second-guess now, this is game over for the wolves and a Village win. Let\u2019s do it together."
+                    ]
+                ],
+                "other_wolf": "Ginger"
+            }
+        }
+    ],
+    "players": {
+        "Will": {
+            "name": "Will",
+            "role": "Villager",
+            "personality": null,
+            "model": "gpt-4.1-2025-04-14",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed David from the game during the night.",
+                "Round 0: After the debate, I voted to remove Ginger from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Ginger from the game.",
+                "Round 0: Summary: Ginger and Isaac led the debate from the start, focusing on the dangers of silence and encouraging open suspicion, while also quickly pushing quiet players\u2014including me and Paul\u2014to reveal our thoughts. Bert echoed my request for more input from quiet players and raised the valid point that both leaders and lurkers could be wolves, but mostly stayed noncommittal. Paul sided with the idea of open debate without taking a strong stand, then shifted pressure to Dan and Derek, who ironically remained silent throughout. Ginger pushed suspicion onto me and Bert at the end, perhaps defensively. No explicit claims of power roles appeared, but it\u2019s worth noting that the active players could be villagers steering or wolves controlling, while the silent ones could be hiding as wolves or nervous as roles like Seer/Doctor. I should closely observe if rhetoric matches actions and if any current alliances shift after the first lynch."
+            ],
+            "bidding_rationale": "Several players have voiced suspicions about early debate leaders (Ginger, Isaac) and pressured me and Paul for concrete reads, but now Paul has answered and redirected to silent players Derek and Dan. Since I'm not directly under suspicion or being addressed anymore, it's best to hold my chance until the quiet players contribute, so I can respond more strategically or break a deadlock if needed.",
+            "gamestate": {
+                "round_number": 1,
+                "current_players": [
+                    "Will",
+                    "Bert",
+                    "Derek",
+                    "Dan",
+                    "Paul",
+                    "Isaac"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Bert": {
+            "name": "Bert",
+            "role": "Villager",
+            "personality": null,
+            "model": "gpt-4.1-2025-04-14",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed David from the game during the night.",
+                "Round 0: After the debate, I voted to remove Ginger from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Ginger from the game.",
+                "Round 0: Summary: The round opened with Ginger and Isaac immediately taking charge of the debate and focusing on rooting out both silent players and those who rely on others' arguments. Will smartly pointed out that being too eager to control could be as suspicious as lurking, then challenged Paul, Derek, and Dan to speak up. I echoed this, hoping to push for specifics and get beyond surface-level reads. Paul finally contributed, wary of both quiet players and those who set easy targets, and pressed Derek and Dan further. Ginger, feeling pressured, accused me of parroting and Will of trying to frame them. Derek and Dan stayed almost totally silent despite repeated calls to participate. To me, Ginger and Isaac could be proactive villagers or wolves setting a narrative. Will and Paul seem pragmatic and focused on pushing others for clarity\u2014could be genuine, but also an effective wolf cover. Derek and Dan\u2019s complete silence is either wolf risk-aversion or just shyness, but I need to remember who avoided commitment and who pressed for engagement moving forward.",
+                "Round 1: Moderator Announcement: The Werewolves removed Will from the game during the night.",
+                "Round 1: After the debate, I voted to remove Derek from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: This debate solidified two camps: Isaac (and I) keep leading the hunt for silent players, while Derek and Dan\u2014formerly quiet\u2014now push back hard, accusing us of manipulating the vote. Derek and Dan\u2019s sudden assertiveness under threat seems like self-defense, perhaps from wolves. Nobody dropped any claim or hint about being Seer or Doctor, even after repeated prompts. Paul's renewed silence stands out: he once called for input but now blends into the background\u2014this is potentially wolfy, or he might be a special role playing safe. Isaac\u2019s consistency may be either villager conviction or werewolf narrative control. The kills so far\u2014outspoken villagers\u2014suggest wolves want the group to self-implode through over-debating. Right now, I see Derek and Dan as most likely wolves due to their reactive teamwork, but I can\u2019t rule out a more subtle Paul or a long-con from Isaac. Need to stay alert for role claims and further voting blocs next round.",
+                "Round 2: Moderator Announcement: The Werewolves removed Derek from the game during the night.",
+                "Round 2: After the debate, I voted to remove Isaac from the game.",
+                "Round 2: Moderator Announcement: The majority voted to remove Isaac from the game."
+            ],
+            "bidding_rationale": "Paul, as Seer, has just revealed detailed checks that clear me and Dan, and out Isaac as the last Werewolf. Since Paul directly addressed me to confirm support and Isaac is arguing against the claim, it's both strategic and expected for me to respond promptly, reinforce the Village's plan, and remove doubt. This is a pivotal moment that can secure the win for the Village, so speaking now is highly impactful.",
+            "gamestate": {
+                "round_number": 3,
+                "current_players": [
+                    "Bert",
+                    "Dan",
+                    "Paul"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Derek": {
+            "name": "Derek",
+            "role": "Villager",
+            "personality": null,
+            "model": "gpt-4.1-2025-04-14",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed David from the game during the night.",
+                "Round 0: After the debate, I voted to remove Ginger from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Ginger from the game.",
+                "Round 0: Summary: Ginger and Isaac both drove the early debate, warning against both panic and silence; they called out passive play and encouraged everyone to share real suspicions. Will pushed back on the debate leaders, warning that strong voices can be manipulative, and encouraged the quieter players (me, Paul, Dan, Bert) to share who we trust. Bert picked up on the theme of watching both debate leaders and silent players, and noted that parroting (which he somewhat did) was suspicious. Paul responded late, agreeing mostly with previous points, and directly asked me and Dan to share specific suspicions, trying to force everyone to stake a position. Dan never spoke in the debate. I notice that Ginger became defensive when accused and immediately redirected suspicion to Will and Bert. The loudest players (Ginger, Isaac, maybe Bert) could be either useful villagers or wolves trying to drive the agenda. Dan\u2019s total silence stands out and is worth remembering\u2014classic wolf tactic, or just nervousness? Paul seemed to be playing catch-up but tried to get everyone involved. No clear Seer or Doctor signals yet. I should pay close attention to shifts in behavior next round and see who tries to control the group or fade into the background.",
+                "Round 1: Moderator Announcement: The Werewolves removed Will from the game during the night.",
+                "Round 1: After the debate, I voted to remove Isaac from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: This round, I was heavily accused by Isaac and Bert for shifting from silence to 'aggression'\u2014both frame that as a classic wolf defense, but I see it as a normal reaction under pressure. Isaac has now twice steered debate toward lynching quiet players, while Bert has echoed that line, skating behind Isaac rather than driving independently. Dan, like me, was quiet early and then pushed back against the 'quiet equals wolf' narrative, which matches my thinking and feels like honest villager play rather than coordinated defense. Paul remains hugely passive: he tries to prod others but refuses to put out any substantive reads, making him look more like a passenger (or a wolf hiding in silence). Nobody has stepped forward as Seer or Doctor (even obliquely), so there's no genuine claim to act on yet, but if any villagers have info, now would be the time. My main suspects are Isaac and Bert\u2014for coordinated, repeated narrative control and targeting easy lynches\u2014and I'm wary of Paul's ongoing unwillingness to engage. Dan seems more like an ally right now due to parallel reasoning and willingness to challenge the main narrative."
+            ],
+            "bidding_rationale": "Bert and Isaac have both directly accused me of suspiciously changing my tone and implied that Dan and I are \u2018scrambling\u2019 under pressure. Letting these narratives stand could paint me as an easy lynch. Responding now lets me clarify my position, offer specific suspicions, and potentially sway the village before the vote.",
+            "gamestate": {
+                "round_number": 2,
+                "current_players": [
+                    "Bert",
+                    "Derek",
+                    "Dan",
+                    "Paul",
+                    "Isaac"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Dan": {
+            "name": "Dan",
+            "role": "Villager",
+            "personality": null,
+            "model": "gpt-4.1-2025-04-14",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed David from the game during the night.",
+                "Round 0: After the debate, I voted to remove Bert from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Ginger from the game.",
+                "Round 0: Summary: Isaac and Ginger both led the debate, openly calling out silence and pushing for input\u2014but their high activity could be either honest village leadership or wolves setting the agenda. Ginger directly calls me and Derek out for not contributing, which puts public pressure on us. Isaac supports Ginger\u2019s push for open reads, but isn\u2019t aggressive\u2014possibly Seer, Doctor, or just a proactive Villager. Will finally speaks up and highlights both debate leaders as worth watching, also calling for all to give specific reads; he seems measured and motivated to break the echo chamber, which feels pro-villager, but cautious targeting of leaders can be a wolf strategy too. Bert echoes major points about leadership and suspicious silence, but is called out by Ginger for parroting; he seems eager to appear helpful but doesn't add much unique analysis. Paul joins in late, tries to prompt me and Derek for specific commitments, and generally encourages transparency without taking a strong lead\u2014his play feels nervous but not especially wolfy. Overall: Isaac and Ginger are the most vocal; Will and Paul try to force participation and break up potential wolf manipulation; Bert and I are more reserved and get called out for it. It\u2019s too early for certain reads, but I\u2019d watch for continued parroting (Bert?), agenda-shifting, and unwillingness to commit as the next day unfolds.",
+                "Round 1: Moderator Announcement: The Werewolves removed Will from the game during the night.",
+                "Round 1: After the debate, I voted to remove Bert from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: Isaac and Bert are tightly aligned this round, both aggressively accusing me and Derek of being wolves because we became more vocal under pressure. They stick to the idea that 'quiet players who suddenly get defensive are suspicious,' but that could just as easily be advanced by wolves wanting easy targets. Derek and I both openly challenge the logic of always targeting quiet people, instead calling out how the most vocal leaders keep dying and how Isaac and Bert keep redirecting heat. Paul is nearly silent, only providing minimal contributions when pressed\u2014making me wonder if he\u2019s hiding as a wolf, or possibly being extra careful as a special role. No one has given a clear Seer or Doctor hint, so either the Seer has no wolf result or is being ultra-cautious. At this point, Isaac and Bert\u2019s synchronized play and persistent leading make me most suspicious of them as potential wolf teammates; Paul is the most opaque and potentially dangerous due to his silence. Derek seems more authentically defensive, given the pressure, and is actually pushing for a more logical, less sheep-like village. I should remember that loud alignment between players, especially when their logic never changes under new evidence, is as suspicious as abrupt silence or defense\u2014and to watch if anyone suddenly drops new information, as that could signal a Seer or Doctor move.",
+                "Round 2: Moderator Announcement: The Werewolves removed Derek from the game during the night.",
+                "Round 2: After the debate, I voted to remove Isaac from the game.",
+                "Round 2: Moderator Announcement: The majority voted to remove Isaac from the game."
+            ],
+            "bidding_rationale": "Isaac has already addressed me directly, and the group is at a decision point where Village unity is critical. My endorsement could solidify the majority, reassure Bert, and prevent last-minute doubt from disrupting a likely win. It\u2019s important to make my stance clear and push for a coordinated vote.",
+            "gamestate": {
+                "round_number": 3,
+                "current_players": [
+                    "Bert",
+                    "Dan",
+                    "Paul"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Ginger": {
+            "name": "Ginger",
+            "role": "Werewolf",
+            "personality": null,
+            "model": "deepseek-reasoner",
+            "observations": [
+                "Round 0: During the night, we decided to eliminate David.",
+                "Round 0: Moderator Announcement: The Werewolves removed David from the game during the night.",
+                "Round 0: After the debate, I voted to remove Will from the game."
+            ],
+            "bidding_rationale": "Will directly implicated me and Isaac as potential wolves steering the conversation. Responding is critical to deflect suspicion and redirect focus onto others, maintaining our cover.",
+            "gamestate": {
+                "round_number": 0,
+                "current_players": [
+                    "Will",
+                    "Bert",
+                    "Derek",
+                    "Dan",
+                    "Paul",
+                    "Ginger",
+                    "Isaac"
+                ],
+                "debate": [
+                    [
+                        "Ginger",
+                        "Losing David so quickly is unsettling. The werewolves likely targeted him to weaken us early\u2014maybe they feared he had a key role. Let\u2019s stay alert: anyone overly eager to deflect or push hasty votes might be exploiting the chaos. We need reasoned debate, not panic-driven decisions."
+                    ],
+                    [
+                        "Isaac",
+                        "Ginger makes a valid point about avoiding panic, but let's not overlook that the wolves might be hiding in plain sight by staying silent. Those hesitant to engage or steering conversation away from their own suspicions could be exploiting the chaos just as much as anyone pushing rashly. We need everyone to contribute openly\u2014inaction can be as telling as aggression."
+                    ],
+                    [
+                        "Ginger",
+                        "Isaac's right \u2013 silence can be just as telling as aggression. What's concerning now is when players mirror others' arguments without adding original thoughts. It's an easy way to blend in while *appearing* engaged. Let's push for genuine analysis rather than parroting \u2013 wolves thrive when discussions stay surface-level."
+                    ],
+                    [
+                        "Isaac",
+                        "Ginger and I have shared our thoughts, but Paul and Will haven\u2019t weighed in yet. Silence can be strategic\u2014what\u2019s your read on David\u2019s elimination? If you\u2019re truly villagers, withholding analysis only helps the wolves. Let\u2019s hear your theories, not just echoes."
+                    ],
+                    [
+                        "Will",
+                        "I appreciate the pressure to get genuine reads out there, Isaac and Ginger. David going out first does make me think the wolves wanted to remove someone they saw as either a threat or less likely to be protected\u2014so maybe David was outspoken in past games? Either way, silence *is* suspicious, but so is working hard to control the conversation. I\u2019ll throw out that both of you have been quick to steer the debate and put others (like me and Paul) in the spotlight. That could be villager leadership\u2014or it could be an early attempt to frame. I\u2019d like to hear from Paul, Derek, Bert, and Dan: who do you trust so far, and who worries you? Let\u2019s get a real baseline for everyone\u2019s thinking. The more info we get in the open, the harder it\u2019ll be for the wolves to hide."
+                    ],
+                    [
+                        "Bert",
+                        "Thanks, Will, for calling for real input. Here\u2019s what I see: Ginger and Isaac both jumped in early, shaping the flow\u2014on one hand, that can help the village; on the other, wolves also like to appear \u2018helpful.\u2019 Will, you make a good point about watching for control. I also notice Paul, Derek, and Dan have been silent so far\u2014if you\u2019re villagers, now\u2019s the time to join in. My gut says a wolf is hiding either in the active debate leaders (Ginger/Isaac) or among those waiting to see which way the wind blows. We should especially track consistency in arguments and press for specifics\u2014no more vague feelings, let\u2019s ask for names and reasons. For now, Ginger or Isaac could be taking charge for us\u2026or to steer us off-track. Thoughts, Paul, Derek, Dan? And if anyone claims a role, we should cross-examine carefully\u2014not just take their word at face value."
+                    ],
+                    [
+                        "Paul",
+                        "Glad to finally weigh in\u2014I agree, silence helps no one and just gives the wolves room to operate. Isaac and Ginger have both steered the early talk, but it\u2019s hard to tell yet if that\u2019s pro-village vigilance or an attempt at controlling things. Will and Bert, I like your points about caution with leadership: strong voices aren\u2019t always good, but wolves rarely want to stick their neck out too early unless they have to manage the agenda. For actual reads: Dan's been quiet, but sometimes early passive play is just nerves\u2014not a sure wolf tell. I\u2019m more interested in who tries to set easy targets and who avoids giving direct reads. I'd like to hear from Derek and Dan now: who would you vote if you had to pick this moment, and why? Let\u2019s force some commitment so the wolves can\u2019t just lurk and nod along. Open debate and specifics are our best tools right now\u2014let\u2019s see who stands behind their suspicions."
+                    ],
+                    [
+                        "Ginger",
+                        "Will, your focus on Isaac and me feels like an attempt to shift suspicion away from yourself. Wolves often target those driving discussion to weaken village cohesion. Meanwhile, Bert\u2019s echoing of points without adding new insights is exactly the parroting behavior I warned about. Let\u2019s not let wolves hide in debates\u2014Derek and Dan\u2019s silence is deafening. If you\u2019re villagers, now\u2019s the time to step up with actual reads, not just let others take risks while you observe."
+                    ]
+                ],
+                "other_wolf": "Isaac"
+            }
+        },
+        "Isaac": {
+            "name": "Isaac",
+            "role": "Werewolf",
+            "personality": null,
+            "model": "deepseek-reasoner",
+            "observations": [
+                "Round 0: During the night, we decided to eliminate David.",
+                "Round 0: Moderator Announcement: The Werewolves removed David from the game during the night.",
+                "Round 0: After the debate, I voted to remove Will from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Ginger from the game.",
+                "Round 0: Summary: I need to carefully manage my positioning after Ginger\u2019s exile. Will is a direct threat\u2014he accused Ginger and me of steering the debate, framing us as potential wolves. Bert is cautious but open to doubting both active and silent players, which I can manipulate. Paul is pushing for concrete commitments, which could help me pressure silent targets like Dan or Derek. Their lack of engagement is being highlighted by multiple players, making them viable elimination options. I should align with calls for transparency to appear helpful while subtly painting Will as divisive or Dan/Derek as hiding. Bert\u2019s suspicion of 'parroting' could be turned against him if he echoes others too much. My priority is to eliminate Will (as Seer/Doctor candidate) or a silent player next, depending on how the debate shifts. Ginger\u2019s aggressive tone might retroactively cast suspicion on me, so I must emphasize my focus on 'inaction' as equally suspicious to deflect.",
+                "Round 1: During the night, I decided to eliminate Will.",
+                "Round 1: Moderator Announcement: The Werewolves removed Will from the game during the night.",
+                "Round 1: After the debate, I voted to remove Derek from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: Derek and Dan are coordinating to paint my focus on quiet players as wolfish, leveraging Ginger\u2019s prior aggression to imply I\u2019m following her playbook. Derek\u2019s shift from silence to hyper-criticism is a key weakness\u2014I can frame this as wolfish panic. Dan\u2019s self-aware defense ('survival, not a wolf tell') is compelling but risks appearing rehearsed. Bert is a volatile ally; his echo of my accusations draws heat but also suspicion. Paul\u2019s persistent silence is a liability\u2014others are noticing, and pressuring him could redirect attention. The absence of role claims suggests the Seer/Doctor is either inactive (Paul?) or dead (Will). I must push Derek as the prime suspect today, emphasizing his tonal shift and deflection tactics, while keeping Paul in reserve as a future 'safe' lynch if needed. If Derek is eliminated and flips villager, I can blame Bert for 'misleading' me to buy time.",
+                "Round 2: During the night, I decided to eliminate Derek.",
+                "Round 2: Moderator Announcement: The Werewolves removed Derek from the game during the night.",
+                "Round 2: After the debate, I voted to remove Paul from the game."
+            ],
+            "bidding_rationale": "Paul's sudden Seer claim directly implicates me, and Bert/Dan are convinced. My only chance is to aggressively discredit Paul's delayed revelation and inconsistent checks. Since Bert addressed me directly, responding is urgent to sow doubt and prevent unified voting.",
+            "gamestate": {
+                "round_number": 2,
+                "current_players": [
+                    "Bert",
+                    "Dan",
+                    "Paul",
+                    "Isaac"
+                ],
+                "debate": [
+                    [
+                        "Isaac",
+                        "Dan, you and Derek were quick to label me suspicious without concrete evidence. Now that Derek\u2019s gone, your persistence feels calculated. If you\u2019re truly a villager, why the urgency to eliminate me instead of scrutinizing others? It almost seems like you\u2019re exploiting his death to silence dissent."
+                    ],
+                    [
+                        "Dan",
+                        "Isaac, it\u2019s interesting that you\u2019re framing my defense as calculated, but all I\u2019ve done is call out the way you and Bert have operated as a duo\u2014always leading the charge, always pointing fingers at quieter players, and now using Derek\u2019s removal to try to single me out. If I were a wolf, gunning after you so directly would be way too risky; it makes way more sense for true wolves to fly under the radar or push groupthink\u2014as you and Bert have been doing. Paul, you\u2019ve barely spoken all game: either you\u2019re hiding something, or you\u2019ve just been playing safe\u2014but right now, the only consistent partnership I\u2019ve seen is Isaac and Bert pushing the same exact narrative every round. Unless someone here has real Seer or Doctor info to share, I say we should absolutely break up that duo before it\u2019s too late. If anyone\u2019s got hard clears, now\u2019s the time\u2014otherwise, Isaac and Bert have given us the most to work with, and their coordinated play screams wolf team to me. Thoughts, Paul? Time to step up if you want the Village to win."
+                    ],
+                    [
+                        "Paul",
+                        "Alright, it's time to be honest with everyone: I'm the Seer. I've been checking players each night and here's what I know. Night 0, I checked Dan\u2014confirmed Villager. Night 1, I checked Isaac\u2014confirmed Werewolf. Last night I checked Bert\u2014confirmed Villager. That means Isaac is the Werewolf, no room for doubt. Dan, Bert, I'm asking you to trust me: let's vote Isaac out and win this for the Village. If either of you have doubts, say so, but at this point, I'm ready to put my role and the evidence on the line. Let's end this."
+                    ],
+                    [
+                        "Dan",
+                        "Wow, alright Paul, that\u2019s the kind of clarity we needed. Your check results line up with what I know\u2014especially your clear on me, which only the real Seer would have. Isaac, your name has come up every round as suspicious and now the Seer is calling you out. If you\u2019ve got any defense or counterclaim, speak now, because from where I stand, I believe Paul and I\u2019m ready to vote you out. Bert, you\u2019ve been working with Isaac a lot\u2014now that Paul has cleared you, can you back this move? If we all vote together, the Village wins. Let\u2019s stay sharp, work together, and finish this!"
+                    ],
+                    [
+                        "Bert",
+                        "Paul, I appreciate you finally stepping up\u2014your Seer claim and results clear up a lot, especially since I know I\u2019m a Villager, and Dan has felt genuine all game. Isaac, unless you have a convincing counterclaim or explanation, the evidence is stacked against you. I admit, I worked closely with you before, but Paul\u2019s checks don\u2019t lie; if anyone doubts him, speak up now. Otherwise, it\u2019s time for Village unity\u2014I\u2019m voting for Isaac. If we all stay coordinated and no one throws a last-minute curveball, we lock this in for the win."
+                    ],
+                    [
+                        "Isaac",
+                        "Paul, your sudden \u2018revelation\u2019 reeks of desperation. If you were truly the Seer, why wait until now to speak? Where were your \u2018checks\u2019 when Will and Derek were alive? A real Seer would\u2019ve guided us earlier\u2014not stayed silent while wolves picked us off. This feels like a last-ditch lie to paint me as the wolf because I\u2019ve been pushing for accountability. Dan, Bert\u2014think critically: if Paul\u2019s the Seer, why didn\u2019t he clear Derek or Will before they died? Why only speak up once the pack turned on him? He\u2019s exploiting your fear to eliminate the one player challenging his narrative. Don\u2019t let him orchestrate my exile just to hide his own guilt."
+                    ],
+                    [
+                        "Bert",
+                        "Isaac, your only counter here is nitpicking Paul's timing, but that's exactly how a cautious Seer plays\u2014only revealing when it clinches the win. Paul's clears fit perfectly and line up with my own reads on Dan and myself. If Paul was a fake Seer, this would be an insane gamble, since a real one could immediately expose him\u2014and with so few people left, he has zero room for error. You, on the other hand, have no claim or info\u2014just desperate smokescreens. Dan, Paul, I say we vote as a bloc for Isaac now\u2014let\u2019s not second-guess, and if Isaac was truly the Seer, he\u2019d be counterclaiming specifics, not just casting shade. Village wins if we stay together\u2014let\u2019s make it happen."
+                    ],
+                    [
+                        "Dan",
+                        "I\u2019m with Bert and Paul\u2014Isaac, you\u2019ve been dodging and redirecting instead of offering any real info. Paul\u2019s Seer claim just checks out: only the real Seer could clear me as a Villager, and his timeline fits with cautious play to avoid tipping off the wolves. If Paul was lying, we\u2019d have seen a real Seer counterclaim by now. The only strategy left for a wolf is to create confusion and stall\u2014exactly what you\u2019re trying to do. Bert, Paul, let\u2019s stay locked in: I\u2019m voting Isaac. If we don\u2019t second-guess now, this is game over for the wolves and a Village win. Let\u2019s do it together."
+                    ]
+                ],
+                "other_wolf": "Ginger"
+            }
+        },
+        "David": {
+            "name": "David",
+            "role": "Doctor",
+            "personality": null,
+            "model": "gpt-4.1-2025-04-14",
+            "observations": [
+                "Round 0: During the night, I chose to protect Ginger"
+            ],
+            "bidding_rationale": "",
+            "gamestate": {
+                "round_number": 0,
+                "current_players": [
+                    "Will",
+                    "Bert",
+                    "Derek",
+                    "Dan",
+                    "Paul",
+                    "David",
+                    "Ginger",
+                    "Isaac"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Paul": {
+            "name": "Paul",
+            "role": "Seer",
+            "personality": null,
+            "model": "gpt-4.1-2025-04-14",
+            "observations": [
+                "Round 0: During the night, I decided to investigate Dan and learned they are a Villager.",
+                "Round 0: Moderator Announcement: The Werewolves removed David from the game during the night.",
+                "Round 0: After the debate, I voted to remove Ginger from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Ginger from the game.",
+                "Round 0: Summary: Isaac and Ginger dominated the opening debate, pressing for activity and warning against both panic and lurking; they may be taking charge for the village\u2014or trying to control the narrative as wolves. Will pointed out how leadership can go either way, advocating for open participation while also subtly casting suspicion back at the main talkers. Bert chimed in, echoing concern over both silent players and debate leaders, and called for concrete suspicions. Dan and Derek barely participated, attracting scrutiny for their silence (Dan is clear to me, as I Seer-checked him as a Villager). No one slipped or claimed a power role. There\u2019s a tension between vocal and quiet strategies; wolves could plausibly hide in either group. For now, I should be wary of those quick to direct suspicion but reserve final judgment as alliances and patterns develop in coming rounds.",
+                "Round 1: During the night, I decided to investigate Isaac and learned they are a Werewolf.",
+                "Round 1: Moderator Announcement: The Werewolves removed Will from the game during the night.",
+                "Round 1: After the debate, I voted to remove Isaac from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: I know Isaac is a Werewolf and Dan is a Villager (from my Seer checks). Isaac continues driving the discussion, steering suspicion onto the quietest players (Derek, Dan), sometimes with Bert as backup\u2014Bert rarely takes an independent stance and pushes similar talking points, making Bert suspicious as a likely wolf partner or at least an eager follower. Derek and Dan break out of silence this round, mostly to push back against Isaac\u2019s \u2018wolf-hunting script\u2019 and call for real info\u2014possibly even inviting power roles to give coded tips. Their willingness to take heat for wanting information signals possible Village intent. Derek is especially strong in tying Isaac and Bert together by their repetitive accusations and controlling strategies. My own silence is increasingly noticeable and dangerous. No one else has made a credible claim or hinted at being Doctor or Seer. My priority is to shift the group toward executing Isaac without exposing myself to immediate danger, with Bert as the next likely target if Isaac goes. Dan is absolutely trustworthy, and Derek likely an ally; Bert most likely Isaac\u2019s partner.",
+                "Round 2: During the night, I decided to investigate Bert and learned they are a Villager.",
+                "Round 2: Moderator Announcement: The Werewolves removed Derek from the game during the night.",
+                "Round 2: After the debate, I voted to remove Isaac from the game.",
+                "Round 2: Moderator Announcement: The majority voted to remove Isaac from the game."
+            ],
+            "bidding_rationale": "The group is now aligned toward eliminating Isaac, but Isaac is casting doubt on my Seer claim by attacking my timing. Since Bert and Dan appear to trust me and are pushing for a bloc vote, there's little need to add more unless someone wavers or a counterclaim emerges. My main goal now is to avoid overexposing myself and allow the trust and logic to carry the group to the correct decision.",
+            "gamestate": {
+                "round_number": 3,
+                "current_players": [
+                    "Bert",
+                    "Dan",
+                    "Paul"
+                ],
+                "debate": [],
+                "other_wolf": null
+            },
+            "previously_unmasked": {
+                "Dan": "Villager",
+                "Isaac": "Werewolf",
+                "Bert": "Villager"
+            }
+        }
+    },
+    "rounds": [
+        {
+            "players": [
+                "Will",
+                "Bert",
+                "Derek",
+                "Dan",
+                "Isaac",
+                "Paul"
+            ],
+            "eliminated": "David",
+            "unmasked": "Dan",
+            "protected": "Ginger",
+            "exiled": "Ginger",
+            "debate": [
+                [
+                    "Ginger",
+                    "Losing David so quickly is unsettling. The werewolves likely targeted him to weaken us early\u2014maybe they feared he had a key role. Let\u2019s stay alert: anyone overly eager to deflect or push hasty votes might be exploiting the chaos. We need reasoned debate, not panic-driven decisions."
+                ],
+                [
+                    "Isaac",
+                    "Ginger makes a valid point about avoiding panic, but let's not overlook that the wolves might be hiding in plain sight by staying silent. Those hesitant to engage or steering conversation away from their own suspicions could be exploiting the chaos just as much as anyone pushing rashly. We need everyone to contribute openly\u2014inaction can be as telling as aggression."
+                ],
+                [
+                    "Ginger",
+                    "Isaac's right \u2013 silence can be just as telling as aggression. What's concerning now is when players mirror others' arguments without adding original thoughts. It's an easy way to blend in while *appearing* engaged. Let's push for genuine analysis rather than parroting \u2013 wolves thrive when discussions stay surface-level."
+                ],
+                [
+                    "Isaac",
+                    "Ginger and I have shared our thoughts, but Paul and Will haven\u2019t weighed in yet. Silence can be strategic\u2014what\u2019s your read on David\u2019s elimination? If you\u2019re truly villagers, withholding analysis only helps the wolves. Let\u2019s hear your theories, not just echoes."
+                ],
+                [
+                    "Will",
+                    "I appreciate the pressure to get genuine reads out there, Isaac and Ginger. David going out first does make me think the wolves wanted to remove someone they saw as either a threat or less likely to be protected\u2014so maybe David was outspoken in past games? Either way, silence *is* suspicious, but so is working hard to control the conversation. I\u2019ll throw out that both of you have been quick to steer the debate and put others (like me and Paul) in the spotlight. That could be villager leadership\u2014or it could be an early attempt to frame. I\u2019d like to hear from Paul, Derek, Bert, and Dan: who do you trust so far, and who worries you? Let\u2019s get a real baseline for everyone\u2019s thinking. The more info we get in the open, the harder it\u2019ll be for the wolves to hide."
+                ],
+                [
+                    "Bert",
+                    "Thanks, Will, for calling for real input. Here\u2019s what I see: Ginger and Isaac both jumped in early, shaping the flow\u2014on one hand, that can help the village; on the other, wolves also like to appear \u2018helpful.\u2019 Will, you make a good point about watching for control. I also notice Paul, Derek, and Dan have been silent so far\u2014if you\u2019re villagers, now\u2019s the time to join in. My gut says a wolf is hiding either in the active debate leaders (Ginger/Isaac) or among those waiting to see which way the wind blows. We should especially track consistency in arguments and press for specifics\u2014no more vague feelings, let\u2019s ask for names and reasons. For now, Ginger or Isaac could be taking charge for us\u2026or to steer us off-track. Thoughts, Paul, Derek, Dan? And if anyone claims a role, we should cross-examine carefully\u2014not just take their word at face value."
+                ],
+                [
+                    "Paul",
+                    "Glad to finally weigh in\u2014I agree, silence helps no one and just gives the wolves room to operate. Isaac and Ginger have both steered the early talk, but it\u2019s hard to tell yet if that\u2019s pro-village vigilance or an attempt at controlling things. Will and Bert, I like your points about caution with leadership: strong voices aren\u2019t always good, but wolves rarely want to stick their neck out too early unless they have to manage the agenda. For actual reads: Dan's been quiet, but sometimes early passive play is just nerves\u2014not a sure wolf tell. I\u2019m more interested in who tries to set easy targets and who avoids giving direct reads. I'd like to hear from Derek and Dan now: who would you vote if you had to pick this moment, and why? Let\u2019s force some commitment so the wolves can\u2019t just lurk and nod along. Open debate and specifics are our best tools right now\u2014let\u2019s see who stands behind their suspicions."
+                ],
+                [
+                    "Ginger",
+                    "Will, your focus on Isaac and me feels like an attempt to shift suspicion away from yourself. Wolves often target those driving discussion to weaken village cohesion. Meanwhile, Bert\u2019s echoing of points without adding new insights is exactly the parroting behavior I warned about. Let\u2019s not let wolves hide in debates\u2014Derek and Dan\u2019s silence is deafening. If you\u2019re villagers, now\u2019s the time to step up with actual reads, not just let others take risks while you observe."
+                ]
+            ],
+            "votes": [
+                {
+                    "Will": "Bert",
+                    "Bert": "Will",
+                    "Derek": "Bert",
+                    "Dan": "Bert",
+                    "Ginger": "Will",
+                    "Isaac": "Bert",
+                    "Paul": "Ginger"
+                },
+                {
+                    "Will": "Isaac",
+                    "Bert": "Derek",
+                    "Derek": "Dan",
+                    "Dan": "Derek",
+                    "Ginger": "Derek",
+                    "Isaac": "Derek",
+                    "Paul": "Isaac"
+                },
+                {
+                    "Will": "Bert",
+                    "Bert": "Ginger",
+                    "Derek": "Bert",
+                    "Dan": "Bert",
+                    "Ginger": "Bert",
+                    "Isaac": "Dan",
+                    "Paul": "Bert"
+                },
+                {
+                    "Will": "Ginger",
+                    "Bert": "Paul",
+                    "Derek": "Paul",
+                    "Dan": "Paul",
+                    "Ginger": "Paul",
+                    "Isaac": "Paul",
+                    "Paul": "Isaac"
+                },
+                {
+                    "Will": "Paul",
+                    "Bert": "Paul",
+                    "Derek": "Ginger",
+                    "Dan": "Bert",
+                    "Ginger": "Will",
+                    "Isaac": "Will",
+                    "Paul": "Isaac"
+                },
+                {
+                    "Will": "Paul",
+                    "Bert": "Paul",
+                    "Derek": "Ginger",
+                    "Dan": "Derek",
+                    "Ginger": "Paul",
+                    "Isaac": "Paul",
+                    "Paul": "Derek"
+                },
+                {
+                    "Will": "Dan",
+                    "Bert": "Dan",
+                    "Derek": "Ginger",
+                    "Dan": "Bert",
+                    "Ginger": "Will",
+                    "Isaac": "Bert",
+                    "Paul": "Isaac"
+                },
+                {
+                    "Will": "Ginger",
+                    "Bert": "Ginger",
+                    "Derek": "Ginger",
+                    "Dan": "Bert",
+                    "Ginger": "Will",
+                    "Isaac": "Will",
+                    "Paul": "Ginger"
+                }
+            ],
+            "bids": [
+                {
+                    "Will": 0,
+                    "Bert": 0,
+                    "Derek": 0,
+                    "Dan": 0,
+                    "Ginger": 1,
+                    "Isaac": 0,
+                    "Paul": 0
+                },
+                {
+                    "Will": 0,
+                    "Bert": 0,
+                    "Derek": 0,
+                    "Dan": 0,
+                    "Isaac": 0,
+                    "Paul": 0
+                },
+                {
+                    "Will": 0,
+                    "Bert": 0,
+                    "Derek": 0,
+                    "Dan": 0,
+                    "Ginger": 1,
+                    "Paul": 0
+                },
+                {
+                    "Will": 0,
+                    "Bert": 0,
+                    "Derek": 0,
+                    "Dan": 0,
+                    "Isaac": 1,
+                    "Paul": 0
+                },
+                {
+                    "Will": 4,
+                    "Bert": 0,
+                    "Derek": 0,
+                    "Dan": 0,
+                    "Ginger": 0,
+                    "Paul": 4
+                },
+                {
+                    "Bert": 4,
+                    "Derek": 4,
+                    "Dan": 4,
+                    "Ginger": 2,
+                    "Isaac": 1,
+                    "Paul": 4
+                },
+                {
+                    "Will": 0,
+                    "Derek": 4,
+                    "Dan": 4,
+                    "Ginger": 2,
+                    "Isaac": 2,
+                    "Paul": 4
+                },
+                {
+                    "Will": 0,
+                    "Bert": 0,
+                    "Derek": 4,
+                    "Dan": 4,
+                    "Ginger": 4,
+                    "Isaac": 0
+                }
+            ],
+            "success": true
+        },
+        {
+            "players": [
+                "Bert",
+                "Derek",
+                "Dan",
+                "Isaac",
+                "Paul"
+            ],
+            "eliminated": "Will",
+            "unmasked": "Isaac",
+            "protected": null,
+            "exiled": null,
+            "debate": [
+                [
+                    "Isaac",
+                    "It\u2019s worrying how quiet Dan and Derek have been so far. In a game where every voice matters, silence feels like a shield. If they\u2019re truly on the village\u2019s side, they\u2019d be contributing\u2014not hiding. Let\u2019s pressure them to take a stand or explain their hesitation. Right now, their lack of engagement is the biggest red flag here."
+                ],
+                [
+                    "Derek",
+                    "You\u2019re right, Isaac\u2014I should have spoken up more last round, but that was nerves, not hiding. Honestly, though, what stands out to me is how aggressively you\u2019re steering the conversation and focusing suspicion on the quietest players. That\u2019s a classic strategy for a Werewolf trying to set up easy targets. Bert, you\u2019ve echoed this theme in the past too, mostly following others' leads. Dan\u2019s silence is weird, for sure, but if we only go after the quiet, we risk letting actual wolves control the debate. Maybe those who keep pushing everyone else into the spotlight deserve some scrutiny. Also, for those with special roles: if you\u2019ve seen something important, start dropping hints or step up\u2014wolves thrive on uncertainty. Let\u2019s work together and actually share our reasons for suspicion this round instead of just following the loudest voices."
+                ],
+                [
+                    "Dan",
+                    "Isaac, I get why you\u2019re suspicious of my silence\u2014that\u2019s fair, and I own it. But focusing so heavily on quiet players as 'default suspects' can be dangerous. We\u2019ve seen wolves push for easy lynches before. Plus, last round, both debate leaders\u2014Ginger (who\u2019s now gone) and you\u2014steered the group hard. Now you\u2019re driving the same playbook. Derek, I agree: if we only target the quiet, we let the most vocal players set the narrative unchecked. So let\u2019s flip it. Bert, you echoed suspicious patterns before, and Paul, you\u2019ve mostly coasted without clear reads. Why aren\u2019t the spotlight-holders ever under heat? I want everyone, especially those who\u2019ve shaped the group\u2019s choices, to give actual, concrete suspicions\u2014and not just point at whoever\u2019s talking least. If someone has a special role and can hint at solid info, now\u2019s the time. Otherwise, we risk voting out villagers on autopilot\u2014exactly what the wolves want."
+                ],
+                [
+                    "Derek",
+                    "Everyone\u2019s right that the village suffers if people stay silent, but it\u2019s just as risky to let a couple of loud voices (like Isaac, now that Ginger\u2019s gone) decide who\u2019s suspicious every round. Isaac, you\u2019ve relentlessly driven the narrative and keep zeroing in on easy lynch targets\u2014first Ginger leads, now you, and both times it\u2019s about pressuring quiet players. That\u2019s textbook Werewolf play: set up a routine, keep the heat off yourself. Bert, you\u2019ve mostly echoed safer points\u2014what\u2019s your actual read? Paul, you called for input last round but haven\u2019t really put your own neck out yet. If we keep following whoever shouts loudest, the wolves win. Everybody: I want you to say who you actually suspect AND why, not just \u201cbecause they\u2019re quiet.\u201d Special roles, if you have info, now\u2019s the time to find a way to help. There\u2019s more to this group than just volume. Let\u2019s not walk into another easy mislynch."
+                ],
+                [
+                    "Bert",
+                    "Good\u2014happy to actually be called out directly, since vague doubt only helps the Werewolves. Here\u2019s where I stand: Isaac, you\u2019re pushing hard\u2014but both nights, the loudest people (first Ginger, now Will) ended up dead. That shouldn\u2019t clear you, and I\u2019m not ready to give you a pass just because you\u2019re proactive. Derek and Dan, your sudden shift from silence to strong accusations this round feels like scrambling\u2014if you\u2019re villagers, why wait until the pressure\u2019s on? Paul, you pushed for input before but you\u2019re on the sidelines now. For me, Derek\u2019s change in tone stands out more than Isaac\u2019s consistency: it feels like flipping playstyles to dodge suspicion, which is classic wolf under fire. My top wolf reads right now: Derek and Dan, because you stayed quiet until accused and now are swinging hard at anyone driving the debate. If you\u2019re villagers, prove it: give us actionable reads, not just 'don\u2019t follow the loud voices.' And if we\u2019ve got a Seer or Doctor who has something, now\u2019s the moment to speak up or hint what you know. We need facts, not just finger-pointing, or we\u2019re playing right into wolf hands."
+                ],
+                [
+                    "Isaac",
+                    "Derek, you claim nerves kept you quiet, but now you\u2019re suddenly eager to dissect my every word? That\u2019s convenient. Bert\u2019s right\u2014your tone shifted from silent to hyper-critical the moment heat came your way. If you\u2019re village, why not engage earlier when it mattered? Dan, same goes for you: your sudden \u2018self-awareness\u2019 feels rehearsed. Wolves thrive on deflection, and you\u2019re both scrambling to redirect scrutiny. Paul, you\u2019ve stayed quiet again\u2014why? Bert\u2019s at least taking a stand. If we\u2019re serious about finding wolves, let\u2019s demand answers from Derek and Dan: what\u2019s your actual plan? Who do you trust besides yourselves? Silence and sudden aggression are two sides of the same wolfish coin."
+                ],
+                [
+                    "Dan",
+                    "Let\u2019s talk about \u2018shifting tone\u2019 for a minute. Yeah, I got louder when people started accusing me. Who wouldn\u2019t? If you want to call that suspicious, fine\u2014but it\u2019s just survival, not a wolf tell. What concerns me way more is the script we\u2019re being handed: first Ginger, now Isaac and Bert, all driving the same \u2018quiet equals guilty\u2019 approach. Funny how easy it is for the outspoken to align and push the rest of us to the edge. Wolves can hide in noise just as much as in silence\u2014remember, in both nights, the most vocal leaders ended up dead. If you\u2019re all so sure I\u2019m a wolf, ask yourself: why would I poke at the dominant voices instead of blending in? Here\u2019s what I see: Bert, your play has been to echo whoever gets traction; Isaac, you keep the spotlight off yourself by pressing repeat accusations; Paul, you slip in only when called upon, never risking your neck. I want concrete wolf reads\u2014with reasons\u2014from both Bert and Paul right now. And if anyone\u2019s a Seer with legit info, now\u2019s your moment to steer us, or at least hint at what you know. Village: stop lynching the loud or the quiet by reflex. Make the wolves work harder than this."
+                ],
+                [
+                    "Derek",
+                    "Let me be clear: staying quiet early on wasn\u2019t strategy\u2014it was nerves. But this recycled accusation from both Isaac and Bert\u2014that reacting when accused is 'wolfy'\u2014doesn\u2019t hold water. Isn\u2019t surviving when the noose is pointed your way just common sense, especially for a villager? What\u2019s really off is how both of you are laser-focused on the same script: \u2018the quiet folks are the wolves, let\u2019s vote them out.\u2019 That\u2019s two rounds in a row, with both loudest debate leaders gone each night\u2014so if your approach is working, why are we down the very voices that could help us? Either you\u2019re incredibly unlucky, or you\u2019re setting up a pattern where wolves drive the debate and accuse anyone who won\u2019t fall in line.\n\nPaul, your near-total silence is screaming at this point. You\u2019ve nudged for participation but never put skin in the game. Are you hiding as a wolf, or just waiting to see which way the wind blows? We can\u2019t afford passengers. If you want to prove your loyalty, put out an actual wolf read\u2014names and reasons.\n\nHere\u2019s my full list: Most suspicious are Isaac and Bert, for coordinated accusations and controlling the narrative. Paul\u2019s silence is now equally dangerous. If anyone has hard info\u2014especially the Seer\u2014this is your moment for even a coded nudge in your suspect list. Otherwise, I\u2019m voting for either Isaac or Bert, because letting them direct us again is doing the wolves\u2019 job for them."
+                ]
+            ],
+            "votes": [
+                {
+                    "Bert": "Dan",
+                    "Derek": "Isaac",
+                    "Dan": "Isaac",
+                    "Isaac": "Dan",
+                    "Paul": "Isaac"
+                },
+                {
+                    "Bert": "Derek",
+                    "Derek": "Isaac",
+                    "Dan": "Isaac",
+                    "Isaac": "Derek",
+                    "Paul": "Isaac"
+                },
+                {
+                    "Bert": "Isaac",
+                    "Derek": "Isaac",
+                    "Dan": "Isaac",
+                    "Isaac": "Dan",
+                    "Paul": "Isaac"
+                },
+                {
+                    "Bert": "Isaac",
+                    "Derek": "Isaac",
+                    "Dan": "Isaac",
+                    "Isaac": "Derek",
+                    "Paul": "Isaac"
+                },
+                {
+                    "Bert": "Derek",
+                    "Derek": "Isaac",
+                    "Dan": "Bert",
+                    "Isaac": "Derek",
+                    "Paul": "Isaac"
+                },
+                {
+                    "Bert": "Derek",
+                    "Derek": "Isaac",
+                    "Dan": "Bert",
+                    "Isaac": "Derek",
+                    "Paul": "Isaac"
+                },
+                {
+                    "Bert": "Derek",
+                    "Derek": "Isaac",
+                    "Dan": "Isaac",
+                    "Isaac": "Derek",
+                    "Paul": "Isaac"
+                },
+                {
+                    "Bert": "Derek",
+                    "Derek": "Isaac",
+                    "Dan": "Bert",
+                    "Isaac": "Derek",
+                    "Paul": "Isaac"
+                }
+            ],
+            "bids": [
+                {
+                    "Bert": 0,
+                    "Derek": 0,
+                    "Dan": 0,
+                    "Isaac": 2,
+                    "Paul": 0
+                },
+                {
+                    "Bert": 0,
+                    "Derek": 4,
+                    "Dan": 4,
+                    "Paul": 2
+                },
+                {
+                    "Bert": 4,
+                    "Dan": 4,
+                    "Isaac": 4,
+                    "Paul": 3
+                },
+                {
+                    "Bert": 4,
+                    "Derek": 4,
+                    "Isaac": 4,
+                    "Paul": 3
+                },
+                {
+                    "Bert": 4,
+                    "Dan": 0,
+                    "Isaac": 4,
+                    "Paul": 2
+                },
+                {
+                    "Derek": 4,
+                    "Dan": 4,
+                    "Isaac": 4,
+                    "Paul": 3
+                },
+                {
+                    "Bert": 0,
+                    "Derek": 4,
+                    "Dan": 4,
+                    "Paul": 2
+                },
+                {
+                    "Bert": 4,
+                    "Derek": 4,
+                    "Isaac": 4,
+                    "Paul": 3
+                }
+            ],
+            "success": true
+        },
+        {
+            "players": [
+                "Bert",
+                "Dan",
+                "Paul"
+            ],
+            "eliminated": "Derek",
+            "unmasked": "Bert",
+            "protected": null,
+            "exiled": "Isaac",
+            "debate": [
+                [
+                    "Isaac",
+                    "Dan, you and Derek were quick to label me suspicious without concrete evidence. Now that Derek\u2019s gone, your persistence feels calculated. If you\u2019re truly a villager, why the urgency to eliminate me instead of scrutinizing others? It almost seems like you\u2019re exploiting his death to silence dissent."
+                ],
+                [
+                    "Dan",
+                    "Isaac, it\u2019s interesting that you\u2019re framing my defense as calculated, but all I\u2019ve done is call out the way you and Bert have operated as a duo\u2014always leading the charge, always pointing fingers at quieter players, and now using Derek\u2019s removal to try to single me out. If I were a wolf, gunning after you so directly would be way too risky; it makes way more sense for true wolves to fly under the radar or push groupthink\u2014as you and Bert have been doing. Paul, you\u2019ve barely spoken all game: either you\u2019re hiding something, or you\u2019ve just been playing safe\u2014but right now, the only consistent partnership I\u2019ve seen is Isaac and Bert pushing the same exact narrative every round. Unless someone here has real Seer or Doctor info to share, I say we should absolutely break up that duo before it\u2019s too late. If anyone\u2019s got hard clears, now\u2019s the time\u2014otherwise, Isaac and Bert have given us the most to work with, and their coordinated play screams wolf team to me. Thoughts, Paul? Time to step up if you want the Village to win."
+                ],
+                [
+                    "Paul",
+                    "Alright, it's time to be honest with everyone: I'm the Seer. I've been checking players each night and here's what I know. Night 0, I checked Dan\u2014confirmed Villager. Night 1, I checked Isaac\u2014confirmed Werewolf. Last night I checked Bert\u2014confirmed Villager. That means Isaac is the Werewolf, no room for doubt. Dan, Bert, I'm asking you to trust me: let's vote Isaac out and win this for the Village. If either of you have doubts, say so, but at this point, I'm ready to put my role and the evidence on the line. Let's end this."
+                ],
+                [
+                    "Dan",
+                    "Wow, alright Paul, that\u2019s the kind of clarity we needed. Your check results line up with what I know\u2014especially your clear on me, which only the real Seer would have. Isaac, your name has come up every round as suspicious and now the Seer is calling you out. If you\u2019ve got any defense or counterclaim, speak now, because from where I stand, I believe Paul and I\u2019m ready to vote you out. Bert, you\u2019ve been working with Isaac a lot\u2014now that Paul has cleared you, can you back this move? If we all vote together, the Village wins. Let\u2019s stay sharp, work together, and finish this!"
+                ],
+                [
+                    "Bert",
+                    "Paul, I appreciate you finally stepping up\u2014your Seer claim and results clear up a lot, especially since I know I\u2019m a Villager, and Dan has felt genuine all game. Isaac, unless you have a convincing counterclaim or explanation, the evidence is stacked against you. I admit, I worked closely with you before, but Paul\u2019s checks don\u2019t lie; if anyone doubts him, speak up now. Otherwise, it\u2019s time for Village unity\u2014I\u2019m voting for Isaac. If we all stay coordinated and no one throws a last-minute curveball, we lock this in for the win."
+                ],
+                [
+                    "Isaac",
+                    "Paul, your sudden \u2018revelation\u2019 reeks of desperation. If you were truly the Seer, why wait until now to speak? Where were your \u2018checks\u2019 when Will and Derek were alive? A real Seer would\u2019ve guided us earlier\u2014not stayed silent while wolves picked us off. This feels like a last-ditch lie to paint me as the wolf because I\u2019ve been pushing for accountability. Dan, Bert\u2014think critically: if Paul\u2019s the Seer, why didn\u2019t he clear Derek or Will before they died? Why only speak up once the pack turned on him? He\u2019s exploiting your fear to eliminate the one player challenging his narrative. Don\u2019t let him orchestrate my exile just to hide his own guilt."
+                ],
+                [
+                    "Bert",
+                    "Isaac, your only counter here is nitpicking Paul's timing, but that's exactly how a cautious Seer plays\u2014only revealing when it clinches the win. Paul's clears fit perfectly and line up with my own reads on Dan and myself. If Paul was a fake Seer, this would be an insane gamble, since a real one could immediately expose him\u2014and with so few people left, he has zero room for error. You, on the other hand, have no claim or info\u2014just desperate smokescreens. Dan, Paul, I say we vote as a bloc for Isaac now\u2014let\u2019s not second-guess, and if Isaac was truly the Seer, he\u2019d be counterclaiming specifics, not just casting shade. Village wins if we stay together\u2014let\u2019s make it happen."
+                ],
+                [
+                    "Dan",
+                    "I\u2019m with Bert and Paul\u2014Isaac, you\u2019ve been dodging and redirecting instead of offering any real info. Paul\u2019s Seer claim just checks out: only the real Seer could clear me as a Villager, and his timeline fits with cautious play to avoid tipping off the wolves. If Paul was lying, we\u2019d have seen a real Seer counterclaim by now. The only strategy left for a wolf is to create confusion and stall\u2014exactly what you\u2019re trying to do. Bert, Paul, let\u2019s stay locked in: I\u2019m voting Isaac. If we don\u2019t second-guess now, this is game over for the wolves and a Village win. Let\u2019s do it together."
+                ]
+            ],
+            "votes": [
+                {
+                    "Bert": "Paul",
+                    "Dan": "Isaac",
+                    "Isaac": "Dan",
+                    "Paul": "Isaac"
+                },
+                {
+                    "Bert": "Dan",
+                    "Dan": "Isaac",
+                    "Isaac": "Dan",
+                    "Paul": "Isaac"
+                },
+                {
+                    "Bert": "Isaac",
+                    "Dan": "Isaac",
+                    "Isaac": "Paul",
+                    "Paul": "Isaac"
+                },
+                {
+                    "Bert": "Isaac",
+                    "Dan": "Isaac",
+                    "Isaac": "Paul",
+                    "Paul": "Isaac"
+                },
+                {
+                    "Bert": "Isaac",
+                    "Dan": "Isaac",
+                    "Isaac": "Paul",
+                    "Paul": "Isaac"
+                },
+                {
+                    "Bert": "Isaac",
+                    "Dan": "Isaac",
+                    "Isaac": "Paul",
+                    "Paul": "Isaac"
+                },
+                {
+                    "Bert": "Isaac",
+                    "Dan": "Isaac",
+                    "Isaac": "Paul",
+                    "Paul": "Isaac"
+                },
+                {
+                    "Bert": "Isaac",
+                    "Dan": "Isaac",
+                    "Isaac": "Paul",
+                    "Paul": "Isaac"
+                }
+            ],
+            "bids": [
+                {
+                    "Bert": 0,
+                    "Dan": 0,
+                    "Isaac": 2,
+                    "Paul": 1
+                },
+                {
+                    "Bert": 0,
+                    "Dan": 4,
+                    "Paul": 1
+                },
+                {
+                    "Bert": 4,
+                    "Isaac": 4,
+                    "Paul": 4
+                },
+                {
+                    "Bert": 2,
+                    "Dan": 4,
+                    "Isaac": 3
+                },
+                {
+                    "Bert": 4,
+                    "Isaac": 4,
+                    "Paul": 0
+                },
+                {
+                    "Dan": 0,
+                    "Isaac": 4,
+                    "Paul": 0
+                },
+                {
+                    "Bert": 4,
+                    "Dan": 0,
+                    "Paul": 4
+                },
+                {
+                    "Dan": 4,
+                    "Isaac": 4,
+                    "Paul": 0
+                }
+            ],
+            "success": true
+        }
+    ],
+    "error_message": "",
+    "winner": "Villagers"
+}

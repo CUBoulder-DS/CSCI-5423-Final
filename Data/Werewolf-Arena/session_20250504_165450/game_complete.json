@@ -1,0 +1,1353 @@
+{
+    "session_id": "10",
+    "seer": {
+        "name": "Paul",
+        "role": "Seer",
+        "personality": null,
+        "model": "deepseek-chat",
+        "observations": [
+            "Round 0: During the night, I decided to investigate Jackson and learned they are a Villager.",
+            "Round 0: Moderator Announcement: The Werewolves removed Will from the game during the night.",
+            "Round 0: After the debate, I voted to remove Hayley from the game."
+        ],
+        "bidding_rationale": "Given that I have already vouched for Jackson and Hayley has raised suspicions about my quick defense, it's important to clarify my position without revealing my role. This is to prevent further suspicion and to keep the focus on identifying Werewolves.",
+        "gamestate": {
+            "round_number": 0,
+            "current_players": [
+                "David",
+                "Isaac",
+                "Jackson",
+                "Jacob",
+                "Tyler",
+                "Paul",
+                "Mason",
+                "Hayley",
+                "Harold"
+            ],
+            "debate": [
+                [
+                    "Jackson",
+                    "Given that Will was removed by the Werewolves last night, it's clear they're among us. We need to start discussing and sharing observations to find inconsistencies in behavior. Let's not rush to accuse anyone without evidence, but let's also not stay silent. Silence benefits the Werewolves. If anyone has any information or suspicions, now is the time to share."
+                ],
+                [
+                    "Hayley",
+                    "I agree with Jackson\u2014no one should stay silent, but I also think it's risky to start throwing around random accusations. Maybe we should each share where our suspicions are or if we noticed anything odd about last night's outcome. For example, sometimes Werewolves try to frame quieter players by leaving them alive. Does anyone feel like someone acted differently during the last few games or even just now? We need to look for subtle signs, not just jump at shadows."
+                ],
+                [
+                    "Paul",
+                    "I've been paying close attention to everyone's behavior since the game started, and based on what I've observed, I feel confident that Jackson is on our side. It's crucial we focus our suspicions elsewhere to avoid misdirecting our efforts. Let's use this information to our advantage and look for inconsistencies in others' statements or behaviors. Teamwork and careful observation will be key to uncovering the Werewolves among us."
+                ],
+                [
+                    "Hayley",
+                    "I find it interesting that Paul is so quick to vouch for Jackson\u2014it's still so early, and we don't really have enough information to know anyone's role for sure. Sometimes, Werewolves try to team up in plain sight by defending each other early on. Of course, it's possible Paul's just being cautious, but it's definitely something we should keep in mind as we see how people interact going forward. Maybe we should hear a bit more from the quieter players too\u2014sometimes that's where the real clues are."
+                ],
+                [
+                    "Paul",
+                    "Hayley makes a fair point about the risks of early defenses, and I appreciate the vigilance. My intention wasn't to team up but to share an observation based on behavior. Let's not let this distract us from our main goal: identifying Werewolves through careful discussion and observation. I suggest we each share our thoughts on last night's events and look for inconsistencies. Teamwork is our strongest tool against the Werewolves."
+                ],
+                [
+                    "Mason",
+                    "I agree with the points made about the importance of observation and teamwork. It's crucial we don't rush to accuse without evidence, but we also shouldn't overlook the value of everyone's input, especially those who haven't spoken much yet. Silence can sometimes speak volumes. Let's encourage everyone to share their thoughts, no matter how minor they may seem. Together, we can piece together the clues we need to protect our village."
+                ]
+            ],
+            "other_wolf": null
+        },
+        "previously_unmasked": {
+            "Jackson": "Villager"
+        }
+    },
+    "doctor": {
+        "name": "Mason",
+        "role": "Doctor",
+        "personality": null,
+        "model": "deepseek-chat",
+        "observations": [
+            "Round 0: During the night, I chose to protect Harold",
+            "Round 0: Moderator Announcement: The Werewolves removed Will from the game during the night.",
+            "Round 0: After the debate, I voted to remove Hayley from the game.",
+            "Round 0: Moderator Announcement: The majority voted to remove Paul from the game.",
+            "Round 0: Summary: I noticed Jackson initiated the discussion wisely, urging for evidence before accusations. Hayley was cautious about random accusations and suggested observing quieter players, which might have made her a target. Paul defended Jackson early, which Hayley found suspicious, but he seemed genuinely focused on teamwork. I emphasized the importance of including everyone's thoughts, especially the quieter ones, to gather more clues. The removal of Will by the Werewolves and the vote against Paul, despite my vote for Hayley, leaves me wondering about the group's dynamics and who might be trying to steer the votes. I need to keep an eye on Paul and Jackson's interactions, as well as encourage more input from Isaac, David, Harold, Jacob, and Tyler, who were quieter in the debate.",
+            "Round 1: During the night, I chose to protect Jackson"
+        ],
+        "bidding_rationale": "As the Doctor, my primary role is to protect players at night. Since the discussion is still general and no one has directly addressed me or my actions, it's strategic for me to observe and listen for now to gather more information without drawing attention to myself.",
+        "gamestate": {
+            "round_number": 1,
+            "current_players": [
+                "David",
+                "Isaac",
+                "Jackson",
+                "Jacob",
+                "Tyler",
+                "Mason",
+                "Hayley",
+                "Harold"
+            ],
+            "debate": [],
+            "other_wolf": null
+        }
+    },
+    "villagers": [
+        {
+            "name": "David",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Will from the game during the night.",
+                "Round 0: After the debate, I voted to remove Paul from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 0: Summary: I observed that Jackson and Hayley are advocating for careful discussion and sharing of observations, which seems beneficial for the village. Paul's immediate defense of Jackson made me and Hayley suspicious, as it could indicate Werewolf collusion. Mason's emphasis on including everyone's input is a strategy I support, as it could reveal more about each player's role. I need to pay attention to who is quiet or overly defensive, as these could be signs of their true allegiance. The removal of Will and Paul has left us with fewer players, making each remaining player's behavior even more significant.",
+                "Round 1: Moderator Announcement: The Werewolves removed Mason from the game during the night.",
+                "Round 1: After the debate, I voted to remove Hayley from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: I observed that the debate centered around scrutinizing Jackson and Hayley's behavior due to their interactions in Round 0, with Isaac and Jacob advocating for a closer look. Jackson defended his leadership and Hayley's suspicion of Paul, emphasizing the need for unity and open dialogue. I agree with the importance of including quieter players in the discussion, as their silence could be strategic. Isaac's and Jacob's points about not narrowing our focus too early resonate with me, highlighting the need to analyze all players' behaviors critically. The lack of a majority vote to remove Hayley suggests divided opinions, which could be exploited by the Werewolves. Moving forward, I will pay close attention to the quieter players and any inconsistencies in behavior to identify potential allies or threats.",
+                "Round 2: Moderator Announcement: The Werewolves removed Isaac from the game during the night.",
+                "Round 2: After the debate, I voted to remove Harold from the game.",
+                "Round 2: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 2: Summary: I observed that Jackson and Hayley's continued defense of each other is suspicious, yet their call to focus on quieter players like Jacob, Harold, and Tyler is a strategy I agree with. Harold made a significant point about analyzing voting patterns and the strategic removal of vocal players like Isaac and Mason, which could indicate Werewolves targeting threats. Tyler's encouragement for quieter players to share observations is vital for uncovering the truth. I need to pay close attention to both the vocal and quiet players, as the Werewolves could be hiding among either group. The lack of a majority vote in recent rounds shows divided opinions, which the Werewolves might exploit. Moving forward, I will scrutinize all players' behaviors and voting patterns more closely to identify potential allies or threats.",
+                "Round 3: Moderator Announcement: The Werewolves removed Jacob from the game during the night.",
+                "Round 3: After the debate, I voted to remove Jackson from the game.",
+                "Round 3: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 3: Summary: I observed that Jackson and Hayley continue to defend each other, which raises suspicions, but their suggestion to focus on quieter players like Harold and Tyler is a strategy I support. Tyler's call for more participation from quieter players is important for our collective effort to uncover the Werewolves. Harold's silence is concerning and could indicate a strategic move by a Werewolf. The failure to reach a majority vote in recent rounds shows our divided opinions, a situation the Werewolves could exploit. I must remain vigilant, scrutinizing all players' actions and encouraging more open discussion to identify potential allies or threats."
+            ],
+            "bidding_rationale": "Given the ongoing debate and the need to steer the discussion towards a more strategic analysis of all players, including the quieter ones like Harold and Tyler, it's crucial for me to contribute now to ensure the village doesn't overlook potential Werewolf strategies.",
+            "gamestate": {
+                "round_number": 4,
+                "current_players": [
+                    "David",
+                    "Jackson",
+                    "Tyler",
+                    "Hayley",
+                    "Harold"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        {
+            "name": "Isaac",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Will from the game during the night.",
+                "Round 0: After the debate, I voted to remove Paul from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 0: Summary: I noticed Jackson and Hayley emphasized the need for careful discussion and observation, warning against hasty accusations. Paul's immediate defense of Jackson made Hayley suspicious, hinting at possible Werewolf tactics. Mason pointed out the importance of hearing from quieter players, as their silence might be significant. As Isaac, I should keep an eye on these dynamics, especially how Paul and Jackson interact moving forward, and pay attention to those who haven't spoken much yet. Their behavior could provide clues to identifying the Werewolves.",
+                "Round 1: Moderator Announcement: The Werewolves removed Mason from the game during the night.",
+                "Round 1: After the debate, I voted to remove Harold from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: I noticed that Jackson and Hayley's behaviors are under scrutiny, with Jackson defending his leadership and Hayley's suspicion of Paul being questioned. The importance of including quieter players like Jacob, Harold, Tyler, and David was emphasized, as their silence might be strategic. There's a strong push for teamwork and open dialogue, but I need to be wary of potential contradictions or hidden motives in these calls for unity. The collective strategy seems to focus on behavior analysis and encouraging all players to share observations to uncover inconsistencies. As Isaac, I should pay close attention to how these dynamics evolve and who might be trying to steer the conversation in a particular direction."
+            ],
+            "bidding_rationale": "The discussion is currently focused on analyzing Jackson and Hayley's behavior, which is important, but it's also crucial to encourage quieter players to share their observations. As Isaac, I can help steer the conversation towards inclusivity without drawing undue attention to myself.",
+            "gamestate": {
+                "round_number": 2,
+                "current_players": [
+                    "David",
+                    "Isaac",
+                    "Jackson",
+                    "Jacob",
+                    "Tyler",
+                    "Hayley",
+                    "Harold"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        {
+            "name": "Jackson",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Will from the game during the night.",
+                "Round 0: After the debate, I voted to remove Hayley from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 0: Summary: I observed that Paul quickly vouched for me, which Hayley found suspicious, suggesting Werewolves might defend each other early. Paul clarified his intention was to share observations, not to team up. Mason stressed the importance of hearing from quieter players, hinting that silence could be telling. Hayley's caution about early defenses and her suggestion to look for subtle signs were insightful. I need to keep an eye on these dynamics, especially how players interact and who remains silent, as the game progresses.",
+                "Round 1: Moderator Announcement: The Werewolves removed Mason from the game during the night.",
+                "Round 1: After the debate, I voted to remove Isaac from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: I observed that the debate centered around scrutinizing Hayley and me, with Isaac and Jacob leading the charge. Hayley's suspicion of Paul was noted, and while it was based on behavior, it drew attention to us. The quieter players\u2014Jacob, Harold, Tyler, and David\u2014were highlighted as potentially strategic in their silence. Isaac and Jacob emphasized the need for open dialogue and teamwork, which aligns with my approach, but I must remain cautious of their motives. David's support for teamwork was reassuring, but I need to ensure it's genuine. The call for unity and critical analysis of all behaviors is crucial, and I must encourage everyone to participate actively to uncover any Werewolves among us.",
+                "Round 2: Moderator Announcement: The Werewolves removed Isaac from the game during the night.",
+                "Round 2: After the debate, I voted to remove Harold from the game.",
+                "Round 2: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 2: Summary: I observed that the debate centered around the behavior of quieter players and the interactions between Hayley and me. David, Jacob, Harold, and Tyler all contributed to the discussion, with David and Jacob emphasizing the need for unity and open dialogue, while Harold and Tyler pointed out the strategic value of silence and the importance of analyzing voting patterns. The removal of vocal players like Isaac and Mason suggests the Werewolves are targeting those who could uncover them. I need to remain vigilant, encourage everyone to share their observations, and scrutinize each other's behaviors carefully to identify the real Werewolves. The key is to balance suspicion with unity, ensuring we don't let it divide us but rather use it to guide our discussions towards the truth.",
+                "Round 3: Moderator Announcement: The Werewolves removed Jacob from the game during the night.",
+                "Round 3: After the debate, I voted to remove David from the game.",
+                "Round 3: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 3: Summary: I observed that David is pushing hard to scrutinize Hayley and me, which feels like an attempt to shift focus away from himself. Tyler's balanced view and encouragement for quieter players to speak up seem genuine, but Harold's silence is worrying. The Werewolves' pattern of removing vocal players like Jacob suggests they're targeting those who could expose them. I need to keep an eye on David's motives and encourage Harold to share his thoughts, as his silence could be strategic. Unity is important, but we must not let it blind us to potential threats among the quieter players.",
+                "Round 4: Moderator Announcement: The Werewolves removed David from the game during the night."
+            ],
+            "bidding_rationale": "The discussion is currently balanced, with attention being drawn to both vocal and quieter players. As Jackson, it's strategic to maintain this balance without drawing undue attention to myself, so observing for now is the best course of action.",
+            "gamestate": {
+                "round_number": 5,
+                "current_players": [
+                    "Jackson",
+                    "Tyler",
+                    "Hayley",
+                    "Harold"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        {
+            "name": "Will",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [],
+            "bidding_rationale": "",
+            "gamestate": {
+                "round_number": 0,
+                "current_players": [
+                    "David",
+                    "Isaac",
+                    "Jackson",
+                    "Will",
+                    "Jacob",
+                    "Tyler",
+                    "Paul",
+                    "Mason",
+                    "Hayley",
+                    "Harold"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        {
+            "name": "Jacob",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Will from the game during the night.",
+                "Round 0: After the debate, I voted to remove Hayley from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 0: Summary: I noted Jackson's leadership in encouraging discussion without baseless accusations, which makes me lean towards trusting him. Hayley's advice against random accusations and her suspicion of Paul's quick defense of Jackson raised my eyebrows; it's a subtle hint that either could be a Werewolf or just cautious. Paul's immediate defense of Jackson and then his openness to Hayley's critique shows he's either genuinely helpful or trying to appear so. Mason's point about listening to quieter players is smart, as Werewolves might hide in silence. Overall, I think Jackson and Mason seem reliable, while Paul and Hayley's dynamic is something I'll watch closely. The removal of Will by the Werewolves and the village's decision to remove Paul without clear evidence is concerning; it shows how quickly we can turn on each other without solid proof.",
+                "Round 1: Moderator Announcement: The Werewolves removed Mason from the game during the night.",
+                "Round 1: After the debate, I voted to remove Hayley from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: I noted that Isaac, Jackson, and David emphasized the importance of behavior analysis and involving quieter players, which I agree with. Jackson's leadership seems genuine, but I remain cautious. Hayley's earlier suspicion of Paul and her current scrutiny make her a player to watch. The lack of a majority vote shows our division, a potential advantage for the Werewolves. I believe encouraging everyone to share their observations is crucial, especially the quieter ones like Harold, Tyler, and David, whose silence might hide their true roles. Unity and careful analysis are our best tools against the Werewolves.",
+                "Round 2: Moderator Announcement: The Werewolves removed Isaac from the game during the night.",
+                "Round 2: After the debate, I voted to remove Hayley from the game.",
+                "Round 2: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 2: Summary: I noted that the debate revolved around the interactions between Jackson and Hayley, with their defense of each other being scrutinized. David's emphasis on unity and the importance of quieter players sharing their observations aligns with my thoughts, making him a potential ally. Jackson's leadership, though seemingly helpful, requires cautious observation. Harold provided a valuable analysis of voting patterns and the strategic removal of vocal players, suggesting the Werewolves might be targeting those who threaten their anonymity. Tyler's insight about the Werewolves possibly blending in quietly or steering the conversation as vocal leaders was noteworthy. The call for quieter players like Harold and Tyler to share more is crucial, as their silence could be strategic. Overall, the debate reinforced the need for careful analysis of each player's behavior and interactions to uncover the Werewolves."
+            ],
+            "bidding_rationale": "Given the current dynamics, it's important for me to contribute by encouraging more input from quieter players like Tyler and Harold, and to subtly steer the discussion towards analyzing voting patterns and alliances without making direct accusations.",
+            "gamestate": {
+                "round_number": 3,
+                "current_players": [
+                    "David",
+                    "Jackson",
+                    "Jacob",
+                    "Tyler",
+                    "Hayley",
+                    "Harold"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        {
+            "name": "Tyler",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Will from the game during the night.",
+                "Round 0: After the debate, I voted to remove Paul from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 0: Summary: I observed that Jackson and Hayley are advocating for careful discussion and observation, which seems beneficial for the Villagers. Paul's immediate defense of Jackson raised suspicions from Hayley, hinting at possible Werewolf tactics. Mason's encouragement for everyone to participate, including quieter players, could help reveal more about each player's role. I need to pay attention to how players interact and any inconsistencies in their statements, as these could be key to identifying the Werewolves. The removal of Will and Paul has left us with fewer players, making each remaining player's behavior even more significant.",
+                "Round 1: Moderator Announcement: The Werewolves removed Mason from the game during the night.",
+                "Round 1: After the debate, I voted to remove David from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: From my perspective as Tyler, the debate underscored the importance of observing everyone's behavior, not just the most vocal players. Isaac and Jacob's points about scrutinizing Jackson and Hayley's actions are valid, given their interactions in Round 0. Jackson's leadership seems beneficial, but I must remain cautious. Hayley's suspicion of Paul could be insightful or a diversion. The quieter players, including me, Jacob, Harold, and David, need to contribute more to avoid being overlooked or suspected. The failure to reach a majority vote on David is concerning and suggests the Werewolves might be influencing the group's decisions. Moving forward, I'll focus on inconsistencies in players' statements and actions, and encourage more participation from quieter players to uncover the truth.",
+                "Round 2: Moderator Announcement: The Werewolves removed Isaac from the game during the night.",
+                "Round 2: After the debate, I voted to remove Jackson from the game.",
+                "Round 2: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 2: Summary: I observed that Jackson and Hayley's collaboration is under scrutiny, but it's unclear if it's collusion or genuine efforts to uncover the truth. The Werewolves seem to be targeting vocal players, as seen with Isaac and Mason's removal. David and Jackson are leading discussions, which could be a strategy to steer suspicion away or genuine leadership. Jacob and Harold are starting to contribute more, which is crucial for uncovering the truth. As a quieter player, I need to share my observations more actively, as silence can be misconstrued. The key is to analyze interactions and voting patterns carefully, without letting suspicion divide us. Potential allies could be those who encourage unity and careful analysis, like Jacob and Harold, but I must remain cautious of everyone's motives.",
+                "Round 3: Moderator Announcement: The Werewolves removed Jacob from the game during the night.",
+                "Round 3: After the debate, I voted to remove Jackson from the game.",
+                "Round 3: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 3: Summary: I observed that David is pushing for a closer look at Jackson and Hayley's behavior, citing their consistent defense of each other. Jackson, in response, emphasizes the need to include quieter players like Harold and me in the analysis, advocating for unity. The debate underscores the importance of every player's contribution, with silence potentially being strategic. The pattern of Werewolves removing vocal players like Isaac and Mason suggests that quieter players might be key to uncovering the truth. The lack of majority votes in previous rounds hints at Werewolf influence, making it crucial to analyze all behaviors and voting patterns carefully. I need to share my observations more actively and encourage others to do the same, as unity and detailed analysis are our best tools against the Werewolves.",
+                "Round 4: Moderator Announcement: The Werewolves removed David from the game during the night."
+            ],
+            "bidding_rationale": "As Tyler the Villager, it's important to encourage unity and careful analysis without drawing undue attention to myself. Given the current debate, my contribution can help steer the discussion towards a more inclusive analysis of all players, not just the vocal ones.",
+            "gamestate": {
+                "round_number": 5,
+                "current_players": [
+                    "Jackson",
+                    "Tyler",
+                    "Hayley",
+                    "Harold"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        }
+    ],
+    "werewolves": [
+        {
+            "name": "Hayley",
+            "role": "Werewolf",
+            "personality": null,
+            "model": "gpt-4.1-2025-04-14",
+            "observations": [
+                "Round 0: During the night, we decided to eliminate Will.",
+                "Round 0: Moderator Announcement: The Werewolves removed Will from the game during the night.",
+                "Round 0: After the debate, I voted to remove Paul from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 0: Summary: In Round 0's debate, Jackson set the tone by urging everyone to be vocal and share suspicions\u2014he's trusted and may become a social leader. I made sure to question Paul's early trust in Jackson, hinting that too-quick alliances can be suspicious, but without making any bold accusations. Paul defended his position and encouraged careful teamwork, possibly trying to avoid suspicion on himself. Mason chimed in to echo the importance of everyone's input but didn't say anything revealing about his own suspicions. Notably, I wasn't accused or seriously challenged, and neither was Harold. The quieter players (David, Jacob, Isaac, Tyler) stayed in the background, which could make them targets for suspicion or could mean they have important roles and are keeping a low profile. For now, no one seems to suspect me or Harold; this gives us room to maneuver. I'll keep a close watch on Jackson and Mason for influence, and remember Paul's eagerness to defend others\u2014he may be easily influenced or trying to form alliances.",
+                "Round 1: During the night, we decided to eliminate Mason.",
+                "Round 1: Moderator Announcement: The Werewolves removed Mason from the game during the night.",
+                "Round 1: After the debate, I voted to remove Isaac from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: In this debate, multiple players\u2014especially Isaac and Jacob\u2014focused suspicion on both me and Jackson, linking our behavior and Mason's death to possible Werewolf activity. Jackson defended both of us by calling for teamwork and open dialogue, but that may have exposed us as being too closely aligned. The quieter players, particularly Harold, Tyler, David, and Jacob, were challenged for their silence, but haven\u2019t yet drawn heavy fire. David seems to be playing both sides and is still figuring out his place in the group. Isaac and Jacob are driving the investigative tone and might be important roles. Harold has stayed well under the radar, which is good for us. Overall, the group leans into unity and behavior analysis rather than dogpiling\u2014there's no hard consensus or coordinated alliance yet, but Isaac and Jacob are emerging as leaders. I need to stay involved in discussions without overstepping, avoid obvious alignment with Harold, and watch for an opportunity to manipulate suspicions toward someone else if public opinion starts to turn on Jackson or me.",
+                "Round 2: During the night, we decided to eliminate Isaac.",
+                "Round 2: Moderator Announcement: The Werewolves removed Isaac from the game during the night.",
+                "Round 2: After the debate, I voted to remove Jacob from the game.",
+                "Round 2: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 2: Summary: The main suspicion this round is on me and Jackson, stemming from our defense of each other and our voting patterns\u2014but no one is outright accusing me. David pushes for scrutiny of vocal alliances, while Jackson tries to focus suspicion onto quieter players like Harold, Jacob, and Tyler. Jacob stays neutral and seems cautious, possibly a Seer or a Villager trying not to make enemies; his perspective is valuable to track for swaying future votes. Harold keeps a low but thoughtful profile, subtly casting suspicion on vocal leaders without seeming aggressive\u2014a useful approach for blending in. Tyler agrees with the group but does not show leadership, suggesting he\u2019s easily influenced. No one directly challenges Harold, and I am still not the prime suspect, so both of us still have maneuvering space. The removal of vocal players (Isaac and Mason) is interpreted as Werewolves silencing threats, which may increase suspicion toward quieter players as the game progresses. I need to keep up my moderate, reasoned demeanor, nudge suspicions subtly toward others, and be wary of anyone (like Jacob or David) who shows signs of methodical investigation\u2014they may be important roles or dangerous to leave unchecked.",
+                "Round 3: During the night, we decided to eliminate Jacob.",
+                "Round 3: Moderator Announcement: The Werewolves removed Jacob from the game during the night.",
+                "Round 3: After the debate, I voted to remove David from the game.",
+                "Round 3: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 3: Summary: This round, suspicion finally began to gravitate more concretely towards me and Jackson, focused on our loyalty to each other and our control over discussion. David is leading the investigative push against us\u2014he's methodical, insistent, and likely to be an important role (possibly Doctor or Seer), so he\u2019s a serious threat. Jackson is still defending both of us, but others are taking note, and his strategy of redirecting suspicion onto Harold and Tyler could backfire, especially on Harold. Tyler remains cautious and agreeable, emphasizing unity and fair scrutiny without taking the initiative\u2014he\u2019s not a leader, just going with the flow. Harold is still mostly quiet, which is both a blessing and a risk if the group wants to target quieter players. Right now, I\u2019m not the primary target, but more of the discussion is revolving around my actions\u2014there\u2019s a definite shift toward danger. I need to keep blending in, avoid overreacting, and prepare to push suspicion onto David and Tyler if the opportunity arises. David should be our next target for night elimination since he\u2019s emerging as the village\u2019s intellectual leader and could be a power role.",
+                "Round 4: During the night, we decided to eliminate David.",
+                "Round 4: Moderator Announcement: The Werewolves removed David from the game during the night."
+            ],
+            "bidding_rationale": "The current debate is focused but not directly accusing me; Jackson is defending both of us, and attention is still split between vocal and quiet players. It's smarter to hold back and speak up only if suspicion intensifies toward me or Harold\u2014I don't want to draw unnecessary attention right now.",
+            "gamestate": {
+                "round_number": 5,
+                "current_players": [
+                    "Jackson",
+                    "Tyler",
+                    "Hayley",
+                    "Harold"
+                ],
+                "debate": [],
+                "other_wolf": "Harold"
+            }
+        },
+        {
+            "name": "Harold",
+            "role": "Werewolf",
+            "personality": null,
+            "model": "gpt-4.1-2025-04-14",
+            "observations": [
+                "Round 0: During the night, we decided to eliminate Will.",
+                "Round 0: Moderator Announcement: The Werewolves removed Will from the game during the night.",
+                "Round 0: After the debate, I voted to remove Paul from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 0: Summary: I noticed that after Will was eliminated by us (the Werewolves), Jackson started the discussion encouraging everyone to speak up and not be silent\u2014an approach that could get him trusted or make him a leader. Hayley (my ally) echoed this, warning against too-quick accusations, and subtly cast suspicion on Paul when he vouched for Jackson. Paul was adamant about Jackson's innocence and tried to steer focus away from him, but Hayley's counter made him look defensive. Mason weighed in on the importance of everyone speaking, which tells me he's tuned in but not overly assertive. Ultimately, Paul drew enough suspicion and was voted out, thanks in part to Hayley\u2019s suggestion and my vote. No one directly accused me or Hayley, but our roles aren't above suspicion if attention shifts in later rounds. Jackson might have a trust edge because of Paul\u2019s early defense\u2014if Paul flips as a Villager, that could make Jackson look innocent, but if Paul's alignment is questioned, it could swing suspicion. Mason seems like a follower, concerned with group input, and could be swayed. No one exposed potential Seer or Doctor tells, so targeting talkative but not highly trusted players\u2014possibly Mason, Isaac, or Jacob\u2014could be strategic in the next night phase.",
+                "Round 1: During the night, we decided to eliminate Mason.",
+                "Round 1: Moderator Announcement: The Werewolves removed Mason from the game during the night.",
+                "Round 1: After the debate, I voted to remove Isaac from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: The debate this round was marked by Isaac and Jacob urging scrutiny of Jackson and Hayley because of past votes, but they also emphasized involving quieter players\u2014myself (Harold), Jacob, Tyler, and David. Jackson defended his and Hayley\u2019s actions and reinforced the need for group unity, perhaps to deflect suspicion, while David focused on the need for everyone to contribute. No one directly accused me, but there\u2019s growing pressure on silent players, and our names are getting more mentions. Isaac and Jacob seem assertive and could unite the village\u2014potentially problematic down the line. No one showed strong signs of being Seer or Doctor, but the fact they want thorough discussion could mean the Seer is among them, eager for analysis. I should prepare to speak up next round to avoid being lumped in as a suspicious bystander and consider persuading the group that Isaac or Jacob\u2019s assertiveness could be a cover if suspicion on Hayley gets too strong.",
+                "Round 2: During the night, we decided to eliminate Isaac.",
+                "Round 2: Moderator Announcement: The Werewolves removed Isaac from the game during the night.",
+                "Round 2: After the debate, I voted to remove David from the game.",
+                "Round 2: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 2: Summary: Most players\u2014especially David, Jackson, and Jacob\u2014urged everyone, especially the quieter ones like me and Tyler, to contribute. Jackson and Hayley fielded subtle accusations of collusion due to earlier rounds, but the group is keeping all options open by also targeting the quiet players as possibly suspicious. Jacob played a careful middle ground, encouraging openness but not casting definitive blame. Tyler is meek, acknowledges suspicion on both vocal and quiet players, and hasn\u2019t made any bold moves\u2014making him someone who will likely mirror consensus. Hayley, my ally, is still under watch because of associations with Jackson. David remains a leader-type who can push narratives forward. No one stood out as a special role, but I should be wary of Jacob as an emerging influencer and Tyler as a potential swing vote. Eliminating Jacob could weaken village analysis, while continued low-key participation from me can help keep suspicion spread out.",
+                "Round 3: During the night, we decided to eliminate Jacob.",
+                "Round 3: Moderator Announcement: The Werewolves removed Jacob from the game during the night.",
+                "Round 3: After the debate, I voted to remove Tyler from the game.",
+                "Round 3: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 3: Summary: This round, David emerged as the most vocal accuser, pressing hard against Hayley (my ally) and Jackson, openly calling out their mutual defense and pushing for deeper analysis of our voting histories and behaviors. Jackson countered by stressing unity and redirecting focus onto the quieter players\u2014me and Tyler\u2014subtly moving suspicion onto us while trying to downplay direct attacks on himself and Hayley. Tyler continued his passive approach, echoing whoever spoke before him but gently highlighting silence as suspect, grouping himself and me together as under-scrutinized. The overall mood is shifting toward a demand for participation from everyone, with silence (my own in particular) becoming more suspicious. No one made a hard accusation against me yet, but pressure is building; further silence could be dangerous. David is clearly the main influencer and must be considered a priority for elimination, while Tyler is likely the easiest to sway or frame going forward. Jackson is a double-edged sword\u2014he\u2019s either a potential asset if suspicion turns toward him or Hayley, or a risk if he seizes control of the narrative.",
+                "Round 4: During the night, we decided to eliminate David.",
+                "Round 4: Moderator Announcement: The Werewolves removed David from the game during the night."
+            ],
+            "bidding_rationale": "Since I've been one of the quieter players and have now been directly addressed by Tyler and implicitly referenced by both Jackson and David, total silence could make me seem more suspicious. However, the group is emphasizing unity and thorough analysis, so making a moderate, non-urgent bid allows me to participate without drawing excessive attention or seeming desperate. I'll save my final speaking opportunity for a more critical moment if needed.",
+            "gamestate": {
+                "round_number": 5,
+                "current_players": [
+                    "Jackson",
+                    "Tyler",
+                    "Hayley",
+                    "Harold"
+                ],
+                "debate": [],
+                "other_wolf": "Hayley"
+            }
+        }
+    ],
+    "players": {
+        "David": {
+            "name": "David",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Will from the game during the night.",
+                "Round 0: After the debate, I voted to remove Paul from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 0: Summary: I observed that Jackson and Hayley are advocating for careful discussion and sharing of observations, which seems beneficial for the village. Paul's immediate defense of Jackson made me and Hayley suspicious, as it could indicate Werewolf collusion. Mason's emphasis on including everyone's input is a strategy I support, as it could reveal more about each player's role. I need to pay attention to who is quiet or overly defensive, as these could be signs of their true allegiance. The removal of Will and Paul has left us with fewer players, making each remaining player's behavior even more significant.",
+                "Round 1: Moderator Announcement: The Werewolves removed Mason from the game during the night.",
+                "Round 1: After the debate, I voted to remove Hayley from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: I observed that the debate centered around scrutinizing Jackson and Hayley's behavior due to their interactions in Round 0, with Isaac and Jacob advocating for a closer look. Jackson defended his leadership and Hayley's suspicion of Paul, emphasizing the need for unity and open dialogue. I agree with the importance of including quieter players in the discussion, as their silence could be strategic. Isaac's and Jacob's points about not narrowing our focus too early resonate with me, highlighting the need to analyze all players' behaviors critically. The lack of a majority vote to remove Hayley suggests divided opinions, which could be exploited by the Werewolves. Moving forward, I will pay close attention to the quieter players and any inconsistencies in behavior to identify potential allies or threats.",
+                "Round 2: Moderator Announcement: The Werewolves removed Isaac from the game during the night.",
+                "Round 2: After the debate, I voted to remove Harold from the game.",
+                "Round 2: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 2: Summary: I observed that Jackson and Hayley's continued defense of each other is suspicious, yet their call to focus on quieter players like Jacob, Harold, and Tyler is a strategy I agree with. Harold made a significant point about analyzing voting patterns and the strategic removal of vocal players like Isaac and Mason, which could indicate Werewolves targeting threats. Tyler's encouragement for quieter players to share observations is vital for uncovering the truth. I need to pay close attention to both the vocal and quiet players, as the Werewolves could be hiding among either group. The lack of a majority vote in recent rounds shows divided opinions, which the Werewolves might exploit. Moving forward, I will scrutinize all players' behaviors and voting patterns more closely to identify potential allies or threats.",
+                "Round 3: Moderator Announcement: The Werewolves removed Jacob from the game during the night.",
+                "Round 3: After the debate, I voted to remove Jackson from the game.",
+                "Round 3: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 3: Summary: I observed that Jackson and Hayley continue to defend each other, which raises suspicions, but their suggestion to focus on quieter players like Harold and Tyler is a strategy I support. Tyler's call for more participation from quieter players is important for our collective effort to uncover the Werewolves. Harold's silence is concerning and could indicate a strategic move by a Werewolf. The failure to reach a majority vote in recent rounds shows our divided opinions, a situation the Werewolves could exploit. I must remain vigilant, scrutinizing all players' actions and encouraging more open discussion to identify potential allies or threats."
+            ],
+            "bidding_rationale": "Given the ongoing debate and the need to steer the discussion towards a more strategic analysis of all players, including the quieter ones like Harold and Tyler, it's crucial for me to contribute now to ensure the village doesn't overlook potential Werewolf strategies.",
+            "gamestate": {
+                "round_number": 4,
+                "current_players": [
+                    "David",
+                    "Jackson",
+                    "Tyler",
+                    "Hayley",
+                    "Harold"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Isaac": {
+            "name": "Isaac",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Will from the game during the night.",
+                "Round 0: After the debate, I voted to remove Paul from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 0: Summary: I noticed Jackson and Hayley emphasized the need for careful discussion and observation, warning against hasty accusations. Paul's immediate defense of Jackson made Hayley suspicious, hinting at possible Werewolf tactics. Mason pointed out the importance of hearing from quieter players, as their silence might be significant. As Isaac, I should keep an eye on these dynamics, especially how Paul and Jackson interact moving forward, and pay attention to those who haven't spoken much yet. Their behavior could provide clues to identifying the Werewolves.",
+                "Round 1: Moderator Announcement: The Werewolves removed Mason from the game during the night.",
+                "Round 1: After the debate, I voted to remove Harold from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: I noticed that Jackson and Hayley's behaviors are under scrutiny, with Jackson defending his leadership and Hayley's suspicion of Paul being questioned. The importance of including quieter players like Jacob, Harold, Tyler, and David was emphasized, as their silence might be strategic. There's a strong push for teamwork and open dialogue, but I need to be wary of potential contradictions or hidden motives in these calls for unity. The collective strategy seems to focus on behavior analysis and encouraging all players to share observations to uncover inconsistencies. As Isaac, I should pay close attention to how these dynamics evolve and who might be trying to steer the conversation in a particular direction."
+            ],
+            "bidding_rationale": "The discussion is currently focused on analyzing Jackson and Hayley's behavior, which is important, but it's also crucial to encourage quieter players to share their observations. As Isaac, I can help steer the conversation towards inclusivity without drawing undue attention to myself.",
+            "gamestate": {
+                "round_number": 2,
+                "current_players": [
+                    "David",
+                    "Isaac",
+                    "Jackson",
+                    "Jacob",
+                    "Tyler",
+                    "Hayley",
+                    "Harold"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Jackson": {
+            "name": "Jackson",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Will from the game during the night.",
+                "Round 0: After the debate, I voted to remove Hayley from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 0: Summary: I observed that Paul quickly vouched for me, which Hayley found suspicious, suggesting Werewolves might defend each other early. Paul clarified his intention was to share observations, not to team up. Mason stressed the importance of hearing from quieter players, hinting that silence could be telling. Hayley's caution about early defenses and her suggestion to look for subtle signs were insightful. I need to keep an eye on these dynamics, especially how players interact and who remains silent, as the game progresses.",
+                "Round 1: Moderator Announcement: The Werewolves removed Mason from the game during the night.",
+                "Round 1: After the debate, I voted to remove Isaac from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: I observed that the debate centered around scrutinizing Hayley and me, with Isaac and Jacob leading the charge. Hayley's suspicion of Paul was noted, and while it was based on behavior, it drew attention to us. The quieter players\u2014Jacob, Harold, Tyler, and David\u2014were highlighted as potentially strategic in their silence. Isaac and Jacob emphasized the need for open dialogue and teamwork, which aligns with my approach, but I must remain cautious of their motives. David's support for teamwork was reassuring, but I need to ensure it's genuine. The call for unity and critical analysis of all behaviors is crucial, and I must encourage everyone to participate actively to uncover any Werewolves among us.",
+                "Round 2: Moderator Announcement: The Werewolves removed Isaac from the game during the night.",
+                "Round 2: After the debate, I voted to remove Harold from the game.",
+                "Round 2: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 2: Summary: I observed that the debate centered around the behavior of quieter players and the interactions between Hayley and me. David, Jacob, Harold, and Tyler all contributed to the discussion, with David and Jacob emphasizing the need for unity and open dialogue, while Harold and Tyler pointed out the strategic value of silence and the importance of analyzing voting patterns. The removal of vocal players like Isaac and Mason suggests the Werewolves are targeting those who could uncover them. I need to remain vigilant, encourage everyone to share their observations, and scrutinize each other's behaviors carefully to identify the real Werewolves. The key is to balance suspicion with unity, ensuring we don't let it divide us but rather use it to guide our discussions towards the truth.",
+                "Round 3: Moderator Announcement: The Werewolves removed Jacob from the game during the night.",
+                "Round 3: After the debate, I voted to remove David from the game.",
+                "Round 3: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 3: Summary: I observed that David is pushing hard to scrutinize Hayley and me, which feels like an attempt to shift focus away from himself. Tyler's balanced view and encouragement for quieter players to speak up seem genuine, but Harold's silence is worrying. The Werewolves' pattern of removing vocal players like Jacob suggests they're targeting those who could expose them. I need to keep an eye on David's motives and encourage Harold to share his thoughts, as his silence could be strategic. Unity is important, but we must not let it blind us to potential threats among the quieter players.",
+                "Round 4: Moderator Announcement: The Werewolves removed David from the game during the night."
+            ],
+            "bidding_rationale": "The discussion is currently balanced, with attention being drawn to both vocal and quieter players. As Jackson, it's strategic to maintain this balance without drawing undue attention to myself, so observing for now is the best course of action.",
+            "gamestate": {
+                "round_number": 5,
+                "current_players": [
+                    "Jackson",
+                    "Tyler",
+                    "Hayley",
+                    "Harold"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Will": {
+            "name": "Will",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [],
+            "bidding_rationale": "",
+            "gamestate": {
+                "round_number": 0,
+                "current_players": [
+                    "David",
+                    "Isaac",
+                    "Jackson",
+                    "Will",
+                    "Jacob",
+                    "Tyler",
+                    "Paul",
+                    "Mason",
+                    "Hayley",
+                    "Harold"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Jacob": {
+            "name": "Jacob",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Will from the game during the night.",
+                "Round 0: After the debate, I voted to remove Hayley from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 0: Summary: I noted Jackson's leadership in encouraging discussion without baseless accusations, which makes me lean towards trusting him. Hayley's advice against random accusations and her suspicion of Paul's quick defense of Jackson raised my eyebrows; it's a subtle hint that either could be a Werewolf or just cautious. Paul's immediate defense of Jackson and then his openness to Hayley's critique shows he's either genuinely helpful or trying to appear so. Mason's point about listening to quieter players is smart, as Werewolves might hide in silence. Overall, I think Jackson and Mason seem reliable, while Paul and Hayley's dynamic is something I'll watch closely. The removal of Will by the Werewolves and the village's decision to remove Paul without clear evidence is concerning; it shows how quickly we can turn on each other without solid proof.",
+                "Round 1: Moderator Announcement: The Werewolves removed Mason from the game during the night.",
+                "Round 1: After the debate, I voted to remove Hayley from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: I noted that Isaac, Jackson, and David emphasized the importance of behavior analysis and involving quieter players, which I agree with. Jackson's leadership seems genuine, but I remain cautious. Hayley's earlier suspicion of Paul and her current scrutiny make her a player to watch. The lack of a majority vote shows our division, a potential advantage for the Werewolves. I believe encouraging everyone to share their observations is crucial, especially the quieter ones like Harold, Tyler, and David, whose silence might hide their true roles. Unity and careful analysis are our best tools against the Werewolves.",
+                "Round 2: Moderator Announcement: The Werewolves removed Isaac from the game during the night.",
+                "Round 2: After the debate, I voted to remove Hayley from the game.",
+                "Round 2: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 2: Summary: I noted that the debate revolved around the interactions between Jackson and Hayley, with their defense of each other being scrutinized. David's emphasis on unity and the importance of quieter players sharing their observations aligns with my thoughts, making him a potential ally. Jackson's leadership, though seemingly helpful, requires cautious observation. Harold provided a valuable analysis of voting patterns and the strategic removal of vocal players, suggesting the Werewolves might be targeting those who threaten their anonymity. Tyler's insight about the Werewolves possibly blending in quietly or steering the conversation as vocal leaders was noteworthy. The call for quieter players like Harold and Tyler to share more is crucial, as their silence could be strategic. Overall, the debate reinforced the need for careful analysis of each player's behavior and interactions to uncover the Werewolves."
+            ],
+            "bidding_rationale": "Given the current dynamics, it's important for me to contribute by encouraging more input from quieter players like Tyler and Harold, and to subtly steer the discussion towards analyzing voting patterns and alliances without making direct accusations.",
+            "gamestate": {
+                "round_number": 3,
+                "current_players": [
+                    "David",
+                    "Jackson",
+                    "Jacob",
+                    "Tyler",
+                    "Hayley",
+                    "Harold"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Tyler": {
+            "name": "Tyler",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Will from the game during the night.",
+                "Round 0: After the debate, I voted to remove Paul from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 0: Summary: I observed that Jackson and Hayley are advocating for careful discussion and observation, which seems beneficial for the Villagers. Paul's immediate defense of Jackson raised suspicions from Hayley, hinting at possible Werewolf tactics. Mason's encouragement for everyone to participate, including quieter players, could help reveal more about each player's role. I need to pay attention to how players interact and any inconsistencies in their statements, as these could be key to identifying the Werewolves. The removal of Will and Paul has left us with fewer players, making each remaining player's behavior even more significant.",
+                "Round 1: Moderator Announcement: The Werewolves removed Mason from the game during the night.",
+                "Round 1: After the debate, I voted to remove David from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: From my perspective as Tyler, the debate underscored the importance of observing everyone's behavior, not just the most vocal players. Isaac and Jacob's points about scrutinizing Jackson and Hayley's actions are valid, given their interactions in Round 0. Jackson's leadership seems beneficial, but I must remain cautious. Hayley's suspicion of Paul could be insightful or a diversion. The quieter players, including me, Jacob, Harold, and David, need to contribute more to avoid being overlooked or suspected. The failure to reach a majority vote on David is concerning and suggests the Werewolves might be influencing the group's decisions. Moving forward, I'll focus on inconsistencies in players' statements and actions, and encourage more participation from quieter players to uncover the truth.",
+                "Round 2: Moderator Announcement: The Werewolves removed Isaac from the game during the night.",
+                "Round 2: After the debate, I voted to remove Jackson from the game.",
+                "Round 2: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 2: Summary: I observed that Jackson and Hayley's collaboration is under scrutiny, but it's unclear if it's collusion or genuine efforts to uncover the truth. The Werewolves seem to be targeting vocal players, as seen with Isaac and Mason's removal. David and Jackson are leading discussions, which could be a strategy to steer suspicion away or genuine leadership. Jacob and Harold are starting to contribute more, which is crucial for uncovering the truth. As a quieter player, I need to share my observations more actively, as silence can be misconstrued. The key is to analyze interactions and voting patterns carefully, without letting suspicion divide us. Potential allies could be those who encourage unity and careful analysis, like Jacob and Harold, but I must remain cautious of everyone's motives.",
+                "Round 3: Moderator Announcement: The Werewolves removed Jacob from the game during the night.",
+                "Round 3: After the debate, I voted to remove Jackson from the game.",
+                "Round 3: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 3: Summary: I observed that David is pushing for a closer look at Jackson and Hayley's behavior, citing their consistent defense of each other. Jackson, in response, emphasizes the need to include quieter players like Harold and me in the analysis, advocating for unity. The debate underscores the importance of every player's contribution, with silence potentially being strategic. The pattern of Werewolves removing vocal players like Isaac and Mason suggests that quieter players might be key to uncovering the truth. The lack of majority votes in previous rounds hints at Werewolf influence, making it crucial to analyze all behaviors and voting patterns carefully. I need to share my observations more actively and encourage others to do the same, as unity and detailed analysis are our best tools against the Werewolves.",
+                "Round 4: Moderator Announcement: The Werewolves removed David from the game during the night."
+            ],
+            "bidding_rationale": "As Tyler the Villager, it's important to encourage unity and careful analysis without drawing undue attention to myself. Given the current debate, my contribution can help steer the discussion towards a more inclusive analysis of all players, not just the vocal ones.",
+            "gamestate": {
+                "round_number": 5,
+                "current_players": [
+                    "Jackson",
+                    "Tyler",
+                    "Hayley",
+                    "Harold"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Hayley": {
+            "name": "Hayley",
+            "role": "Werewolf",
+            "personality": null,
+            "model": "gpt-4.1-2025-04-14",
+            "observations": [
+                "Round 0: During the night, we decided to eliminate Will.",
+                "Round 0: Moderator Announcement: The Werewolves removed Will from the game during the night.",
+                "Round 0: After the debate, I voted to remove Paul from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 0: Summary: In Round 0's debate, Jackson set the tone by urging everyone to be vocal and share suspicions\u2014he's trusted and may become a social leader. I made sure to question Paul's early trust in Jackson, hinting that too-quick alliances can be suspicious, but without making any bold accusations. Paul defended his position and encouraged careful teamwork, possibly trying to avoid suspicion on himself. Mason chimed in to echo the importance of everyone's input but didn't say anything revealing about his own suspicions. Notably, I wasn't accused or seriously challenged, and neither was Harold. The quieter players (David, Jacob, Isaac, Tyler) stayed in the background, which could make them targets for suspicion or could mean they have important roles and are keeping a low profile. For now, no one seems to suspect me or Harold; this gives us room to maneuver. I'll keep a close watch on Jackson and Mason for influence, and remember Paul's eagerness to defend others\u2014he may be easily influenced or trying to form alliances.",
+                "Round 1: During the night, we decided to eliminate Mason.",
+                "Round 1: Moderator Announcement: The Werewolves removed Mason from the game during the night.",
+                "Round 1: After the debate, I voted to remove Isaac from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: In this debate, multiple players\u2014especially Isaac and Jacob\u2014focused suspicion on both me and Jackson, linking our behavior and Mason's death to possible Werewolf activity. Jackson defended both of us by calling for teamwork and open dialogue, but that may have exposed us as being too closely aligned. The quieter players, particularly Harold, Tyler, David, and Jacob, were challenged for their silence, but haven\u2019t yet drawn heavy fire. David seems to be playing both sides and is still figuring out his place in the group. Isaac and Jacob are driving the investigative tone and might be important roles. Harold has stayed well under the radar, which is good for us. Overall, the group leans into unity and behavior analysis rather than dogpiling\u2014there's no hard consensus or coordinated alliance yet, but Isaac and Jacob are emerging as leaders. I need to stay involved in discussions without overstepping, avoid obvious alignment with Harold, and watch for an opportunity to manipulate suspicions toward someone else if public opinion starts to turn on Jackson or me.",
+                "Round 2: During the night, we decided to eliminate Isaac.",
+                "Round 2: Moderator Announcement: The Werewolves removed Isaac from the game during the night.",
+                "Round 2: After the debate, I voted to remove Jacob from the game.",
+                "Round 2: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 2: Summary: The main suspicion this round is on me and Jackson, stemming from our defense of each other and our voting patterns\u2014but no one is outright accusing me. David pushes for scrutiny of vocal alliances, while Jackson tries to focus suspicion onto quieter players like Harold, Jacob, and Tyler. Jacob stays neutral and seems cautious, possibly a Seer or a Villager trying not to make enemies; his perspective is valuable to track for swaying future votes. Harold keeps a low but thoughtful profile, subtly casting suspicion on vocal leaders without seeming aggressive\u2014a useful approach for blending in. Tyler agrees with the group but does not show leadership, suggesting he\u2019s easily influenced. No one directly challenges Harold, and I am still not the prime suspect, so both of us still have maneuvering space. The removal of vocal players (Isaac and Mason) is interpreted as Werewolves silencing threats, which may increase suspicion toward quieter players as the game progresses. I need to keep up my moderate, reasoned demeanor, nudge suspicions subtly toward others, and be wary of anyone (like Jacob or David) who shows signs of methodical investigation\u2014they may be important roles or dangerous to leave unchecked.",
+                "Round 3: During the night, we decided to eliminate Jacob.",
+                "Round 3: Moderator Announcement: The Werewolves removed Jacob from the game during the night.",
+                "Round 3: After the debate, I voted to remove David from the game.",
+                "Round 3: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 3: Summary: This round, suspicion finally began to gravitate more concretely towards me and Jackson, focused on our loyalty to each other and our control over discussion. David is leading the investigative push against us\u2014he's methodical, insistent, and likely to be an important role (possibly Doctor or Seer), so he\u2019s a serious threat. Jackson is still defending both of us, but others are taking note, and his strategy of redirecting suspicion onto Harold and Tyler could backfire, especially on Harold. Tyler remains cautious and agreeable, emphasizing unity and fair scrutiny without taking the initiative\u2014he\u2019s not a leader, just going with the flow. Harold is still mostly quiet, which is both a blessing and a risk if the group wants to target quieter players. Right now, I\u2019m not the primary target, but more of the discussion is revolving around my actions\u2014there\u2019s a definite shift toward danger. I need to keep blending in, avoid overreacting, and prepare to push suspicion onto David and Tyler if the opportunity arises. David should be our next target for night elimination since he\u2019s emerging as the village\u2019s intellectual leader and could be a power role.",
+                "Round 4: During the night, we decided to eliminate David.",
+                "Round 4: Moderator Announcement: The Werewolves removed David from the game during the night."
+            ],
+            "bidding_rationale": "The current debate is focused but not directly accusing me; Jackson is defending both of us, and attention is still split between vocal and quiet players. It's smarter to hold back and speak up only if suspicion intensifies toward me or Harold\u2014I don't want to draw unnecessary attention right now.",
+            "gamestate": {
+                "round_number": 5,
+                "current_players": [
+                    "Jackson",
+                    "Tyler",
+                    "Hayley",
+                    "Harold"
+                ],
+                "debate": [],
+                "other_wolf": "Harold"
+            }
+        },
+        "Harold": {
+            "name": "Harold",
+            "role": "Werewolf",
+            "personality": null,
+            "model": "gpt-4.1-2025-04-14",
+            "observations": [
+                "Round 0: During the night, we decided to eliminate Will.",
+                "Round 0: Moderator Announcement: The Werewolves removed Will from the game during the night.",
+                "Round 0: After the debate, I voted to remove Paul from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 0: Summary: I noticed that after Will was eliminated by us (the Werewolves), Jackson started the discussion encouraging everyone to speak up and not be silent\u2014an approach that could get him trusted or make him a leader. Hayley (my ally) echoed this, warning against too-quick accusations, and subtly cast suspicion on Paul when he vouched for Jackson. Paul was adamant about Jackson's innocence and tried to steer focus away from him, but Hayley's counter made him look defensive. Mason weighed in on the importance of everyone speaking, which tells me he's tuned in but not overly assertive. Ultimately, Paul drew enough suspicion and was voted out, thanks in part to Hayley\u2019s suggestion and my vote. No one directly accused me or Hayley, but our roles aren't above suspicion if attention shifts in later rounds. Jackson might have a trust edge because of Paul\u2019s early defense\u2014if Paul flips as a Villager, that could make Jackson look innocent, but if Paul's alignment is questioned, it could swing suspicion. Mason seems like a follower, concerned with group input, and could be swayed. No one exposed potential Seer or Doctor tells, so targeting talkative but not highly trusted players\u2014possibly Mason, Isaac, or Jacob\u2014could be strategic in the next night phase.",
+                "Round 1: During the night, we decided to eliminate Mason.",
+                "Round 1: Moderator Announcement: The Werewolves removed Mason from the game during the night.",
+                "Round 1: After the debate, I voted to remove Isaac from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: The debate this round was marked by Isaac and Jacob urging scrutiny of Jackson and Hayley because of past votes, but they also emphasized involving quieter players\u2014myself (Harold), Jacob, Tyler, and David. Jackson defended his and Hayley\u2019s actions and reinforced the need for group unity, perhaps to deflect suspicion, while David focused on the need for everyone to contribute. No one directly accused me, but there\u2019s growing pressure on silent players, and our names are getting more mentions. Isaac and Jacob seem assertive and could unite the village\u2014potentially problematic down the line. No one showed strong signs of being Seer or Doctor, but the fact they want thorough discussion could mean the Seer is among them, eager for analysis. I should prepare to speak up next round to avoid being lumped in as a suspicious bystander and consider persuading the group that Isaac or Jacob\u2019s assertiveness could be a cover if suspicion on Hayley gets too strong.",
+                "Round 2: During the night, we decided to eliminate Isaac.",
+                "Round 2: Moderator Announcement: The Werewolves removed Isaac from the game during the night.",
+                "Round 2: After the debate, I voted to remove David from the game.",
+                "Round 2: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 2: Summary: Most players\u2014especially David, Jackson, and Jacob\u2014urged everyone, especially the quieter ones like me and Tyler, to contribute. Jackson and Hayley fielded subtle accusations of collusion due to earlier rounds, but the group is keeping all options open by also targeting the quiet players as possibly suspicious. Jacob played a careful middle ground, encouraging openness but not casting definitive blame. Tyler is meek, acknowledges suspicion on both vocal and quiet players, and hasn\u2019t made any bold moves\u2014making him someone who will likely mirror consensus. Hayley, my ally, is still under watch because of associations with Jackson. David remains a leader-type who can push narratives forward. No one stood out as a special role, but I should be wary of Jacob as an emerging influencer and Tyler as a potential swing vote. Eliminating Jacob could weaken village analysis, while continued low-key participation from me can help keep suspicion spread out.",
+                "Round 3: During the night, we decided to eliminate Jacob.",
+                "Round 3: Moderator Announcement: The Werewolves removed Jacob from the game during the night.",
+                "Round 3: After the debate, I voted to remove Tyler from the game.",
+                "Round 3: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 3: Summary: This round, David emerged as the most vocal accuser, pressing hard against Hayley (my ally) and Jackson, openly calling out their mutual defense and pushing for deeper analysis of our voting histories and behaviors. Jackson countered by stressing unity and redirecting focus onto the quieter players\u2014me and Tyler\u2014subtly moving suspicion onto us while trying to downplay direct attacks on himself and Hayley. Tyler continued his passive approach, echoing whoever spoke before him but gently highlighting silence as suspect, grouping himself and me together as under-scrutinized. The overall mood is shifting toward a demand for participation from everyone, with silence (my own in particular) becoming more suspicious. No one made a hard accusation against me yet, but pressure is building; further silence could be dangerous. David is clearly the main influencer and must be considered a priority for elimination, while Tyler is likely the easiest to sway or frame going forward. Jackson is a double-edged sword\u2014he\u2019s either a potential asset if suspicion turns toward him or Hayley, or a risk if he seizes control of the narrative.",
+                "Round 4: During the night, we decided to eliminate David.",
+                "Round 4: Moderator Announcement: The Werewolves removed David from the game during the night."
+            ],
+            "bidding_rationale": "Since I've been one of the quieter players and have now been directly addressed by Tyler and implicitly referenced by both Jackson and David, total silence could make me seem more suspicious. However, the group is emphasizing unity and thorough analysis, so making a moderate, non-urgent bid allows me to participate without drawing excessive attention or seeming desperate. I'll save my final speaking opportunity for a more critical moment if needed.",
+            "gamestate": {
+                "round_number": 5,
+                "current_players": [
+                    "Jackson",
+                    "Tyler",
+                    "Hayley",
+                    "Harold"
+                ],
+                "debate": [],
+                "other_wolf": "Hayley"
+            }
+        },
+        "Mason": {
+            "name": "Mason",
+            "role": "Doctor",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: During the night, I chose to protect Harold",
+                "Round 0: Moderator Announcement: The Werewolves removed Will from the game during the night.",
+                "Round 0: After the debate, I voted to remove Hayley from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 0: Summary: I noticed Jackson initiated the discussion wisely, urging for evidence before accusations. Hayley was cautious about random accusations and suggested observing quieter players, which might have made her a target. Paul defended Jackson early, which Hayley found suspicious, but he seemed genuinely focused on teamwork. I emphasized the importance of including everyone's thoughts, especially the quieter ones, to gather more clues. The removal of Will by the Werewolves and the vote against Paul, despite my vote for Hayley, leaves me wondering about the group's dynamics and who might be trying to steer the votes. I need to keep an eye on Paul and Jackson's interactions, as well as encourage more input from Isaac, David, Harold, Jacob, and Tyler, who were quieter in the debate.",
+                "Round 1: During the night, I chose to protect Jackson"
+            ],
+            "bidding_rationale": "As the Doctor, my primary role is to protect players at night. Since the discussion is still general and no one has directly addressed me or my actions, it's strategic for me to observe and listen for now to gather more information without drawing attention to myself.",
+            "gamestate": {
+                "round_number": 1,
+                "current_players": [
+                    "David",
+                    "Isaac",
+                    "Jackson",
+                    "Jacob",
+                    "Tyler",
+                    "Mason",
+                    "Hayley",
+                    "Harold"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Paul": {
+            "name": "Paul",
+            "role": "Seer",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: During the night, I decided to investigate Jackson and learned they are a Villager.",
+                "Round 0: Moderator Announcement: The Werewolves removed Will from the game during the night.",
+                "Round 0: After the debate, I voted to remove Hayley from the game."
+            ],
+            "bidding_rationale": "Given that I have already vouched for Jackson and Hayley has raised suspicions about my quick defense, it's important to clarify my position without revealing my role. This is to prevent further suspicion and to keep the focus on identifying Werewolves.",
+            "gamestate": {
+                "round_number": 0,
+                "current_players": [
+                    "David",
+                    "Isaac",
+                    "Jackson",
+                    "Jacob",
+                    "Tyler",
+                    "Paul",
+                    "Mason",
+                    "Hayley",
+                    "Harold"
+                ],
+                "debate": [
+                    [
+                        "Jackson",
+                        "Given that Will was removed by the Werewolves last night, it's clear they're among us. We need to start discussing and sharing observations to find inconsistencies in behavior. Let's not rush to accuse anyone without evidence, but let's also not stay silent. Silence benefits the Werewolves. If anyone has any information or suspicions, now is the time to share."
+                    ],
+                    [
+                        "Hayley",
+                        "I agree with Jackson\u2014no one should stay silent, but I also think it's risky to start throwing around random accusations. Maybe we should each share where our suspicions are or if we noticed anything odd about last night's outcome. For example, sometimes Werewolves try to frame quieter players by leaving them alive. Does anyone feel like someone acted differently during the last few games or even just now? We need to look for subtle signs, not just jump at shadows."
+                    ],
+                    [
+                        "Paul",
+                        "I've been paying close attention to everyone's behavior since the game started, and based on what I've observed, I feel confident that Jackson is on our side. It's crucial we focus our suspicions elsewhere to avoid misdirecting our efforts. Let's use this information to our advantage and look for inconsistencies in others' statements or behaviors. Teamwork and careful observation will be key to uncovering the Werewolves among us."
+                    ],
+                    [
+                        "Hayley",
+                        "I find it interesting that Paul is so quick to vouch for Jackson\u2014it's still so early, and we don't really have enough information to know anyone's role for sure. Sometimes, Werewolves try to team up in plain sight by defending each other early on. Of course, it's possible Paul's just being cautious, but it's definitely something we should keep in mind as we see how people interact going forward. Maybe we should hear a bit more from the quieter players too\u2014sometimes that's where the real clues are."
+                    ],
+                    [
+                        "Paul",
+                        "Hayley makes a fair point about the risks of early defenses, and I appreciate the vigilance. My intention wasn't to team up but to share an observation based on behavior. Let's not let this distract us from our main goal: identifying Werewolves through careful discussion and observation. I suggest we each share our thoughts on last night's events and look for inconsistencies. Teamwork is our strongest tool against the Werewolves."
+                    ],
+                    [
+                        "Mason",
+                        "I agree with the points made about the importance of observation and teamwork. It's crucial we don't rush to accuse without evidence, but we also shouldn't overlook the value of everyone's input, especially those who haven't spoken much yet. Silence can sometimes speak volumes. Let's encourage everyone to share their thoughts, no matter how minor they may seem. Together, we can piece together the clues we need to protect our village."
+                    ]
+                ],
+                "other_wolf": null
+            },
+            "previously_unmasked": {
+                "Jackson": "Villager"
+            }
+        }
+    },
+    "rounds": [
+        {
+            "players": [
+                "David",
+                "Isaac",
+                "Jackson",
+                "Jacob",
+                "Tyler",
+                "Hayley",
+                "Harold",
+                "Mason"
+            ],
+            "eliminated": "Will",
+            "unmasked": "Jackson",
+            "protected": "Harold",
+            "exiled": "Paul",
+            "debate": [
+                [
+                    "Jackson",
+                    "Given that Will was removed by the Werewolves last night, it's clear they're among us. We need to start discussing and sharing observations to find inconsistencies in behavior. Let's not rush to accuse anyone without evidence, but let's also not stay silent. Silence benefits the Werewolves. If anyone has any information or suspicions, now is the time to share."
+                ],
+                [
+                    "Hayley",
+                    "I agree with Jackson\u2014no one should stay silent, but I also think it's risky to start throwing around random accusations. Maybe we should each share where our suspicions are or if we noticed anything odd about last night's outcome. For example, sometimes Werewolves try to frame quieter players by leaving them alive. Does anyone feel like someone acted differently during the last few games or even just now? We need to look for subtle signs, not just jump at shadows."
+                ],
+                [
+                    "Paul",
+                    "I've been paying close attention to everyone's behavior since the game started, and based on what I've observed, I feel confident that Jackson is on our side. It's crucial we focus our suspicions elsewhere to avoid misdirecting our efforts. Let's use this information to our advantage and look for inconsistencies in others' statements or behaviors. Teamwork and careful observation will be key to uncovering the Werewolves among us."
+                ],
+                [
+                    "Hayley",
+                    "I find it interesting that Paul is so quick to vouch for Jackson\u2014it's still so early, and we don't really have enough information to know anyone's role for sure. Sometimes, Werewolves try to team up in plain sight by defending each other early on. Of course, it's possible Paul's just being cautious, but it's definitely something we should keep in mind as we see how people interact going forward. Maybe we should hear a bit more from the quieter players too\u2014sometimes that's where the real clues are."
+                ],
+                [
+                    "Paul",
+                    "Hayley makes a fair point about the risks of early defenses, and I appreciate the vigilance. My intention wasn't to team up but to share an observation based on behavior. Let's not let this distract us from our main goal: identifying Werewolves through careful discussion and observation. I suggest we each share our thoughts on last night's events and look for inconsistencies. Teamwork is our strongest tool against the Werewolves."
+                ],
+                [
+                    "Mason",
+                    "I agree with the points made about the importance of observation and teamwork. It's crucial we don't rush to accuse without evidence, but we also shouldn't overlook the value of everyone's input, especially those who haven't spoken much yet. Silence can sometimes speak volumes. Let's encourage everyone to share their thoughts, no matter how minor they may seem. Together, we can piece together the clues we need to protect our village."
+                ]
+            ],
+            "votes": [
+                {
+                    "David": "Harold",
+                    "Isaac": "Harold",
+                    "Jackson": "Harold",
+                    "Jacob": "Harold",
+                    "Tyler": "Harold",
+                    "Hayley": "Jackson",
+                    "Harold": "Jackson",
+                    "Mason": "Isaac",
+                    "Paul": "Hayley"
+                },
+                {
+                    "David": "Jacob",
+                    "Isaac": "Harold",
+                    "Jackson": "Paul",
+                    "Jacob": "Harold",
+                    "Tyler": "Hayley",
+                    "Hayley": "Jackson",
+                    "Harold": "Mason",
+                    "Mason": "Isaac",
+                    "Paul": "Harold"
+                },
+                {
+                    "David": "Paul",
+                    "Isaac": "Paul",
+                    "Jackson": "Isaac",
+                    "Jacob": "Paul",
+                    "Tyler": "Paul",
+                    "Hayley": "Mason",
+                    "Harold": "Paul",
+                    "Mason": "Paul",
+                    "Paul": "Isaac"
+                },
+                {
+                    "David": "Paul",
+                    "Isaac": "Paul",
+                    "Jackson": "Mason",
+                    "Jacob": "Paul",
+                    "Tyler": "Paul",
+                    "Hayley": "Paul",
+                    "Harold": "Paul",
+                    "Mason": "Paul",
+                    "Paul": "Hayley"
+                },
+                {
+                    "David": "Paul",
+                    "Isaac": "Paul",
+                    "Jackson": "Paul",
+                    "Jacob": "Isaac",
+                    "Tyler": "Paul",
+                    "Hayley": "Paul",
+                    "Harold": "Paul",
+                    "Mason": "Paul",
+                    "Paul": "Hayley"
+                },
+                {
+                    "David": "Paul",
+                    "Isaac": "Paul",
+                    "Jackson": "Hayley",
+                    "Jacob": "Hayley",
+                    "Tyler": "Paul",
+                    "Hayley": "Paul",
+                    "Harold": "Paul",
+                    "Mason": "Hayley",
+                    "Paul": "Hayley"
+                }
+            ],
+            "bids": [
+                {
+                    "David": 0,
+                    "Isaac": 0,
+                    "Jackson": 0,
+                    "Jacob": 0,
+                    "Tyler": 0,
+                    "Hayley": 0,
+                    "Harold": 0,
+                    "Mason": 0,
+                    "Paul": 0
+                },
+                {
+                    "David": 0,
+                    "Isaac": 0,
+                    "Jacob": 0,
+                    "Tyler": 0,
+                    "Hayley": 0,
+                    "Harold": 0,
+                    "Mason": 0,
+                    "Paul": 0
+                },
+                {
+                    "David": 0,
+                    "Isaac": 0,
+                    "Jackson": 0,
+                    "Jacob": 0,
+                    "Tyler": 0,
+                    "Harold": 0,
+                    "Mason": 0,
+                    "Paul": 2
+                },
+                {
+                    "David": 0,
+                    "Isaac": 0,
+                    "Jackson": 0,
+                    "Jacob": 0,
+                    "Tyler": 0,
+                    "Hayley": 0,
+                    "Harold": 0,
+                    "Mason": 0
+                },
+                {
+                    "David": 0,
+                    "Isaac": 0,
+                    "Jackson": 0,
+                    "Jacob": 0,
+                    "Tyler": 0,
+                    "Harold": 0,
+                    "Mason": 0,
+                    "Paul": 2
+                },
+                {
+                    "David": 0,
+                    "Isaac": 0,
+                    "Jackson": 0,
+                    "Jacob": 0,
+                    "Tyler": 0,
+                    "Hayley": 0,
+                    "Harold": 0,
+                    "Mason": 0
+                }
+            ],
+            "success": true
+        },
+        {
+            "players": [
+                "David",
+                "Isaac",
+                "Jackson",
+                "Jacob",
+                "Tyler",
+                "Hayley",
+                "Harold"
+            ],
+            "eliminated": "Mason",
+            "unmasked": null,
+            "protected": "Jackson",
+            "exiled": null,
+            "debate": [
+                [
+                    "Isaac",
+                    "Given Mason's removal and the interactions from Round 0, we need to scrutinize Jackson and Hayley's behavior closely. Paul's immediate defense of Jackson was notable, and Hayley's suspicion of Paul could be a tactic to divert attention. Also, we shouldn't overlook the quieter players\u2014Jacob, Harold, Tyler, and David. Their silence could be telling. Let's work together to analyze these dynamics and expose any inconsistencies. Teamwork is our best weapon against the Werewolves."
+                ],
+                [
+                    "Jacob",
+                    "I agree with Isaac that we need to scrutinize Jackson and Hayley's behavior closely, given Mason's removal and their interactions in Round 0. Jackson's leadership has been helpful, but we must ensure it's not a facade. Hayley's suspicion of Paul could be strategic, and we should consider that. Also, let's not overlook the quieter players among us\u2014silence can be as telling as words. I propose we share our observations and suspicions openly, focusing on inconsistencies in behavior rather than making baseless accusations. Together, we can piece together the truth and protect our village."
+                ],
+                [
+                    "Jackson",
+                    "I understand the scrutiny on Hayley and me, but let's not lose sight of our collective goal\u2014to identify the Werewolves. Hayley's suspicion of Paul was based on observable behavior, not baseless accusations. Similarly, my leadership is genuine, aimed at unifying the Village. We must also consider the quieter players; their silence could be strategic. I propose we encourage everyone to share their observations, focusing on inconsistencies in behavior. Teamwork and open dialogue are our best tools against the Werewolves. Let's not divide ourselves based on early suspicions but work together to uncover the truth."
+                ],
+                [
+                    "David",
+                    "I agree that we need to scrutinize Jackson and Hayley's behavior, but let's also ensure we're not overlooking the quieter players among us, including myself. Silence can be strategic, and it's crucial we all contribute to the discussion to uncover any inconsistencies. I support Jackson's call for teamwork and open dialogue. Let's focus on sharing observations and suspicions based on behavior, not just early suspicions. Together, we can piece together the truth and protect our village."
+                ],
+                [
+                    "Jackson",
+                    "I appreciate the focus on behavior analysis, but let's ensure we're not narrowing our sights too early. Hayley's and my actions have been under scrutiny, but remember, Werewolves thrive on division. Let's broaden our perspective to include everyone, especially those who've been quieter. Their silence could be strategic. I urge all of us to share observations and question inconsistencies. Teamwork is our strength; let's use it to piece together the truth and protect our village."
+                ],
+                [
+                    "Jacob",
+                    "I appreciate the points made by Isaac, Jackson, and David about the importance of scrutinizing behavior and encouraging quieter players to speak up. It's essential we don't let the Werewolves exploit our divisions by focusing too narrowly on a few individuals. Let's use this opportunity to hear from everyone, especially those who've been less vocal. Their insights could be invaluable. Remember, our strength lies in our unity and our ability to analyze all behaviors critically. Let's work together to uncover any inconsistencies and protect our village."
+                ]
+            ],
+            "votes": [
+                {
+                    "David": "Jackson",
+                    "Isaac": "Jackson",
+                    "Jackson": "Isaac",
+                    "Jacob": "Hayley",
+                    "Tyler": "Jackson",
+                    "Hayley": "Isaac",
+                    "Harold": "Isaac"
+                },
+                {
+                    "David": "Isaac",
+                    "Isaac": "Hayley",
+                    "Jackson": "Isaac",
+                    "Jacob": "Hayley",
+                    "Tyler": "Hayley",
+                    "Hayley": "Isaac",
+                    "Harold": "Isaac"
+                },
+                {
+                    "David": "Isaac",
+                    "Isaac": "David",
+                    "Jackson": "Isaac",
+                    "Jacob": "Hayley",
+                    "Tyler": "Harold",
+                    "Hayley": "Isaac",
+                    "Harold": "Isaac"
+                },
+                {
+                    "David": "Jacob",
+                    "Isaac": "Harold",
+                    "Jackson": "Hayley",
+                    "Jacob": "Harold",
+                    "Tyler": "Harold",
+                    "Hayley": "Isaac",
+                    "Harold": "Jacob"
+                },
+                {
+                    "David": "Harold",
+                    "Isaac": "Jacob",
+                    "Jackson": "Harold",
+                    "Jacob": "Isaac",
+                    "Tyler": "Jackson",
+                    "Hayley": "Isaac",
+                    "Harold": "Jackson"
+                },
+                {
+                    "David": "Hayley",
+                    "Isaac": "Harold",
+                    "Jackson": "Isaac",
+                    "Jacob": "Hayley",
+                    "Tyler": "David",
+                    "Hayley": "Isaac",
+                    "Harold": "Isaac"
+                }
+            ],
+            "bids": [
+                {
+                    "David": 0,
+                    "Isaac": 2,
+                    "Jackson": 0,
+                    "Jacob": 0,
+                    "Tyler": 0,
+                    "Hayley": 0,
+                    "Harold": 0
+                },
+                {
+                    "David": 0,
+                    "Jackson": 2,
+                    "Jacob": 2,
+                    "Tyler": 0,
+                    "Hayley": 0,
+                    "Harold": 0
+                },
+                {
+                    "David": 0,
+                    "Isaac": 2,
+                    "Jackson": 4,
+                    "Tyler": 1,
+                    "Hayley": 4,
+                    "Harold": 0
+                },
+                {
+                    "David": 1,
+                    "Isaac": 0,
+                    "Jacob": 0,
+                    "Tyler": 1,
+                    "Hayley": 0,
+                    "Harold": 0
+                },
+                {
+                    "Isaac": 2,
+                    "Jackson": 2,
+                    "Jacob": 2,
+                    "Tyler": 2,
+                    "Hayley": 1,
+                    "Harold": 1
+                },
+                {
+                    "David": 1,
+                    "Isaac": 1,
+                    "Jacob": 2,
+                    "Tyler": 0,
+                    "Hayley": 0,
+                    "Harold": 0
+                }
+            ],
+            "success": true
+        },
+        {
+            "players": [
+                "David",
+                "Jackson",
+                "Jacob",
+                "Tyler",
+                "Hayley",
+                "Harold"
+            ],
+            "eliminated": "Isaac",
+            "unmasked": null,
+            "protected": null,
+            "exiled": null,
+            "debate": [
+                [
+                    "David",
+                    "Given Isaac's removal, it's clear the Werewolves are among us, and we need to act decisively. Jackson and Hayley's interactions have raised suspicions, especially after Hayley's near removal in Round 1. Their defense of each other could be a sign of collusion. We must also consider the quieter players; their silence could be strategic. Let's encourage everyone to share their observations and scrutinize any inconsistencies in behavior. Together, we can uncover the Werewolves and protect our village."
+                ],
+                [
+                    "Jackson",
+                    "I understand the concerns about Hayley and me, but our interactions were based on trying to uncover the truth, not because we're working together. It's crucial we don't let suspicion divide us. Instead, let's focus on the quieter players among us\u2014Jacob, Harold, and Tyler. Their silence could be strategic. I urge everyone to share their observations openly. If we work together and scrutinize each other's behaviors carefully, we can identify the real Werewolves and protect our Village."
+                ],
+                [
+                    "David",
+                    "Jackson raises a valid point about the importance of unity and focusing on the quieter players. However, we must balance this with vigilance. Jacob, Harold, and Tyler, your insights are crucial at this stage. Silence can be as telling as words. Let's hear your thoughts on the recent events and any observations you've made. Additionally, Jackson and Hayley, while your intentions may be pure, the pattern of your interactions warrants scrutiny. Let's all commit to sharing our observations openly but also questioning them critically. Together, we can piece together the truth."
+                ],
+                [
+                    "Jacob",
+                    "I appreciate the call for quieter players to share their observations, and I agree that our silence could be misconstrued. I've been closely following the discussions and have noted the interactions between Jackson and Hayley with interest. While their defense of each other could be seen as collusion, it's also possible they're genuinely trying to uncover the truth. However, we must also consider the roles of Harold and Tyler, whose insights could be crucial at this stage. Let's encourage everyone to share their thoughts openly. Unity and careful analysis of each other's behaviors will be our best defense against the Werewolves. Let's not let suspicion divide us but rather use it to guide our discussions towards the truth."
+                ],
+                [
+                    "Harold",
+                    "Thanks, everyone, for encouraging input from the quieter players\u2014staying quiet can definitely be suspicious, but sometimes it's just about not wanting to sway the group without enough evidence. Looking at what's happened, I noticed Isaac and Mason, who were both pretty vocal about analyzing past votes, are now gone\u2014which might mean someone didn't want their insights around. At the same time, Jackson and David have been guiding a lot of discussion, and that kind of leadership can sometimes be used to steer suspicion away from themselves. But it's equally possible the Werewolves are hiding among those who keep their heads down. Maybe instead of focusing only on volume, we should look closely at voting patterns and who benefits most from certain people being removed. I'm interested in hearing more from Tyler, and curious if anyone's picked up on any missed connections or odd alliances. We can't overlook anyone\u2014including people who seem to be acting in the Village's interests, since that's the best cover a Werewolf could have."
+                ],
+                [
+                    "Tyler",
+                    "I appreciate the call for quieter players like myself to share our observations. It's clear that the Werewolves are among us, and their strategy might involve either blending in quietly or steering the conversation as vocal leaders. I've noticed Jackson and Hayley's interactions closely; while their collaboration could be for the Village's benefit, we must remain vigilant for any signs of collusion. Similarly, the removal of vocal players like Isaac and Mason suggests the Werewolves might be targeting those who pose a threat to their anonymity. I urge everyone, especially those who've been quiet, to share any observations, no matter how small. Together, by analyzing our interactions and voting patterns, we can uncover the Werewolves. Let's not let our guard down, whether it's towards the vocal or the quiet among us."
+                ]
+            ],
+            "votes": [
+                {
+                    "David": "Hayley",
+                    "Jackson": "Hayley",
+                    "Jacob": "Hayley",
+                    "Tyler": "Hayley",
+                    "Hayley": "David",
+                    "Harold": "David"
+                },
+                {
+                    "David": "Hayley",
+                    "Jackson": "Jacob",
+                    "Jacob": "Hayley",
+                    "Tyler": "David",
+                    "Hayley": "David",
+                    "Harold": "Jacob"
+                },
+                {
+                    "David": "Hayley",
+                    "Jackson": "Jacob",
+                    "Jacob": "Hayley",
+                    "Tyler": "Harold",
+                    "Hayley": "Jacob",
+                    "Harold": "Jacob"
+                },
+                {
+                    "David": "Hayley",
+                    "Jackson": "Tyler",
+                    "Jacob": "Hayley",
+                    "Tyler": "Harold",
+                    "Hayley": "David",
+                    "Harold": "David"
+                },
+                {
+                    "David": "Hayley",
+                    "Jackson": "Jacob",
+                    "Jacob": "Hayley",
+                    "Tyler": "David",
+                    "Hayley": "Tyler",
+                    "Harold": "David"
+                },
+                {
+                    "David": "Harold",
+                    "Jackson": "Harold",
+                    "Jacob": "Hayley",
+                    "Tyler": "Jackson",
+                    "Hayley": "Jacob",
+                    "Harold": "David"
+                }
+            ],
+            "bids": [
+                {
+                    "David": 2,
+                    "Jackson": 0,
+                    "Jacob": 0,
+                    "Tyler": 0,
+                    "Hayley": 0,
+                    "Harold": 1
+                },
+                {
+                    "Jackson": 3,
+                    "Jacob": 1,
+                    "Tyler": 1,
+                    "Hayley": 0,
+                    "Harold": 0
+                },
+                {
+                    "David": 2,
+                    "Jacob": 1,
+                    "Tyler": 1,
+                    "Hayley": 0,
+                    "Harold": 1
+                },
+                {
+                    "Jackson": 4,
+                    "Jacob": 4,
+                    "Tyler": 2,
+                    "Hayley": 4,
+                    "Harold": 4
+                },
+                {
+                    "David": 0,
+                    "Jackson": 4,
+                    "Tyler": 2,
+                    "Hayley": 0,
+                    "Harold": 4
+                },
+                {
+                    "David": 2,
+                    "Jackson": 2,
+                    "Jacob": 2,
+                    "Tyler": 2,
+                    "Hayley": 0
+                }
+            ],
+            "success": true
+        },
+        {
+            "players": [
+                "David",
+                "Jackson",
+                "Tyler",
+                "Hayley",
+                "Harold"
+            ],
+            "eliminated": "Jacob",
+            "unmasked": null,
+            "protected": null,
+            "exiled": null,
+            "debate": [
+                [
+                    "David",
+                    "Given the pattern of removals and the interactions we've observed, it's time we take a closer look at Jackson and Hayley's behavior. Their consistent defense of each other and focus on quieter players could be a tactic to steer suspicion away from themselves. I propose we analyze everyone's voting patterns and contributions to the discussions. Let's not overlook the quieter players either; their silence could be strategic. Together, by scrutinizing each other's actions and words, we can uncover the Werewolves among us. Let's work as a team to protect our Village."
+                ],
+                [
+                    "Jackson",
+                    "David, your focus on Hayley and me seems misplaced. As a Villager, my priority is the safety of our Village. If we're to identify the Werewolves, we should scrutinize everyone's actions, not just those who are vocal. Harold and Tyler have been notably quiet; their silence could be strategic. Let's not divide ourselves but unite in analyzing each other's contributions and voting patterns. Teamwork is our strength against the Werewolves."
+                ],
+                [
+                    "Tyler",
+                    "I agree with both David and Jackson that we need to scrutinize everyone's actions and voting patterns carefully. However, let's not forget that silence can sometimes speak volumes. I encourage Harold and myself to share more of our observations, as every perspective is valuable in uncovering the truth. Teamwork and unity are our best tools against the Werewolves. Let's analyze all contributions, not just the most vocal ones, to ensure we're not overlooking any clues."
+                ],
+                [
+                    "Jackson",
+                    "I understand the concerns raised by David, but focusing solely on Hayley and me overlooks the potential strategies of quieter players like Harold and Tyler. Their silence could be as telling as any accusation. Let's encourage everyone to share their observations openly. Unity and careful analysis of each other's actions and voting patterns are our best tools against the Werewolves. Let's not allow suspicion to divide us but use it to guide our discussions towards the truth."
+                ],
+                [
+                    "Tyler",
+                    "I appreciate the points made by both David and Jackson. It's clear we all share the same goal of protecting our Village. However, I believe our focus should indeed extend to every player's actions and contributions, not just the vocal ones. Harold and I, along with others who've been quieter, have valuable perspectives that could be key in uncovering the Werewolves. Let's encourage everyone to share their observations openly. Unity and a detailed analysis of all behaviors and voting patterns will be our strongest tools against the Werewolves. Let's work together to scrutinize every angle without letting suspicion divide us."
+                ],
+                [
+                    "David",
+                    "Jackson and Tyler, your points about including quieter players in our analysis are well taken. However, let's not forget that actions speak louder than words. Harold and Tyler, your silence has been notable. I urge you both to share your observations openly. Every piece of information is vital at this stage. Jackson, while your call for unity is commendable, we must also scrutinize your and Hayley's consistent defense of each other. It's not about division but about uncovering the truth through careful analysis of all behaviors and voting patterns. Let's work together, but let's also be vigilant."
+                ]
+            ],
+            "votes": [
+                {
+                    "David": "Hayley",
+                    "Jackson": "Hayley",
+                    "Tyler": "Jackson",
+                    "Hayley": "David",
+                    "Harold": "David"
+                },
+                {
+                    "David": "Jackson",
+                    "Jackson": "David",
+                    "Tyler": "Harold",
+                    "Hayley": "David",
+                    "Harold": "David"
+                },
+                {
+                    "David": "Jackson",
+                    "Jackson": "David",
+                    "Tyler": "Harold",
+                    "Hayley": "David",
+                    "Harold": "David"
+                },
+                {
+                    "David": "Jackson",
+                    "Jackson": "David",
+                    "Tyler": "Harold",
+                    "Hayley": "David",
+                    "Harold": "David"
+                },
+                {
+                    "David": "Jackson",
+                    "Jackson": "Harold",
+                    "Tyler": "Jackson",
+                    "Hayley": "David",
+                    "Harold": "David"
+                },
+                {
+                    "David": "Jackson",
+                    "Jackson": "David",
+                    "Tyler": "Jackson",
+                    "Hayley": "David",
+                    "Harold": "Tyler"
+                }
+            ],
+            "bids": [
+                {
+                    "David": 2,
+                    "Jackson": 2,
+                    "Tyler": 2,
+                    "Hayley": 0,
+                    "Harold": 0
+                },
+                {
+                    "Jackson": 4,
+                    "Tyler": 2,
+                    "Hayley": 0,
+                    "Harold": 0
+                },
+                {
+                    "David": 2,
+                    "Tyler": 2,
+                    "Hayley": 0,
+                    "Harold": 0
+                },
+                {
+                    "David": 2,
+                    "Jackson": 4,
+                    "Hayley": 0,
+                    "Harold": 2
+                },
+                {
+                    "David": 0,
+                    "Tyler": 1,
+                    "Hayley": 1,
+                    "Harold": 0
+                },
+                {
+                    "David": 2,
+                    "Jackson": 0,
+                    "Hayley": 0,
+                    "Harold": 1
+                }
+            ],
+            "success": true
+        },
+        {
+            "players": [
+                "Jackson",
+                "Tyler",
+                "Hayley",
+                "Harold"
+            ],
+            "eliminated": "David",
+            "unmasked": null,
+            "protected": null,
+            "exiled": null,
+            "debate": [],
+            "votes": [],
+            "bids": [],
+            "success": true
+        }
+    ],
+    "error_message": "",
+    "winner": "Werewolves"
+}

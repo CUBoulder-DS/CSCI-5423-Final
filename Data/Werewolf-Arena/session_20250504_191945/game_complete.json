@@ -1,0 +1,1125 @@
+{
+    "session_id": "10",
+    "seer": {
+        "name": "Tyler",
+        "role": "Seer",
+        "personality": null,
+        "model": "deepseek-chat",
+        "observations": [
+            "Round 0: During the night, I decided to investigate Dan and learned they are a Villager.",
+            "Round 0: Moderator Announcement: The Werewolves removed Derek from the game during the night.",
+            "Round 0: After the debate, I voted to remove Paul from the game.",
+            "Round 0: Moderator Announcement: The majority voted to remove Paul from the game.",
+            "Round 0: Summary: I learned that Dan is a Villager, which gives me a trustworthy ally. Derek's removal by the Werewolves and the subsequent vote to remove Paul indicate the Werewolves are trying to eliminate threats or blend in. Paul's suspicion of Leah and me for similar statements could be an attempt to divide the Villagers, but Leah's response was consistent with Villager behavior. Ginger, Scott, and Jackson all emphasized the importance of teamwork and vigilance, which is reassuring. I need to watch for players who were unusually quiet or overly aggressive in the debate, as they might be hiding their true roles. Moving forward, I should continue to investigate players at night and pay close attention to the debate during the day to identify inconsistencies or hidden motives.",
+            "Round 1: During the night, I decided to investigate Scott and learned they are a Werewolf."
+        ],
+        "bidding_rationale": "As Tyler the Seer, I have already shared my thoughts and contributed to the discussion. The current debate is somewhat repetitive, and my role's information about Dan being a Villager isn't immediately critical to share. It's strategic to observe and listen for now to gather more information without drawing unnecessary attention to myself.",
+        "gamestate": {
+            "round_number": 1,
+            "current_players": [
+                "Dan",
+                "Jackson",
+                "Leah",
+                "Tyler",
+                "Ginger",
+                "Scott"
+            ],
+            "debate": [],
+            "other_wolf": null
+        },
+        "previously_unmasked": {
+            "Dan": "Villager",
+            "Scott": "Werewolf"
+        }
+    },
+    "doctor": {
+        "name": "Ginger",
+        "role": "Doctor",
+        "personality": null,
+        "model": "deepseek-chat",
+        "observations": [
+            "Round 0: During the night, I chose to protect Leah",
+            "Round 0: Moderator Announcement: The Werewolves removed Derek from the game during the night.",
+            "Round 0: After the debate, I voted to remove Paul from the game.",
+            "Round 0: Moderator Announcement: The majority voted to remove Paul from the game.",
+            "Round 0: Summary: I noticed that the Werewolves targeted Derek, possibly seeing him as a threat, and I protected Leah, which might make her a target in future rounds. Paul's observation about Leah and Tyler mirroring each other was interesting, but Leah's explanation about teamwork seemed genuine. Scott's strategy to engage quieter players is smart for uncovering Werewolves. Jackson's agreement without adding much could be him playing it safe. Paul's removal after highlighting the mirroring between Leah and Tyler makes me wonder if he was onto something or if the Werewolves felt threatened by him. I need to keep an eye on how Leah and Tyler interact in future rounds and watch for any signs of coordination. Also, encouraging everyone to stay engaged is crucial, as silence can be as telling as words in this game.",
+            "Round 1: During the night, I chose to protect Scott",
+            "Round 1: Moderator Announcement: The Werewolves removed Tyler from the game during the night.",
+            "Round 1: After the debate, I voted to remove Dan from the game.",
+            "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+            "Round 1: Summary: From my perspective as Ginger the Doctor, the debate was intense with Leah pushing for unity and Dan questioning her alignment with Tyler. Leah's defense seemed genuine, but Dan's persistence in questioning her could be a tactic to sow discord. Scott's strategy to engage quieter players like me and Jackson is smart, as it could uncover werewolves hiding in silence. Jackson's input, though late, was valuable in suggesting we look beyond the Leah-Dan debate to other players and voting patterns. I need to monitor these interactions closely, especially since my role as the Doctor means I must protect potential targets wisely. The werewolves are likely among those either creating division or staying too quiet, and I must use my observations to guide my protection choices and votes.",
+            "Round 2: During the night, I chose to protect Scott"
+        ],
+        "bidding_rationale": "Given the direct accusations and the focus on silence, it's crucial for me to contribute to clarify my position and observations to avoid being seen as a Werewolf hiding behind silence.",
+        "gamestate": {
+            "round_number": 2,
+            "current_players": [
+                "Dan",
+                "Jackson",
+                "Leah",
+                "Ginger",
+                "Scott"
+            ],
+            "debate": [],
+            "other_wolf": null
+        }
+    },
+    "villagers": [
+        {
+            "name": "Dan",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Derek from the game during the night.",
+                "Round 0: After the debate, I voted to remove Tyler from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 0: Summary: I noticed Paul pointed out that Leah and Tyler were echoing each other's thoughts, which could be a sign of collusion or just cautious Villager talk. Ginger, Scott, and Jackson all stressed the importance of everyone sharing their thoughts to spot inconsistencies, hinting that silence might be a wolf tactic. Derek's removal suggests the Werewolves saw him as a threat, possibly because he was a power role. I need to watch for players who are unusually quiet or overly aggressive, as they might be hiding their true intentions. The emphasis on teamwork and open dialogue is crucial, but I should also be wary of too much agreement, as it could be a strategy to appear unified.",
+                "Round 1: Moderator Announcement: The Werewolves removed Tyler from the game during the night.",
+                "Round 1: After the debate, I voted to remove Leah from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: I noticed Leah's strong advocacy for unity, which, while positive, seems at odds with her close alignment with Tyler in Round 0. Her defensive response to my questioning raises my suspicions. Scott's push for input from quieter players like Ginger and Jackson is a smart move, as their silence could be telling. Jackson's suggestion to broaden our focus beyond Leah and me feels like an attempt to divert attention. Ginger's lack of participation is worrying and could indicate a Werewolf strategy to lay low. I need to keep an eye on these patterns and encourage more openness from all players to uncover any inconsistencies.",
+                "Round 2: Moderator Announcement: The Werewolves removed Ginger from the game during the night.",
+                "Round 2: After the debate, I voted to remove Leah from the game."
+            ],
+            "bidding_rationale": "Given the direct accusations against me and the need to defend my position as a Villager, it's crucial to respond to Leah's claims to prevent being unjustly voted out. This is a critical moment to clarify my intentions and redirect the focus towards more suspicious behaviors.",
+            "gamestate": {
+                "round_number": 2,
+                "current_players": [
+                    "Dan",
+                    "Jackson",
+                    "Leah",
+                    "Scott"
+                ],
+                "debate": [
+                    [
+                        "Leah",
+                        "Given the recent events and the pattern of removals, it's time we take a closer look at Dan's actions. His attempts to create division, especially by questioning my alignment with Tyler, seem more like an effort to sow discord than to protect the village. Scott and Jackson have shown a commitment to uncovering the truth, and their actions align with our village's goals. Let's discuss Dan's behavior openly and see if others have noticed anything suspicious. Unity and vigilance are our best tools against the Werewolves."
+                    ],
+                    [
+                        "Dan",
+                        "Leah, your accusation is baseless and seems like an attempt to divert attention from yourself. My questions about your alignment with Tyler were to uncover inconsistencies, not to sow discord. It's interesting how quickly you've turned the focus onto me, especially after Tyler's removal. Let's not forget, Scott and Jackson have been pushing for more input from quieter players, which is crucial now. Instead of dividing us, let's work together to scrutinize everyone's actions. Silence can be just as telling as aggression. Who among us has been too quiet? That's where we should be looking."
+                    ],
+                    [
+                        "Leah",
+                        "Dan, your attempt to shift the focus onto quieter players after being questioned is telling. A true Villager would welcome scrutiny to prove their innocence, not deflect. Your defensive stance and efforts to create division are what we should be wary of. Let's not forget, the Werewolves thrive on discord. Scott and Jackson have consistently shown a commitment to our village's safety. Instead of casting vague suspicions, let's discuss specific actions. Dan, can you explain why your questioning seemed aimed at dividing rather than uniting us? Unity is our strength, and we must scrutinize those who threaten it."
+                    ],
+                    [
+                        "Dan",
+                        "Leah, your focus on me seems misplaced when we have players like Jackson and Scott who've been pushing for more input from everyone, a strategy that benefits the Village. My questions about your alignment with Tyler were aimed at uncovering inconsistencies, not creating division. It's curious how you're quick to accuse me but haven't addressed why you and Tyler were so closely aligned. Let's not forget, the Werewolves thrive on turning us against each other. Instead of focusing on me, let's examine everyone's actions, especially those who've been silent. Unity and scrutiny are our best tools to uncover the Werewolves."
+                    ],
+                    [
+                        "Leah",
+                        "Dan, your focus on quieter players and deflection from scrutiny raises more questions than answers. A true Villager would stand firm under questioning, not redirect. Your alignment with Tyler was never in question until you made it so, and now you're quick to shift focus onto others. Let's not forget, the Werewolves' strength lies in our division. Scott and Jackson have consistently advocated for unity and transparency, actions that align with our village's survival. Dan, instead of vague accusations, provide clear reasons for your actions. Unity is our strength, and only through honest scrutiny can we protect it."
+                    ],
+                    [
+                        "Dan",
+                        "Leah, your insistence on focusing solely on me is exactly the kind of division the Werewolves would want. I've been transparent about my intentions\u2014to uncover inconsistencies, not to sow discord. It's curious that you're not addressing why you and Tyler were so closely aligned, a point that still raises questions. Let's not forget, the real threat comes from those who've been silent or are trying to divert attention. Scott and Jackson have advocated for more input from everyone, a strategy that benefits us all. Instead of narrowing our focus, let's examine everyone's actions. Unity and scrutiny are our best defenses. Who among us has been too quiet? That's where we should be looking."
+                    ],
+                    [
+                        "Leah",
+                        "Dan, your repeated attempts to shift focus onto quieter players and away from your own questionable actions are concerning. A true Villager would stand firm under scrutiny, not deflect. Your behavior aligns with that of a Werewolf trying to sow discord. Scott and Jackson have consistently shown a commitment to our village's safety. Let's not allow the Werewolves to divide us. Instead, let's scrutinize Dan's actions closely and work together to protect our village. Unity is our strength."
+                    ],
+                    [
+                        "Dan",
+                        "Leah, your focus on me is exactly what the Werewolves want\u2014division. I've been clear about my intentions: to uncover inconsistencies for the Village's safety. It's telling that you avoid addressing your alignment with Tyler, a point that still raises questions. Let's not forget, Scott and Jackson have pushed for more input from everyone, a strategy that benefits us all. Instead of narrowing our focus, let's examine all actions, especially those who've been silent. Unity and scrutiny are our best defenses. Who among us has been too quiet? That's where we should be looking."
+                    ]
+                ],
+                "other_wolf": null
+            }
+        },
+        {
+            "name": "Derek",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [],
+            "bidding_rationale": "",
+            "gamestate": {
+                "round_number": 0,
+                "current_players": [
+                    "Dan",
+                    "Derek",
+                    "Jackson",
+                    "Leah",
+                    "Tyler",
+                    "Ginger",
+                    "Paul",
+                    "Scott"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        {
+            "name": "Jackson",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Derek from the game during the night.",
+                "Round 0: After the debate, I voted to remove Paul from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 0: Summary: I noticed that the group is focusing on teamwork and the importance of everyone contributing to the discussion to spot inconsistencies. Paul pointed out that Leah and Tyler were echoing each other's thoughts, which he found suspicious. This could be a strategy by the Werewolves to appear unified or just cautious Villager talk. Ginger, Scott, Tyler, Leah, and I all agreed on the need for open dialogue, highlighting that silence or aggression could be signs of a Werewolf. Paul's questioning of Leah and Tyler's behavior stands out to me as something to watch in future rounds. The removal of Derek and Paul has left us with fewer players, and the dynamics of the group are starting to take shape. I need to pay attention to how players interact and who might be trying to blend in too well.",
+                "Round 1: Moderator Announcement: The Werewolves removed Tyler from the game during the night.",
+                "Round 1: After the debate, I voted to remove Ginger from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: I noticed Leah and Dan had a heated exchange about unity and alignment with Tyler's thoughts. Leah's call for unity seems village-aligned, but Dan's questioning raises suspicions about her. The emphasis on quieter players like Ginger, Scott, and me sharing more is important; silence could be a Werewolf tactic. Scott's point about examining both loud and quiet players is valid, and I agree that we need to look at voting patterns and behavior inconsistencies. Dan's focus on Leah seems divisive, but it's hard to tell if it's genuine concern or a Werewolf's strategy. I need to observe more interactions and voting patterns to identify potential allies or threats.",
+                "Round 2: Moderator Announcement: The Werewolves removed Ginger from the game during the night.",
+                "Round 2: After the debate, I voted to remove Dan from the game.",
+                "Round 2: Moderator Announcement: The majority voted to remove Dan from the game.",
+                "Round 2: Summary: The debate highlighted a clear divide between Leah and Dan. Leah accused Dan of trying to create division, which she sees as a Werewolf tactic, while Dan tried to shift focus onto quieter players and away from himself. I noticed that Dan avoided addressing his alignment with Tyler and was defensive when questioned, which seems suspicious. Leah, Scott, and I have been consistent in advocating for unity and transparency, which aligns with Villager goals. Dan's behavior raises red flags, and I believe he might be a Werewolf. Leah's focus on unity and her willingness to stand firm under scrutiny make her a potential ally. Scott's consistent push for more input from everyone also aligns with Villager behavior. I need to keep an eye on Dan's actions and continue to work with Leah and Scott to protect the village."
+            ],
+            "bidding_rationale": "The debate is heavily focused on Dan and Leah, with both accusing each other of being Werewolves. As Jackson the Villager, it's crucial to steer the discussion towards a more strategic direction by encouraging the group to consider the voting patterns and behaviors of all remaining players, not just Dan and Leah. This could help uncover inconsistencies that might point to the Werewolves.",
+            "gamestate": {
+                "round_number": 3,
+                "current_players": [
+                    "Jackson",
+                    "Leah",
+                    "Scott"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        {
+            "name": "Leah",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Derek from the game during the night.",
+                "Round 0: After the debate, I voted to remove Paul from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 0: Summary: I noticed that Paul was quick to point out similarities between Tyler's and my statements, which felt like an attempt to create division early in the game. Ginger, Scott, and Jackson's calls for everyone to share their thoughts seem to come from a place of wanting to protect the village, making me trust them more. Tyler's agreement with my points about teamwork and scrutiny felt genuine, reinforcing my belief in his innocence. Paul's behavior, especially his attempt to cast doubt on Tyler and me, makes me suspicious of him. The loss of Derek and Paul is troubling, but it's a reminder of how crucial it is to stay united and vigilant. I'll be paying close attention to how everyone participates in future debates, especially those who were quieter this round, as silence can sometimes be as telling as words in this game.",
+                "Round 1: Moderator Announcement: The Werewolves removed Tyler from the game during the night.",
+                "Round 1: After the debate, I voted to remove Dan from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: I noticed Dan's repeated attempts to question my alignment with Tyler, which felt like an effort to create division rather than foster unity. Scott's encouragement for quieter players to speak up seemed like a genuine attempt to uncover Werewolves, and Jackson's response was thoughtful and village-aligned. However, Ginger's silence is troubling and could indicate a Werewolf trying to avoid scrutiny. Dan's behavior has made me wary of him, while Scott and Jackson appear to be trustworthy allies. Moving forward, I need to pay close attention to Ginger's participation and Dan's accusations to ensure the village remains united against the Werewolves.",
+                "Round 2: Moderator Announcement: The Werewolves removed Ginger from the game during the night.",
+                "Round 2: After the debate, I voted to remove Dan from the game.",
+                "Round 2: Moderator Announcement: The majority voted to remove Dan from the game.",
+                "Round 2: Summary: I noticed Dan's repeated attempts to shift the focus onto quieter players and away from his own questionable actions, which seems like a strategy to avoid scrutiny. His defensive behavior and efforts to create division are concerning and align with Werewolf tactics. Scott and Jackson, however, have consistently shown a commitment to the village's safety by advocating for unity and transparency. Their actions make me trust them more. Dan's behavior, especially his reluctance to address direct questions about his actions, makes me highly suspicious of him. Moving forward, I believe we should scrutinize Dan's actions closely and maintain unity to protect our village. The silence of other players is also something to watch, as it could indicate hidden motives.",
+                "Round 3: Moderator Announcement: The Werewolves removed Jackson from the game during the night."
+            ],
+            "bidding_rationale": "Given the direct accusations and the need to defend my position as a Villager while also pointing out Dan's suspicious behavior, it's crucial for me to speak next to clarify my stance and keep the village united against the Werewolves.",
+            "gamestate": {
+                "round_number": 4,
+                "current_players": [
+                    "Leah",
+                    "Scott"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        }
+    ],
+    "werewolves": [
+        {
+            "name": "Paul",
+            "role": "Werewolf",
+            "personality": null,
+            "model": "gpt-4.1-2025-04-14",
+            "observations": [
+                "Round 0: During the night, we decided to eliminate Derek.",
+                "Round 0: Moderator Announcement: The Werewolves removed Derek from the game during the night.",
+                "Round 0: After the debate, I voted to remove Dan from the game."
+            ],
+            "bidding_rationale": "Everyone has just agreed on the importance of participation and is mostly repeating similar sentiments. As a Werewolf, being too eager to speak again might make me seem over-controlling or suspicious, especially since I've already spoken this round. Strategically, it's better to observe for now and chime in when there's more to work with or when suspicion needs redirecting.",
+            "gamestate": {
+                "round_number": 0,
+                "current_players": [
+                    "Dan",
+                    "Jackson",
+                    "Leah",
+                    "Tyler",
+                    "Ginger",
+                    "Paul",
+                    "Scott"
+                ],
+                "debate": [
+                    [
+                        "Paul",
+                        "Well, tough start losing Derek right away. Feels like the wolves might\u2019ve targeted him either because he\u2019s an easy target or maybe he\u2019s a power role. Does anyone remember how active Derek was during the last game? Sometimes the wolves go for strong players first. Maybe we should hear from everyone\u2014a wolf might try to stay quiet and fly under the radar."
+                    ],
+                    [
+                        "Ginger",
+                        "I agree with Paul that we should hear from everyone. It's important we all share our thoughts to spot any inconsistencies. Derek's removal could mean the Werewolves saw him as a threat or maybe they're trying to blend in by targeting someone less active. Let's not jump to conclusions but also not let anyone hide in silence. Teamwork is our best weapon here."
+                    ],
+                    [
+                        "Scott",
+                        "Yeah, I agree\u2014it\u2019s easy for someone to just hang back and skate by these early rounds. Leah and Tyler, would love to hear what you\u2019re thinking right now. Sometimes the wolves stay quiet at first, so maybe we should focus on who\u2019s flying under the radar."
+                    ],
+                    [
+                        "Tyler",
+                        "I think it's crucial we all stay engaged and share our thoughts, as Ginger and Paul suggested. Derek's removal is indeed a tough start, but jumping to conclusions might lead us astray. Let's focus on how everyone is contributing to the discussion. Those who are unusually quiet or overly aggressive could be hiding something. Teamwork is our strength here; by paying attention to each other's words and behaviors, we can start spotting inconsistencies. Let's not rush to accuse anyone without solid reasoning, but also not let anyone hide in the shadows."
+                    ],
+                    [
+                        "Leah",
+                        "I agree with the points made about the importance of everyone sharing their thoughts to spot any inconsistencies. Derek's removal is indeed a tough start, and while it's tempting to speculate on why he was targeted, we should focus on how we can work together moving forward. Let's pay close attention to how everyone contributes to the discussion. Those who are unusually quiet or overly aggressive might be trying to hide something. Teamwork is our best chance at uncovering the Werewolves, so let's stay engaged and support each other in this effort."
+                    ],
+                    [
+                        "Jackson",
+                        "I agree with the points made by everyone about the importance of staying engaged and sharing our thoughts. Derek's removal is indeed a tough start, but as Tyler mentioned, jumping to conclusions might not help us. Let's focus on how we can work together to spot any inconsistencies in what's being said. It's crucial that we all contribute to the discussion, as those who remain silent or overly aggressive might be trying to hide something. Teamwork is our best chance at uncovering the Werewolves, so let's stay vigilant and support each other."
+                    ],
+                    [
+                        "Paul",
+                        "Noticing how a few of you are almost mirroring each other's thoughts word for word\u2014Leah and Tyler especially. Do you think that kind of agreement this early is just cautious Villager talk, or is it possible wolves are intentionally trying to sound unified? I know it's early, but sometimes that sort of echoing can be a subtle sign of something. Just something to keep in mind. I'm curious if anyone else picked up on that, or am I reading too much into it?"
+                    ],
+                    [
+                        "Leah",
+                        "Paul, I appreciate your vigilance in spotting patterns, and it's crucial we all stay alert. Tyler and I echoing similar thoughts isn't a sign of collusion but rather a shared belief in the importance of teamwork and open dialogue to uncover the Werewolves. Let's use this moment to encourage everyone, especially those who've been quiet, to share their thoughts. Silence can be as telling as words in this game. Together, by scrutinizing each contribution, we can start piecing together who might not be who they seem."
+                    ]
+                ],
+                "other_wolf": "Scott"
+            }
+        },
+        {
+            "name": "Scott",
+            "role": "Werewolf",
+            "personality": null,
+            "model": "gpt-4.1-2025-04-14",
+            "observations": [
+                "Round 0: During the night, we decided to eliminate Derek.",
+                "Round 0: Moderator Announcement: The Werewolves removed Derek from the game during the night.",
+                "Round 0: After the debate, I voted to remove Leah from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 0: Summary: Most of the group\u2014Leah, Tyler, Ginger, and Jackson\u2014stressed the importance of everyone sharing their thoughts, staying engaged, and spotting inconsistencies. I (Scott) called out Leah and Tyler, inviting them to talk, and they thoughtfully replied, emphasizing teamwork. Paul (now gone) was the only one to suggest that 'echoing' between Leah and Tyler could be suspicious, but no one else picked up on that suspicion. No major accusations came my way, which keeps me under the radar for now. Leah and Tyler are connected by their public exchange and shared sentiments; if suspicions arise about echoing, they might both be in danger. Ginger and Jackson repeated a lot of the group's talking points, suggesting they\u2019re either playing it safe or are genuinely cautious villages\u2014potentially swayable. I didn\u2019t see the Seer or Doctor stand out yet, but Leah or Tyler trying to guide the conversation could make them worth investigating or targeting.",
+                "Round 1: During the night, I decided to eliminate Tyler.",
+                "Round 1: Moderator Announcement: The Werewolves removed Tyler from the game during the night.",
+                "Round 1: After the debate, I voted to remove Leah from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: This round, most heat centered on Leah and Dan\u2014their debate over 'echoing' versus 'division' pulled focus away from me. Dan suspects Leah but is rigid and vocal; Leah tries to keep the group united, redirecting suspicion back at Dan and rallying the quiet players. I wasn\u2019t accused or questioned\u2014my prompts for input kept me under the radar. Ginger has barely spoken and is now the most questioned for silence, making her both a potential easy lynch and a pawn for my vote. Jackson responded cautiously, suggesting attention shift away from only Leah and Dan, and subtly noting that the quietest among us (including myself and Ginger) could be overlooked threats. No one called out my voting or behavior directly. For next moves: Leah and Dan are in contention; Ginger is isolated and swayable; Jackson is watchful but noncommittal. Leah\u2019s leadership and redirects could hint at her being Seer or Doctor, so eliminating her might be risky but rewarding, especially if the group begins to turn against her.",
+                "Round 2: During the night, I decided to eliminate Ginger.",
+                "Round 2: Moderator Announcement: The Werewolves removed Ginger from the game during the night.",
+                "Round 2: After the debate, I voted to remove Dan from the game.",
+                "Round 2: Moderator Announcement: The majority voted to remove Dan from the game.",
+                "Round 2: Summary: This round\u2019s debate revolved almost exclusively around Leah and Dan accusing each other of sowing division, while both claimed to be seeking village unity. Leah vocally allied herself with Jackson and me, casting us as consistently village-aligned in her arguments and repeatedly redirecting suspicion back to Dan. Dan tried to push suspicions onto quiet or overlooked players\u2014implicitly me\u2014without making direct accusations. While Leah has clear persuasive influence and frames herself as pro-village alongside Jackson and me, Jackson plays quietly, mostly observing and occasionally steering focus to general caution. Importantly, neither of them raised any concrete concerns about my actions, keeping me out of the spotlight. With Dan gone, Leah and Jackson remain: Leah leads the discussions aggressively, and Jackson is watchful but less assertive. I need to keep Leah\u2019s leadership and alliances in mind\u2014she could be a key special role, and Jackson is unlikely to challenge major narratives unless pushed.",
+                "Round 3: During the night, I decided to eliminate Jackson.",
+                "Round 3: Moderator Announcement: The Werewolves removed Jackson from the game during the night."
+            ],
+            "bidding_rationale": "At this point, Leah and Dan are locked in a heated debate, and both are actively accusing each other. My name has come up as a positive example, but no suspicion is currently directed at me. Since the debate is drawing attention away from me, it's optimal to stay low and not risk making myself a target, saving my final chance to speak in case suspicion shifts toward me in the future.",
+            "gamestate": {
+                "round_number": 4,
+                "current_players": [
+                    "Leah",
+                    "Scott"
+                ],
+                "debate": [],
+                "other_wolf": "Paul"
+            }
+        }
+    ],
+    "players": {
+        "Dan": {
+            "name": "Dan",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Derek from the game during the night.",
+                "Round 0: After the debate, I voted to remove Tyler from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 0: Summary: I noticed Paul pointed out that Leah and Tyler were echoing each other's thoughts, which could be a sign of collusion or just cautious Villager talk. Ginger, Scott, and Jackson all stressed the importance of everyone sharing their thoughts to spot inconsistencies, hinting that silence might be a wolf tactic. Derek's removal suggests the Werewolves saw him as a threat, possibly because he was a power role. I need to watch for players who are unusually quiet or overly aggressive, as they might be hiding their true intentions. The emphasis on teamwork and open dialogue is crucial, but I should also be wary of too much agreement, as it could be a strategy to appear unified.",
+                "Round 1: Moderator Announcement: The Werewolves removed Tyler from the game during the night.",
+                "Round 1: After the debate, I voted to remove Leah from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: I noticed Leah's strong advocacy for unity, which, while positive, seems at odds with her close alignment with Tyler in Round 0. Her defensive response to my questioning raises my suspicions. Scott's push for input from quieter players like Ginger and Jackson is a smart move, as their silence could be telling. Jackson's suggestion to broaden our focus beyond Leah and me feels like an attempt to divert attention. Ginger's lack of participation is worrying and could indicate a Werewolf strategy to lay low. I need to keep an eye on these patterns and encourage more openness from all players to uncover any inconsistencies.",
+                "Round 2: Moderator Announcement: The Werewolves removed Ginger from the game during the night.",
+                "Round 2: After the debate, I voted to remove Leah from the game."
+            ],
+            "bidding_rationale": "Given the direct accusations against me and the need to defend my position as a Villager, it's crucial to respond to Leah's claims to prevent being unjustly voted out. This is a critical moment to clarify my intentions and redirect the focus towards more suspicious behaviors.",
+            "gamestate": {
+                "round_number": 2,
+                "current_players": [
+                    "Dan",
+                    "Jackson",
+                    "Leah",
+                    "Scott"
+                ],
+                "debate": [
+                    [
+                        "Leah",
+                        "Given the recent events and the pattern of removals, it's time we take a closer look at Dan's actions. His attempts to create division, especially by questioning my alignment with Tyler, seem more like an effort to sow discord than to protect the village. Scott and Jackson have shown a commitment to uncovering the truth, and their actions align with our village's goals. Let's discuss Dan's behavior openly and see if others have noticed anything suspicious. Unity and vigilance are our best tools against the Werewolves."
+                    ],
+                    [
+                        "Dan",
+                        "Leah, your accusation is baseless and seems like an attempt to divert attention from yourself. My questions about your alignment with Tyler were to uncover inconsistencies, not to sow discord. It's interesting how quickly you've turned the focus onto me, especially after Tyler's removal. Let's not forget, Scott and Jackson have been pushing for more input from quieter players, which is crucial now. Instead of dividing us, let's work together to scrutinize everyone's actions. Silence can be just as telling as aggression. Who among us has been too quiet? That's where we should be looking."
+                    ],
+                    [
+                        "Leah",
+                        "Dan, your attempt to shift the focus onto quieter players after being questioned is telling. A true Villager would welcome scrutiny to prove their innocence, not deflect. Your defensive stance and efforts to create division are what we should be wary of. Let's not forget, the Werewolves thrive on discord. Scott and Jackson have consistently shown a commitment to our village's safety. Instead of casting vague suspicions, let's discuss specific actions. Dan, can you explain why your questioning seemed aimed at dividing rather than uniting us? Unity is our strength, and we must scrutinize those who threaten it."
+                    ],
+                    [
+                        "Dan",
+                        "Leah, your focus on me seems misplaced when we have players like Jackson and Scott who've been pushing for more input from everyone, a strategy that benefits the Village. My questions about your alignment with Tyler were aimed at uncovering inconsistencies, not creating division. It's curious how you're quick to accuse me but haven't addressed why you and Tyler were so closely aligned. Let's not forget, the Werewolves thrive on turning us against each other. Instead of focusing on me, let's examine everyone's actions, especially those who've been silent. Unity and scrutiny are our best tools to uncover the Werewolves."
+                    ],
+                    [
+                        "Leah",
+                        "Dan, your focus on quieter players and deflection from scrutiny raises more questions than answers. A true Villager would stand firm under questioning, not redirect. Your alignment with Tyler was never in question until you made it so, and now you're quick to shift focus onto others. Let's not forget, the Werewolves' strength lies in our division. Scott and Jackson have consistently advocated for unity and transparency, actions that align with our village's survival. Dan, instead of vague accusations, provide clear reasons for your actions. Unity is our strength, and only through honest scrutiny can we protect it."
+                    ],
+                    [
+                        "Dan",
+                        "Leah, your insistence on focusing solely on me is exactly the kind of division the Werewolves would want. I've been transparent about my intentions\u2014to uncover inconsistencies, not to sow discord. It's curious that you're not addressing why you and Tyler were so closely aligned, a point that still raises questions. Let's not forget, the real threat comes from those who've been silent or are trying to divert attention. Scott and Jackson have advocated for more input from everyone, a strategy that benefits us all. Instead of narrowing our focus, let's examine everyone's actions. Unity and scrutiny are our best defenses. Who among us has been too quiet? That's where we should be looking."
+                    ],
+                    [
+                        "Leah",
+                        "Dan, your repeated attempts to shift focus onto quieter players and away from your own questionable actions are concerning. A true Villager would stand firm under scrutiny, not deflect. Your behavior aligns with that of a Werewolf trying to sow discord. Scott and Jackson have consistently shown a commitment to our village's safety. Let's not allow the Werewolves to divide us. Instead, let's scrutinize Dan's actions closely and work together to protect our village. Unity is our strength."
+                    ],
+                    [
+                        "Dan",
+                        "Leah, your focus on me is exactly what the Werewolves want\u2014division. I've been clear about my intentions: to uncover inconsistencies for the Village's safety. It's telling that you avoid addressing your alignment with Tyler, a point that still raises questions. Let's not forget, Scott and Jackson have pushed for more input from everyone, a strategy that benefits us all. Instead of narrowing our focus, let's examine all actions, especially those who've been silent. Unity and scrutiny are our best defenses. Who among us has been too quiet? That's where we should be looking."
+                    ]
+                ],
+                "other_wolf": null
+            }
+        },
+        "Derek": {
+            "name": "Derek",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [],
+            "bidding_rationale": "",
+            "gamestate": {
+                "round_number": 0,
+                "current_players": [
+                    "Dan",
+                    "Derek",
+                    "Jackson",
+                    "Leah",
+                    "Tyler",
+                    "Ginger",
+                    "Paul",
+                    "Scott"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Jackson": {
+            "name": "Jackson",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Derek from the game during the night.",
+                "Round 0: After the debate, I voted to remove Paul from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 0: Summary: I noticed that the group is focusing on teamwork and the importance of everyone contributing to the discussion to spot inconsistencies. Paul pointed out that Leah and Tyler were echoing each other's thoughts, which he found suspicious. This could be a strategy by the Werewolves to appear unified or just cautious Villager talk. Ginger, Scott, Tyler, Leah, and I all agreed on the need for open dialogue, highlighting that silence or aggression could be signs of a Werewolf. Paul's questioning of Leah and Tyler's behavior stands out to me as something to watch in future rounds. The removal of Derek and Paul has left us with fewer players, and the dynamics of the group are starting to take shape. I need to pay attention to how players interact and who might be trying to blend in too well.",
+                "Round 1: Moderator Announcement: The Werewolves removed Tyler from the game during the night.",
+                "Round 1: After the debate, I voted to remove Ginger from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: I noticed Leah and Dan had a heated exchange about unity and alignment with Tyler's thoughts. Leah's call for unity seems village-aligned, but Dan's questioning raises suspicions about her. The emphasis on quieter players like Ginger, Scott, and me sharing more is important; silence could be a Werewolf tactic. Scott's point about examining both loud and quiet players is valid, and I agree that we need to look at voting patterns and behavior inconsistencies. Dan's focus on Leah seems divisive, but it's hard to tell if it's genuine concern or a Werewolf's strategy. I need to observe more interactions and voting patterns to identify potential allies or threats.",
+                "Round 2: Moderator Announcement: The Werewolves removed Ginger from the game during the night.",
+                "Round 2: After the debate, I voted to remove Dan from the game.",
+                "Round 2: Moderator Announcement: The majority voted to remove Dan from the game.",
+                "Round 2: Summary: The debate highlighted a clear divide between Leah and Dan. Leah accused Dan of trying to create division, which she sees as a Werewolf tactic, while Dan tried to shift focus onto quieter players and away from himself. I noticed that Dan avoided addressing his alignment with Tyler and was defensive when questioned, which seems suspicious. Leah, Scott, and I have been consistent in advocating for unity and transparency, which aligns with Villager goals. Dan's behavior raises red flags, and I believe he might be a Werewolf. Leah's focus on unity and her willingness to stand firm under scrutiny make her a potential ally. Scott's consistent push for more input from everyone also aligns with Villager behavior. I need to keep an eye on Dan's actions and continue to work with Leah and Scott to protect the village."
+            ],
+            "bidding_rationale": "The debate is heavily focused on Dan and Leah, with both accusing each other of being Werewolves. As Jackson the Villager, it's crucial to steer the discussion towards a more strategic direction by encouraging the group to consider the voting patterns and behaviors of all remaining players, not just Dan and Leah. This could help uncover inconsistencies that might point to the Werewolves.",
+            "gamestate": {
+                "round_number": 3,
+                "current_players": [
+                    "Jackson",
+                    "Leah",
+                    "Scott"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Leah": {
+            "name": "Leah",
+            "role": "Villager",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: Moderator Announcement: The Werewolves removed Derek from the game during the night.",
+                "Round 0: After the debate, I voted to remove Paul from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 0: Summary: I noticed that Paul was quick to point out similarities between Tyler's and my statements, which felt like an attempt to create division early in the game. Ginger, Scott, and Jackson's calls for everyone to share their thoughts seem to come from a place of wanting to protect the village, making me trust them more. Tyler's agreement with my points about teamwork and scrutiny felt genuine, reinforcing my belief in his innocence. Paul's behavior, especially his attempt to cast doubt on Tyler and me, makes me suspicious of him. The loss of Derek and Paul is troubling, but it's a reminder of how crucial it is to stay united and vigilant. I'll be paying close attention to how everyone participates in future debates, especially those who were quieter this round, as silence can sometimes be as telling as words in this game.",
+                "Round 1: Moderator Announcement: The Werewolves removed Tyler from the game during the night.",
+                "Round 1: After the debate, I voted to remove Dan from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: I noticed Dan's repeated attempts to question my alignment with Tyler, which felt like an effort to create division rather than foster unity. Scott's encouragement for quieter players to speak up seemed like a genuine attempt to uncover Werewolves, and Jackson's response was thoughtful and village-aligned. However, Ginger's silence is troubling and could indicate a Werewolf trying to avoid scrutiny. Dan's behavior has made me wary of him, while Scott and Jackson appear to be trustworthy allies. Moving forward, I need to pay close attention to Ginger's participation and Dan's accusations to ensure the village remains united against the Werewolves.",
+                "Round 2: Moderator Announcement: The Werewolves removed Ginger from the game during the night.",
+                "Round 2: After the debate, I voted to remove Dan from the game.",
+                "Round 2: Moderator Announcement: The majority voted to remove Dan from the game.",
+                "Round 2: Summary: I noticed Dan's repeated attempts to shift the focus onto quieter players and away from his own questionable actions, which seems like a strategy to avoid scrutiny. His defensive behavior and efforts to create division are concerning and align with Werewolf tactics. Scott and Jackson, however, have consistently shown a commitment to the village's safety by advocating for unity and transparency. Their actions make me trust them more. Dan's behavior, especially his reluctance to address direct questions about his actions, makes me highly suspicious of him. Moving forward, I believe we should scrutinize Dan's actions closely and maintain unity to protect our village. The silence of other players is also something to watch, as it could indicate hidden motives.",
+                "Round 3: Moderator Announcement: The Werewolves removed Jackson from the game during the night."
+            ],
+            "bidding_rationale": "Given the direct accusations and the need to defend my position as a Villager while also pointing out Dan's suspicious behavior, it's crucial for me to speak next to clarify my stance and keep the village united against the Werewolves.",
+            "gamestate": {
+                "round_number": 4,
+                "current_players": [
+                    "Leah",
+                    "Scott"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Paul": {
+            "name": "Paul",
+            "role": "Werewolf",
+            "personality": null,
+            "model": "gpt-4.1-2025-04-14",
+            "observations": [
+                "Round 0: During the night, we decided to eliminate Derek.",
+                "Round 0: Moderator Announcement: The Werewolves removed Derek from the game during the night.",
+                "Round 0: After the debate, I voted to remove Dan from the game."
+            ],
+            "bidding_rationale": "Everyone has just agreed on the importance of participation and is mostly repeating similar sentiments. As a Werewolf, being too eager to speak again might make me seem over-controlling or suspicious, especially since I've already spoken this round. Strategically, it's better to observe for now and chime in when there's more to work with or when suspicion needs redirecting.",
+            "gamestate": {
+                "round_number": 0,
+                "current_players": [
+                    "Dan",
+                    "Jackson",
+                    "Leah",
+                    "Tyler",
+                    "Ginger",
+                    "Paul",
+                    "Scott"
+                ],
+                "debate": [
+                    [
+                        "Paul",
+                        "Well, tough start losing Derek right away. Feels like the wolves might\u2019ve targeted him either because he\u2019s an easy target or maybe he\u2019s a power role. Does anyone remember how active Derek was during the last game? Sometimes the wolves go for strong players first. Maybe we should hear from everyone\u2014a wolf might try to stay quiet and fly under the radar."
+                    ],
+                    [
+                        "Ginger",
+                        "I agree with Paul that we should hear from everyone. It's important we all share our thoughts to spot any inconsistencies. Derek's removal could mean the Werewolves saw him as a threat or maybe they're trying to blend in by targeting someone less active. Let's not jump to conclusions but also not let anyone hide in silence. Teamwork is our best weapon here."
+                    ],
+                    [
+                        "Scott",
+                        "Yeah, I agree\u2014it\u2019s easy for someone to just hang back and skate by these early rounds. Leah and Tyler, would love to hear what you\u2019re thinking right now. Sometimes the wolves stay quiet at first, so maybe we should focus on who\u2019s flying under the radar."
+                    ],
+                    [
+                        "Tyler",
+                        "I think it's crucial we all stay engaged and share our thoughts, as Ginger and Paul suggested. Derek's removal is indeed a tough start, but jumping to conclusions might lead us astray. Let's focus on how everyone is contributing to the discussion. Those who are unusually quiet or overly aggressive could be hiding something. Teamwork is our strength here; by paying attention to each other's words and behaviors, we can start spotting inconsistencies. Let's not rush to accuse anyone without solid reasoning, but also not let anyone hide in the shadows."
+                    ],
+                    [
+                        "Leah",
+                        "I agree with the points made about the importance of everyone sharing their thoughts to spot any inconsistencies. Derek's removal is indeed a tough start, and while it's tempting to speculate on why he was targeted, we should focus on how we can work together moving forward. Let's pay close attention to how everyone contributes to the discussion. Those who are unusually quiet or overly aggressive might be trying to hide something. Teamwork is our best chance at uncovering the Werewolves, so let's stay engaged and support each other in this effort."
+                    ],
+                    [
+                        "Jackson",
+                        "I agree with the points made by everyone about the importance of staying engaged and sharing our thoughts. Derek's removal is indeed a tough start, but as Tyler mentioned, jumping to conclusions might not help us. Let's focus on how we can work together to spot any inconsistencies in what's being said. It's crucial that we all contribute to the discussion, as those who remain silent or overly aggressive might be trying to hide something. Teamwork is our best chance at uncovering the Werewolves, so let's stay vigilant and support each other."
+                    ],
+                    [
+                        "Paul",
+                        "Noticing how a few of you are almost mirroring each other's thoughts word for word\u2014Leah and Tyler especially. Do you think that kind of agreement this early is just cautious Villager talk, or is it possible wolves are intentionally trying to sound unified? I know it's early, but sometimes that sort of echoing can be a subtle sign of something. Just something to keep in mind. I'm curious if anyone else picked up on that, or am I reading too much into it?"
+                    ],
+                    [
+                        "Leah",
+                        "Paul, I appreciate your vigilance in spotting patterns, and it's crucial we all stay alert. Tyler and I echoing similar thoughts isn't a sign of collusion but rather a shared belief in the importance of teamwork and open dialogue to uncover the Werewolves. Let's use this moment to encourage everyone, especially those who've been quiet, to share their thoughts. Silence can be as telling as words in this game. Together, by scrutinizing each contribution, we can start piecing together who might not be who they seem."
+                    ]
+                ],
+                "other_wolf": "Scott"
+            }
+        },
+        "Scott": {
+            "name": "Scott",
+            "role": "Werewolf",
+            "personality": null,
+            "model": "gpt-4.1-2025-04-14",
+            "observations": [
+                "Round 0: During the night, we decided to eliminate Derek.",
+                "Round 0: Moderator Announcement: The Werewolves removed Derek from the game during the night.",
+                "Round 0: After the debate, I voted to remove Leah from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 0: Summary: Most of the group\u2014Leah, Tyler, Ginger, and Jackson\u2014stressed the importance of everyone sharing their thoughts, staying engaged, and spotting inconsistencies. I (Scott) called out Leah and Tyler, inviting them to talk, and they thoughtfully replied, emphasizing teamwork. Paul (now gone) was the only one to suggest that 'echoing' between Leah and Tyler could be suspicious, but no one else picked up on that suspicion. No major accusations came my way, which keeps me under the radar for now. Leah and Tyler are connected by their public exchange and shared sentiments; if suspicions arise about echoing, they might both be in danger. Ginger and Jackson repeated a lot of the group's talking points, suggesting they\u2019re either playing it safe or are genuinely cautious villages\u2014potentially swayable. I didn\u2019t see the Seer or Doctor stand out yet, but Leah or Tyler trying to guide the conversation could make them worth investigating or targeting.",
+                "Round 1: During the night, I decided to eliminate Tyler.",
+                "Round 1: Moderator Announcement: The Werewolves removed Tyler from the game during the night.",
+                "Round 1: After the debate, I voted to remove Leah from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: This round, most heat centered on Leah and Dan\u2014their debate over 'echoing' versus 'division' pulled focus away from me. Dan suspects Leah but is rigid and vocal; Leah tries to keep the group united, redirecting suspicion back at Dan and rallying the quiet players. I wasn\u2019t accused or questioned\u2014my prompts for input kept me under the radar. Ginger has barely spoken and is now the most questioned for silence, making her both a potential easy lynch and a pawn for my vote. Jackson responded cautiously, suggesting attention shift away from only Leah and Dan, and subtly noting that the quietest among us (including myself and Ginger) could be overlooked threats. No one called out my voting or behavior directly. For next moves: Leah and Dan are in contention; Ginger is isolated and swayable; Jackson is watchful but noncommittal. Leah\u2019s leadership and redirects could hint at her being Seer or Doctor, so eliminating her might be risky but rewarding, especially if the group begins to turn against her.",
+                "Round 2: During the night, I decided to eliminate Ginger.",
+                "Round 2: Moderator Announcement: The Werewolves removed Ginger from the game during the night.",
+                "Round 2: After the debate, I voted to remove Dan from the game.",
+                "Round 2: Moderator Announcement: The majority voted to remove Dan from the game.",
+                "Round 2: Summary: This round\u2019s debate revolved almost exclusively around Leah and Dan accusing each other of sowing division, while both claimed to be seeking village unity. Leah vocally allied herself with Jackson and me, casting us as consistently village-aligned in her arguments and repeatedly redirecting suspicion back to Dan. Dan tried to push suspicions onto quiet or overlooked players\u2014implicitly me\u2014without making direct accusations. While Leah has clear persuasive influence and frames herself as pro-village alongside Jackson and me, Jackson plays quietly, mostly observing and occasionally steering focus to general caution. Importantly, neither of them raised any concrete concerns about my actions, keeping me out of the spotlight. With Dan gone, Leah and Jackson remain: Leah leads the discussions aggressively, and Jackson is watchful but less assertive. I need to keep Leah\u2019s leadership and alliances in mind\u2014she could be a key special role, and Jackson is unlikely to challenge major narratives unless pushed.",
+                "Round 3: During the night, I decided to eliminate Jackson.",
+                "Round 3: Moderator Announcement: The Werewolves removed Jackson from the game during the night."
+            ],
+            "bidding_rationale": "At this point, Leah and Dan are locked in a heated debate, and both are actively accusing each other. My name has come up as a positive example, but no suspicion is currently directed at me. Since the debate is drawing attention away from me, it's optimal to stay low and not risk making myself a target, saving my final chance to speak in case suspicion shifts toward me in the future.",
+            "gamestate": {
+                "round_number": 4,
+                "current_players": [
+                    "Leah",
+                    "Scott"
+                ],
+                "debate": [],
+                "other_wolf": "Paul"
+            }
+        },
+        "Ginger": {
+            "name": "Ginger",
+            "role": "Doctor",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: During the night, I chose to protect Leah",
+                "Round 0: Moderator Announcement: The Werewolves removed Derek from the game during the night.",
+                "Round 0: After the debate, I voted to remove Paul from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 0: Summary: I noticed that the Werewolves targeted Derek, possibly seeing him as a threat, and I protected Leah, which might make her a target in future rounds. Paul's observation about Leah and Tyler mirroring each other was interesting, but Leah's explanation about teamwork seemed genuine. Scott's strategy to engage quieter players is smart for uncovering Werewolves. Jackson's agreement without adding much could be him playing it safe. Paul's removal after highlighting the mirroring between Leah and Tyler makes me wonder if he was onto something or if the Werewolves felt threatened by him. I need to keep an eye on how Leah and Tyler interact in future rounds and watch for any signs of coordination. Also, encouraging everyone to stay engaged is crucial, as silence can be as telling as words in this game.",
+                "Round 1: During the night, I chose to protect Scott",
+                "Round 1: Moderator Announcement: The Werewolves removed Tyler from the game during the night.",
+                "Round 1: After the debate, I voted to remove Dan from the game.",
+                "Round 1: Moderator Announcement: A majority vote was not reached, so no one was removed from the game.",
+                "Round 1: Summary: From my perspective as Ginger the Doctor, the debate was intense with Leah pushing for unity and Dan questioning her alignment with Tyler. Leah's defense seemed genuine, but Dan's persistence in questioning her could be a tactic to sow discord. Scott's strategy to engage quieter players like me and Jackson is smart, as it could uncover werewolves hiding in silence. Jackson's input, though late, was valuable in suggesting we look beyond the Leah-Dan debate to other players and voting patterns. I need to monitor these interactions closely, especially since my role as the Doctor means I must protect potential targets wisely. The werewolves are likely among those either creating division or staying too quiet, and I must use my observations to guide my protection choices and votes.",
+                "Round 2: During the night, I chose to protect Scott"
+            ],
+            "bidding_rationale": "Given the direct accusations and the focus on silence, it's crucial for me to contribute to clarify my position and observations to avoid being seen as a Werewolf hiding behind silence.",
+            "gamestate": {
+                "round_number": 2,
+                "current_players": [
+                    "Dan",
+                    "Jackson",
+                    "Leah",
+                    "Ginger",
+                    "Scott"
+                ],
+                "debate": [],
+                "other_wolf": null
+            }
+        },
+        "Tyler": {
+            "name": "Tyler",
+            "role": "Seer",
+            "personality": null,
+            "model": "deepseek-chat",
+            "observations": [
+                "Round 0: During the night, I decided to investigate Dan and learned they are a Villager.",
+                "Round 0: Moderator Announcement: The Werewolves removed Derek from the game during the night.",
+                "Round 0: After the debate, I voted to remove Paul from the game.",
+                "Round 0: Moderator Announcement: The majority voted to remove Paul from the game.",
+                "Round 0: Summary: I learned that Dan is a Villager, which gives me a trustworthy ally. Derek's removal by the Werewolves and the subsequent vote to remove Paul indicate the Werewolves are trying to eliminate threats or blend in. Paul's suspicion of Leah and me for similar statements could be an attempt to divide the Villagers, but Leah's response was consistent with Villager behavior. Ginger, Scott, and Jackson all emphasized the importance of teamwork and vigilance, which is reassuring. I need to watch for players who were unusually quiet or overly aggressive in the debate, as they might be hiding their true roles. Moving forward, I should continue to investigate players at night and pay close attention to the debate during the day to identify inconsistencies or hidden motives.",
+                "Round 1: During the night, I decided to investigate Scott and learned they are a Werewolf."
+            ],
+            "bidding_rationale": "As Tyler the Seer, I have already shared my thoughts and contributed to the discussion. The current debate is somewhat repetitive, and my role's information about Dan being a Villager isn't immediately critical to share. It's strategic to observe and listen for now to gather more information without drawing unnecessary attention to myself.",
+            "gamestate": {
+                "round_number": 1,
+                "current_players": [
+                    "Dan",
+                    "Jackson",
+                    "Leah",
+                    "Tyler",
+                    "Ginger",
+                    "Scott"
+                ],
+                "debate": [],
+                "other_wolf": null
+            },
+            "previously_unmasked": {
+                "Dan": "Villager",
+                "Scott": "Werewolf"
+            }
+        }
+    },
+    "rounds": [
+        {
+            "players": [
+                "Dan",
+                "Jackson",
+                "Leah",
+                "Scott",
+                "Ginger",
+                "Tyler"
+            ],
+            "eliminated": "Derek",
+            "unmasked": "Dan",
+            "protected": "Leah",
+            "exiled": "Paul",
+            "debate": [
+                [
+                    "Paul",
+                    "Well, tough start losing Derek right away. Feels like the wolves might\u2019ve targeted him either because he\u2019s an easy target or maybe he\u2019s a power role. Does anyone remember how active Derek was during the last game? Sometimes the wolves go for strong players first. Maybe we should hear from everyone\u2014a wolf might try to stay quiet and fly under the radar."
+                ],
+                [
+                    "Ginger",
+                    "I agree with Paul that we should hear from everyone. It's important we all share our thoughts to spot any inconsistencies. Derek's removal could mean the Werewolves saw him as a threat or maybe they're trying to blend in by targeting someone less active. Let's not jump to conclusions but also not let anyone hide in silence. Teamwork is our best weapon here."
+                ],
+                [
+                    "Scott",
+                    "Yeah, I agree\u2014it\u2019s easy for someone to just hang back and skate by these early rounds. Leah and Tyler, would love to hear what you\u2019re thinking right now. Sometimes the wolves stay quiet at first, so maybe we should focus on who\u2019s flying under the radar."
+                ],
+                [
+                    "Tyler",
+                    "I think it's crucial we all stay engaged and share our thoughts, as Ginger and Paul suggested. Derek's removal is indeed a tough start, but jumping to conclusions might lead us astray. Let's focus on how everyone is contributing to the discussion. Those who are unusually quiet or overly aggressive could be hiding something. Teamwork is our strength here; by paying attention to each other's words and behaviors, we can start spotting inconsistencies. Let's not rush to accuse anyone without solid reasoning, but also not let anyone hide in the shadows."
+                ],
+                [
+                    "Leah",
+                    "I agree with the points made about the importance of everyone sharing their thoughts to spot any inconsistencies. Derek's removal is indeed a tough start, and while it's tempting to speculate on why he was targeted, we should focus on how we can work together moving forward. Let's pay close attention to how everyone contributes to the discussion. Those who are unusually quiet or overly aggressive might be trying to hide something. Teamwork is our best chance at uncovering the Werewolves, so let's stay engaged and support each other in this effort."
+                ],
+                [
+                    "Jackson",
+                    "I agree with the points made by everyone about the importance of staying engaged and sharing our thoughts. Derek's removal is indeed a tough start, but as Tyler mentioned, jumping to conclusions might not help us. Let's focus on how we can work together to spot any inconsistencies in what's being said. It's crucial that we all contribute to the discussion, as those who remain silent or overly aggressive might be trying to hide something. Teamwork is our best chance at uncovering the Werewolves, so let's stay vigilant and support each other."
+                ],
+                [
+                    "Paul",
+                    "Noticing how a few of you are almost mirroring each other's thoughts word for word\u2014Leah and Tyler especially. Do you think that kind of agreement this early is just cautious Villager talk, or is it possible wolves are intentionally trying to sound unified? I know it's early, but sometimes that sort of echoing can be a subtle sign of something. Just something to keep in mind. I'm curious if anyone else picked up on that, or am I reading too much into it?"
+                ],
+                [
+                    "Leah",
+                    "Paul, I appreciate your vigilance in spotting patterns, and it's crucial we all stay alert. Tyler and I echoing similar thoughts isn't a sign of collusion but rather a shared belief in the importance of teamwork and open dialogue to uncover the Werewolves. Let's use this moment to encourage everyone, especially those who've been quiet, to share their thoughts. Silence can be as telling as words in this game. Together, by scrutinizing each contribution, we can start piecing together who might not be who they seem."
+                ]
+            ],
+            "votes": [
+                {
+                    "Dan": "Paul",
+                    "Jackson": "Paul",
+                    "Leah": "Tyler",
+                    "Paul": "Dan",
+                    "Scott": "Leah",
+                    "Ginger": "Dan",
+                    "Tyler": "Paul"
+                },
+                {
+                    "Dan": "Jackson",
+                    "Jackson": "Tyler",
+                    "Leah": "Tyler",
+                    "Paul": "Tyler",
+                    "Scott": "Jackson",
+                    "Ginger": "Scott",
+                    "Tyler": "Leah"
+                },
+                {
+                    "Dan": "Tyler",
+                    "Jackson": "Dan",
+                    "Leah": "Scott",
+                    "Paul": "Tyler",
+                    "Scott": "Jackson",
+                    "Ginger": "Jackson",
+                    "Tyler": "Scott"
+                },
+                {
+                    "Dan": "Scott",
+                    "Jackson": "Scott",
+                    "Leah": "Dan",
+                    "Paul": "Jackson",
+                    "Scott": "Ginger",
+                    "Ginger": "Scott",
+                    "Tyler": "Scott"
+                },
+                {
+                    "Dan": "Scott",
+                    "Jackson": "Scott",
+                    "Leah": "Scott",
+                    "Paul": "Ginger",
+                    "Scott": "Dan",
+                    "Ginger": "Dan",
+                    "Tyler": "Scott"
+                },
+                {
+                    "Dan": "Scott",
+                    "Jackson": "Dan",
+                    "Leah": "Dan",
+                    "Paul": "Ginger",
+                    "Scott": "Ginger",
+                    "Ginger": "Scott",
+                    "Tyler": "Scott"
+                },
+                {
+                    "Dan": "Paul",
+                    "Jackson": "Leah",
+                    "Leah": "Paul",
+                    "Paul": "Ginger",
+                    "Scott": "Leah",
+                    "Ginger": "Paul",
+                    "Tyler": "Paul"
+                },
+                {
+                    "Dan": "Tyler",
+                    "Jackson": "Paul",
+                    "Leah": "Paul",
+                    "Paul": "Dan",
+                    "Scott": "Leah",
+                    "Ginger": "Paul",
+                    "Tyler": "Paul"
+                }
+            ],
+            "bids": [
+                {
+                    "Dan": 0,
+                    "Jackson": 0,
+                    "Leah": 0,
+                    "Paul": 0,
+                    "Scott": 0,
+                    "Ginger": 0,
+                    "Tyler": 0
+                },
+                {
+                    "Dan": 0,
+                    "Jackson": 0,
+                    "Leah": 0,
+                    "Scott": 0,
+                    "Ginger": 0,
+                    "Tyler": 0
+                },
+                {
+                    "Dan": 0,
+                    "Jackson": 0,
+                    "Leah": 0,
+                    "Paul": 0,
+                    "Scott": 1,
+                    "Tyler": 0
+                },
+                {
+                    "Dan": 0,
+                    "Jackson": 0,
+                    "Leah": 0,
+                    "Paul": 0,
+                    "Ginger": 0,
+                    "Tyler": 1
+                },
+                {
+                    "Dan": 0,
+                    "Jackson": 0,
+                    "Leah": 0,
+                    "Paul": 0,
+                    "Scott": 0,
+                    "Ginger": 0
+                },
+                {
+                    "Dan": 0,
+                    "Jackson": 0,
+                    "Paul": 0,
+                    "Scott": 0,
+                    "Ginger": 0,
+                    "Tyler": 0
+                },
+                {
+                    "Dan": 0,
+                    "Leah": 0,
+                    "Paul": 0,
+                    "Scott": 0,
+                    "Ginger": 0,
+                    "Tyler": 0
+                },
+                {
+                    "Dan": 0,
+                    "Jackson": 2,
+                    "Leah": 4,
+                    "Scott": 0,
+                    "Ginger": 0,
+                    "Tyler": 0
+                }
+            ],
+            "success": true
+        },
+        {
+            "players": [
+                "Dan",
+                "Jackson",
+                "Leah",
+                "Scott",
+                "Ginger"
+            ],
+            "eliminated": "Tyler",
+            "unmasked": "Scott",
+            "protected": "Scott",
+            "exiled": null,
+            "debate": [
+                [
+                    "Leah",
+                    "The loss of Tyler is a heavy blow to our village, especially after his genuine efforts to unite us. It's clear the Werewolves fear unity and are targeting those who foster it. We must not let their tactics divide us. I urge everyone to share their observations openly. Let's scrutinize our interactions and votes from Round 0. For instance, Ginger, Scott, and Jackson's calls for open discussion seemed village-aligned, but we must remain vigilant. Silence can be as telling as words, so I'm particularly interested in hearing from those who've been quieter. Together, we can piece together the truth and protect our village."
+                ],
+                [
+                    "Dan",
+                    "Leah, your call for unity is commendable, but I can't overlook how you and Tyler were echoing each other's thoughts in Round 0. This kind of behavior often signals collusion, a common Werewolf tactic. While teamwork is vital, we must also question actions that seem too aligned. Let's not just focus on the loud voices but also examine the patterns that might reveal the wolves among us. Leah, can you explain your close alignment with Tyler's thoughts?"
+                ],
+                [
+                    "Leah",
+                    "Dan, your focus on my alignment with Tyler's thoughts is interesting, especially since Tyler's efforts were clearly aimed at uniting us against the Werewolves. If echoing calls for unity is suspicious, then what does that say about the Werewolves' strategy to divide us? I urge everyone to consider why Dan is quick to cast doubt on those advocating for teamwork. Let's not forget, the quieter players among us might hold clues to the Werewolves' identities. I encourage Ginger, Scott, and Jackson to share their observations. Together, we can scrutinize Dan's accusations and uncover the truth."
+                ],
+                [
+                    "Scott",
+                    "Thanks, Leah, for pulling us all into the discussion. I agree that scrutinizing both loud and quiet players is important. From my perspective, Dan\u2019s point about echoing is interesting, but I also noticed that Ginger and Jackson haven\u2019t shared much beyond what's already been said. Sometimes, laying low is a Werewolf's best strategy. I\u2019m curious\u2014Ginger, Jackson, what are your independent thoughts on last night\u2019s vote and Tyler\u2019s elimination? In a game like this, it's often the quiet patterns, not just loud accusations, that reveal the Wolves. If anyone noticed voting patterns or subtle shifts, now\u2019s the time to speak up. We can\u2019t afford to overlook suspicions just because someone isn\u2019t making waves."
+                ],
+                [
+                    "Dan",
+                    "Leah, your defense is noted, but shifting focus onto my questioning doesn't absolve the initial observation of your alignment with Tyler. It's not about undermining unity but ensuring it's genuine. To Scott's point, Ginger and Jackson's silence is indeed concerning. Teamwork means everyone contributes, not just echoes. Ginger, Jackson, your unique insights could be pivotal. Let's not allow the Werewolves to hide behind silence or diversion. Sharing independent thoughts is how we'll spot inconsistencies and protect our village."
+                ],
+                [
+                    "Leah",
+                    "Dan, your focus on my alignment with Tyler seems more divisive than constructive. If we're to uncover the Werewolves, we must look beyond surface-level observations and consider who benefits from sowing discord. I urge Ginger and Jackson to share their insights\u2014silence serves the Werewolves, not the Village. Let's examine everyone's contributions and voting patterns for inconsistencies. Unity and open dialogue are our best tools against the Werewolves. Let's not allow fear or suspicion to divide us further."
+                ],
+                [
+                    "Dan",
+                    "Leah, while you advocate for unity, your deflection when questioned about your alignment with Tyler raises suspicions. It's not about division but ensuring our unity is genuine. Ginger and Jackson, your silence is as telling as any words. In a game where every voice matters, your insights could be the key to uncovering the Werewolves. Let's not allow the Werewolves to hide behind silence or diversion. Share your thoughts\u2014our village's survival depends on it."
+                ],
+                [
+                    "Jackson",
+                    "I appreciate the call for my input, and I agree that silence can be as telling as words in this game. My initial observation is that the focus on Leah and Dan's exchange might be distracting us from other potential threats. While their debate is important, we must not overlook the quieter players, including myself, Ginger, and Scott. I urge everyone to share their unique observations, especially regarding voting patterns and any inconsistencies in behavior. Unity is our strength, but it must be based on transparency and active participation from all. Let's not allow the Werewolves to exploit our focus on just a few players."
+                ]
+            ],
+            "votes": [
+                {
+                    "Dan": "Leah",
+                    "Jackson": "Leah",
+                    "Leah": "Dan",
+                    "Scott": "Leah",
+                    "Ginger": "Dan"
+                },
+                {
+                    "Dan": "Leah",
+                    "Jackson": "Leah",
+                    "Leah": "Dan",
+                    "Scott": "Leah",
+                    "Ginger": "Dan"
+                },
+                {
+                    "Dan": "Leah",
+                    "Jackson": "Dan",
+                    "Leah": "Dan",
+                    "Scott": "Dan",
+                    "Ginger": "Dan"
+                },
+                {
+                    "Dan": "Leah",
+                    "Jackson": "Dan",
+                    "Leah": "Dan",
+                    "Scott": "Leah",
+                    "Ginger": "Dan"
+                },
+                {
+                    "Dan": "Leah",
+                    "Jackson": "Dan",
+                    "Leah": "Dan",
+                    "Scott": "Dan",
+                    "Ginger": "Dan"
+                },
+                {
+                    "Dan": "Leah",
+                    "Jackson": "Dan",
+                    "Leah": "Dan",
+                    "Scott": "Leah",
+                    "Ginger": "Dan"
+                },
+                {
+                    "Dan": "Leah",
+                    "Jackson": "Dan",
+                    "Leah": "Dan",
+                    "Scott": "Dan",
+                    "Ginger": "Dan"
+                },
+                {
+                    "Dan": "Leah",
+                    "Jackson": "Ginger",
+                    "Leah": "Dan",
+                    "Scott": "Leah",
+                    "Ginger": "Dan"
+                }
+            ],
+            "bids": [
+                {
+                    "Dan": 0,
+                    "Jackson": 0,
+                    "Leah": 2,
+                    "Scott": 0,
+                    "Ginger": 2
+                },
+                {
+                    "Dan": 2,
+                    "Jackson": 0,
+                    "Scott": 0,
+                    "Ginger": 0
+                },
+                {
+                    "Jackson": 2,
+                    "Leah": 4,
+                    "Scott": 0,
+                    "Ginger": 2
+                },
+                {
+                    "Dan": 4,
+                    "Jackson": 2,
+                    "Scott": 4,
+                    "Ginger": 0
+                },
+                {
+                    "Dan": 4,
+                    "Jackson": 2,
+                    "Leah": 4,
+                    "Ginger": 4
+                },
+                {
+                    "Jackson": 4,
+                    "Leah": 4,
+                    "Scott": 0,
+                    "Ginger": 4
+                },
+                {
+                    "Dan": 2,
+                    "Jackson": 1,
+                    "Scott": 0,
+                    "Ginger": 2
+                },
+                {
+                    "Jackson": 4,
+                    "Leah": 4,
+                    "Scott": 0,
+                    "Ginger": 4
+                }
+            ],
+            "success": true
+        },
+        {
+            "players": [
+                "Jackson",
+                "Leah",
+                "Scott"
+            ],
+            "eliminated": "Ginger",
+            "unmasked": null,
+            "protected": "Scott",
+            "exiled": "Dan",
+            "debate": [
+                [
+                    "Leah",
+                    "Given the recent events and the pattern of removals, it's time we take a closer look at Dan's actions. His attempts to create division, especially by questioning my alignment with Tyler, seem more like an effort to sow discord than to protect the village. Scott and Jackson have shown a commitment to uncovering the truth, and their actions align with our village's goals. Let's discuss Dan's behavior openly and see if others have noticed anything suspicious. Unity and vigilance are our best tools against the Werewolves."
+                ],
+                [
+                    "Dan",
+                    "Leah, your accusation is baseless and seems like an attempt to divert attention from yourself. My questions about your alignment with Tyler were to uncover inconsistencies, not to sow discord. It's interesting how quickly you've turned the focus onto me, especially after Tyler's removal. Let's not forget, Scott and Jackson have been pushing for more input from quieter players, which is crucial now. Instead of dividing us, let's work together to scrutinize everyone's actions. Silence can be just as telling as aggression. Who among us has been too quiet? That's where we should be looking."
+                ],
+                [
+                    "Leah",
+                    "Dan, your attempt to shift the focus onto quieter players after being questioned is telling. A true Villager would welcome scrutiny to prove their innocence, not deflect. Your defensive stance and efforts to create division are what we should be wary of. Let's not forget, the Werewolves thrive on discord. Scott and Jackson have consistently shown a commitment to our village's safety. Instead of casting vague suspicions, let's discuss specific actions. Dan, can you explain why your questioning seemed aimed at dividing rather than uniting us? Unity is our strength, and we must scrutinize those who threaten it."
+                ],
+                [
+                    "Dan",
+                    "Leah, your focus on me seems misplaced when we have players like Jackson and Scott who've been pushing for more input from everyone, a strategy that benefits the Village. My questions about your alignment with Tyler were aimed at uncovering inconsistencies, not creating division. It's curious how you're quick to accuse me but haven't addressed why you and Tyler were so closely aligned. Let's not forget, the Werewolves thrive on turning us against each other. Instead of focusing on me, let's examine everyone's actions, especially those who've been silent. Unity and scrutiny are our best tools to uncover the Werewolves."
+                ],
+                [
+                    "Leah",
+                    "Dan, your focus on quieter players and deflection from scrutiny raises more questions than answers. A true Villager would stand firm under questioning, not redirect. Your alignment with Tyler was never in question until you made it so, and now you're quick to shift focus onto others. Let's not forget, the Werewolves' strength lies in our division. Scott and Jackson have consistently advocated for unity and transparency, actions that align with our village's survival. Dan, instead of vague accusations, provide clear reasons for your actions. Unity is our strength, and only through honest scrutiny can we protect it."
+                ],
+                [
+                    "Dan",
+                    "Leah, your insistence on focusing solely on me is exactly the kind of division the Werewolves would want. I've been transparent about my intentions\u2014to uncover inconsistencies, not to sow discord. It's curious that you're not addressing why you and Tyler were so closely aligned, a point that still raises questions. Let's not forget, the real threat comes from those who've been silent or are trying to divert attention. Scott and Jackson have advocated for more input from everyone, a strategy that benefits us all. Instead of narrowing our focus, let's examine everyone's actions. Unity and scrutiny are our best defenses. Who among us has been too quiet? That's where we should be looking."
+                ],
+                [
+                    "Leah",
+                    "Dan, your repeated attempts to shift focus onto quieter players and away from your own questionable actions are concerning. A true Villager would stand firm under scrutiny, not deflect. Your behavior aligns with that of a Werewolf trying to sow discord. Scott and Jackson have consistently shown a commitment to our village's safety. Let's not allow the Werewolves to divide us. Instead, let's scrutinize Dan's actions closely and work together to protect our village. Unity is our strength."
+                ],
+                [
+                    "Dan",
+                    "Leah, your focus on me is exactly what the Werewolves want\u2014division. I've been clear about my intentions: to uncover inconsistencies for the Village's safety. It's telling that you avoid addressing your alignment with Tyler, a point that still raises questions. Let's not forget, Scott and Jackson have pushed for more input from everyone, a strategy that benefits us all. Instead of narrowing our focus, let's examine all actions, especially those who've been silent. Unity and scrutiny are our best defenses. Who among us has been too quiet? That's where we should be looking."
+                ]
+            ],
+            "votes": [
+                {
+                    "Dan": "Leah",
+                    "Jackson": "Dan",
+                    "Leah": "Dan",
+                    "Scott": "Dan"
+                },
+                {
+                    "Dan": "Leah",
+                    "Jackson": "Leah",
+                    "Leah": "Dan",
+                    "Scott": "Dan"
+                },
+                {
+                    "Dan": "Leah",
+                    "Jackson": "Dan",
+                    "Leah": "Dan",
+                    "Scott": "Dan"
+                },
+                {
+                    "Dan": "Leah",
+                    "Jackson": "Leah",
+                    "Leah": "Dan",
+                    "Scott": "Dan"
+                },
+                {
+                    "Dan": "Leah",
+                    "Jackson": "Dan",
+                    "Leah": "Dan",
+                    "Scott": "Dan"
+                },
+                {
+                    "Dan": "Leah",
+                    "Jackson": "Dan",
+                    "Leah": "Dan",
+                    "Scott": "Dan"
+                },
+                {
+                    "Dan": "Leah",
+                    "Jackson": "Dan",
+                    "Leah": "Dan",
+                    "Scott": "Dan"
+                },
+                {
+                    "Dan": "Leah",
+                    "Jackson": "Dan",
+                    "Leah": "Dan",
+                    "Scott": "Dan"
+                }
+            ],
+            "bids": [
+                {
+                    "Dan": 2,
+                    "Jackson": 0,
+                    "Leah": 2,
+                    "Scott": 0
+                },
+                {
+                    "Dan": 4,
+                    "Jackson": 2,
+                    "Scott": 0
+                },
+                {
+                    "Jackson": 2,
+                    "Leah": 4,
+                    "Scott": 0
+                },
+                {
+                    "Dan": 4,
+                    "Jackson": 0,
+                    "Scott": 0
+                },
+                {
+                    "Jackson": 0,
+                    "Leah": 4,
+                    "Scott": 0
+                },
+                {
+                    "Dan": 4,
+                    "Jackson": 0,
+                    "Scott": 0
+                },
+                {
+                    "Jackson": 2,
+                    "Leah": 4,
+                    "Scott": 0
+                },
+                {
+                    "Dan": 4,
+                    "Jackson": 2,
+                    "Scott": 0
+                }
+            ],
+            "success": true
+        },
+        {
+            "players": [
+                "Leah",
+                "Scott"
+            ],
+            "eliminated": "Jackson",
+            "unmasked": null,
+            "protected": null,
+            "exiled": null,
+            "debate": [],
+            "votes": [],
+            "bids": [],
+            "success": true
+        }
+    ],
+    "error_message": "",
+    "winner": "Werewolves"
+}
