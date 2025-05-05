@@ -1,0 +1,256 @@
+,strategy
+0,"['Interrogation', 'Accusation', 'Call for Action']"
+1,"['Interrogation', 'Accusation', 'Call for Action']"
+2,"['Interrogation', 'Evidence', 'Call for Action']"
+3,"['Defense', 'Call for Action', 'Identity Declaration']"
+4,"['Interrogation', 'Accusation', 'Defense', 'Evidence', 'Call for Action']"
+5,"['Interrogation', 'Accusation', 'Call for Action']"
+6,"['Interrogation', 'Accusation', 'Call for Action']"
+7,['Call for Action']
+8,"['Interrogation', 'Call for Action']"
+9,"['Interrogation', 'Accusation', 'Defense', 'Evidence', 'Call for Action']"
+10,"['Interrogation', 'Accusation', 'Evidence']"
+11,"['Interrogation', 'Evidence', 'Call for Action']"
+12,"['Interrogation', 'Accusation', 'Call for Action', 'Identity Declaration']"
+13,"['Interrogation', 'Accusation', 'Call for Action', 'Identity Declaration']"
+14,"['Interrogation', 'Evidence', 'Call for Action', 'Identity Declaration']"
+15,"['Interrogation', 'Accusation', 'Evidence', 'Call for Action']"
+16,"['Interrogation', 'Call for Action']"
+17,['Call for Action']
+18,"['Defense', 'Evidence', 'Call for Action', 'Identity Declaration']"
+19,"['Evidence', 'Call for Action']"
+20,"['Call for Action', 'Identity Declaration']"
+21,['Call for Action']
+22,['Call for Action']
+23,['Evidence']
+24,"['Accusation', 'Call for Action']"
+25,['Call for Action']
+26,"['Accusation', 'Call for Action']"
+27,"['Accusation', 'Call for Action']"
+28,"['Interrogation', 'Evidence', 'Call for Action']"
+29,"['Interrogation', 'Call for Action']"
+30,['Call for Action']
+31,['Call for Action']
+32,['Call for Action']
+33,['Call for Action']
+34,['Call for Action']
+35,"['Call for Action', 'Identity Declaration']"
+36,['Call for Action']
+37,"['Interrogation', 'Call for Action']"
+38,"['Interrogation', 'Call for Action']"
+39,['Call for Action']
+40,['Call for Action']
+41,"['Interrogation', 'Call for Action']"
+42,['Call for Action']
+43,"['Interrogation', 'Call for Action']"
+44,['Call for Action']
+45,['Call for Action']
+46,"['Interrogation', 'Call for Action']"
+47,['Call for Action']
+48,['No Strategy']
+49,"['Interrogation', 'Call for Action']"
+50,['Call for Action']
+51,['Interrogation']
+52,"['Interrogation', 'Accusation', 'Call for Action', 'Identity Declaration']"
+53,"['Interrogation', 'Call for Action']"
+54,"['Interrogation', 'Call for Action']"
+55,"['Interrogation', 'Evidence']"
+56,"['Interrogation', 'Call for Action']"
+57,"['Interrogation', 'Accusation', 'Call for Action', 'Identity Declaration']"
+58,['Call for Action']
+59,"['Interrogation', 'Call for Action']"
+60,['Call for Action']
+61,['Call for Action']
+62,"['Interrogation', 'Accusation', 'Call for Action', 'Identity Declaration']"
+63,['Call for Action']
+64,"['Interrogation', 'Accusation', 'Call for Action']"
+65,['Call for Action']
+66,"['Interrogation', 'Call for Action']"
+67,['Call for Action']
+68,['No Strategy']
+69,"['Interrogation', 'Call for Action', 'Identity Declaration']"
+70,['No Strategy']
+71,['Call for Action']
+72,['Call for Action']
+73,"['Interrogation', 'Accusation', 'Evidence', 'Call for Action']"
+74,"['Interrogation', 'Evidence', 'Call for Action']"
+75,"['Interrogation', 'Call for Action', 'Identity Declaration']"
+76,"['Interrogation', 'Call for Action']"
+77,"['Interrogation', 'Evidence', 'Call for Action']"
+78,['Call for Action']
+79,"['Interrogation', 'Call for Action']"
+80,"['Interrogation', 'Call for Action']"
+81,"['Accusation', 'Evidence', 'Call for Action']"
+82,"['Interrogation', 'Accusation', 'Defense', 'Call for Action']"
+83,"['Interrogation', 'Accusation', 'Call for Action']"
+84,"['Interrogation', 'Call for Action', 'Identity Declaration']"
+85,['Call for Action']
+86,['Call for Action']
+87,"['Interrogation', 'Accusation', 'Call for Action']"
+88,"['Accusation', 'Call for Action', 'Identity Declaration']"
+89,['Call for Action']
+90,"['Interrogation', 'Call for Action']"
+91,['Call for Action']
+92,"['Interrogation', 'Call for Action']"
+93,"['Interrogation', 'Accusation', 'Call for Action']"
+94,['No Strategy']
+95,['Call for Action']
+96,['Call for Action']
+97,"['Accusation', 'Evidence', 'Call for Action']"
+98,['No Strategy']
+99,"['Accusation', 'Call for Action']"
+100,"['Interrogation', 'Accusation', 'Call for Action']"
+101,"['Evidence', 'Call for Action']"
+102,"['Interrogation', 'Call for Action']"
+103,['Interrogation']
+104,['Call for Action']
+105,['No Strategy']
+106,"['Interrogation', 'Call for Action']"
+107,"['Interrogation', 'Call for Action']"
+108,['Call for Action']
+109,['Call for Action']
+110,"['Interrogation', 'Accusation', 'Call for Action', 'Identity Declaration']"
+111,"['Interrogation', 'Accusation', 'Call for Action']"
+112,['Call for Action']
+113,"['Accusation', 'Defense', 'Call for Action', 'Identity Declaration']"
+114,"['Interrogation', 'Call for Action']"
+115,['Call for Action']
+116,"['Interrogation', 'Call for Action']"
+117,"['Interrogation', 'Call for Action']"
+118,"['Interrogation', 'Call for Action']"
+119,"['Interrogation', 'Call for Action']"
+120,"['Interrogation', 'Call for Action']"
+121,"['Interrogation', 'Evidence', 'Call for Action']"
+122,['Call for Action']
+123,['Call for Action']
+124,"['Accusation', 'Call for Action']"
+125,"['Interrogation', 'Accusation']"
+126,"['Accusation', 'Call for Action']"
+127,"['Interrogation', 'Accusation']"
+128,"['Interrogation', 'Accusation', 'Call for Action']"
+129,['Interrogation']
+130,['No Strategy']
+131,"['Interrogation', 'Accusation', 'Call for Action']"
+132,['Interrogation']
+133,"['Accusation', 'Call for Action']"
+134,"['Interrogation', 'Accusation']"
+135,['Call for Action']
+136,['Call for Action']
+137,['Interrogation']
+138,['Call for Action']
+139,['Call for Action']
+140,"['Interrogation', 'Call for Action']"
+141,"['Interrogation', 'Accusation', 'Call for Action', 'Identity Declaration']"
+142,"['Interrogation', 'Call for Action']"
+143,"['Interrogation', 'Accusation', 'Call for Action']"
+144,"['Interrogation', 'Accusation', 'Call for Action']"
+145,['Interrogation']
+146,['Call for Action']
+147,"['Interrogation', 'Call for Action']"
+148,"['Interrogation', 'Call for Action']"
+149,"['Interrogation', 'Accusation', 'Call for Action']"
+150,"['Interrogation', 'Accusation', 'Evidence', 'Call for Action']"
+151,"['Interrogation', 'Accusation', 'Call for Action']"
+152,"['Interrogation', 'Accusation', 'Call for Action']"
+153,"['Accusation', 'Call for Action']"
+154,"['Interrogation', 'Accusation', 'Call for Action']"
+155,"['Interrogation', 'Accusation', 'Evidence', 'Call for Action']"
+156,"['Accusation', 'Call for Action']"
+157,"['Interrogation', 'Accusation', 'Call for Action']"
+158,"['Interrogation', 'Call for Action']"
+159,['Accusation']
+160,"['Interrogation', 'Accusation', 'Call for Action']"
+161,"['Interrogation', 'Accusation', 'Call for Action']"
+162,"['Interrogation', 'Call for Action']"
+163,['Accusation']
+164,"['Interrogation', 'Evidence', 'Call for Action']"
+165,['Call for Action']
+166,"['Accusation', 'Call for Action']"
+167,"['Interrogation', 'Call for Action']"
+168,['Accusation']
+169,"['Accusation', 'Call for Action']"
+170,"['Interrogation', 'Accusation', 'Call for Action']"
+171,"['Interrogation', 'Accusation', 'Call for Action']"
+172,"['Interrogation', 'Call for Action']"
+173,"['Interrogation', 'Accusation', 'Call for Action']"
+174,"['Interrogation', 'Evidence', 'Call for Action', 'Identity Declaration']"
+175,"['Interrogation', 'Accusation']"
+176,"['Interrogation', 'Call for Action']"
+177,['Accusation']
+178,"['Interrogation', 'Evidence', 'Call for Action']"
+179,"['Accusation', 'Call for Action']"
+180,"['Interrogation', 'Accusation', 'Call for Action']"
+181,"['Interrogation', 'Defense', 'Call for Action']"
+182,"['Interrogation', 'Accusation', 'Call for Action']"
+183,"['Interrogation', 'Accusation', 'Call for Action']"
+184,"['Interrogation', 'Call for Action']"
+185,"['Accusation', 'Call for Action', 'Identity Declaration']"
+186,"['Interrogation', 'Accusation', 'Evidence', 'Call for Action']"
+187,"['Interrogation', 'Accusation', 'Call for Action']"
+188,"['Interrogation', 'Accusation', 'Call for Action']"
+189,"['Interrogation', 'Accusation', 'Call for Action']"
+190,"['Interrogation', 'Accusation', 'Call for Action']"
+191,"['Interrogation', 'Accusation', 'Call for Action']"
+192,"['Interrogation', 'Accusation']"
+193,"['Interrogation', 'Accusation', 'Call for Action']"
+194,['No Strategy']
+195,"['Accusation', 'Call for Action']"
+196,"['Accusation', 'Call for Action']"
+197,"['Accusation', 'Call for Action']"
+198,"['Accusation', 'Call for Action']"
+199,"['Interrogation', 'Call for Action']"
+200,"['Interrogation', 'Accusation', 'Evidence', 'Call for Action']"
+201,"['Interrogation', 'Accusation', 'Call for Action']"
+202,['Call for Action']
+203,"['Interrogation', 'Call for Action']"
+204,"['Interrogation', 'Accusation', 'Evidence', 'Call for Action']"
+205,['Call for Action']
+206,"['Accusation', 'Call for Action', 'Identity Declaration']"
+207,['Call for Action']
+208,"['Interrogation', 'Accusation', 'Call for Action']"
+209,"['Evidence', 'Call for Action']"
+210,"['Interrogation', 'Call for Action']"
+211,"['Evidence', 'Call for Action']"
+212,['Call for Action']
+213,"['Interrogation', 'Call for Action']"
+214,"['Interrogation', 'Call for Action']"
+215,"['Interrogation', 'Call for Action']"
+216,['Call for Action']
+217,"['Interrogation', 'Call for Action']"
+218,['Call for Action']
+219,"['Accusation', 'Call for Action']"
+220,"['Interrogation', 'Call for Action']"
+221,"['Accusation', 'Call for Action']"
+222,"['Interrogation', 'Accusation', 'Call for Action', 'Identity Declaration']"
+223,"['Accusation', 'Call for Action']"
+224,"['Interrogation', 'Accusation', 'Call for Action']"
+225,"['Interrogation', 'Call for Action']"
+226,"['Interrogation', 'Evidence', 'Call for Action']"
+227,"['Interrogation', 'Call for Action']"
+228,['Call for Action']
+229,"['Evidence', 'Call for Action']"
+230,['Call for Action']
+231,"['Interrogation', 'Accusation', 'Call for Action']"
+232,"['Interrogation', 'Accusation', 'Call for Action']"
+233,"['Interrogation', 'Accusation', 'Evidence', 'Call for Action']"
+234,['Call for Action']
+235,"['Interrogation', 'Call for Action']"
+236,['Call for Action']
+237,"['Interrogation', 'Call for Action']"
+238,"['Interrogation', 'Accusation', 'Call for Action']"
+239,"['Interrogation', 'Accusation', 'Evidence', 'Call for Action']"
+240,"['Call for Action', 'Identity Declaration']"
+241,"['Evidence', 'Call for Action']"
+242,"['Interrogation', 'Accusation', 'Call for Action']"
+243,['Call for Action']
+244,['No Strategy']
+245,['Call for Action']
+246,['Call for Action']
+247,"['Interrogation', 'Accusation', 'Call for Action']"
+248,"['Accusation', 'Call for Action']"
+249,"['Interrogation', 'Call for Action', 'Identity Declaration']"
+250,"['Accusation', 'Call for Action']"
+251,"['Accusation', 'Call for Action']"
+252,['Call for Action']
+253,['Call for Action']
+254,"['Interrogation', 'Evidence', 'Call for Action']"
