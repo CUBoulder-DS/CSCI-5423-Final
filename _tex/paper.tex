@@ -233,11 +233,15 @@ Abstract TODO
   \begin{itemize}
   \tightlist
   \item
-    \emph{Werewolf Among Us} (Lai et al., 2022), a collection of real
-    human gameplay annotated with persuasion strategies,
+    \emph{Werewolf Among Us}
+    (\citeproc{ref-laiWerewolfUsMultimodal2022}{Lai et al. 2022}), a
+    collection of real human gameplay annotated with persuasion
+    strategies,
   \item
-    \emph{Werewolf Arena} (Bailis et al., 2024), a simulated environment
-    where LLM agents play the game autonomously.
+    \emph{Werewolf Arena}
+    (\citeproc{ref-bailisWerewolfArenaCase2024}{Bailis, Friedhoff, and
+    Chen 2024}), a simulated environment where LLM agents play the game
+    autonomously.
   \item
     While both studies show Werewolf generates complex strategic
     language, neither compares human and LLM behavior directly.
@@ -337,7 +341,8 @@ Abstract TODO
 \subsection{Werewolf Among Us Human
 Dataset}\label{werewolf-among-us-human-dataset}
 
-We used the \emph{Werewolf Among Us} dataset (Lai et al., 2022), which
+We used the \emph{Werewolf Among Us} dataset
+(\citeproc{ref-laiWerewolfUsMultimodal2022}{Lai et al. 2022}), which
 contains annotated dialogues from over 150 real games of One Night
 Werewolf and Avalon. These games differ from classic Werewolf because
 they have only one round of discussion and voting, do not eliminate
@@ -350,13 +355,14 @@ their strategy annotations for our comparisons.
 \subsection{Werewolf Arena (LLM
 Dataset)}\label{werewolf-arena-llm-dataset}
 
-The \emph{Werewolf Arena} dataset (Bailis et al., 2024) features
-simulated classic Werewolf games played by LLM agents without human
-intervention. Unlike the one-round human games, these simulations
-involve multiple rounds alternating between night (secret actions) and
-day (open discussion). Each LLM agent is assigned a role (Villager,
-Werewolf, Seer, Doctor) and receives context-specific prompts that guide
-their strategic interactions.
+The \emph{Werewolf Arena} dataset
+(\citeproc{ref-bailisWerewolfArenaCase2024}{Bailis, Friedhoff, and Chen
+2024}) features simulated classic Werewolf games played by LLM agents
+without human intervention. Unlike the one-round human games, these
+simulations involve multiple rounds alternating between night (secret
+actions) and day (open discussion). Each LLM agent is assigned a role
+(Villager, Werewolf, Seer, Doctor) and receives context-specific prompts
+that guide their strategic interactions.
 
 We ran simulations using five LLM models: GPT-4o, GPT-4.1, GPT-4o-mini,
 DeepSeek-Chat, and DeepSeek-Reasoner. We experimented with two
