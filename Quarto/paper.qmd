@@ -44,14 +44,15 @@ This PDF's content, the source code notebooks, along with live interactive versi
 ::: -->
 
 
-- A description of the problem and its significance
-- How do LLMs function in a multi-agent environment?
-  - Each has limited information
-  - Approximately the same ability, traits, skills
-- We use LLMs to simulate whether synthetic agents can participate in complex, adversarial group dynamics
-- Werewolf is a good candiate for testing multi agent systems of cooperation and secrecy
-  - Need citation
-  - The game tests adaptive reasoning, strategic alignment, and collective threat detection under special conditions
+- Social deduction games like _Werewolf_ offer a clear way to evaluate how agents deceive, persuade, and reason in group settings[@wikiwerewolf]. In these games, players have limited information, hidden identities, and must convince others while trying to figure out who is lying. These challenges closely match real life situations involving trust, negotiation, and manipulation.
+
+- We wanted to compare how humans and large language models (LLMs) handle these situations. To do this, we used two recent datasets: 
+	- _Werewolf Among Us_ (Lai et al., 2022), a collection of real human gameplay annotated with persuasion strategies, 
+	- _Werewolf Arena_ (Bailis et al., 2024), a simulated environment where LLM agents play the game autonomously. 
+	- While both studies show Werewolf generates complex strategic language, neither compares human and LLM behavior directly.
+
+- Our project addresses this gap. We analyzed transcripts from both datasets, matched them by role, round, and persuasion strategy, and compared how humans and LLMs lie, persuade, and detect deception. 
+- By annotating utterances with the same set of persuasive strategies, we clearly show how synthetic agents differ from or resemble humans when navigating deception in adversarial group interactions.
 
 
 ## Related Work
