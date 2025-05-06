@@ -200,7 +200,7 @@ Among Us dataset, large language models, multimodal analysis},
 
 \title{The Werewolf Among Us: Humans vs LLMs in Multi-Agent Games}
 \author{Bhavana Jonnalagadda \and Riley Jones}
-\date{2025-05-05}
+\date{2025-05-06}
 \begin{document}
 \maketitle
 \begin{abstract}
@@ -217,34 +217,38 @@ Abstract TODO
 \chapter{Introduction}\label{introduction}
 
 \begin{itemize}
-\tightlist
 \item
-  A description of the problem and its significance
+  Social deduction games like \emph{Werewolf} offer a clear way to
+  evaluate how agents deceive, persuade, and reason in group
+  settings(\citeproc{ref-wikiwerewolf}{Wikipedia contributors 2024}). In
+  these games, players have limited information, hidden identities, and
+  must convince others while trying to figure out who is lying. These
+  challenges closely match real life situations involving trust,
+  negotiation, and manipulation.
 \item
-  How do LLMs function in a multi-agent environment?
+  We wanted to compare how humans and large language models (LLMs)
+  handle these situations. To do this, we used two recent datasets:
 
   \begin{itemize}
   \tightlist
   \item
-    Each has limited information
+    \emph{Werewolf Among Us} (Lai et al., 2022), a collection of real
+    human gameplay annotated with persuasion strategies,
   \item
-    Approximately the same ability, traits, skills
+    \emph{Werewolf Arena} (Bailis et al., 2024), a simulated environment
+    where LLM agents play the game autonomously.
+  \item
+    While both studies show Werewolf generates complex strategic
+    language, neither compares human and LLM behavior directly.
   \end{itemize}
 \item
-  We use LLMs to simulate whether synthetic agents can participate in
-  complex, adversarial group dynamics
+  Our project addresses this gap. We analyzed transcripts from both
+  datasets, matched them by role, round, and persuasion strategy, and
+  compared how humans and LLMs lie, persuade, and detect deception.
 \item
-  Werewolf is a good candiate for testing multi agent systems of
-  cooperation and secrecy
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Need citation
-  \item
-    The game tests adaptive reasoning, strategic alignment, and
-    collective threat detection under special conditions
-  \end{itemize}
+  By annotating utterances with the same set of persuasive strategies,
+  we clearly show how synthetic agents differ from or resemble humans
+  when navigating deception in adversarial group interactions.
 \end{itemize}
 
 \section{Related Work}\label{related-work}
@@ -505,6 +509,10 @@ Mrinmaya Sachan, and Rada Mihalcea. 2024. {``Cooperate or {Collapse}:
 Agents}.''} \emph{Advances in Neural Information Processing Systems} 37
 (December): 111715--59.
 \url{https://proceedings.neurips.cc/paper_files/paper/2024/hash/ca9567d8ef6b2ea2da0d7eed57b933ee-Abstract-Conference.html}.
+
+\bibitem[\citeproctext]{ref-wikiwerewolf}
+Wikipedia contributors. 2024. {``Mafia (Party Game).''}
+\url{https://en.wikipedia.org/wiki/Mafia_(party_game)}.
 
 \bibitem[\citeproctext]{ref-xuLanguageAgentsReinforcement2024}
 Xu, Zelai, Chao Yu, Fei Fang, Yu Wang, and Yi Wu. 2024. {``Language
