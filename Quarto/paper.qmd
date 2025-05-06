@@ -47,8 +47,8 @@ This PDF's content, the source code notebooks, along with live interactive versi
 - Social deduction games like _Werewolf_ offer a clear way to evaluate how agents deceive, persuade, and reason in group settings[@wikiwerewolf]. In these games, players have limited information, hidden identities, and must convince others while trying to figure out who is lying. These challenges closely match real life situations involving trust, negotiation, and manipulation.
 
 - We wanted to compare how humans and large language models (LLMs) handle these situations. To do this, we used a recent human dataset and constructed one from an LLM-based simulator: 
-	- _Werewolf Among Us_ (Lai et al., 2022), a collection of real human gameplay annotated with persuasion strategies, 
-	- _Werewolf Arena_ (Bailis et al., 2024), a simulated environment where LLM agents play the game autonomously. 
+	- _Werewolf Among Us_ [@laiWerewolfUsMultimodal2022], a collection of real human gameplay annotated with persuasion strategies, 
+	- _Werewolf Arena_ [@bailisWerewolfArenaCase2024], a simulated environment where LLM agents play the game autonomously. 
 	- While both studies show Werewolf generates complex strategic language, neither compares human and LLM behavior directly.
 
 - Our project addresses this gap. We analyzed transcripts from both datasets, matched them by role, round, and persuasion strategy, and compared how humans and LLMs lie, persuade, and detect deception. 
@@ -82,11 +82,11 @@ This PDF's content, the source code notebooks, along with live interactive versi
 
 ### Werewolf Among Us Human Dataset
 
-We used the _Werewolf Among Us_ dataset (Lai et al., 2022), which contains annotated dialogues from over 150 real games of One Night Werewolf and Avalon. These games differ from classic Werewolf because they have only one round of discussion and voting, do not eliminate players during the game, and include many specialized roles beyond Villager and Werewolf. The dataset provides detailed annotations of persuasion strategies for each utterance, such as accusations, defenses, and identity claims. We specifically used the textual transcriptions and their strategy annotations for our comparisons.
+We used the _Werewolf Among Us_ dataset [@laiWerewolfUsMultimodal2022], which contains annotated dialogues from over 150 real games of One Night Werewolf and Avalon. These games differ from classic Werewolf because they have only one round of discussion and voting, do not eliminate players during the game, and include many specialized roles beyond Villager and Werewolf. The dataset provides detailed annotations of persuasion strategies for each utterance, such as accusations, defenses, and identity claims. We specifically used the textual transcriptions and their strategy annotations for our comparisons.
 
 ### Werewolf Arena (LLM Dataset)
 
-The _Werewolf Arena_ dataset (Bailis et al., 2024) features simulated classic Werewolf games played by LLM agents without human intervention. Unlike the one-round human games, these simulations involve multiple rounds alternating between night (secret actions) and day (open discussion). Each LLM agent is assigned a role (Villager, Werewolf, Seer, Doctor) and receives context-specific prompts that guide their strategic interactions.
+The _Werewolf Arena_ dataset [@bailisWerewolfArenaCase2024] features simulated classic Werewolf games played by LLM agents without human intervention. Unlike the one-round human games, these simulations involve multiple rounds alternating between night (secret actions) and day (open discussion). Each LLM agent is assigned a role (Villager, Werewolf, Seer, Doctor) and receives context-specific prompts that guide their strategic interactions.
 
 We ran simulations using five LLM models: GPT-4o, GPT-4.1, GPT-4o-mini, DeepSeek-Chat, and DeepSeek-Reasoner. We experimented with two configurations:
 
