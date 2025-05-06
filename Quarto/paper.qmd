@@ -11,6 +11,7 @@ author:
         city: Boulder
         state: CO
   - name: Riley Jones
+    orcid: 0009-0001-8160-5508
     email: rjones@colorado.edu
     affiliations:
       - id: 1
