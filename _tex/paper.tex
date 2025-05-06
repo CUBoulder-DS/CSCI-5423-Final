@@ -227,7 +227,8 @@ Abstract TODO
   negotiation, and manipulation.
 \item
   We wanted to compare how humans and large language models (LLMs)
-  handle these situations. To do this, we used two recent datasets:
+  handle these situations. To do this, we used a recent human dataset
+  and constructed one from an LLM-based simulator:
 
   \begin{itemize}
   \tightlist
@@ -336,54 +337,49 @@ Abstract TODO
 \subsection{Werewolf Among Us Human
 Dataset}\label{werewolf-among-us-human-dataset}
 
+We used the \emph{Werewolf Among Us} dataset (Lai et al., 2022), which
+contains annotated dialogues from over 150 real games of One Night
+Werewolf and Avalon. These games differ from classic Werewolf because
+they have only one round of discussion and voting, do not eliminate
+players during the game, and include many specialized roles beyond
+Villager and Werewolf. The dataset provides detailed annotations of
+persuasion strategies for each utterance, such as accusations, defenses,
+and identity claims. We specifically used the textual transcriptions and
+their strategy annotations for our comparisons.
+
+\subsection{Werewolf Arena (LLM
+Dataset)}\label{werewolf-arena-llm-dataset}
+
+The \emph{Werewolf Arena} dataset (Bailis et al., 2024) features
+simulated classic Werewolf games played by LLM agents without human
+intervention. Unlike the one-round human games, these simulations
+involve multiple rounds alternating between night (secret actions) and
+day (open discussion). Each LLM agent is assigned a role (Villager,
+Werewolf, Seer, Doctor) and receives context-specific prompts that guide
+their strategic interactions.
+
+We ran simulations using five LLM models: GPT-4o, GPT-4.1, GPT-4o-mini,
+DeepSeek-Chat, and DeepSeek-Reasoner. We experimented with two
+configurations:
+
 \begin{itemize}
-\tightlist
 \item
-  Human dataset description
-  (\citeproc{ref-laiWerewolfUsMultimodal2022}{Lai et al. 2022})
+  8 players with 8 rounds of discussion
 \item
-  Is specifically for a form of one-night werewolf
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Describe key differences
-  \end{itemize}
-\item
-  Used specifically for the text available
-
-  \begin{itemize}
-  \tightlist
-  \item
-    and annotations of persuasion strategy on the text
-  \end{itemize}
+  10 players with 6 rounds of discussion
 \end{itemize}
 
-\subsection{Werewolf Arena}\label{werewolf-arena}
-
-\begin{itemize}
-\tightlist
-\item
-  (\citeproc{ref-bailisWerewolfArenaCase2024}{Bailis, Friedhoff, and
-  Chen 2024})
-\item
-  Discuss the framework, how it works, prompts, etc
-\item
-  Discuss what types of runs we did
-\item
-  Discuss the data included in output
-\item
-  Talk about how we had to annotate the LLM speech with persuasion
-  strategies ourselves
-\end{itemize}
+We chose these configurations to give villagers more time to coordinate,
+extending the dialogue to better observe persuasive behaviors. After
+running the simulations, we manually annotated the LLM-generated
+dialogue using the same persuasion categories as in the human dataset.
 
 \section{Analysis}\label{analysis}
 
-\begin{itemize}
-\tightlist
-\item
-  Formatted data to match, performed various comparisons
-\end{itemize}
+We standardized annotations across both datasets so they could be
+directly compared. Our analyses focused on frequency distributions of
+persuasion strategies, comparisons by role (villager versus werewolf),
+and differences in how humans and LLMs applied these strategies.
 
 \chapter{Results}\label{results}
 
