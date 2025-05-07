@@ -90,11 +90,10 @@ We selected these settings to provide ample opportunity for villagers to coordin
 
 Agents participated in gameplay through a graphical user interface (GUI), depicted in Figure @fig:wwa-gui. The GUI displays the game state, including player roles, actions, and current discussion rounds, enabling monitoring of the gameplay progression.
 
-![GUI of Werewolf Arena simulation](Images/WWA_GUI.PNG.png)
+![GUI of Werewolf Arena simulation](Images/WWA_GUI.PNG.png){#fig-wwa-gui}
 
-::: {.figure-caption #fig:wwa-gui}
 **Figure 1.** GUI of Werewolf Arena simulation environment.
-:::
+
 
 A central feature in Werewolf Arena is the dynamic turn-taking system implemented via a bidding mechanism. Rather than a fixed speaking order, agents bid for speaking turns based on urgency and strategic necessity, closely simulating real-world group discussions. Bidding levels range from passive observation to urgent direct responses:
 
