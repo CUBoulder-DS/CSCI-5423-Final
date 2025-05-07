@@ -88,11 +88,12 @@ We conducted simulations using five LLM models: GPT-4o, GPT-4.1, GPT-4o-mini, De
 
 We selected these settings to provide ample opportunity for villagers to coordinate and demonstrate persuasive behaviors.
 
-Agents participated in gameplay through a graphical user interface (GUI), depicted in Figure @fig:wwa-gui. The GUI displays the game state, including player roles, actions, and current discussion rounds, enabling monitoring of the gameplay progression.
-
-![GUI of Werewolf Arena simulation](Images/WWA_GUI.PNG.png){#fig-wwa-gui}
+Agents participated in gameplay through a graphical user interface (GUI), depicted in Figure 1. The GUI displays the game state, including player roles, actions, and current discussion rounds, enabling monitoring of the gameplay progression.
 
 **Figure 1.** GUI of Werewolf Arena simulation environment.
+
+![GUI of Werewolf Arena simulation](Images/WWA_GUI.PNG.png)
+
 
 
 A central feature in Werewolf Arena is the dynamic turn-taking system implemented via a bidding mechanism. Rather than a fixed speaking order, agents bid for speaking turns based on urgency and strategic necessity, closely simulating real-world group discussions. Bidding levels range from passive observation to urgent direct responses:
