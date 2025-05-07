@@ -179,11 +179,7 @@ require(['plotly'], function(Plotly) {
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
   <ul class="collapse">
-  <li><a href="#related-work" id="toc-related-work" class="nav-link" data-scroll-target="#related-work">Related Work</a>
-  <ul class="collapse">
-  <li><a href="#multi-agent-llms" id="toc-multi-agent-llms" class="nav-link" data-scroll-target="#multi-agent-llms">Multi-Agent LLMs</a></li>
-  <li><a href="#llms-and-werewolf" id="toc-llms-and-werewolf" class="nav-link" data-scroll-target="#llms-and-werewolf">LLMs and Werewolf</a></li>
-  </ul></li>
+  <li><a href="#related-work" id="toc-related-work" class="nav-link" data-scroll-target="#related-work">Related Work</a></li>
   </ul></li>
   <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a>
   <ul class="collapse">
@@ -230,39 +226,8 @@ This PDF's content, the source code notebooks, along with live interactive versi
 <p>Social deduction games like Werewolf offer a clear way to evaluate how agents deceive, persuade, and reason in group settings <span class="citation" data-cites="wikiwerewolf">(<a href="#ref-wikiwerewolf" role="doc-biblioref">Wikipedia contributors 2024</a>)</span>. In these games, players operate with limited information and hidden identities, attempting to convince others while trying to uncover deception themselves. These dynamics mirror real-world challenges involving trust, negotiation, and manipulation. To explore how humans and large language models (LLMs) navigate such scenarios, we analyzed two key datasets: Werewolf Among Us <span class="citation" data-cites="laiWerewolfUsMultimodal2022">(<a href="#ref-laiWerewolfUsMultimodal2022" role="doc-biblioref">Lai et al. 2022</a>)</span>, which features real human gameplay annotated with persuasion strategies, and Werewolf Arena <span class="citation" data-cites="bailisWerewolfArenaCase2024">(<a href="#ref-bailisWerewolfArenaCase2024" role="doc-biblioref">Bailis, Friedhoff, and Chen 2024</a>)</span>, a simulated environment in which LLM agents autonomously play the game. While both studies demonstrate that Werewolf elicits rich, strategic language, neither directly compares human and LLM behavior. Our project fills this gap. We analyzed transcripts from both datasets, aligning them by role, round, and persuasive strategy, and compared how humans and LLMs lie, persuade, and detect deception. By annotating all utterances using a consistent taxonomy of persuasive strategies, we expose key differences and similarities in how synthetic agents and humans handle adversarial group interactions.</p>
 <section id="related-work" class="level2">
 <h2 class="anchored" data-anchor-id="related-work">Related Work</h2>
-<section id="multi-agent-llms" class="level3">
-<h3 class="anchored" data-anchor-id="multi-agent-llms">Multi-Agent LLMs</h3>
-<ul>
-<li>Among us game <span class="citation" data-cites="chiAMONGAGENTSEvaluatingLarge2024">(<a href="#ref-chiAMONGAGENTSEvaluatingLarge2024" role="doc-biblioref">Chi, Mao, and Tang 2024</a>)</span></li>
-<li>Collective problem solving <span class="citation" data-cites="duLargeLanguageModels2024">(<a href="#ref-duLargeLanguageModels2024" role="doc-biblioref">Du, Rajivan, and Gonzalez 2024</a>)</span>
-<ul>
-<li>“analyses indicate that LLM agent groups exhibit more disagreements, complex statements, and a propensity for positive statements compared to human groups”</li>
-</ul></li>
-<li>Govsim <span class="citation" data-cites="piattiCooperateCollapseEmergence2024">(<a href="#ref-piattiCooperateCollapseEmergence2024" role="doc-biblioref">Piatti et al. 2024</a>)</span>
-<ul>
-<li>“In GOVSIM, a society of AI agents must collectively balance exploiting a common resource with sustaining it for future use. This environment enables the study of how ethical considerations, strategic planning, and negotiation skills impact cooperative outcomes.”</li>
-</ul></li>
-<li>All found similar themes
-<ul>
-<li>That LLMs are capable and good at understanding the rules</li>
-<li>That they can cooperate and be sneaky</li>
-</ul></li>
-</ul>
-</section>
-<section id="llms-and-werewolf" class="level3">
-<h3 class="anchored" data-anchor-id="llms-and-werewolf">LLMs and Werewolf</h3>
-<ul>
-<li>Examination of improving werewolf by LLMs <span class="citation" data-cites="xuLanguageAgentsReinforcement2024">(<a href="#ref-xuLanguageAgentsReinforcement2024" role="doc-biblioref">Xu et al. 2024</a>)</span>
-<ul>
-<li>“our agents use an LLM to perform deductive reasoning and generate a diverse set of action candidates. Then an RL policy trained to optimize the decision-making ability chooses an action from the candidates to play in the game. Extensive experiments show that our agents overcome the intrinsic bias and outperform existing LLM-based agents in the Werewolf game.”</li>
-</ul></li>
-<li>Werewolf Arena <span class="citation" data-cites="bailisWerewolfArenaCase2024">(<a href="#ref-bailisWerewolfArenaCase2024" role="doc-biblioref">Bailis, Friedhoff, and Chen 2024</a>)</span>
-<ul>
-<li>Used in this paper</li>
-</ul></li>
-<li>Explicitly discuss how none of the exisiting LLM+Werewolf papers examine the differences/compare from a human dataset</li>
-</ul>
-</section>
+<p>Recent research into multi-agent large language models (LLMs) has explored their performance in various social deduction and collective problem-solving contexts. Chi et al.&nbsp;[<span class="citation" data-cites="chiAMONGAGENTSEvaluatingLarge2024">Chi, Mao, and Tang (<a href="#ref-chiAMONGAGENTSEvaluatingLarge2024" role="doc-biblioref">2024</a>)</span>] investigated LLM behavior in the popular game Among Us, revealing capabilities in understanding complex game dynamics and successfully navigating roles involving deception and cooperation. Similarly, Du et al.&nbsp;[<span class="citation" data-cites="duLargeLanguageModels2024">Du, Rajivan, and Gonzalez (<a href="#ref-duLargeLanguageModels2024" role="doc-biblioref">2024</a>)</span>] examined collective problem-solving scenarios, finding that LLM agent groups showed increased complexity in their interactions, more frequent disagreements, and generally positive exchanges compared to human groups. Piatti et al.&nbsp;[<span class="citation" data-cites="piattiCooperateCollapseEmergence2024">Piatti et al. (<a href="#ref-piattiCooperateCollapseEmergence2024" role="doc-biblioref">2024</a>)</span>], through the GovSim environment, studied how AI societies managed collective resources, demonstrating that LLM agents effectively balanced ethical considerations, strategic planning, and negotiation, further supporting the idea of their advanced cooperative and strategic capabilities.</p>
+<p>Within the specific context of Werewolf, several studies have addressed the use of LLMs to enhance gameplay. Xu et al.&nbsp;[<span class="citation" data-cites="xuLanguageAgentsReinforcement2024">Xu et al. (<a href="#ref-xuLanguageAgentsReinforcement2024" role="doc-biblioref">2024</a>)</span>] developed LLM agents that leverage deductive reasoning and reinforcement learning to optimize decision-making and gameplay strategy, outperforming existing methods. Meanwhile, Bailis et al.&nbsp;[<span class="citation" data-cites="bailisWerewolfArenaCase2024">Bailis, Friedhoff, and Chen (<a href="#ref-bailisWerewolfArenaCase2024" role="doc-biblioref">2024</a>)</span>] introduced the Werewolf Arena, a framework employed in our current study. However, despite these advancements, previous research has not explicitly examined or compared LLM-driven Werewolf gameplay to authentic human interactions and strategies. Our paper specifically addresses this gap by directly comparing human gameplay, sourced from the Werewolf Among Us dataset, with simulated gameplay generated by LLMs, providing novel insights into differences and similarities in persuasion strategies and social reasoning between humans and AI.</p>
 </section>
 </section>
 <section id="methods" class="level1">
@@ -282,7 +247,7 @@ This PDF's content, the source code notebooks, along with live interactive versi
 <li>10 players with 6 discussion rounds</li>
 </ul>
 <p>We selected these settings to provide ample opportunity for villagers to coordinate and demonstrate persuasive behaviors.</p>
-<p>Agents participated in gameplay through a graphical user interface (GUI), depicted in Figure <a href="#fig-wwa-gui" class="quarto-xref">Figure&nbsp;1</a>. The GUI displays the game state, including player roles, actions, and current discussion rounds, enabling monitoring of the gameplay progression.</p>
+<p>Agents participated in gameplay through a graphical user interface (GUI), depicted in <a href="#fig-wwa-gui" class="quarto-xref">Figure&nbsp;1</a>. The GUI displays the game state, including player roles, actions, and current discussion rounds, enabling monitoring of the gameplay progression.</p>
 <div id="fig-wwa-gui" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-wwa-gui-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
