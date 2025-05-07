@@ -227,17 +227,7 @@ require(['plotly'], function(Plotly) {
 This PDF's content, the source code notebooks, along with live interactive versions of all figures (and more!) is available at the website version of this paper: [https://cuboulder-ds.github.io/CSCI-5423-Final](https://cuboulder-ds.github.io/CSCI-5423-Final)
 :::
 ::: -->
-<ul>
-<li><p>Social deduction games like <em>Werewolf</em> offer a clear way to evaluate how agents deceive, persuade, and reason in group settings<span class="citation" data-cites="wikiwerewolf">(<a href="#ref-wikiwerewolf" role="doc-biblioref">Wikipedia contributors 2024</a>)</span>. In these games, players have limited information, hidden identities, and must convince others while trying to figure out who is lying. These challenges closely match real life situations involving trust, negotiation, and manipulation.</p></li>
-<li><p>We wanted to compare how humans and large language models (LLMs) handle these situations. To do this, we used a recent human dataset and constructed one from an LLM-based simulator:</p>
-<ul>
-<li><em>Werewolf Among Us</em> <span class="citation" data-cites="laiWerewolfUsMultimodal2022">(<a href="#ref-laiWerewolfUsMultimodal2022" role="doc-biblioref">Lai et al. 2022</a>)</span>, a collection of real human gameplay annotated with persuasion strategies,</li>
-<li><em>Werewolf Arena</em> <span class="citation" data-cites="bailisWerewolfArenaCase2024">(<a href="#ref-bailisWerewolfArenaCase2024" role="doc-biblioref">Bailis, Friedhoff, and Chen 2024</a>)</span>, a simulated environment where LLM agents play the game autonomously.</li>
-<li>While both studies show Werewolf generates complex strategic language, neither compares human and LLM behavior directly.</li>
-</ul></li>
-<li><p>Our project addresses this gap. We analyzed transcripts from both datasets, matched them by role, round, and persuasion strategy, and compared how humans and LLMs lie, persuade, and detect deception.</p></li>
-<li><p>By annotating utterances with the same set of persuasive strategies, we clearly show how synthetic agents differ from or resemble humans when navigating deception in adversarial group interactions.</p></li>
-</ul>
+<p>Social deduction games like Werewolf offer a clear way to evaluate how agents deceive, persuade, and reason in group settings <span class="citation" data-cites="wikiwerewolf">(<a href="#ref-wikiwerewolf" role="doc-biblioref">Wikipedia contributors 2024</a>)</span>. In these games, players operate with limited information and hidden identities, attempting to convince others while trying to uncover deception themselves. These dynamics mirror real-world challenges involving trust, negotiation, and manipulation. To explore how humans and large language models (LLMs) navigate such scenarios, we analyzed two key datasets: Werewolf Among Us <span class="citation" data-cites="laiWerewolfUsMultimodal2022">(<a href="#ref-laiWerewolfUsMultimodal2022" role="doc-biblioref">Lai et al. 2022</a>)</span>, which features real human gameplay annotated with persuasion strategies, and Werewolf Arena <span class="citation" data-cites="bailisWerewolfArenaCase2024">(<a href="#ref-bailisWerewolfArenaCase2024" role="doc-biblioref">Bailis, Friedhoff, and Chen 2024</a>)</span>, a simulated environment in which LLM agents autonomously play the game. While both studies demonstrate that Werewolf elicits rich, strategic language, neither directly compares human and LLM behavior. Our project fills this gap. We analyzed transcripts from both datasets, aligning them by role, round, and persuasive strategy, and compared how humans and LLMs lie, persuade, and detect deception. By annotating all utterances using a consistent taxonomy of persuasive strategies, we expose key differences and similarities in how synthetic agents and humans handle adversarial group interactions.</p>
 <section id="related-work" class="level2">
 <h2 class="anchored" data-anchor-id="related-work">Related Work</h2>
 <section id="multi-agent-llms" class="level3">
@@ -281,22 +271,44 @@ This PDF's content, the source code notebooks, along with live interactive versi
 <h2 class="anchored" data-anchor-id="data">Data</h2>
 <section id="werewolf-among-us-human-dataset" class="level3">
 <h3 class="anchored" data-anchor-id="werewolf-among-us-human-dataset">Werewolf Among Us Human Dataset</h3>
-<p>We used the <em>Werewolf Among Us</em> dataset <span class="citation" data-cites="laiWerewolfUsMultimodal2022">(<a href="#ref-laiWerewolfUsMultimodal2022" role="doc-biblioref">Lai et al. 2022</a>)</span>, which contains annotated dialogues from over 150 real games of One Night Werewolf and Avalon. These games differ from classic Werewolf because they have only one round of discussion and voting, do not eliminate players during the game, and include many specialized roles beyond Villager and Werewolf. The dataset provides detailed annotations of persuasion strategies for each utterance, such as accusations, defenses, and identity claims. We specifically used the textual transcriptions and their strategy annotations for our comparisons.</p>
+<p>We used the <em>Werewolf Among Us</em> dataset [<span class="citation" data-cites="laiWerewolfUsMultimodal2022">Lai et al. (<a href="#ref-laiWerewolfUsMultimodal2022" role="doc-biblioref">2022</a>)</span>], containing annotated dialogues from over 150 real games of One Night Werewolf and Avalon. These games differ from classic Werewolf by having only one round of discussion and voting, not eliminating players during gameplay, and featuring specialized roles beyond Villager and Werewolf. The dataset includes detailed annotations of persuasion strategies for each utterance, such as accusations, defenses, and identity claims. Our analysis specifically utilized textual transcriptions and strategy annotations for direct comparison.</p>
 </section>
 <section id="werewolf-arena-llm-dataset" class="level3">
 <h3 class="anchored" data-anchor-id="werewolf-arena-llm-dataset">Werewolf Arena (LLM Dataset)</h3>
-<p>The <em>Werewolf Arena</em> dataset <span class="citation" data-cites="bailisWerewolfArenaCase2024">(<a href="#ref-bailisWerewolfArenaCase2024" role="doc-biblioref">Bailis, Friedhoff, and Chen 2024</a>)</span> features simulated classic Werewolf games played by LLM agents without human intervention. Unlike the one-round human games, these simulations involve multiple rounds alternating between night (secret actions) and day (open discussion). Each LLM agent is assigned a role (Villager, Werewolf, Seer, Doctor) and receives context-specific prompts that guide their strategic interactions.</p>
-<p>We ran simulations using five LLM models: GPT-4o, GPT-4.1, GPT-4o-mini, DeepSeek-Chat, and DeepSeek-Reasoner. We experimented with two configurations:</p>
+<p>The <em>Werewolf Arena</em> dataset [<span class="citation" data-cites="bailisWerewolfArenaCase2024">Bailis, Friedhoff, and Chen (<a href="#ref-bailisWerewolfArenaCase2024" role="doc-biblioref">2024</a>)</span>] comprises simulated classic Werewolf games played by autonomous LLM agents. Unlike one-round human games, these simulations include multiple rounds alternating between night (secret actions) and day (open discussion). Each agent receives a role (Villager, Werewolf, Seer, Doctor) and interacts through tailored prompts generated via an LLM API.</p>
+<p>We conducted simulations using five LLM models: GPT-4o, GPT-4.1, GPT-4o-mini, DeepSeek-Chat, and DeepSeek-Reasoner. Two configurations were tested:</p>
 <ul>
-<li><p>8 players with 8 rounds of discussion</p></li>
-<li><p>10 players with 6 rounds of discussion</p></li>
+<li>8 players with 8 discussion rounds</li>
+<li>10 players with 6 discussion rounds</li>
 </ul>
-<p>We chose these configurations to give villagers more time to coordinate, extending the dialogue to better observe persuasive behaviors. After running the simulations, we manually annotated the LLM-generated dialogue using the same persuasion categories as in the human dataset.</p>
+<p>We selected these settings to provide ample opportunity for villagers to coordinate and demonstrate persuasive behaviors.</p>
+<p>Agents participated in gameplay through a graphical user interface (GUI), depicted in Figure <a href="#fig-wwa-gui" class="quarto-xref">Figure&nbsp;1</a>. The GUI displays the game state, including player roles, actions, and current discussion rounds, enabling monitoring of the gameplay progression.</p>
+<p><strong>Figure 1.</strong> GUI of Werewolf Arena simulation environment.</p>
+<div id="fig-wwa-gui" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-wwa-gui-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="Images/WWA_GUI.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Figure&nbsp;1: GUI of Werewolf Arena simulation"><img src="Images/WWA_GUI.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-wwa-gui-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: GUI of Werewolf Arena simulation
+</figcaption>
+</figure>
+</div>
+<p>A central feature in Werewolf Arena is the dynamic turn-taking system implemented via a bidding mechanism. Rather than a fixed speaking order, agents bid for speaking turns based on urgency and strategic necessity, closely simulating real-world group discussions. Bidding levels range from passive observation to urgent direct responses:</p>
+<ul>
+<li>0: Observe quietly</li>
+<li>1: Share general thoughts</li>
+<li>2: Contribute critical and specific information</li>
+<li>3: Urgent need to speak</li>
+<li>4: Respond directly after being addressed or accused</li>
+</ul>
+<p>The highest bidder speaks next, with ties broken by prioritizing agents directly mentioned in preceding turns. This mechanism captures nuanced strategic communication decisions made by agents throughout the game.</p>
+<p>Agents utilize specialized prompts reflecting their current role, memory state, and game context. The prompts guide strategic interactions, influencing agent decisions in voting, debating, and night actions. After generating dialogues through the LLM API, we manually annotated these interactions using the persuasion strategy categories from the human dataset.</p>
 </section>
 </section>
 <section id="analysis" class="level2">
 <h2 class="anchored" data-anchor-id="analysis">Analysis</h2>
-<p>We standardized annotations across both datasets so they could be directly compared. Our analyses focused on frequency distributions of persuasion strategies, comparisons by role (villager versus werewolf), and differences in how humans and LLMs applied these strategies.</p>
+<p>Annotations were standardized across both datasets for direct comparative analysis. Our analyses explored frequency distributions of persuasion strategies, role-based comparisons (villager vs.&nbsp;werewolf), and strategic differences between human and LLM-generated dialogues.</p>
 </section>
 </section>
 <section id="results" class="level1 page-columns page-full">
@@ -333,7 +345,7 @@ if (outputEl) {{
                         })                };                });            </script>        </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-llm-winrounds-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: The LLM wins, by how many rounds that partiticular game had.
+Figure&nbsp;2: The LLM wins, by how many rounds that partiticular game had.
 </figcaption>
 </figure>
 </div>
@@ -371,7 +383,7 @@ if (outputEl) {{
                         })                };                });            </script>        </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-stratbyrole-hum-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2
+Figure&nbsp;3
 </figcaption>
 </figure>
 </div>
@@ -409,7 +421,7 @@ if (outputEl) {{
                         })                };                });            </script>        </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-stratbyrole-llms-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;3
+Figure&nbsp;4
 </figcaption>
 </figure>
 </div>

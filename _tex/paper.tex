@@ -216,45 +216,27 @@ Abstract TODO
 
 \chapter{Introduction}\label{introduction}
 
-\begin{itemize}
-\item
-  Social deduction games like \emph{Werewolf} offer a clear way to
-  evaluate how agents deceive, persuade, and reason in group
-  settings(\citeproc{ref-wikiwerewolf}{Wikipedia contributors 2024}). In
-  these games, players have limited information, hidden identities, and
-  must convince others while trying to figure out who is lying. These
-  challenges closely match real life situations involving trust,
-  negotiation, and manipulation.
-\item
-  We wanted to compare how humans and large language models (LLMs)
-  handle these situations. To do this, we used a recent human dataset
-  and constructed one from an LLM-based simulator:
-
-  \begin{itemize}
-  \tightlist
-  \item
-    \emph{Werewolf Among Us}
-    (\citeproc{ref-laiWerewolfUsMultimodal2022}{Lai et al. 2022}), a
-    collection of real human gameplay annotated with persuasion
-    strategies,
-  \item
-    \emph{Werewolf Arena}
-    (\citeproc{ref-bailisWerewolfArenaCase2024}{Bailis, Friedhoff, and
-    Chen 2024}), a simulated environment where LLM agents play the game
-    autonomously.
-  \item
-    While both studies show Werewolf generates complex strategic
-    language, neither compares human and LLM behavior directly.
-  \end{itemize}
-\item
-  Our project addresses this gap. We analyzed transcripts from both
-  datasets, matched them by role, round, and persuasion strategy, and
-  compared how humans and LLMs lie, persuade, and detect deception.
-\item
-  By annotating utterances with the same set of persuasive strategies,
-  we clearly show how synthetic agents differ from or resemble humans
-  when navigating deception in adversarial group interactions.
-\end{itemize}
+Social deduction games like Werewolf offer a clear way to evaluate how
+agents deceive, persuade, and reason in group settings
+(\citeproc{ref-wikiwerewolf}{Wikipedia contributors 2024}). In these
+games, players operate with limited information and hidden identities,
+attempting to convince others while trying to uncover deception
+themselves. These dynamics mirror real-world challenges involving trust,
+negotiation, and manipulation. To explore how humans and large language
+models (LLMs) navigate such scenarios, we analyzed two key datasets:
+Werewolf Among Us (\citeproc{ref-laiWerewolfUsMultimodal2022}{Lai et al.
+2022}), which features real human gameplay annotated with persuasion
+strategies, and Werewolf Arena
+(\citeproc{ref-bailisWerewolfArenaCase2024}{Bailis, Friedhoff, and Chen
+2024}), a simulated environment in which LLM agents autonomously play
+the game. While both studies demonstrate that Werewolf elicits rich,
+strategic language, neither directly compares human and LLM behavior.
+Our project fills this gap. We analyzed transcripts from both datasets,
+aligning them by role, round, and persuasive strategy, and compared how
+humans and LLMs lie, persuade, and detect deception. By annotating all
+utterances using a consistent taxonomy of persuasive strategies, we
+expose key differences and similarities in how synthetic agents and
+humans handle adversarial group interactions.
 
 \section{Related Work}\label{related-work}
 
@@ -341,51 +323,99 @@ Abstract TODO
 \subsection{Werewolf Among Us Human
 Dataset}\label{werewolf-among-us-human-dataset}
 
-We used the \emph{Werewolf Among Us} dataset
-(\citeproc{ref-laiWerewolfUsMultimodal2022}{Lai et al. 2022}), which
-contains annotated dialogues from over 150 real games of One Night
-Werewolf and Avalon. These games differ from classic Werewolf because
-they have only one round of discussion and voting, do not eliminate
-players during the game, and include many specialized roles beyond
-Villager and Werewolf. The dataset provides detailed annotations of
-persuasion strategies for each utterance, such as accusations, defenses,
-and identity claims. We specifically used the textual transcriptions and
-their strategy annotations for our comparisons.
+We used the \emph{Werewolf Among Us} dataset {[}Lai et al.
+(\citeproc{ref-laiWerewolfUsMultimodal2022}{2022}){]}, containing
+annotated dialogues from over 150 real games of One Night Werewolf and
+Avalon. These games differ from classic Werewolf by having only one
+round of discussion and voting, not eliminating players during gameplay,
+and featuring specialized roles beyond Villager and Werewolf. The
+dataset includes detailed annotations of persuasion strategies for each
+utterance, such as accusations, defenses, and identity claims. Our
+analysis specifically utilized textual transcriptions and strategy
+annotations for direct comparison.
 
 \subsection{Werewolf Arena (LLM
 Dataset)}\label{werewolf-arena-llm-dataset}
 
-The \emph{Werewolf Arena} dataset
-(\citeproc{ref-bailisWerewolfArenaCase2024}{Bailis, Friedhoff, and Chen
-2024}) features simulated classic Werewolf games played by LLM agents
-without human intervention. Unlike the one-round human games, these
-simulations involve multiple rounds alternating between night (secret
-actions) and day (open discussion). Each LLM agent is assigned a role
-(Villager, Werewolf, Seer, Doctor) and receives context-specific prompts
-that guide their strategic interactions.
+The \emph{Werewolf Arena} dataset {[}Bailis, Friedhoff, and Chen
+(\citeproc{ref-bailisWerewolfArenaCase2024}{2024}){]} comprises
+simulated classic Werewolf games played by autonomous LLM agents. Unlike
+one-round human games, these simulations include multiple rounds
+alternating between night (secret actions) and day (open discussion).
+Each agent receives a role (Villager, Werewolf, Seer, Doctor) and
+interacts through tailored prompts generated via an LLM API.
 
-We ran simulations using five LLM models: GPT-4o, GPT-4.1, GPT-4o-mini,
-DeepSeek-Chat, and DeepSeek-Reasoner. We experimented with two
-configurations:
+We conducted simulations using five LLM models: GPT-4o, GPT-4.1,
+GPT-4o-mini, DeepSeek-Chat, and DeepSeek-Reasoner. Two configurations
+were tested:
 
 \begin{itemize}
+\tightlist
 \item
-  8 players with 8 rounds of discussion
+  8 players with 8 discussion rounds
 \item
-  10 players with 6 rounds of discussion
+  10 players with 6 discussion rounds
 \end{itemize}
 
-We chose these configurations to give villagers more time to coordinate,
-extending the dialogue to better observe persuasive behaviors. After
-running the simulations, we manually annotated the LLM-generated
-dialogue using the same persuasion categories as in the human dataset.
+We selected these settings to provide ample opportunity for villagers to
+coordinate and demonstrate persuasive behaviors.
+
+Agents participated in gameplay through a graphical user interface
+(GUI), depicted in Figure Figure~\ref{fig-wwa-gui}. The GUI displays the
+game state, including player roles, actions, and current discussion
+rounds, enabling monitoring of the gameplay progression.
+
+\textbf{Figure 1.} GUI of Werewolf Arena simulation environment.
+
+\begin{figure}[H]
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{Images/WWA_GUI.png}}
+
+}
+
+\caption{\label{fig-wwa-gui}GUI of Werewolf Arena simulation}
+
+\end{figure}%
+
+A central feature in Werewolf Arena is the dynamic turn-taking system
+implemented via a bidding mechanism. Rather than a fixed speaking order,
+agents bid for speaking turns based on urgency and strategic necessity,
+closely simulating real-world group discussions. Bidding levels range
+from passive observation to urgent direct responses:
+
+\begin{itemize}
+\tightlist
+\item
+  0: Observe quietly
+\item
+  1: Share general thoughts
+\item
+  2: Contribute critical and specific information
+\item
+  3: Urgent need to speak
+\item
+  4: Respond directly after being addressed or accused
+\end{itemize}
+
+The highest bidder speaks next, with ties broken by prioritizing agents
+directly mentioned in preceding turns. This mechanism captures nuanced
+strategic communication decisions made by agents throughout the game.
+
+Agents utilize specialized prompts reflecting their current role, memory
+state, and game context. The prompts guide strategic interactions,
+influencing agent decisions in voting, debating, and night actions.
+After generating dialogues through the LLM API, we manually annotated
+these interactions using the persuasion strategy categories from the
+human dataset.
 
 \section{Analysis}\label{analysis}
 
-We standardized annotations across both datasets so they could be
-directly compared. Our analyses focused on frequency distributions of
-persuasion strategies, comparisons by role (villager versus werewolf),
-and differences in how humans and LLMs applied these strategies.
+Annotations were standardized across both datasets for direct
+comparative analysis. Our analyses explored frequency distributions of
+persuasion strategies, role-based comparisons (villager vs.~werewolf),
+and strategic differences between human and LLM-generated dialogues.
 
 \chapter{Results}\label{results}
 
