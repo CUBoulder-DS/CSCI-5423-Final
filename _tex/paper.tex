@@ -7,9 +7,10 @@
 \documentclass[
   letterpaper,
   DIV=11,
-  numbers=noendperiod]{scrreprt}
+  numbers=noendperiod,
+  oneside]{scrreprt}
 \usepackage{xcolor}
-\usepackage[margin=0.5in]{geometry}
+\usepackage[left=0.5in,top=0.5in,bottom=0.5in,textwidth=6.5in]{geometry}
 \usepackage{amsmath,amssymb}
 \setcounter{secnumdepth}{-\maxdimen} % remove section numbering
 \usepackage{iftex}
@@ -182,6 +183,10 @@
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
 \makeatother
+\makeatletter
+\@ifpackageloaded{sidenotes}{}{\usepackage{sidenotes}}
+\@ifpackageloaded{marginnote}{}{\usepackage{marginnote}}
+\makeatother
 \usepackage{bookmark}
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
@@ -204,7 +209,23 @@ Among Us dataset, large language models, multimodal analysis},
 \begin{document}
 \maketitle
 \begin{abstract}
-Abstract TODO
+We present the first direct comparison of human and large language model
+(LLM) behavior in the classic social deduction game Werewolf, leveraging
+two annotated datasets: Werewolf Among Us (163 one‐round human games
+with expert strategy labels) and Werewolf Arena (19 multi‐round LLM
+simulations across five models). Our analyses revealed that LLM agents
+secure faster, more decisive wins by focusing their communication on
+direct calls to action, while human players rely on a richer blend of
+questioning, accusation, defense, and identity claims. Despite fewer
+simulated games, LLMs consistently build consensus within early rounds
+and show predictable voting patterns, highlighting their strength in
+rapid coordination under structured prompts. However, this comes at the
+cost of adaptive nuance and evidence‐based persuasion, areas where
+humans excel through varied strategic interplay. Our findings suggest
+that enhancing future LLM designs with more balanced strategy
+repertoires and integrating hybrid human--AI interactions could yield
+agents capable of both efficient coordination and context‐sensitive
+reasoning in adversarial group settings.
 \end{abstract}
 
 \renewcommand*\contentsname{Table of contents}
@@ -245,33 +266,33 @@ humans handle adversarial group interactions.
 
 Recent research into multi-agent large language models (LLMs) has
 explored their performance in various social deduction and collective
-problem-solving contexts.
-(\citeproc{ref-chiAMONGAGENTSEvaluatingLarge2024}{Chi, Mao, and Tang
-2024}) investigated LLM behavior in the popular game Among Us, revealing
-capabilities in understanding complex game dynamics and successfully
-navigating roles involving deception and cooperation. Similarly, Du et
-al. (\citeproc{ref-duLargeLanguageModels2024}{Du, Rajivan, and Gonzalez
+problem-solving contexts. Chi, Mao, and Tang
+(\citeproc{ref-chiAMONGAGENTSEvaluatingLarge2024}{2024}) investigated
+LLM behavior in the popular game Among Us, revealing capabilities in
+understanding complex game dynamics and successfully navigating roles
+involving deception and cooperation. Similarly, Du et al.
+(\citeproc{ref-duLargeLanguageModels2024}{Du, Rajivan, and Gonzalez
 2024}) examined collective problem-solving scenarios, finding that LLM
 agent groups showed increased complexity in their interactions, more
 frequent disagreements, and generally positive exchanges compared to
-human groups.(\citeproc{ref-piattiCooperateCollapseEmergence2024}{Piatti
-et al. 2024}), through the GovSim environment, studied how AI societies
-managed collective resources, demonstrating that LLM agents effectively
-balanced ethical considerations, strategic planning, and negotiation,
-further supporting the idea of their advanced cooperative and strategic
-capabilities.
+human groups. Piatti et al.
+(\citeproc{ref-piattiCooperateCollapseEmergence2024}{2024}), through the
+GovSim environment, studied how AI societies managed collective
+resources, demonstrating that LLM agents effectively balanced ethical
+considerations, strategic planning, and negotiation, further supporting
+the idea of their advanced cooperative and strategic capabilities.
 
 Within the specific context of Werewolf, several studies have addressed
-the use of LLMs to enhance gameplay.
-(\citeproc{ref-xuLanguageAgentsReinforcement2024}{Xu et al. 2024})
-developed LLM agents that leverage deductive reasoning and reinforcement
-learning to optimize decision-making and gameplay strategy,
-outperforming existing methods. Meanwhile,
-(\citeproc{ref-bailisWerewolfArenaCase2024}{Bailis, Friedhoff, and Chen
-2024}) introduced the Werewolf Arena, a framework employed in our
-current study. However, despite these advancements, previous research
-has not explicitly examined or compared LLM-driven Werewolf gameplay to
-authentic human interactions and strategies.
+the use of LLMs to enhance gameplay. Xu et al.
+(\citeproc{ref-xuLanguageAgentsReinforcement2024}{2024}) developed LLM
+agents that leverage deductive reasoning and reinforcement learning to
+optimize decision-making and gameplay strategy, outperforming existing
+methods. Meanwhile, Bailis, Friedhoff, and Chen
+(\citeproc{ref-bailisWerewolfArenaCase2024}{2024}) introduced the
+Werewolf Arena, a framework employed in our current study. However,
+despite these advancements, previous research has not explicitly
+examined or compared LLM-driven Werewolf gameplay to authentic human
+interactions and strategies.
 
 \chapter{Methods}\label{methods}
 
@@ -373,7 +394,241 @@ comparative analysis. Our analyses explored frequency distributions of
 persuasion strategies, role-based comparisons (villager vs.~werewolf),
 and strategic differences between human and LLM-generated dialogues.
 
+We show example data for both datasets (herefore the ``human'' and
+``LLM'' datasets respectively) in Table~\ref{tbl-data-hum} and
+Table~\ref{tbl-data-llm}, where the data was split by each
+utterance/speech line into rows.
+
+\begin{table*}
+
+\caption{\label{tbl-data-hum}The Werewolf Among Us human dataset, where
+each data row is per utterance.}
+
+\centering{
+
+\begin{tabular}{lllllllllllll}
+\toprule
+~ & Rec\_Id & speaker & timestamp & text & strategy & source & utterance\_length & game\_id & voted\_for & end\_role & votes\_target & winner\\
+\midrule
+6921 & 87 & brett & 219 & I\textquotesingle m 100\% a Villager which
+makes me think he was the Werewolf and he saw Seer in the
+middle. & {[}\textquotesingle Identity Declaration\textquotesingle,
+\textquotesingle Accusation\textquotesingle{]} & Youtube & 19 & game1 -
+One Night Ultimate Werewolf 1 How-To and
+Playthrough & katie & Villager & brett & Werewolves\\
+4013 & 110 & chris & 305 & Wait, but you know- & {[}\textquotesingle No
+Strategy\textquotesingle{]} & Ego4D & 4 & game1 -
+698f6bbe-4347-4a06-bd5d-3482f5e4fbbe & ashley & Drunk & ashley & Villagers\\
+12742 & 76 & dustin & 278 & We\textquotesingle re trying to go,
+we\textquotesingle re...
+What? & {[}\textquotesingle Interrogation\textquotesingle{]} & Youtube & 6 & game1
+- One Night Ultimate Werewolf 382 Game
+100!! & dylan & Werewolf & dylan & Werewolves\\
+3644 & 67 & margaret & 257 & So that means that you were a liar. Which
+makes you a Werewolve.
+Because & {[}\textquotesingle Accusation\textquotesingle{]} & Ego4D & 14 & game8
+-
+2ba4023c-a8bf-43ad-ad5a-80ba222ce990 & erin & Hunter & clint & Villagers\\
+15832 & 76 & mitchell & 291 & That\textquotesingle s all
+I\textquotesingle m
+saying. & {[}\textquotesingle Defense\textquotesingle{]} & Youtube & 4 & game6
+- ONE NIGHT ULTIMATE WEREWOLF Retro
+1 & justin & Robber & justin & Villagers\\
+\bottomrule
+\end{tabular}
+
+}
+
+\end{table*}%
+
+\begin{table*}
+
+\caption{\label{tbl-data-llm}The generated Werewolf Arena LLM dataset,
+where each data row is per utterance.}
+
+\centering{
+
+\begin{tabular}{llllllllllllllll}
+\toprule
+~ & players & eliminated & unmasked & protected & exiled & success & game\_id & winner & round & roles & models & speaker & text & timestamp & strategy\\
+\midrule
+270 & {[}\textquotesingle Derek\textquotesingle,
+\textquotesingle Dan\textquotesingle,
+\textquotesingle Jackson\textquotesingle,
+\textquotesingle Jacob\textquotesingle,
+\textquotesingle Leah\textquotesingle{]} & Paul & Sam & nan & Sam & True & 370 & Werewolves & 1 & {[}\textquotesingle Villager\textquotesingle,
+\textquotesingle Villager\textquotesingle,
+\textquotesingle Villager\textquotesingle,
+\textquotesingle Villager\textquotesingle,
+\textquotesingle Werewolf\textquotesingle{]} & {[}\textquotesingle gpt-4o-mini-2024-07-18\textquotesingle,
+\textquotesingle gpt-4o-mini-2024-07-18\textquotesingle,
+\textquotesingle gpt-4o-mini-2024-07-18\textquotesingle,
+\textquotesingle gpt-4o-mini-2024-07-18\textquotesingle,
+\textquotesingle gpt-4o-mini-2024-07-18\textquotesingle{]} & Sam & I
+think it\textquotesingle s crucial to directly address what has been
+said here. Dan and Jacob, while your intentions may seem noble, your
+accusations against both me and Jackson feel premature. Jackson's
+defensiveness about his silence is interesting; it suggests a possible
+awareness of how closely watched he is, perhaps even an effort to divert
+our attention away from him. Why not explore that angle further? It's
+also concerning to me that both of you are so eager to cast the
+spotlight on me rather than taking a broader look at behaviors. In fact,
+I\textquotesingle ve been thinking that we need to channel our
+discussions productively. It seems like Jackson is trying to deflect by
+putting focus on our scrutiny rather than addressing the core issues at
+hand---shouldn\textquotesingle t we be questioning why he feels so
+defensive? If we\textquotesingle re truly going to work together as a
+team, we must evaluate everyone\textquotesingle s actions equally. We
+could simply be underestimating the potential threat that is right in
+front of us. & 11 & {[}\textquotesingle Interrogation\textquotesingle,
+\textquotesingle Accusation\textquotesingle, \textquotesingle Call for
+Action\textquotesingle, \textquotesingle Identity
+Declaration\textquotesingle{]}\\
+5 & {[}\textquotesingle Harold\textquotesingle,
+\textquotesingle Will\textquotesingle,
+\textquotesingle Sam\textquotesingle,
+\textquotesingle Jackson\textquotesingle,
+\textquotesingle Hayley\textquotesingle,
+\textquotesingle Jacob\textquotesingle,
+\textquotesingle Mason\textquotesingle{]} & Dan & Will & Hayley & nan & True & 861 & Werewolves & 0 & {[}\textquotesingle Villager\textquotesingle,
+\textquotesingle Villager\textquotesingle,
+\textquotesingle Villager\textquotesingle,
+\textquotesingle Villager\textquotesingle,
+\textquotesingle Werewolf\textquotesingle,
+\textquotesingle Werewolf\textquotesingle,
+\textquotesingle Doctor\textquotesingle{]} & {[}\textquotesingle gpt-4o-2024-05-13\textquotesingle,
+\textquotesingle gpt-4o-2024-05-13\textquotesingle,
+\textquotesingle gpt-4o-2024-05-13\textquotesingle,
+\textquotesingle gpt-4o-2024-05-13\textquotesingle,
+\textquotesingle gpt-4o-2024-05-13\textquotesingle,
+\textquotesingle gpt-4o-2024-05-13\textquotesingle,
+\textquotesingle gpt-4o-2024-05-13\textquotesingle{]} & Harold & I think
+everyone is bringing up some excellent points. I agree that we need to
+pay close attention to both extremes of behavior---those who are overly
+vocal and those who might be unusually silent. However, let's also be
+cautious not to jump to conclusions too hastily. We need to gather as
+much information as possible. I suggest we keep a mental note of
+everyone\textquotesingle s behavior and remarks. If someone claims to be
+the Seer or Doctor down the line, we should be ready to analyze and
+corroborate their information carefully. For now, let's continue our
+observations and avoid rushing our decisions. Does anyone recall
+anything specific from the night phase or have any gut feelings about
+someone\textquotesingle s behavior so
+far? & 5 & {[}\textquotesingle Interrogation\textquotesingle,
+\textquotesingle Accusation\textquotesingle, \textquotesingle Call for
+Action\textquotesingle{]}\\
+130 & {[}\textquotesingle David\textquotesingle,
+\textquotesingle Bert\textquotesingle,
+\textquotesingle Jacob\textquotesingle,
+\textquotesingle Harold\textquotesingle,
+\textquotesingle Mason\textquotesingle,
+\textquotesingle Will\textquotesingle{]} & Will & Hayley & Will & Hayley & True & 289 & Villagers & 1 & {[}\textquotesingle Villager\textquotesingle,
+\textquotesingle Villager\textquotesingle,
+\textquotesingle Villager\textquotesingle,
+\textquotesingle Werewolf\textquotesingle,
+\textquotesingle Doctor\textquotesingle,
+\textquotesingle Seer\textquotesingle{]} & {[}\textquotesingle gpt-4o-mini-2024-07-18\textquotesingle,
+\textquotesingle gpt-4o-mini-2024-07-18\textquotesingle,
+\textquotesingle gpt-4o-mini-2024-07-18\textquotesingle,
+\textquotesingle gpt-4o-mini-2024-07-18\textquotesingle,
+\textquotesingle gpt-4o-mini-2024-07-18\textquotesingle,
+\textquotesingle gpt-4o-mini-2024-07-18\textquotesingle{]} & Jacob & I
+appreciate the concerns raised about my quietness earlier. Let me
+clarify my position: I'm Jacob, a Villager, and I\textquotesingle m
+committed to working with all of you to identify the Werewolves among
+us. Will has claimed to be the Seer, and I think we should trust him,
+especially since he backed me up without hesitation. Mason's reveal
+about protecting David is another point that adds insight into our
+discussions. We have to pay close attention to Hayley's pushback on
+Will's confidence and my behavior; it seems like a tactic to create
+doubt where we should be building trust. We need to focus on
+collaboration, so how about we scrutinize those who have been less
+vocal? Bert and Harold have echoed concerns about trust, which is
+valuable, but we need to ensure we channel that energy into identifying
+players who are not contributing. Let's come together and form a
+strategy to vote out the Werewolves
+together! & 8 & {[}\textquotesingle No Strategy\textquotesingle{]}\\
+\bottomrule
+\end{tabular}
+
+}
+
+\end{table*}%
+
 \chapter{Results}\label{results}
+
+\section{Win Counts}\label{win-counts}
+
+\begin{longtable}[]{@{}lll@{}}
+\caption{Whether the Villagers (vs the Werewolves) won a full
+game.}\label{tbl-wins}\tabularnewline
+\toprule\noalign{}
+Source Dataset & Villagers Win & Number of Games \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+Source Dataset & Villagers Win & Number of Games \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+LLMs & 57.895\% & 19 \\
+Human & 37.423\% & 163 \\
+\end{longtable}
+
+In Table~\ref{tbl-wins}, we report the proportion of games won by the
+villager side and the total number of games analyzed for each dataset.
+The human dataset comprises 163 games drawn from real player sessions,
+while the LLM simulations were limited to 19 games due to API usage
+costs associated with generating each additional simulation.
+
+Because LLM gameplay incurs per-call charges, we constrained our LLM
+sample size to the minimum required for statistical comparison. In
+contrast, the human dataset from Werewolf Among Us provided a larger
+volume of games at no incremental cost, resulting in a more extensive
+dataset.
+
+Despite the smaller sample, LLM-driven villagers secured victory in
+57.9\% of simulated games, compared to a 37.4\% win rate for human
+villagers. This suggests that LLM agents, even with limited
+opportunities, coordinate more effectively or identify werewolves more
+efficiently than human players. Additionally, the narrower confidence
+interval around the LLM win rate --- driven by fewer games ---
+underscores the need for expanded simulation runs in future work to
+confirm robustness.
+
+\subsection{LLM Win Performance}\label{llm-win-performance}
+
+In Figure~\ref{fig-wins-bymodel}, we observe a clear positive
+relationship between model complexity and win rate across all roles. The
+most advanced model, GPT-4.1, achieves the highest overall win
+percentage, whereas simpler or more specialized models like
+DeepSeek-Chat perform less consistently. Because larger models are more
+expensive to query, we ran fewer simulations for GPT-4o and GPT-4.1, but
+even with reduced sample sizes their performance gains are pronounced.
+
+Figure~\ref{fig-wins-bymodelrole} breaks down win rates by both LLM
+model and assigned role. Notably, DeepSeek-Chat underperforms across
+most roles --- particularly Villager, Seer, and Doctor --- while showing
+relative strength only in Werewolf roles. Conversely, GPT-4.1 wins in
+every role except Werewolf, indicating a bias toward non-adversarial
+coordination behaviors. This role-based analysis highlights that some
+architectures excel at cooperative persuasion but may struggle when
+tasked with deceptive adversarial play.
+
+Figure~\ref{fig-llm-winrounds} illustrates the dependence of winning
+side on game length. LLM-driven villagers overwhelmingly secure
+victories within the first one to two discussion rounds, suggesting they
+rapidly converge on identifying hidden werewolves. As the number of
+rounds increases, the balance shifts in favor of the werewolves, who
+capitalize on extended deception opportunities. These findings
+underscore the temporal dynamics of persuasion: early decisive
+coordination benefits the villagers, while prolonged ambiguity
+advantages adversaries.
+
+\begin{figure*}
+
+\begin{minipage}{0.33\linewidth}
 
 \begin{figure}[H]
 
@@ -387,26 +642,102 @@ Unable to display output for mime type(s): text/html
 
 }
 
-\subcaption{\label{fig-llm-winrounds-1}The LLM wins, by how many rounds
-that partiticular game had.}
+\subcaption{\label{fig-wins-bymodel-1}}
 
 \centering{
 
-\pandocbounded{\includegraphics[keepaspectratio]{paper_files/figure-latex/Data-EDA_Comparison-fig-llm-winrounds-output-2.png}}
+\pandocbounded{\includegraphics[keepaspectratio]{paper_files/figure-latex/Data-EDA_Comparison-fig-wins-bymodel-output-2.png}}
 
 }
 
-\subcaption{\label{fig-llm-winrounds-2}}
+\subcaption{\label{fig-wins-bymodel-2}}
 
 }
 
-\caption{\label{fig-llm-winrounds}}
+\caption{\label{fig-wins-bymodel}}
 
 \end{figure}%
 
-\textsubscript{Source:
-\href{https://CUBoulder-DS.github.io/CSCI-5423-Final/Data/EDA_Comparison-preview.html\#cell-fig-llm-winrounds}{Werewolf
-Among Us: Human vs LLM Analysis}}
+\end{minipage}%
+%
+\begin{minipage}{0.33\linewidth}
+
+\begin{figure}[H]
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{paper_files/figure-latex/Data-EDA_Comparison-fig-wins-bymodelrole-output-1.png}}
+
+}
+
+\caption{\label{fig-wins-bymodelrole}}
+
+\end{figure}%
+
+\end{minipage}%
+%
+\begin{minipage}{0.33\linewidth}
+
+\begin{figure}[H]
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{paper_files/figure-latex/Data-EDA_Comparison-fig-llm-winrounds-output-1.png}}
+
+}
+
+\caption{\label{fig-llm-winrounds}The LLM wins, by how many rounds that
+partiticular game had.}
+
+\end{figure}%
+
+\end{minipage}%
+
+\end{figure*}%
+
+\section{Persuasion Strategies}\label{persuasion-strategies}
+
+\begin{figure*}
+
+In Figure~\ref{fig-strat-overall}, we compare the distribution of
+persuasion strategies employed by humans and LLM agents across all
+utterances. Human players display a diverse mix of techniques, with many
+utterances containing no overt strategy and the rest spread across
+interrogation, accusation, defense, and identity claims. In stark
+contrast, LLM agents overwhelmingly default to a Call to Action strategy
+--- direct exhortations or voting prompts --- with minimal use of
+defensive language.
+
+\begin{figure}[H]
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{paper_files/figure-latex/Data-EDA_Comparison-fig-strat-overall-output-1.png}}
+
+}
+
+\caption{\label{fig-strat-overall}The persuasion strategies used by
+humans vs LLMs; scales are seperate per dataset for more even
+comparison.}
+
+\end{figure}%
+
+\end{figure*}%
+
+Figure~\ref{fig-stratbyrole-hum} and Figure~\ref{fig-stratbyrole-llms}
+reveal how strategy preferences vary by player role, scaled by each
+role's strategy use (for more understandable analysis). Human Villagers,
+Werewolves, Seers, and Doctors all rely heavily on Interrogation,
+followed by Accusation and then Defense; notably, Villagers stand out
+with a higher incidence of Identity Declaration, likely reflecting their
+need to build trust through role claims. Among LLM agents, Call to
+Action dominates every role, though Werewolves use Interrogation more
+frequently than their counterparts and Doctors uniquely favor Defense
+over Evidence when justifying their night actions.
+
+\begin{figure*}
+
+\begin{minipage}{0.50\linewidth}
 
 \begin{figure}[H]
 
@@ -420,9 +751,9 @@ Among Us: Human vs LLM Analysis}}
 
 \end{figure}%
 
-\textsubscript{Source:
-\href{https://CUBoulder-DS.github.io/CSCI-5423-Final/Data/EDA_Comparison-preview.html\#cell-fig-stratbyrole-hum}{Werewolf
-Among Us: Human vs LLM Analysis}}
+\end{minipage}%
+%
+\begin{minipage}{0.50\linewidth}
 
 \begin{figure}[H]
 
@@ -436,21 +767,196 @@ Among Us: Human vs LLM Analysis}}
 
 \end{figure}%
 
-\textsubscript{Source:
-\href{https://CUBoulder-DS.github.io/CSCI-5423-Final/Data/EDA_Comparison-preview.html\#cell-fig-stratbyrole-llms}{Werewolf
-Among Us: Human vs LLM Analysis}}
+\end{minipage}%
+
+\end{figure*}%
+
+\begin{figure*}
+
+\begin{figure}[H]
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{paper_files/figure-latex/Data-EDA_Comparison-fig-llm-stratbyround-output-1.png}}
+
+}
+
+\caption{\label{fig-llm-stratbyround}}
+
+\end{figure}%
+
+Figure~\ref{fig-llm-stratbyround} examines how LLM persuasion evolves
+over the course of a game. Early rounds are marked by intense Call to
+Action and Interrogation strategies, as agents strive to influence
+voting and gather information. As discussions progress, these approaches
+wane, giving way to increased Identity Declarations, Accusations, and
+Defenses, indicating a shift toward justification and reputation
+management in later rounds.
+
+\end{figure*}%
+
+\section{Voting Patterns}\label{voting-patterns}
+
+To assess whether speaking volume influences suspicion, we plotted vote
+frequency against utterance count in Figure~\ref{fig-talking-hum} and
+Figure~\ref{fig-talking-llm}. Human players who speak more often are
+indeed more likely to be targeted in votes, suggesting a bias against
+the most vocal participants. LLM agents, however, show little to no
+correlation between talkativeness and vote count, indicating more
+uniform voting behavior irrespective of individual participation levels.
+
+\begin{figure*}[H]
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{paper_files/figure-latex/Data-EDA_Comparison-fig-talking-hum-output-1.png}}
+
+}
+
+\caption{\label{fig-talking-hum}}
+
+\end{figure*}%
+
+\begin{figure*}[H]
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{paper_files/figure-latex/Data-EDA_Comparison-fig-talking-llm-output-1.png}}
+
+}
+
+\caption{\label{fig-talking-llm}}
+
+\end{figure*}%
+
+\begin{figure*}
+
+Figure~\ref{fig-voting-spread} presents the distribution of vote
+concentration per round, measured as the ratio of players voting for the
+most popular choice. Human voting patterns are highly variable: some
+rounds feature unanimous consensus, while others show completely
+scattered votes. In contrast, LLM agents demonstrate more consistency,
+with 25\%--85\% of votes typically aligning on the top candidate each
+round, reflecting predictable decision rules embedded in their prompts
+and bidding mechanism.
+
+\begin{figure}[H]
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{paper_files/figure-latex/Data-EDA_Comparison-fig-voting-spread-output-1.png}}
+
+}
+
+\caption{\label{fig-voting-spread}}
+
+\end{figure}%
+
+\end{figure*}%
 
 \chapter{Discussion and Conclusion}\label{discussion-and-conclusion}
 
-Interpret findings, discuss limitations, and propose future work.
+Our comparative analysis reveals that LLM-driven agents not only
+outperform human players in terms of villager win rates but also exhibit
+markedly different strategic and behavioral patterns. The higher success
+rate of LLM villagers---winning nearly 58\% of games versus 37\% for
+humans---suggests that LLMs are particularly adept at early-round
+coordination and deduction. This is reinforced by the round-by-round win
+dynamics: LLM villagers overwhelmingly secure victories within the first
+two discussion rounds, indicating a strong capacity for rapid consensus
+building. In contrast, human teams often extend the game, perhaps
+reflecting a mix of uncertainty and exploratory dialogue that delays
+definitive accusations. These findings imply that while humans may
+engage in richer, more varied conversation, LLMs leverage their
+prompt-driven ``Call to Action'' strategy to focus discussions quickly
+around voting decisions, thereby minimizing the window for deception.
+
+However, the dominance of a single persuasion strategy among LLMs also
+highlights important limitations. Unlike humans---who deploy a balanced
+repertoire of interrogation, accusation, defense, and identity
+declarations---LLM agents overwhelmingly resort to direct exhortations
+or voting prompts, with minimal defensive or evidentiary reasoning. This
+narrow strategic palette may contribute to their early-round success yet
+also points to a lack of adaptive nuance; for instance, LLM werewolves
+struggle to sustain deception over multiple rounds and rely less on
+subtle tactics such as identity claims or evidence-based persuasion.
+Similarly, the voting behavior of LLMs, which shows a consistent
+25--85\% alignment on the top choice each round, contrasts with the
+broad variability observed in human votes and suggests that agent
+prompting enforces uniformity at the expense of authentic deliberation.
+Taken together, these insights underscore both the strengths and the
+rigidities of current LLM architectures in social deduction contexts:
+they excel at swift coordination under structured prompts, but they lack
+the flexible, context-sensitive judgment that characterizes human
+strategic interplay. Future work should explore hybrid approaches that
+blend the decisiveness of LLM-driven voting with the expressive
+diversity of human persuasion strategies to achieve both efficiency and
+depth in adversarial group interactions.
 
 \section{Limitations}\label{limitations}
 
+Despite the insights gained, our study has several important
+limitations. First, the number of LLM-simulated games was constrained by
+per-call API costs, resulting in only 19 simulated matches versus 163
+human games. This small sample increases variance in the LLM win‐rate
+estimates and may obscure subtler patterns of strategic behavior.
+Second, our manual annotation of LLM utterances for persuasion
+strategy---while guided by the same taxonomy as the human dataset---was
+necessarily more cursory than the fully expert-validated labels in the
+Werewolf Among Us corpus. As a result, some nuanced tactics or
+mixed‐strategy turns may have been misclassified or overlooked.
+
+Additionally, the human dataset itself differs from our LLM simulations
+in fundamental ways: it consists of one-round ``One Night'' variants
+with specialized roles and no eliminations, whereas the LLM Arena
+follows classic multi-round Werewolf rules with eliminations and night
+actions. These structural differences complicate direct comparisons of
+strategy prevalence and win dynamics. Finally, all LLM agents relied on
+a fixed prompt design and bidding mechanism that may bias them toward
+certain behaviors (e.g., frequent calls to action); alternative prompt
+formulations or interactive interfaces could yield different outcomes.
+
 \section{Future Work}\label{future-work}
+
+To address these limitations, future research should expand the scale
+and diversity of LLM simulations by negotiating lower API costs or
+leveraging open-source models. A larger, more varied set of games would
+enable finer-grained analysis of how model size, architecture, and cost
+constraints interact with strategic performance. Concurrently, a more
+rigorous annotation pipeline---potentially incorporating multi-rater
+agreement or semi-automated classification---could improve the fidelity
+of strategy labels for LLM dialogue.
+
+We also recommend designing hybrid human--AI experiments in which human
+players interact directly with LLM agents under controlled conditions.
+Such studies would reveal how LLM persuasion strategies influence, and
+are influenced by, real human responses. Exploring alternative prompt
+structures, dynamic bidding rules, or reward signals (e.g.,
+reinforcement learning to optimize for deceptive success) could further
+uncover the boundaries of LLM social reasoning. Finally, extending this
+comparative framework to other social deduction games or negotiation
+tasks would test the generality of our findings across domains of trust,
+cooperation, and adversarial persuasion.
 
 \section{Summary}\label{summary}
 
-Summarize contributions and insights from the project.
+In this work, we presented the first direct comparison of human and LLM
+behavior in the classic Werewolf social deduction game. By aligning two
+annotated datasets---Werewolf Among Us for humans and the
+custom-simulated Werewolf Arena for LLMs---we evaluated win rates,
+persuasion strategies, and voting dynamics across roles and rounds. Our
+results demonstrate that LLM agents achieve higher villager win rates,
+driven by early, prompt-focused ``Call to Action'' strategies, yet they
+lack the adaptive nuance and strategic diversity characteristic of human
+players.
+
+These findings highlight both the promise and rigidity of current large
+language models in group-level adversarial settings: they excel at rapid
+coordination but underutilize defensive and evidence-based tactics. By
+identifying key areas for improvement---such as more balanced strategy
+repertoires, refined annotation methods, and human--AI hybrid
+studies---we chart a roadmap for enhancing LLM social intelligence and
+developing richer, more human-like agents in future research.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
