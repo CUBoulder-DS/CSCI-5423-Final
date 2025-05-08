@@ -22,7 +22,7 @@ keywords:
   - large language models
   - multimodal analysis
 abstract: |
-  Abstract TODO
+  We present the first direct comparison of human and large language model (LLM) behavior in the classic social deduction game Werewolf, leveraging two annotated datasets: Werewolf Among Us (163 one‐round human games with expert strategy labels) and Werewolf Arena (19 multi‐round LLM simulations across five models). Our analyses revealed that LLM agents secure faster, more decisive wins by focusing their communication on direct calls to action, while human players rely on a richer blend of questioning, accusation, defense, and identity claims. Despite fewer simulated games, LLMs consistently build consensus within early rounds and show predictable voting patterns, highlighting their strength in rapid coordination under structured prompts. However, this comes at the cost of adaptive nuance and evidence‐based persuasion, areas where humans excel through varied strategic interplay. Our findings suggest that enhancing future LLM designs with more balanced strategy repertoires and integrating hybrid human–AI interactions could yield agents capable of both efficient coordination and context‐sensitive reasoning in adversarial group settings.
 date: last-modified
 citation:
   container-title: Human vs LLM Multi-Agent Games
@@ -45,16 +45,16 @@ This PDF's content, the source code notebooks, along with live interactive versi
 ::: -->
 
 
-Social deduction games like Werewolf [@wikiwerewolf] offer a clear way to evaluate how agents deceive, persuade, and reason in group settings [@stepputtis2023longhorizon]. In these games, players operate with limited information and hidden identities, attempting to convince others while trying to uncover deception themselves. These dynamics mirror real-world challenges involving trust, negotiation, and manipulation. To explore how humans and large language models (LLMs) navigate such scenarios, we analyzed two key datasets: Werewolf Among Us [@laiWerewolfUsMultimodal2022], which features real human gameplay annotated with persuasion strategies, and Werewolf Arena [@bailisWerewolfArenaCase2024], a simulated environment in which LLM agents autonomously play the game. While both studies demonstrate that Werewolf elicits rich, strategic language, neither directly compares human and LLM behavior. 
+Social deduction games like Werewolf [@wikiwerewolf] offer a clear way to evaluate how agents deceive, persuade, and reason in group settings [@stepputtis2023longhorizon]. In these games, players operate with limited information and hidden identities, attempting to convince others while trying to uncover deception themselves. These dynamics mirror real-world challenges involving trust, negotiation, and manipulation. To explore how humans and large language models (LLMs) navigate such scenarios, we analyzed two key datasets: Werewolf Among Us [@laiWerewolfUsMultimodal2022], which features real human gameplay annotated with persuasion strategies, and Werewolf Arena [@bailisWerewolfArenaCase2024], a simulated environment in which LLM agents autonomously play the game. While both studies demonstrate that Werewolf elicits rich, strategic language, neither directly compares human and LLM behavior.
 
 Our project fills this gap. We analyzed transcripts from both datasets, aligning them by role, round, and persuasive strategy, and compared how humans and LLMs lie, persuade, and detect deception. By annotating all utterances using a consistent taxonomy of persuasive strategies, we expose key differences and similarities in how synthetic agents and humans handle adversarial group interactions.
 
 
 ## Related Work
 
-Recent research into multi-agent large language models (LLMs) has explored their performance in various social deduction and collective problem-solving contexts. [@chiAMONGAGENTSEvaluatingLarge2024] investigated LLM behavior in the popular game Among Us, revealing capabilities in understanding complex game dynamics and successfully navigating roles involving deception and cooperation. Similarly, Du et al. [@duLargeLanguageModels2024] examined collective problem-solving scenarios, finding that LLM agent groups showed increased complexity in their interactions, more frequent disagreements, and generally positive exchanges compared to human groups.[@piattiCooperateCollapseEmergence2024], through the GovSim environment, studied how AI societies managed collective resources, demonstrating that LLM agents effectively balanced ethical considerations, strategic planning, and negotiation, further supporting the idea of their advanced cooperative and strategic capabilities.
+Recent research into multi-agent large language models (LLMs) has explored their performance in various social deduction and collective problem-solving contexts. @chiAMONGAGENTSEvaluatingLarge2024 investigated LLM behavior in the popular game Among Us, revealing capabilities in understanding complex game dynamics and successfully navigating roles involving deception and cooperation. Similarly, Du et al. [@duLargeLanguageModels2024] examined collective problem-solving scenarios, finding that LLM agent groups showed increased complexity in their interactions, more frequent disagreements, and generally positive exchanges compared to human groups. @piattiCooperateCollapseEmergence2024, through the GovSim environment, studied how AI societies managed collective resources, demonstrating that LLM agents effectively balanced ethical considerations, strategic planning, and negotiation, further supporting the idea of their advanced cooperative and strategic capabilities.
 
-Within the specific context of Werewolf, several studies have addressed the use of LLMs to enhance gameplay. [@xuLanguageAgentsReinforcement2024] developed LLM agents that leverage deductive reasoning and reinforcement learning to optimize decision-making and gameplay strategy, outperforming existing methods. Meanwhile, [@bailisWerewolfArenaCase2024] introduced the Werewolf Arena, a framework employed in our current study. However, despite these advancements, previous research has not explicitly examined or compared LLM-driven Werewolf gameplay to authentic human interactions and strategies. 
+Within the specific context of Werewolf, several studies have addressed the use of LLMs to enhance gameplay. @xuLanguageAgentsReinforcement2024 developed LLM agents that leverage deductive reasoning and reinforcement learning to optimize decision-making and gameplay strategy, outperforming existing methods. Meanwhile, @bailisWerewolfArenaCase2024 introduced the Werewolf Arena, a framework employed in our current study. However, despite these advancements, previous research has not explicitly examined or compared LLM-driven Werewolf gameplay to authentic human interactions and strategies.
 
 
 # Methods
@@ -97,25 +97,109 @@ LLM agent gameplay can be viewed and debugged through a graphical user interface
 
 Annotations were standardized across both datasets for direct comparative analysis. Our analyses explored frequency distributions of persuasion strategies, role-based comparisons (villager vs. werewolf), and strategic differences between human and LLM-generated dialogues.
 
+We show example data for both datasets (herefore the "human" and "LLM" datasets respectively) in @tbl-data-hum and @tbl-data-llm, where the data was split by each utterance/speech line into rows.
+
+{{< embed Data/EDA_Comparison.ipynb#tbl-data-hum >}}
+{{< embed Data/EDA_Comparison.ipynb#tbl-data-llm >}}
 
 # Results
 
-{{< embed Data/EDA_Comparison.ipynb#fig-llm-winrounds >}}
+## Win Counts
 
+| Source Dataset | Villagers Win  | Number of Games |
+|---------------|---------|-------|
+|LLMs | 57.895%     | 19    |
+|Human| 37.423%     | 163   |
+
+: Whether the Villagers (vs the Werewolves) won a full game. {#tbl-wins .column-margin}
+
+In @tbl-wins, we report the proportion of games won by the villager side and the total number of games analyzed for each dataset. The human dataset comprises 163 games drawn from real player sessions, while the LLM simulations were limited to 19 games due to API usage costs associated with generating each additional simulation.
+
+Because LLM gameplay incurs per-call charges, we constrained our LLM sample size to the minimum required for statistical comparison. In contrast, the human dataset from Werewolf Among Us provided a larger volume of games at no incremental cost, resulting in a more extensive dataset.
+
+Despite the smaller sample, LLM-driven villagers secured victory in 57.9% of simulated games, compared to a 37.4% win rate for human villagers. This suggests that LLM agents, even with limited opportunities, coordinate more effectively or identify werewolves more efficiently than human players. Additionally, the narrower confidence interval around the LLM win rate — driven by fewer games — underscores the need for expanded simulation runs in future work to confirm robustness.
+
+### LLM Win Performance
+
+In @fig-wins-bymodel, we observe a clear positive relationship between model complexity and win rate across all roles. The most advanced model, GPT-4.1, achieves the highest overall win percentage, whereas simpler or more specialized models like DeepSeek-Chat perform less consistently. Because larger models are more expensive to query, we ran fewer simulations for GPT-4o and GPT-4.1, but even with reduced sample sizes their performance gains are pronounced.
+
+@fig-wins-bymodelrole breaks down win rates by both LLM model and assigned role. Notably, DeepSeek-Chat underperforms across most roles — particularly Villager, Seer, and Doctor — while showing relative strength only in Werewolf roles. Conversely, GPT-4.1 wins in every role except Werewolf, indicating a bias toward non-adversarial coordination behaviors. This role-based analysis highlights that some architectures excel at cooperative persuasion but may struggle when tasked with deceptive adversarial play.
+
+@fig-llm-winrounds illustrates the dependence of winning side on game length. LLM-driven villagers overwhelmingly secure victories within the first one to two discussion rounds, suggesting they rapidly converge on identifying hidden werewolves. As the number of rounds increases, the balance shifts in favor of the werewolves, who capitalize on extended deception opportunities. These findings underscore the temporal dynamics of persuasion: early decisive coordination benefits the villagers, while prolonged ambiguity advantages adversaries.
+
+::: {.column-screen-inset layout-ncol="3"}
+{{< embed Data/EDA_Comparison.ipynb#fig-wins-bymodel >}}
+{{< embed Data/EDA_Comparison.ipynb#fig-wins-bymodelrole >}}
+{{< embed Data/EDA_Comparison.ipynb#fig-llm-winrounds >}}
+:::
+
+## Persuasion Strategies
+
+:::: {.columns .column-page-right}
+::: {.column width="40%"}
+In @fig-strat-overall, we compare the distribution of persuasion strategies employed by humans and LLM agents across all utterances. Human players display a diverse mix of techniques, with many utterances containing no overt strategy and the rest spread across interrogation, accusation, defense, and identity claims. In stark contrast, LLM agents overwhelmingly default to a Call to Action strategy — direct exhortations or voting prompts — with minimal use of defensive language.
+:::
+::: {.column width="60%"}
+{{< embed Data/EDA_Comparison.ipynb#fig-strat-overall >}}
+:::
+::::
+
+@fig-stratbyrole-hum and @fig-stratbyrole-llms reveal how strategy preferences vary by player role, scaled by each role's strategy use (for more understandable analysis). Human Villagers, Werewolves, Seers, and Doctors all rely heavily on Interrogation, followed by Accusation and then Defense; notably, Villagers stand out with a higher incidence of Identity Declaration, likely reflecting their need to build trust through role claims. Among LLM agents, Call to Action dominates every role, though Werewolves use Interrogation more frequently than their counterparts and Doctors uniquely favor Defense over Evidence when justifying their night actions.
+
+::: {.column-page layout-ncol=2}
 {{< embed Data/EDA_Comparison.ipynb#fig-stratbyrole-hum >}}
 {{< embed Data/EDA_Comparison.ipynb#fig-stratbyrole-llms >}}
+:::
+
+:::: {.columns .column-page-right}
+::: {.column width="60%"}
+{{< embed Data/EDA_Comparison.ipynb#fig-llm-stratbyround >}}
+:::
+::: {.column width="40%"}
+@fig-llm-stratbyround examines how LLM persuasion evolves over the course of a game. Early rounds are marked by intense Call to Action and Interrogation strategies, as agents strive to influence voting and gather information. As discussions progress, these approaches wane, giving way to increased Identity Declarations, Accusations, and Defenses, indicating a shift toward justification and reputation management in later rounds.
+:::
+::::
+
+## Voting Patterns
+
+To assess whether speaking volume influences suspicion, we plotted vote frequency against utterance count in @fig-talking-hum and @fig-talking-llm. Human players who speak more often are indeed more likely to be targeted in votes, suggesting a bias against the most vocal participants. LLM agents, however, show little to no correlation between talkativeness and vote count, indicating more uniform voting behavior irrespective of individual participation levels.
+
+{{< embed Data/EDA_Comparison.ipynb#fig-talking-hum >}}
+{{< embed Data/EDA_Comparison.ipynb#fig-talking-llm >}}
+
+:::: {.columns .column-page-right}
+::: {.column width="40%"}
+@fig-voting-spread presents the distribution of vote concentration per round, measured as the ratio of players voting for the most popular choice. Human voting patterns are highly variable: some rounds feature unanimous consensus, while others show completely scattered votes. In contrast, LLM agents demonstrate more consistency, with 25%–85% of votes typically aligning on the top candidate each round, reflecting predictable decision rules embedded in their prompts and bidding mechanism.
+:::
+::: {.column width="60%"}
+{{< embed Data/EDA_Comparison.ipynb#fig-voting-spread >}}
+:::
+::::
+
 
 # Discussion and Conclusion
 
-Interpret findings, discuss limitations, and propose future work.
+Our comparative analysis reveals that LLM-driven agents not only outperform human players in terms of villager win rates but also exhibit markedly different strategic and behavioral patterns. The higher success rate of LLM villagers—winning nearly 58% of games versus 37% for humans—suggests that LLMs are particularly adept at early-round coordination and deduction. This is reinforced by the round-by-round win dynamics: LLM villagers overwhelmingly secure victories within the first two discussion rounds, indicating a strong capacity for rapid consensus building. In contrast, human teams often extend the game, perhaps reflecting a mix of uncertainty and exploratory dialogue that delays definitive accusations. These findings imply that while humans may engage in richer, more varied conversation, LLMs leverage their prompt-driven “Call to Action” strategy to focus discussions quickly around voting decisions, thereby minimizing the window for deception.
+
+However, the dominance of a single persuasion strategy among LLMs also highlights important limitations. Unlike humans—who deploy a balanced repertoire of interrogation, accusation, defense, and identity declarations—LLM agents overwhelmingly resort to direct exhortations or voting prompts, with minimal defensive or evidentiary reasoning. This narrow strategic palette may contribute to their early-round success yet also points to a lack of adaptive nuance; for instance, LLM werewolves struggle to sustain deception over multiple rounds and rely less on subtle tactics such as identity claims or evidence-based persuasion. Similarly, the voting behavior of LLMs, which shows a consistent 25–85% alignment on the top choice each round, contrasts with the broad variability observed in human votes and suggests that agent prompting enforces uniformity at the expense of authentic deliberation. Taken together, these insights underscore both the strengths and the rigidities of current LLM architectures in social deduction contexts: they excel at swift coordination under structured prompts, but they lack the flexible, context-sensitive judgment that characterizes human strategic interplay. Future work should explore hybrid approaches that blend the decisiveness of LLM-driven voting with the expressive diversity of human persuasion strategies to achieve both efficiency and depth in adversarial group interactions.
 
 ## Limitations
 
+Despite the insights gained, our study has several important limitations. First, the number of LLM-simulated games was constrained by per-call API costs, resulting in only 19 simulated matches versus 163 human games. This small sample increases variance in the LLM win‐rate estimates and may obscure subtler patterns of strategic behavior. Second, our manual annotation of LLM utterances for persuasion strategy—while guided by the same taxonomy as the human dataset—was necessarily more cursory than the fully expert-validated labels in the Werewolf Among Us corpus. As a result, some nuanced tactics or mixed‐strategy turns may have been misclassified or overlooked.
+
+Additionally, the human dataset itself differs from our LLM simulations in fundamental ways: it consists of one-round “One Night” variants with specialized roles and no eliminations, whereas the LLM Arena follows classic multi-round Werewolf rules with eliminations and night actions. These structural differences complicate direct comparisons of strategy prevalence and win dynamics. Finally, all LLM agents relied on a fixed prompt design and bidding mechanism that may bias them toward certain behaviors (e.g., frequent calls to action); alternative prompt formulations or interactive interfaces could yield different outcomes.
+
 ## Future Work
+
+To address these limitations, future research should expand the scale and diversity of LLM simulations by negotiating lower API costs or leveraging open-source models. A larger, more varied set of games would enable finer-grained analysis of how model size, architecture, and cost constraints interact with strategic performance. Concurrently, a more rigorous annotation pipeline—potentially incorporating multi-rater agreement or semi-automated classification—could improve the fidelity of strategy labels for LLM dialogue.
+
+We also recommend designing hybrid human–AI experiments in which human players interact directly with LLM agents under controlled conditions. Such studies would reveal how LLM persuasion strategies influence, and are influenced by, real human responses. Exploring alternative prompt structures, dynamic bidding rules, or reward signals (e.g., reinforcement learning to optimize for deceptive success) could further uncover the boundaries of LLM social reasoning. Finally, extending this comparative framework to other social deduction games or negotiation tasks would test the generality of our findings across domains of trust, cooperation, and adversarial persuasion.
 
 ## Summary
 
-Summarize contributions and insights from the project.
+In this work, we presented the first direct comparison of human and LLM behavior in the classic Werewolf social deduction game. By aligning two annotated datasets—Werewolf Among Us for humans and the custom-simulated Werewolf Arena for LLMs—we evaluated win rates, persuasion strategies, and voting dynamics across roles and rounds. Our results demonstrate that LLM agents achieve higher villager win rates, driven by early, prompt-focused “Call to Action” strategies, yet they lack the adaptive nuance and strategic diversity characteristic of human players.
+
+These findings highlight both the promise and rigidity of current large language models in group-level adversarial settings: they excel at rapid coordination but underutilize defensive and evidence-based tactics. By identifying key areas for improvement—such as more balanced strategy repertoires, refined annotation methods, and human–AI hybrid studies—we chart a roadmap for enhancing LLM social intelligence and developing richer, more human-like agents in future research.
 
 ---
 

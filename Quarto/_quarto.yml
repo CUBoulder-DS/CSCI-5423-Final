@@ -26,6 +26,7 @@ format:
     theme: minty
     toc: true
     toc-expand: 4
+    toc-depth: 3
     plotly-connected: true
     search: true
     smooth-scroll: true
@@ -34,14 +35,23 @@ format:
   pdf:
     link-citations: true
     toc: true
+    toc-depth: 3
     keep-tex: false
     geometry:
-      - margin=0.5in
-    # equal-margins: false
+      - left=0.5in
+      - top=0.5in
+      - bottom=0.5in
+      - textwidth=6.5in
+      # - margin=0.5in
+      # - showframe
+    # equal-margins: true
     # latex-output-dir: "../" # Make PDF NOT be in generated folder
     latex-clean: true # delete latex files after rendering
     fig-pos: H # Make figures render at the location in the doc they were specified!!!
     documentclass: scrreprt # The document format
+    tbl-colwidths: false
+
+notebook-links: global
 
 quarto-required: ">= 1.4.0"
 
