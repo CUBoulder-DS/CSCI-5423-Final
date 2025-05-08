@@ -200,7 +200,7 @@ Among Us dataset, large language models, multimodal analysis},
 
 \title{The Werewolf Among Us: Humans vs LLMs in Multi-Agent Games}
 \author{Bhavana Jonnalagadda \and Riley Jones}
-\date{2025-05-07}
+\date{2025-05-08}
 \begin{document}
 \maketitle
 \begin{abstract}
@@ -216,21 +216,24 @@ Abstract TODO
 
 \chapter{Introduction}\label{introduction}
 
-Social deduction games like Werewolf offer a clear way to evaluate how
-agents deceive, persuade, and reason in group settings
-(\citeproc{ref-wikiwerewolf}{Wikipedia contributors 2024}). In these
-games, players operate with limited information and hidden identities,
-attempting to convince others while trying to uncover deception
-themselves. These dynamics mirror real-world challenges involving trust,
-negotiation, and manipulation. To explore how humans and large language
-models (LLMs) navigate such scenarios, we analyzed two key datasets:
-Werewolf Among Us (\citeproc{ref-laiWerewolfUsMultimodal2022}{Lai et al.
-2022}), which features real human gameplay annotated with persuasion
-strategies, and Werewolf Arena
-(\citeproc{ref-bailisWerewolfArenaCase2024}{Bailis, Friedhoff, and Chen
-2024}), a simulated environment in which LLM agents autonomously play
-the game. While both studies demonstrate that Werewolf elicits rich,
-strategic language, neither directly compares human and LLM behavior.
+Social deduction games like Werewolf
+(\citeproc{ref-wikiwerewolf}{Wikipedia contributors 2024}) offer a clear
+way to evaluate how agents deceive, persuade, and reason in group
+settings (\citeproc{ref-stepputtis2023longhorizon}{Stepputtis et al.
+2023}). In these games, players operate with limited information and
+hidden identities, attempting to convince others while trying to uncover
+deception themselves. These dynamics mirror real-world challenges
+involving trust, negotiation, and manipulation. To explore how humans
+and large language models (LLMs) navigate such scenarios, we analyzed
+two key datasets: Werewolf Among Us
+(\citeproc{ref-laiWerewolfUsMultimodal2022}{Lai et al. 2022}), which
+features real human gameplay annotated with persuasion strategies, and
+Werewolf Arena (\citeproc{ref-bailisWerewolfArenaCase2024}{Bailis,
+Friedhoff, and Chen 2024}), a simulated environment in which LLM agents
+autonomously play the game. While both studies demonstrate that Werewolf
+elicits rich, strategic language, neither directly compares human and
+LLM behavior.
+
 Our project fills this gap. We analyzed transcripts from both datasets,
 aligning them by role, round, and persuasive strategy, and compared how
 humans and LLMs lie, persuade, and detect deception. By annotating all
@@ -242,38 +245,33 @@ humans handle adversarial group interactions.
 
 Recent research into multi-agent large language models (LLMs) has
 explored their performance in various social deduction and collective
-problem-solving contexts. Chi et al.~{[}Chi, Mao, and Tang
-(\citeproc{ref-chiAMONGAGENTSEvaluatingLarge2024}{2024}){]} investigated
-LLM behavior in the popular game Among Us, revealing capabilities in
-understanding complex game dynamics and successfully navigating roles
-involving deception and cooperation. Similarly, Du et al.~{[}Du,
-Rajivan, and Gonzalez
-(\citeproc{ref-duLargeLanguageModels2024}{2024}){]} examined collective
-problem-solving scenarios, finding that LLM agent groups showed
-increased complexity in their interactions, more frequent disagreements,
-and generally positive exchanges compared to human groups. Piatti et
-al.~{[}Piatti et al.
-(\citeproc{ref-piattiCooperateCollapseEmergence2024}{2024}){]}, through
-the GovSim environment, studied how AI societies managed collective
-resources, demonstrating that LLM agents effectively balanced ethical
-considerations, strategic planning, and negotiation, further supporting
-the idea of their advanced cooperative and strategic capabilities.
+problem-solving contexts.
+(\citeproc{ref-chiAMONGAGENTSEvaluatingLarge2024}{Chi, Mao, and Tang
+2024}) investigated LLM behavior in the popular game Among Us, revealing
+capabilities in understanding complex game dynamics and successfully
+navigating roles involving deception and cooperation. Similarly, Du et
+al. (\citeproc{ref-duLargeLanguageModels2024}{Du, Rajivan, and Gonzalez
+2024}) examined collective problem-solving scenarios, finding that LLM
+agent groups showed increased complexity in their interactions, more
+frequent disagreements, and generally positive exchanges compared to
+human groups.(\citeproc{ref-piattiCooperateCollapseEmergence2024}{Piatti
+et al. 2024}), through the GovSim environment, studied how AI societies
+managed collective resources, demonstrating that LLM agents effectively
+balanced ethical considerations, strategic planning, and negotiation,
+further supporting the idea of their advanced cooperative and strategic
+capabilities.
 
 Within the specific context of Werewolf, several studies have addressed
-the use of LLMs to enhance gameplay. Xu et al.~{[}Xu et al.
-(\citeproc{ref-xuLanguageAgentsReinforcement2024}{2024}){]} developed
-LLM agents that leverage deductive reasoning and reinforcement learning
-to optimize decision-making and gameplay strategy, outperforming
-existing methods. Meanwhile, Bailis et al.~{[}Bailis, Friedhoff, and
-Chen (\citeproc{ref-bailisWerewolfArenaCase2024}{2024}){]} introduced
-the Werewolf Arena, a framework employed in our current study. However,
-despite these advancements, previous research has not explicitly
-examined or compared LLM-driven Werewolf gameplay to authentic human
-interactions and strategies. Our paper specifically addresses this gap
-by directly comparing human gameplay, sourced from the Werewolf Among Us
-dataset, with simulated gameplay generated by LLMs, providing novel
-insights into differences and similarities in persuasion strategies and
-social reasoning between humans and AI.
+the use of LLMs to enhance gameplay.
+(\citeproc{ref-xuLanguageAgentsReinforcement2024}{Xu et al. 2024})
+developed LLM agents that leverage deductive reasoning and reinforcement
+learning to optimize decision-making and gameplay strategy,
+outperforming existing methods. Meanwhile,
+(\citeproc{ref-bailisWerewolfArenaCase2024}{Bailis, Friedhoff, and Chen
+2024}) introduced the Werewolf Arena, a framework employed in our
+current study. However, despite these advancements, previous research
+has not explicitly examined or compared LLM-driven Werewolf gameplay to
+authentic human interactions and strategies.
 
 \chapter{Methods}\label{methods}
 
@@ -282,59 +280,27 @@ social reasoning between humans and AI.
 \subsection{Werewolf Among Us Human
 Dataset}\label{werewolf-among-us-human-dataset}
 
-We used the \emph{Werewolf Among Us} dataset {[}Lai et al.
-(\citeproc{ref-laiWerewolfUsMultimodal2022}{2022}){]}, containing
-annotated dialogues from over 150 real games of One Night Werewolf and
-Avalon. These games differ from classic Werewolf by having only one
-round of discussion and voting, not eliminating players during gameplay,
-and featuring specialized roles beyond Villager and Werewolf. The
-dataset includes detailed annotations of persuasion strategies for each
-utterance, such as accusations, defenses, and identity claims. Our
-analysis specifically utilized textual transcriptions and strategy
+We used the \emph{Werewolf Among Us} dataset
+(\citeproc{ref-laiWerewolfUsMultimodal2022}{Lai et al. 2022}),
+containing annotated dialogues from over 150 real games of One Night
+Werewolf and Avalon. These games differ from classic Werewolf by having
+only one round of discussion and voting, not eliminating players during
+gameplay, and featuring specialized roles beyond Villager and Werewolf.
+The dataset includes detailed annotations of persuasion strategies for
+each utterance, such as accusations, defenses, and identity claims. Our
+analysis specifically used textual transcriptions and strategy
 annotations for direct comparison.
 
 \subsection{Werewolf Arena (LLM
 Dataset)}\label{werewolf-arena-llm-dataset}
 
-The \emph{Werewolf Arena} dataset {[}Bailis, Friedhoff, and Chen
-(\citeproc{ref-bailisWerewolfArenaCase2024}{2024}){]} comprises
-simulated classic Werewolf games played by autonomous LLM agents. Unlike
-one-round human games, these simulations include multiple rounds
-alternating between night (secret actions) and day (open discussion).
-Each agent receives a role (Villager, Werewolf, Seer, Doctor) and
-interacts through tailored prompts generated via an LLM API.
-
-We conducted simulations using five LLM models: GPT-4o, GPT-4.1,
-GPT-4o-mini, DeepSeek-Chat, and DeepSeek-Reasoner. Two configurations
-were tested:
-
-\begin{itemize}
-\tightlist
-\item
-  8 players with 8 discussion rounds
-\item
-  10 players with 6 discussion rounds
-\end{itemize}
-
-We selected these settings to provide ample opportunity for villagers to
-coordinate and demonstrate persuasive behaviors.
-
-Agents participated in gameplay through a graphical user interface
-(GUI), depicted in Figure~\ref{fig-wwa-gui}. The GUI displays the game
-state, including player roles, actions, and current discussion rounds,
-enabling monitoring of the gameplay progression.
-
-\begin{figure}[H]
-
-\centering{
-
-\pandocbounded{\includegraphics[keepaspectratio]{Images/WWA_GUI.png}}
-
-}
-
-\caption{\label{fig-wwa-gui}GUI of Werewolf Arena simulation}
-
-\end{figure}%
+The \emph{Werewolf Arena} dataset
+(\citeproc{ref-bailisWerewolfArenaCase2024}{Bailis, Friedhoff, and Chen
+2024}) comprises simulated classic Werewolf games played by autonomous
+LLM agents. Unlike one-round human games, these simulations include
+multiple rounds alternating between night (secret actions) and day (open
+discussion). Each agent receives a role (Villager, Werewolf, Seer,
+Doctor) and interacts through tailored prompts generated via an LLM API.
 
 A central feature in Werewolf Arena is the dynamic turn-taking system
 implemented via a bidding mechanism. Rather than a fixed speaking order,
@@ -360,12 +326,45 @@ The highest bidder speaks next, with ties broken by prioritizing agents
 directly mentioned in preceding turns. This mechanism captures nuanced
 strategic communication decisions made by agents throughout the game.
 
-Agents utilize specialized prompts reflecting their current role, memory
-state, and game context. The prompts guide strategic interactions,
-influencing agent decisions in voting, debating, and night actions.
-After generating dialogues through the LLM API, we manually annotated
-these interactions using the persuasion strategy categories from the
-human dataset.
+Agents interact with the game interface via specialized prompts
+reflecting their current role, memory state, and game context. The
+prompts guide strategic interactions, influencing agent decisions in
+voting, debating, and night actions. After generating dialogues through
+the LLM API, we manually annotated these interactions using the
+persuasion strategy categories from the human dataset.
+
+We conducted simulations using five LLM models: GPT-4o, GPT-4.1,
+GPT-4o-mini, DeepSeek-Chat, and DeepSeek-Reasoner. Two configurations
+were tested:
+
+\begin{itemize}
+\tightlist
+\item
+  8 players with 8 discussion rounds
+\item
+  10 players with 6 discussion rounds
+\end{itemize}
+
+We selected these settings to provide ample opportunity for villagers to
+coordinate and demonstrate persuasive behaviors.
+
+LLM agent gameplay can be viewed and debugged through a graphical user
+interface (GUI), depicted in Figure~\ref{fig-wwa-gui}. The GUI displays
+the game state, including player roles, actions, utterances,
+inner-monologue and current discussion rounds, enabling monitoring of
+the gameplay progression.
+
+\begin{figure}[H]
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{Images/WWA_GUI.png}}
+
+}
+
+\caption{\label{fig-wwa-gui}GUI of Werewolf Arena simulation}
+
+\end{figure}%
 
 \section{Analysis}\label{analysis}
 
@@ -498,6 +497,14 @@ Mrinmaya Sachan, and Rada Mihalcea. 2024. {``Cooperate or {Collapse}:
 Agents}.''} \emph{Advances in Neural Information Processing Systems} 37
 (December): 111715--59.
 \url{https://proceedings.neurips.cc/paper_files/paper/2024/hash/ca9567d8ef6b2ea2da0d7eed57b933ee-Abstract-Conference.html}.
+
+\bibitem[\citeproctext]{ref-stepputtis2023longhorizon}
+Stepputtis, Simon, Joseph Campbell, Yaqi Xie, Zhengyang Qi, Wenxin
+Sharon Zhang, Ruiyi Wang, Sanketh Rangreji, Charles Michael Lewis, and
+Katia P. Sycara. 2023. {``Long-Horizon Dialogue Understanding for Role
+Identification in the Game of Avalon with Large Language Models.''} In
+\emph{Proceedings of the 2023 Conference on Empirical Methods in Natural
+Language Processing}. \url{https://openreview.net/forum?id=JKmsjKJ0Q8}.
 
 \bibitem[\citeproctext]{ref-wikiwerewolf}
 Wikipedia contributors. 2024. {``Mafia (Party Game).''}
